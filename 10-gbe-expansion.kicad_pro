@@ -469,8 +469,48 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "via_diameter": 0.6,
+        "via_diameter": 0.5,
         "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "diff_pair_gap": 0.15,
+        "diff_pair_width": 0.15,
+        "line_style": 0,
+        "name": "100Ohm-diff_10GbE",
+        "pcb_color": "rgb(194, 0, 194)",
+        "priority": 2,
+        "schematic_color": "rgb(194, 0, 194)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "diff_pair_gap": 0.15,
+        "diff_pair_width": 0.15,
+        "line_style": 0,
+        "name": "85Ohm-diff_PCIe",
+        "pcb_color": "rgb(0, 0, 194)",
+        "priority": 3,
+        "schematic_color": "rgb(0, 0, 194)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "GND",
+        "pcb_color": "rgb(0, 0, 0)",
+        "priority": 1,
+        "schematic_color": "rgb(0, 0, 0)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "PWR",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(255, 0, 0)",
         "wire_width": 6
       }
     ],
@@ -478,8 +518,506 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_assignments": {
+      "/Ethernet controller/Ethernet_P0.D1+": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/Ethernet controller/Ethernet_P0.D1-": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/Ethernet controller/Ethernet_P0.D2+": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/Ethernet controller/Ethernet_P0.D2-": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/Ethernet controller/Ethernet_P0.D3+": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/Ethernet controller/Ethernet_P0.D3-": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/Ethernet controller/Ethernet_P0.D4+": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/Ethernet controller/Ethernet_P0.D4-": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/Ethernet controller/Ethernet_P0{10GbE}": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/Ethernet controller/Ethernet_P1.D1+": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/Ethernet controller/Ethernet_P1.D1-": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/Ethernet controller/Ethernet_P1.D2+": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/Ethernet controller/Ethernet_P1.D2-": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/Ethernet controller/Ethernet_P1.D3+": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/Ethernet controller/Ethernet_P1.D3-": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/Ethernet controller/Ethernet_P1.D4+": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/Ethernet controller/Ethernet_P1.D4-": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/Ethernet controller/Ethernet_P1{10GbE}": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/Ethernet controller/P0_A_N": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/Ethernet controller/P0_A_P": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/Ethernet controller/P0_B_N": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/Ethernet controller/P0_B_P": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/Ethernet controller/P0_C_N": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/Ethernet controller/P0_C_P": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/Ethernet controller/P0_D_N": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/Ethernet controller/P0_D_P": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/Ethernet controller/P1_A_N": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/Ethernet controller/P1_A_P": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/Ethernet controller/P1_B_N": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/Ethernet controller/P1_B_P": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/Ethernet controller/P1_C_N": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/Ethernet controller/P1_C_P": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/Ethernet controller/P1_D_N": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/Ethernet controller/P1_D_P": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/Ethernet controller/PER_0_N": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/Ethernet controller/PER_0_P": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/Ethernet controller/PER_1_N": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/Ethernet controller/PER_1_P": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/Ethernet controller/PER_2_N": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/Ethernet controller/PER_2_P": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/Ethernet controller/PER_3_N": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/Ethernet controller/PER_3_P": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/Ethernet controller/PER_4_N": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/Ethernet controller/PER_4_P": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/Ethernet controller/PER_5_N": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/Ethernet controller/PER_5_P": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/Ethernet controller/PER_6_N": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/Ethernet controller/PER_6_P": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/Ethernet controller/PER_7_N": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/Ethernet controller/PER_7_P": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/Ethernet controller/PET_0_N": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/Ethernet controller/PET_0_P": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/Ethernet controller/PET_1_N": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/Ethernet controller/PET_1_P": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/Ethernet controller/PET_2_N": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/Ethernet controller/PET_2_P": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/Ethernet controller/PET_3_N": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/Ethernet controller/PET_3_P": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/Ethernet controller/PET_4_N": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/Ethernet controller/PET_4_P": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/Ethernet controller/PET_5_N": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/Ethernet controller/PET_5_P": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/Ethernet controller/PET_6_N": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/Ethernet controller/PET_6_P": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/Ethernet controller/PET_7_N": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/Ethernet controller/PET_7_P": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/Ethernet controller/PE_CLK_N": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/Ethernet controller/PE_CLK_P": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/PCIe_{x4}_1.x4": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT PCIe/PCIE_{REF}.CK+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT PCIe/PCIE_{REF}.CK-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT PCIe/PCIe_{x4}.RX0+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT PCIe/PCIe_{x4}.RX0-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT PCIe/PCIe_{x4}.RX1+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT PCIe/PCIe_{x4}.RX1-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT PCIe/PCIe_{x4}.RX2+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT PCIe/PCIe_{x4}.RX2-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT PCIe/PCIe_{x4}.RX3+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT PCIe/PCIe_{x4}.RX3-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT PCIe/PCIe_{x4}.RX4+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT PCIe/PCIe_{x4}.RX4-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT PCIe/PCIe_{x4}.RX5+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT PCIe/PCIe_{x4}.RX5-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT PCIe/PCIe_{x4}.RX6+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT PCIe/PCIe_{x4}.RX6-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT PCIe/PCIe_{x4}.RX7+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT PCIe/PCIe_{x4}.RX7-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT PCIe/PCIe_{x4}.TX0+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT PCIe/PCIe_{x4}.TX0-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT PCIe/PCIe_{x4}.TX1+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT PCIe/PCIe_{x4}.TX1-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT PCIe/PCIe_{x4}.TX2+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT PCIe/PCIe_{x4}.TX2-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT PCIe/PCIe_{x4}.TX3+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT PCIe/PCIe_{x4}.TX3-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT PCIe/PCIe_{x4}.TX4+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT PCIe/PCIe_{x4}.TX4-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT PCIe/PCIe_{x4}.TX5+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT PCIe/PCIe_{x4}.TX5-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT PCIe/PCIe_{x4}.TX6+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT PCIe/PCIe_{x4}.TX6-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT PCIe/PCIe_{x4}.TX7+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT PCIe/PCIe_{x4}.TX7-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT PCIe/PCIe_{x4}{PCIe}": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT2 10GbE/Ethernet_P0.10GbE": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/X710-AT2 10GbE/Ethernet_P0.D1+": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/X710-AT2 10GbE/Ethernet_P0.D1-": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/X710-AT2 10GbE/Ethernet_P0.D2+": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/X710-AT2 10GbE/Ethernet_P0.D2-": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/X710-AT2 10GbE/Ethernet_P0.D3+": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/X710-AT2 10GbE/Ethernet_P0.D3-": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/X710-AT2 10GbE/Ethernet_P0.D4+": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/X710-AT2 10GbE/Ethernet_P0.D4-": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/X710-AT2 10GbE/Ethernet_P0{10GbE}": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/X710-AT2 10GbE/Ethernet_P1.10GbE": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/X710-AT2 10GbE/Ethernet_P1.D1+": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/X710-AT2 10GbE/Ethernet_P1.D1-": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/X710-AT2 10GbE/Ethernet_P1.D2+": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/X710-AT2 10GbE/Ethernet_P1.D2-": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/X710-AT2 10GbE/Ethernet_P1.D3+": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/X710-AT2 10GbE/Ethernet_P1.D3-": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/X710-AT2 10GbE/Ethernet_P1.D4+": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/X710-AT2 10GbE/Ethernet_P1.D4-": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/X710-AT2 10GbE/Ethernet_P1{10GbE}": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/X710-AT2 PCIe/PCIE_{REF}.CK+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT2 PCIe/PCIE_{REF}.CK-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT2 PCIe/PCIe_{x4}.PCIe": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT2 PCIe/PCIe_{x4}.RX0+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT2 PCIe/PCIe_{x4}.RX0-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT2 PCIe/PCIe_{x4}.RX1+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT2 PCIe/PCIe_{x4}.RX1-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT2 PCIe/PCIe_{x4}.RX2+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT2 PCIe/PCIe_{x4}.RX2-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT2 PCIe/PCIe_{x4}.RX3+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT2 PCIe/PCIe_{x4}.RX3-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT2 PCIe/PCIe_{x4}.TX0+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT2 PCIe/PCIe_{x4}.TX0-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT2 PCIe/PCIe_{x4}.TX1+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT2 PCIe/PCIe_{x4}.TX1-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT2 PCIe/PCIe_{x4}.TX2+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT2 PCIe/PCIe_{x4}.TX2-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT2 PCIe/PCIe_{x4}.TX3+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT2 PCIe/PCIe_{x4}.TX3-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT2 PCIe/PCIe_{x4}{PCIe}": [
+        "85Ohm-diff_PCIe"
+      ],
+      "1P88V": [
+        "PWR"
+      ],
+      "3P3V": [
+        "PWR"
+      ],
+      "AVDDH": [
+        "PWR"
+      ],
+      "DVDD": [
+        "PWR"
+      ],
+      "Net-(U1A-PET_0_N)": [
+        "85Ohm-diff_PCIe"
+      ],
+      "Net-(U1A-PET_0_P)": [
+        "85Ohm-diff_PCIe"
+      ],
+      "Net-(U1A-PET_1_N)": [
+        "85Ohm-diff_PCIe"
+      ],
+      "Net-(U1A-PET_1_P)": [
+        "85Ohm-diff_PCIe"
+      ],
+      "Net-(U1A-PET_2_N)": [
+        "85Ohm-diff_PCIe"
+      ],
+      "Net-(U1A-PET_2_P)": [
+        "85Ohm-diff_PCIe"
+      ],
+      "Net-(U1A-PET_3_N)": [
+        "85Ohm-diff_PCIe"
+      ],
+      "Net-(U1A-PET_3_P)": [
+        "85Ohm-diff_PCIe"
+      ],
+      "P0_AVDDL": [
+        "PWR"
+      ],
+      "P1_AVDDL": [
+        "PWR"
+      ],
+      "PLL_VDD": [
+        "PWR"
+      ],
+      "VCCA": [
+        "PWR"
+      ],
+      "VCCD": [
+        "PWR"
+      ],
+      "XFI_PVDD": [
+        "PWR"
+      ],
+      "XFI_VDD": [
+        "PWR"
+      ],
+      "XGB_AVDDH": [
+        "PWR"
+      ]
+    },
+    "netclass_patterns": [
+      {
+        "netclass": "GND",
+        "pattern": "GND"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -612,6 +1150,18 @@
     [
       "04bda987-e5eb-48b4-9e90-d8211dc11b39",
       "Root"
+    ],
+    [
+      "2e3e9f9b-8e60-4e62-87df-aa866913a2fb",
+      "X710-AT2 PCIe"
+    ],
+    [
+      "46fcd652-659b-4e06-aa16-4947b5e55b68",
+      "X710-AT2 10GbE"
+    ],
+    [
+      "745fdd8b-25af-4553-a7ea-a0fa564ee0a7",
+      "X710-AT2 power"
     ]
   ],
   "text_variables": {}

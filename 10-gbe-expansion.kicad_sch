@@ -12,6 +12,317 @@
 		(comment 1 "www.antmicro.com")
 	)
 	(lib_symbols)
+	(rectangle
+		(start 173.99 83.82)
+		(end 279.4 210.82)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 0.2)
+		)
+		(uuid 705cf9d2-988f-4cf0-97ff-858e7b6aea21)
+	)
+	(text "X710-AT2"
+		(exclude_from_sim no)
+		(at 228.6 81.28 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "9513afbc-b3d4-41e9-af1b-a24b2fca8ad2")
+	)
+	(sheet
+		(at 186.69 96.52)
+		(size 38.1 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "2e3e9f9b-8e60-4e62-87df-aa866913a2fb")
+		(property "Sheetname" "X710-AT2 PCIe"
+			(at 186.69 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "x710-at2-pcie.kicad_sch"
+			(at 186.69 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PCIe_JTAG{JTAG}" input
+			(at 186.69 114.3 180)
+			(uuid "f23e8455-1dd0-4fa8-ad8a-442c7fb60cd6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCIe_{REF}{PCIe_{REF}}" input
+			(at 186.69 109.22 180)
+			(uuid "6064a677-2724-4fa5-a0f8-c948f9c16e19")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCIe_{x4}{PCIe}" input
+			(at 186.69 106.68 180)
+			(uuid "d11be0bf-c121-40d3-9e2e-75deb763d33e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{PE_RST}" input
+			(at 186.69 99.06 180)
+			(uuid "70fd9c86-21a8-4362-ab59-55781f0b1940")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{PE_WAKE}" input
+			(at 186.69 101.6 180)
+			(uuid "3c233e3c-0cff-4829-ab66-3bb9037dc6bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "10-gbe-expansion"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 229.87 96.52)
+		(size 43.18 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "46fcd652-659b-4e06-aa16-4947b5e55b68")
+		(property "Sheetname" "X710-AT2 10GbE"
+			(at 229.87 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "x710-at2-10gbe.kicad_sch"
+			(at 229.87 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Ethernet_P0{10GbE}" input
+			(at 273.05 99.06 0)
+			(uuid "77f99ea0-7713-4b38-80f7-7a079f9e2c33")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Ethernet_P1{10GbE}" input
+			(at 273.05 109.22 0)
+			(uuid "3b87a996-30fd-41c9-a26f-d70876701272")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MDC0_SCL0" output
+			(at 229.87 99.06 180)
+			(uuid "7fe1d858-1bb8-49ef-8967-d73d1cf58979")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P0_LED_ACT" output
+			(at 273.05 104.14 0)
+			(uuid "70eb9685-fa97-4bd5-9747-21006aeb9919")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "P0_LED_LINK_10G" output
+			(at 273.05 101.6 0)
+			(uuid "5d4ef313-e8ec-4ef4-a7aa-b4c448fac802")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "P1_LED_ACT" output
+			(at 273.05 114.3 0)
+			(uuid "0088ae06-5c84-4ebc-bcc1-28b546d8e3ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "P1_LED_LINK_10G" output
+			(at 273.05 111.76 0)
+			(uuid "03033ba3-b5f4-42eb-aad3-99069b1a3eab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MDIO0_SDA0" bidirectional
+			(at 229.87 101.6 180)
+			(uuid "a9486584-8091-451b-a66b-fd81122be60b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P0_INT_N" input
+			(at 229.87 106.68 180)
+			(uuid "242e9857-9300-4397-be3b-c893e7a9b7af")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P1_INT_N" output
+			(at 229.87 109.22 180)
+			(uuid "c6a27ed1-8143-4c17-8628-74de7efa9c9b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PHY_RESET_N_3P3V" output
+			(at 229.87 111.76 180)
+			(uuid "95bf2415-12de-450c-8ef1-15a7df982ff7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "10-gbe-expansion"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 186.69 185.42)
+		(size 38.1 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "745fdd8b-25af-4553-a7ea-a0fa564ee0a7")
+		(property "Sheetname" "X710-AT2 power"
+			(at 186.69 184.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "x710-at2-power.kicad_sch"
+			(at 186.69 198.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "10-gbe-expansion"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39"
+					(page "4")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
