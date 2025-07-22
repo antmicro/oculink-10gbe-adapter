@@ -1156,12 +1156,20 @@
       "X710-AT2 PCIe"
     ],
     [
+      "745fdd8b-25af-4553-a7ea-a0fa564ee0a7",
+      "X710-AT2 power"
+    ],
+    [
       "46fcd652-659b-4e06-aa16-4947b5e55b68",
       "X710-AT2 10GbE"
     ],
     [
-      "745fdd8b-25af-4553-a7ea-a0fa564ee0a7",
-      "X710-AT2 power"
+      "5c16e05d-0fb9-4db6-bb95-cf7113880df7",
+      "X710-AT2 RSVD"
+    ],
+    [
+      "d0402c84-6d4c-4559-b85a-0c9b588a21c5",
+      "X710-AT2 Misc"
     ]
   ],
   "text_variables": {}
