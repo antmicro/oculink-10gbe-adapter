@@ -194,7 +194,49 @@
 		(instances
 			(project "10-gbe-expansion"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39"
-					(page "3")
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 177.8)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "3d913a88-b6f3-4148-9b3d-882d5df37282")
+		(property "Sheetname" "Power"
+			(at 76.2 177.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 76.2 203.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "10-gbe-expansion"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39"
+					(page "2")
 				)
 			)
 		)
@@ -346,7 +388,7 @@
 		(instances
 			(project "10-gbe-expansion"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39"
-					(page "4")
+					(page "7")
 				)
 			)
 		)
@@ -388,7 +430,7 @@
 		(instances
 			(project "10-gbe-expansion"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39"
-					(page "5")
+					(page "9")
 				)
 			)
 		)
@@ -430,7 +472,7 @@
 		(instances
 			(project "10-gbe-expansion"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39"
-					(page "4")
+					(page "5")
 				)
 			)
 		)
@@ -444,7 +486,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
-			(width 0.1524)
+			(width 0.1016)
 			(type solid)
 		)
 		(fill
@@ -532,7 +574,7 @@
 		(instances
 			(project "10-gbe-expansion"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39"
-					(page "7")
+					(page "4")
 				)
 			)
 		)
@@ -584,7 +626,7 @@
 		(instances
 			(project "10-gbe-expansion"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39"
-					(page "8")
+					(page "3")
 				)
 			)
 		)
@@ -706,7 +748,7 @@
 		(instances
 			(project "10-gbe-expansion"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39"
-					(page "6")
+					(page "8")
 				)
 			)
 		)

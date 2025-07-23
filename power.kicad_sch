@@ -1,0 +1,15 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "809b4ae3-4dec-43ce-b43e-179104c3e7bc")
+	(paper "A3")
+	(title_block
+		(title "10GbE Expansion")
+		(date "2025-07-22")
+		(rev "1.0.0")
+		(company "Antmicro Ltd")
+		(comment 1 "www.antmicro.com")
+	)
+	(lib_symbols)
+)

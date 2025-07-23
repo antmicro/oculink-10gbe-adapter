@@ -1260,32 +1260,36 @@
       "Root"
     ],
     [
-      "2e3e9f9b-8e60-4e62-87df-aa866913a2fb",
-      "X710-AT2 PCIe"
+      "3d913a88-b6f3-4148-9b3d-882d5df37282",
+      "Power"
     ],
     [
-      "745fdd8b-25af-4553-a7ea-a0fa564ee0a7",
-      "X710-AT2 power"
-    ],
-    [
-      "46fcd652-659b-4e06-aa16-4947b5e55b68",
-      "X710-AT2 10GbE"
-    ],
-    [
-      "5c16e05d-0fb9-4db6-bb95-cf7113880df7",
-      "X710-AT2 RSVD"
-    ],
-    [
-      "d0402c84-6d4c-4559-b85a-0c9b588a21c5",
-      "X710-AT2 Misc"
+      "cf61e8ef-a7e0-463f-9b69-1bf3871ad792",
+      "Flash memory"
     ],
     [
       "b3dd2e9f-aefc-4b19-a6a4-069fdee319cd",
       "2xRJ45"
     ],
     [
-      "cf61e8ef-a7e0-463f-9b69-1bf3871ad792",
-      "Flash memory"
+      "745fdd8b-25af-4553-a7ea-a0fa564ee0a7",
+      "X710-AT2 power"
+    ],
+    [
+      "2e3e9f9b-8e60-4e62-87df-aa866913a2fb",
+      "X710-AT2 PCIe"
+    ],
+    [
+      "46fcd652-659b-4e06-aa16-4947b5e55b68",
+      "X710-AT2 10GbE"
+    ],
+    [
+      "d0402c84-6d4c-4559-b85a-0c9b588a21c5",
+      "X710-AT2 Misc"
+    ],
+    [
+      "5c16e05d-0fb9-4db6-bb95-cf7113880df7",
+      "X710-AT2 RSVD"
     ]
   ],
   "text_variables": {}
