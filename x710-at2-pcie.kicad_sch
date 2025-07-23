@@ -10414,6 +10414,9 @@
 			(embedded_fonts no)
 		)
 	)
+	(bus_alias "CLK"
+		(members "+" "-")
+	)
 	(bus_alias "JTAG"
 		(members "~{JRST}" "JTCK" "JTMS" "JTDI" "JTDO")
 	)
@@ -10423,9 +10426,6 @@
 			"RX6-" "RX5+" "RX5-" "RX4+" "RX4-" "RX3+" "RX3-" "RX2+" "RX2-" "RX1+"
 			"RX1-" "RX0+" "RX0-"
 		)
-	)
-	(bus_alias "PCIe_{REF}"
-		(members "CK+" "CK-")
 	)
 	(no_connect
 		(at 194.31 171.45)
@@ -10920,7 +10920,7 @@
 	)
 	(bus
 		(pts
-			(xy 142.24 105.41) (xy 142.24 109.22)
+			(xy 142.24 105.41) (xy 142.24 107.95)
 		)
 		(stroke
 			(width 0)
@@ -11300,7 +11300,7 @@
 	)
 	(bus
 		(pts
-			(xy 137.16 111.76) (xy 139.7 111.76)
+			(xy 137.16 110.49) (xy 139.7 110.49)
 		)
 		(stroke
 			(width 0)
@@ -11320,7 +11320,7 @@
 	)
 	(bus
 		(pts
-			(xy 139.7 111.76) (xy 142.24 109.22)
+			(xy 139.7 110.49) (xy 142.24 107.95)
 		)
 		(stroke
 			(width 0)
@@ -11448,8 +11448,8 @@
 		)
 		(uuid "50f667b0-917f-4484-9187-268d22a4144f")
 	)
-	(label "PCIe_{REF}.CK-"
-		(at 163.83 102.87 180)
+	(label "REFCLK.-"
+		(at 162.56 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11508,8 +11508,8 @@
 		)
 		(uuid "93529256-69e4-40d4-a5c5-93c582c79425")
 	)
-	(label "PCIe_{REF}.CK+"
-		(at 163.83 100.33 180)
+	(label "REFCLK.+"
+		(at 162.56 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11619,9 +11619,9 @@
 		)
 		(uuid "2a5c9c0f-0776-4ec4-8932-c35cd1f65573")
 	)
-	(hierarchical_label "PCIe_{REF}{PCIe_{REF}}"
+	(hierarchical_label "REFCLK{CLK}"
 		(shape input)
-		(at 137.16 111.76 180)
+		(at 137.16 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11675,7 +11675,7 @@
 			(fill
 				(type none)
 			)
-			(uuid e43d99ac-17b8-4fc7-a9f1-dca81fbe72d3)
+			(uuid 42eb5417-ac33-4b8e-abac-90b194f765e1)
 		)
 	)
 	(netclass_flag ""

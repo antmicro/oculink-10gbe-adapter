@@ -481,7 +481,7 @@
         "name": "100Ohm-diff_10GbE",
         "pcb_color": "rgb(194, 0, 194)",
         "priority": 2,
-        "schematic_color": "rgb(194, 0, 194)",
+        "schematic_color": "rgb(0, 194, 194)",
         "wire_width": 6
       },
       {
@@ -492,7 +492,7 @@
         "name": "85Ohm-diff_PCIe",
         "pcb_color": "rgb(0, 0, 194)",
         "priority": 3,
-        "schematic_color": "rgb(0, 0, 194)",
+        "schematic_color": "rgb(194, 0, 194)",
         "wire_width": 6
       },
       {
@@ -951,12 +951,6 @@
       "/X710-AT2 PCIe/PCIE_{REF}.CK-": [
         "85Ohm-diff_PCIe"
       ],
-      "/X710-AT2 PCIe/PCIe_{REF}.CK+": [
-        "85Ohm-diff_PCIe"
-      ],
-      "/X710-AT2 PCIe/PCIe_{REF}.CK-": [
-        "85Ohm-diff_PCIe"
-      ],
       "/X710-AT2 PCIe/PCIe_{x4}.PCIe": [
         "85Ohm-diff_PCIe"
       ],
@@ -1057,6 +1051,12 @@
         "85Ohm-diff_PCIe"
       ],
       "/X710-AT2 PCIe/PCIe_{x4}{PCIe}": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT2 PCIe/REFCLK.+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT2 PCIe/REFCLK.-": [
         "85Ohm-diff_PCIe"
       ],
       "1P88V": [
@@ -1270,6 +1270,10 @@
     [
       "b3dd2e9f-aefc-4b19-a6a4-069fdee319cd",
       "2xRJ45"
+    ],
+    [
+      "d68fe835-a207-4e7d-ae52-7b00c0459c21",
+      "Mics"
     ],
     [
       "745fdd8b-25af-4553-a7ea-a0fa564ee0a7",
