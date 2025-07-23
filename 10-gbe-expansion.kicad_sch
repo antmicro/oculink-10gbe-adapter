@@ -37,6 +37,76 @@
 		)
 		(uuid "9513afbc-b3d4-41e9-af1b-a24b2fca8ad2")
 	)
+	(wire
+		(pts
+			(xy 270.51 114.3) (xy 292.1 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14e16614-1093-4890-8f68-7a1cb676583d")
+	)
+	(wire
+		(pts
+			(xy 270.51 101.6) (xy 292.1 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c552c89-bec9-457c-b1ef-b666f5ed944d")
+	)
+	(bus
+		(pts
+			(xy 270.51 99.06) (xy 292.1 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21387171-f403-444a-af69-da60afecf9fd")
+	)
+	(bus
+		(pts
+			(xy 270.51 144.78) (xy 292.1 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71077b3d-33b9-402d-98c9-b51f4b7740ca")
+	)
+	(bus
+		(pts
+			(xy 270.51 109.22) (xy 292.1 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d53efe00-3279-461a-9899-e1730db683f9")
+	)
+	(wire
+		(pts
+			(xy 270.51 111.76) (xy 292.1 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfd67567-ceb9-419b-9890-be631e48b1ca")
+	)
+	(wire
+		(pts
+			(xy 270.51 104.14) (xy 292.1 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e806ca06-a064-4c81-97b3-0faf9d80f38f")
+	)
 	(sheet
 		(at 184.15 96.52)
 		(size 38.1 20.32)
@@ -366,8 +436,162 @@
 		)
 	)
 	(sheet
-		(at 185.42 135.89)
-		(size 36.83 21.59)
+		(at 292.1 96.52)
+		(size 38.1 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "b3dd2e9f-aefc-4b19-a6a4-069fdee319cd")
+		(property "Sheetname" "2xRJ45"
+			(at 292.1 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "2xrj45.kicad_sch"
+			(at 292.1 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Ethernet_P0{10GbE}" input
+			(at 292.1 99.06 180)
+			(uuid "0422c532-eef4-428e-84f2-7b43de40bfa1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Ethernet_P1{10GbE}" input
+			(at 292.1 109.22 180)
+			(uuid "e41decb5-4541-4998-a9e7-26c572ae326b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P0_LED_ACT" input
+			(at 292.1 104.14 180)
+			(uuid "7d1fd058-ba6a-4829-b687-a3c22aadc3d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P0_LED_LINK_10G" input
+			(at 292.1 101.6 180)
+			(uuid "eeb4bbbd-6ad9-422b-8588-c3d65a80f9f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P1_LED_ACT" input
+			(at 292.1 114.3 180)
+			(uuid "a184f207-aabf-401e-9698-e8ae51d6b0db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P1_LED_LINK_10G" input
+			(at 292.1 111.76 180)
+			(uuid "456b5cd6-b758-4951-a64a-dedb4be687ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "10-gbe-expansion"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 292.1 140.97)
+		(size 29.21 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "cf61e8ef-a7e0-463f-9b69-1bf3871ad792")
+		(property "Sheetname" "Flash memory"
+			(at 292.1 140.2584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "flash-memory.kicad_sch"
+			(at 292.1 149.1746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "FLASH{SPI}" bidirectional
+			(at 292.1 144.78 180)
+			(uuid "fe2b6233-a827-4920-a373-33dc9e305ce1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "10-gbe-expansion"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 227.33 125.73)
+		(size 43.18 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -382,7 +606,7 @@
 		)
 		(uuid "d0402c84-6d4c-4559-b85a-0c9b588a21c5")
 		(property "Sheetname" "X710-AT2 Misc"
-			(at 185.42 135.1784 0)
+			(at 227.33 125.0184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -391,12 +615,62 @@
 			)
 		)
 		(property "Sheetfile" "x710-at2-mics.kicad_sch"
-			(at 185.42 158.0646 0)
+			(at 227.33 147.9046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "SMBus{I2C}" bidirectional
+			(at 227.33 130.81 180)
+			(uuid "e30ab97b-ca1b-49ea-82ac-dbd8f16618df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P0_LINK_LESS_THAN_10G" output
+			(at 270.51 128.27 0)
+			(uuid "5e6f3de5-2c56-4fb3-a81a-654a2276cbfc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "P1_LINK_LESS_THAN_10G" output
+			(at 270.51 130.81 0)
+			(uuid "1ea708a6-f556-4d54-aab3-8ef376fa6bf7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "POR_BYPASS" output
+			(at 270.51 133.35 0)
+			(uuid "0e21a80d-0f6f-462d-885c-9d7a2b3649a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FLASH{SPI}" bidirectional
+			(at 270.51 144.78 0)
+			(uuid "1c0fc6ac-3f04-47cf-8cb2-650a2bd3aedc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

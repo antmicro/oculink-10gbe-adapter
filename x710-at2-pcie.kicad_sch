@@ -10414,6 +10414,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(bus_alias "JTAG"
+		(members "~{JRST}" "JTCK" "JTMS" "JTDI" "JTDO")
+	)
+	(bus_alias "PCIe"
+		(members "TX7+" "TX7-" "TX6+" "TX6-" "TX5+" "TX5-" "TX4+" "TX4-" "TX3+"
+			"TX3-" "TX2+" "TX2-" "TX1+" "TX1-" "TX0+" "TX0-" "RX7+" "RX7-" "RX6+"
+			"RX6-" "RX5+" "RX5-" "RX4+" "RX4-" "RX3+" "RX3-" "RX2+" "RX2-" "RX1+"
+			"RX1-" "RX0+" "RX0-"
+		)
+	)
 	(bus_alias "PCIe_{REF}"
 		(members "CK+" "CK-")
 	)
@@ -10491,7 +10501,7 @@
 		(uuid "029e933e-0046-4578-b6cd-ee0118a48d72")
 	)
 	(bus_entry
-		(at 248.92 102.87)
+		(at 250.19 102.87)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -10536,7 +10546,7 @@
 		(uuid "54e1aca7-c018-45cb-a64e-d9910d7aa1d6")
 	)
 	(bus_entry
-		(at 248.92 100.33)
+		(at 250.19 100.33)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -10563,7 +10573,7 @@
 		(uuid "93661188-ad7c-46c5-95b5-f2a7ebf13f29")
 	)
 	(bus_entry
-		(at 248.92 95.25)
+		(at 250.19 95.25)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -10572,7 +10582,7 @@
 		(uuid "9971198d-913c-4d22-bbc8-2f9a124ee2cd")
 	)
 	(bus_entry
-		(at 248.92 97.79)
+		(at 250.19 97.79)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -10608,7 +10618,7 @@
 		(uuid "afb310eb-90cb-45f6-8592-3200ef228351")
 	)
 	(bus_entry
-		(at 248.92 105.41)
+		(at 250.19 105.41)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -10728,16 +10738,6 @@
 		)
 		(uuid "08e3cb40-7dab-4a5c-9168-23025f15e5a2")
 	)
-	(wire
-		(pts
-			(xy 229.87 92.71) (xy 246.38 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "097ef15b-e63d-45e4-99ca-e9254c2736f6")
-	)
 	(bus
 		(pts
 			(xy 147.32 148.59) (xy 147.32 151.13)
@@ -10758,19 +10758,9 @@
 		)
 		(uuid "1047b4a0-a00b-4e3b-b0c2-856bcfbb2c3a")
 	)
-	(wire
-		(pts
-			(xy 229.87 95.25) (xy 246.38 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1280d711-4e31-4804-8dd2-430cb1ab2d71")
-	)
 	(bus
 		(pts
-			(xy 248.92 105.41) (xy 248.92 107.95)
+			(xy 250.19 105.41) (xy 250.19 107.95)
 		)
 		(stroke
 			(width 0)
@@ -10790,16 +10780,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 97.79) (xy 246.38 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "245c3095-df17-4106-87b3-ae27d696ddc0")
-	)
-	(wire
-		(pts
 			(xy 149.86 133.35) (xy 194.31 133.35)
 		)
 		(stroke
@@ -10808,9 +10788,19 @@
 		)
 		(uuid "2546ee1d-9fd1-44e1-a268-0b3e15bc0b11")
 	)
+	(wire
+		(pts
+			(xy 229.87 95.25) (xy 247.65 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27b1277e-8f2f-44fa-99c1-3e0e6ecdd963")
+	)
 	(bus
 		(pts
-			(xy 251.46 110.49) (xy 254 110.49)
+			(xy 252.73 110.49) (xy 255.27 110.49)
 		)
 		(stroke
 			(width 0)
@@ -10838,9 +10828,19 @@
 		)
 		(uuid "2d4a684d-6a48-4663-b68e-1e154fa315b2")
 	)
+	(wire
+		(pts
+			(xy 229.87 92.71) (xy 247.65 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3094f5b7-3d64-4341-8f64-a9e95df6226c")
+	)
 	(bus
 		(pts
-			(xy 248.92 97.79) (xy 248.92 100.33)
+			(xy 250.19 97.79) (xy 250.19 100.33)
 		)
 		(stroke
 			(width 0)
@@ -10867,6 +10867,16 @@
 			(type default)
 		)
 		(uuid "44a886d6-2e8f-44c6-9ae8-c8f7d62655be")
+	)
+	(wire
+		(pts
+			(xy 229.87 100.33) (xy 247.65 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46f40090-4071-4e2e-953e-f3865d6ffbd1")
 	)
 	(wire
 		(pts
@@ -10920,6 +10930,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 102.87) (xy 247.65 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f97ebc9-3cad-4444-87f5-61dd5613fb0f")
+	)
+	(wire
+		(pts
 			(xy 180.34 123.19) (xy 194.31 123.19)
 		)
 		(stroke
@@ -10970,7 +10990,7 @@
 	)
 	(bus
 		(pts
-			(xy 251.46 110.49) (xy 248.92 107.95)
+			(xy 252.73 110.49) (xy 250.19 107.95)
 		)
 		(stroke
 			(width 0)
@@ -10987,16 +11007,6 @@
 			(type default)
 		)
 		(uuid "6b5f591b-3ded-4eff-affe-7131acd33c30")
-	)
-	(wire
-		(pts
-			(xy 229.87 102.87) (xy 246.38 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e223a94-5e68-4d6b-a14b-c15cdbfd7950")
 	)
 	(wire
 		(pts
@@ -11080,7 +11090,7 @@
 	)
 	(bus
 		(pts
-			(xy 248.92 102.87) (xy 248.92 105.41)
+			(xy 250.19 102.87) (xy 250.19 105.41)
 		)
 		(stroke
 			(width 0)
@@ -11130,6 +11140,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 97.79) (xy 247.65 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac29e741-f5a5-4786-9fb6-e573976cf370")
+	)
+	(wire
+		(pts
 			(xy 149.86 115.57) (xy 194.31 115.57)
 		)
 		(stroke
@@ -11168,19 +11188,9 @@
 		)
 		(uuid "b59c4314-d23a-4430-be6d-cd56eaaaf995")
 	)
-	(wire
-		(pts
-			(xy 229.87 100.33) (xy 246.38 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6e03fc0-8824-43b7-944d-3d8eea68b0d7")
-	)
 	(bus
 		(pts
-			(xy 248.92 100.33) (xy 248.92 102.87)
+			(xy 250.19 100.33) (xy 250.19 102.87)
 		)
 		(stroke
 			(width 0)
@@ -11190,7 +11200,7 @@
 	)
 	(bus
 		(pts
-			(xy 248.92 95.25) (xy 248.92 97.79)
+			(xy 250.19 95.25) (xy 250.19 97.79)
 		)
 		(stroke
 			(width 0)
@@ -11359,7 +11369,7 @@
 		(uuid "0b4a3af3-10e8-4aaa-a6c1-25819866f240")
 	)
 	(label "PCIe_JTAG.~{JRST}"
-		(at 231.14 92.71 0)
+		(at 232.41 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11369,7 +11379,7 @@
 		(uuid "12a6efb7-26fe-4ab4-a5d1-a008e5efaa7f")
 	)
 	(label "PCIe_JTAG.JTDI"
-		(at 231.14 100.33 0)
+		(at 232.41 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11379,7 +11389,7 @@
 		(uuid "1dcc9826-3c26-477a-a3df-eaf4cb7837cc")
 	)
 	(label "PCIe_JTAG.JTMS"
-		(at 231.14 97.79 0)
+		(at 232.41 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11438,6 +11448,16 @@
 		)
 		(uuid "50f667b0-917f-4484-9187-268d22a4144f")
 	)
+	(label "PCIe_{REF}.CK-"
+		(at 163.83 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6155de03-0f63-4afb-b4e0-4fc8bb38b936")
+	)
 	(label "PCIe_{x4}.TX0+"
 		(at 162.56 107.95 180)
 		(effects
@@ -11468,26 +11488,6 @@
 		)
 		(uuid "7362f745-756e-4ced-afb8-b4aa16022273")
 	)
-	(label "PCIE_{REF}.CK-"
-		(at 162.56 102.87 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "76f174d6-4f35-49d4-917f-1eb39d12532b")
-	)
-	(label "PCIE_{REF}.CK+"
-		(at 162.56 100.33 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "80e78fcc-f417-4d8b-8ced-674662b814ca")
-	)
 	(label "PCIe_{x4}.RX1+"
 		(at 162.56 130.81 180)
 		(effects
@@ -11499,7 +11499,7 @@
 		(uuid "91cd90dc-b970-45c8-8ab2-893015d7a3cb")
 	)
 	(label "PCIe_JTAG.JTCK"
-		(at 231.14 95.25 0)
+		(at 232.41 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11507,6 +11507,16 @@
 			(justify left bottom)
 		)
 		(uuid "93529256-69e4-40d4-a5c5-93c582c79425")
+	)
+	(label "PCIe_{REF}.CK+"
+		(at 163.83 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9f9d6c88-029b-401e-ac11-9371bf15c7d7")
 	)
 	(label "RBIAS"
 		(at 231.14 222.25 0)
@@ -11529,7 +11539,7 @@
 		(uuid "add76b42-d191-4eba-8502-132d51104d75")
 	)
 	(label "PCIe_JTAG.JTDO"
-		(at 231.14 102.87 0)
+		(at 232.41 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11600,7 +11610,7 @@
 	)
 	(hierarchical_label "PCIe_JTAG{JTAG}"
 		(shape input)
-		(at 254 110.49 0)
+		(at 255.27 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11665,7 +11675,7 @@
 			(fill
 				(type none)
 			)
-			(uuid e60e8ad8-734a-472e-a7c6-6a90f9b1665a)
+			(uuid e43d99ac-17b8-4fc7-a9f1-dca81fbe72d3)
 		)
 	)
 	(netclass_flag ""

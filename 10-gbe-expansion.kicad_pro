@@ -519,6 +519,60 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/2xRJ45/Ethernet_P0.D1+": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/2xRJ45/Ethernet_P0.D1-": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/2xRJ45/Ethernet_P0.D2+": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/2xRJ45/Ethernet_P0.D2-": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/2xRJ45/Ethernet_P0.D3+": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/2xRJ45/Ethernet_P0.D3-": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/2xRJ45/Ethernet_P0.D4+": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/2xRJ45/Ethernet_P0.D4-": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/2xRJ45/Ethernet_P0{10GbE}": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/2xRJ45/Ethernet_P1.D1+": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/2xRJ45/Ethernet_P1.D1-": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/2xRJ45/Ethernet_P1.D2+": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/2xRJ45/Ethernet_P1.D2-": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/2xRJ45/Ethernet_P1.D3+": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/2xRJ45/Ethernet_P1.D3-": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/2xRJ45/Ethernet_P1.D4+": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/2xRJ45/Ethernet_P1.D4-": [
+        "100Ohm-diff_10GbE"
+      ],
+      "/2xRJ45/Ethernet_P1{10GbE}": [
+        "100Ohm-diff_10GbE"
+      ],
       "/Ethernet controller/Ethernet_P0.D1+": [
         "100Ohm-diff_10GbE"
       ],
@@ -897,6 +951,12 @@
       "/X710-AT2 PCIe/PCIE_{REF}.CK-": [
         "85Ohm-diff_PCIe"
       ],
+      "/X710-AT2 PCIe/PCIe_{REF}.CK+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT2 PCIe/PCIe_{REF}.CK-": [
+        "85Ohm-diff_PCIe"
+      ],
       "/X710-AT2 PCIe/PCIe_{x4}.PCIe": [
         "85Ohm-diff_PCIe"
       ],
@@ -924,6 +984,30 @@
       "/X710-AT2 PCIe/PCIe_{x4}.RX3-": [
         "85Ohm-diff_PCIe"
       ],
+      "/X710-AT2 PCIe/PCIe_{x4}.RX4+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT2 PCIe/PCIe_{x4}.RX4-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT2 PCIe/PCIe_{x4}.RX5+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT2 PCIe/PCIe_{x4}.RX5-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT2 PCIe/PCIe_{x4}.RX6+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT2 PCIe/PCIe_{x4}.RX6-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT2 PCIe/PCIe_{x4}.RX7+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT2 PCIe/PCIe_{x4}.RX7-": [
+        "85Ohm-diff_PCIe"
+      ],
       "/X710-AT2 PCIe/PCIe_{x4}.TX0+": [
         "85Ohm-diff_PCIe"
       ],
@@ -946,6 +1030,30 @@
         "85Ohm-diff_PCIe"
       ],
       "/X710-AT2 PCIe/PCIe_{x4}.TX3-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT2 PCIe/PCIe_{x4}.TX4+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT2 PCIe/PCIe_{x4}.TX4-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT2 PCIe/PCIe_{x4}.TX5+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT2 PCIe/PCIe_{x4}.TX5-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT2 PCIe/PCIe_{x4}.TX6+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT2 PCIe/PCIe_{x4}.TX6-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT2 PCIe/PCIe_{x4}.TX7+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT2 PCIe/PCIe_{x4}.TX7-": [
         "85Ohm-diff_PCIe"
       ],
       "/X710-AT2 PCIe/PCIe_{x4}{PCIe}": [
@@ -1170,6 +1278,14 @@
     [
       "d0402c84-6d4c-4559-b85a-0c9b588a21c5",
       "X710-AT2 Misc"
+    ],
+    [
+      "b3dd2e9f-aefc-4b19-a6a4-069fdee319cd",
+      "2xRJ45"
+    ],
+    [
+      "cf61e8ef-a7e0-463f-9b69-1bf3871ad792",
+      "Flash memory"
     ]
   ],
   "text_variables": {}
