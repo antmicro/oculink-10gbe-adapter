@@ -1308,7 +1308,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a01f50c-d359-4370-9655-6a8d7109609a")
-		(property "Reference" "R78"
+		(property "Reference" "R1"
 			(at 191.516 132.08 90)
 			(effects
 				(font
@@ -1433,7 +1433,7 @@
 		(instances
 			(project ""
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/cf61e8ef-a7e0-463f-9b69-1bf3871ad792"
-					(reference "R78")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -1449,7 +1449,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "508bf04b-3d1d-4a5a-af00-e32ac1f8867c")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 213.36 135.89 0)
 			(effects
 				(font
@@ -1573,7 +1573,7 @@
 		(instances
 			(project ""
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/cf61e8ef-a7e0-463f-9b69-1bf3871ad792"
-					(reference "U3")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -1588,7 +1588,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8a33942b-520e-4bac-968c-ff6df09a7719")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR02"
 			(at 226.06 144.78 0)
 			(effects
 				(font
@@ -1638,7 +1638,7 @@
 		(instances
 			(project "10-gbe-expansion"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/cf61e8ef-a7e0-463f-9b69-1bf3871ad792"
-					(reference "#PWR076")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -1653,7 +1653,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b7a182ee-6d40-4101-977a-37b9b90b416a")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR01"
 			(at 193.04 129.54 0)
 			(effects
 				(font
@@ -1703,7 +1703,7 @@
 		(instances
 			(project "10-gbe-expansion"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/cf61e8ef-a7e0-463f-9b69-1bf3871ad792"
-					(reference "#PWR077")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -1719,7 +1719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf1528b4-dd85-4002-a8f9-cc7bf712583f")
-		(property "Reference" "C17"
+		(property "Reference" "C1"
 			(at 228.6 148.5836 90)
 			(effects
 				(font
@@ -1856,7 +1856,7 @@
 		(instances
 			(project "10-gbe-expansion"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/cf61e8ef-a7e0-463f-9b69-1bf3871ad792"
-					(reference "C17")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -1871,7 +1871,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e2893785-b167-4a7c-94e5-88a5fd02746d")
-		(property "Reference" "R79"
+		(property "Reference" "R2"
 			(at 198.374 132.08 90)
 			(effects
 				(font
@@ -1996,7 +1996,7 @@
 		(instances
 			(project "10-gbe-expansion"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/cf61e8ef-a7e0-463f-9b69-1bf3871ad792"
-					(reference "R79")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -2011,7 +2011,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f7d794d5-abff-475e-8b2c-91c714eea30f")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR03"
 			(at 234.95 161.29 0)
 			(effects
 				(font
@@ -2090,7 +2090,7 @@
 		(instances
 			(project "10-gbe-expansion"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/cf61e8ef-a7e0-463f-9b69-1bf3871ad792"
-					(reference "#PWR075")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)

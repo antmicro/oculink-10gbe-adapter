@@ -53,6 +53,10 @@
 		(color 0 0 0 0)
 		(uuid "1757bc61-0494-4e38-b641-ba63753119ca")
 	)
+	(no_connect
+		(at 152.4 106.68)
+		(uuid "063113cb-0f06-4bdc-a022-bd1ed51b14cd")
+	)
 	(bus
 		(pts
 			(xy 203.2 55.88) (xy 223.52 55.88)
@@ -125,7 +129,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 119.38) (xy 304.8 119.38)
+			(xy 279.4 121.92) (xy 304.8 121.92)
 		)
 		(stroke
 			(width 0)
@@ -152,6 +156,16 @@
 			(type default)
 		)
 		(uuid "1b6ceb2d-c2f6-47cd-aef6-4f270e57367e")
+	)
+	(wire
+		(pts
+			(xy 298.45 132.08) (xy 203.2 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bae3859-73ce-4a26-a2d3-da405b9397a9")
 	)
 	(wire
 		(pts
@@ -243,6 +257,26 @@
 		)
 		(uuid "5de4b9e2-43d8-4d60-a24a-d52aa23cec2e")
 	)
+	(wire
+		(pts
+			(xy 300.99 134.62) (xy 300.99 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64bbfa02-abcf-433f-a85a-b753df469d76")
+	)
+	(wire
+		(pts
+			(xy 300.99 124.46) (xy 304.8 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69bdbcb3-f273-49e9-a80e-102641505d03")
+	)
 	(bus
 		(pts
 			(xy 88.9 134.62) (xy 152.4 134.62)
@@ -312,6 +346,16 @@
 			(type default)
 		)
 		(uuid "9ee6fff5-6b34-4e2f-9428-8905961cb094")
+	)
+	(wire
+		(pts
+			(xy 203.2 134.62) (xy 300.99 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a269c98f-144b-4c8c-a999-12735643f8f4")
 	)
 	(wire
 		(pts
@@ -423,9 +467,19 @@
 		)
 		(uuid "d21a6fd9-9195-49af-9e1e-408e81f911f7")
 	)
+	(wire
+		(pts
+			(xy 304.8 111.76) (xy 298.45 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3f8416f-8e3b-4f3d-8179-ee9f994ed14e")
+	)
 	(bus
 		(pts
-			(xy 279.4 114.3) (xy 304.8 114.3)
+			(xy 279.4 116.84) (xy 304.8 116.84)
 		)
 		(stroke
 			(width 0)
@@ -435,7 +489,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 116.84) (xy 304.8 116.84)
+			(xy 279.4 119.38) (xy 304.8 119.38)
 		)
 		(stroke
 			(width 0)
@@ -462,6 +516,16 @@
 			(type default)
 		)
 		(uuid "ec647aae-4f62-40b4-b25e-1618abefa689")
+	)
+	(wire
+		(pts
+			(xy 298.45 111.76) (xy 298.45 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecbf033d-fe6e-425d-8b82-9f41003ae22d")
 	)
 	(bus
 		(pts
@@ -609,7 +673,7 @@
 	)
 	(sheet
 		(at 228.6 101.6)
-		(size 50.8 20.32)
+		(size 50.8 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -633,7 +697,7 @@
 			)
 		)
 		(property "Sheetfile" "x710-at2-10gbe.kicad_sch"
-			(at 228.6 122.5046 0)
+			(at 228.6 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -652,7 +716,7 @@
 			)
 		)
 		(pin "Ethernet_P1{10GbE}" input
-			(at 279.4 114.3 0)
+			(at 279.4 116.84 0)
 			(uuid "3b87a996-30fd-41c9-a26f-d70876701272")
 			(effects
 				(font
@@ -682,7 +746,7 @@
 			)
 		)
 		(pin "P1_LED_ACT" output
-			(at 279.4 119.38 0)
+			(at 279.4 121.92 0)
 			(uuid "0088ae06-5c84-4ebc-bcc1-28b546d8e3ab")
 			(effects
 				(font
@@ -692,7 +756,7 @@
 			)
 		)
 		(pin "P1_LED_LINK_10G" output
-			(at 279.4 116.84 0)
+			(at 279.4 119.38 0)
 			(uuid "03033ba3-b5f4-42eb-aad3-99069b1a3eab")
 			(effects
 				(font
@@ -760,7 +824,7 @@
 		)
 	)
 	(sheet
-		(at 228.6 133.35)
+		(at 228.6 144.78)
 		(size 50.8 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -776,7 +840,7 @@
 		)
 		(uuid "5c16e05d-0fb9-4db6-bb95-cf7113880df7")
 		(property "Sheetname" "X710-AT2 RSVD"
-			(at 228.6 132.6384 0)
+			(at 228.6 144.0684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -785,7 +849,7 @@
 			)
 		)
 		(property "Sheetfile" "x710-at2-rsvd.kicad_sch"
-			(at 228.6 146.6346 0)
+			(at 228.6 158.0646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -802,8 +866,8 @@
 		)
 	)
 	(sheet
-		(at 228.6 157.48)
-		(size 50.8 20.32)
+		(at 228.6 165.1)
+		(size 50.8 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -818,7 +882,7 @@
 		)
 		(uuid "745fdd8b-25af-4553-a7ea-a0fa564ee0a7")
 		(property "Sheetname" "X710-AT2 power"
-			(at 228.6 156.7684 0)
+			(at 228.6 164.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -845,7 +909,7 @@
 	)
 	(sheet
 		(at 304.8 101.6)
-		(size 38.1 20.32)
+		(size 38.1 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -860,7 +924,7 @@
 		)
 		(uuid "b3dd2e9f-aefc-4b19-a6a4-069fdee319cd")
 		(property "Sheetname" "2xRJ45"
-			(at 304.8 100.8884 0)
+			(at 304.8 100.9138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -869,7 +933,7 @@
 			)
 		)
 		(property "Sheetfile" "2xrj45.kicad_sch"
-			(at 304.8 122.5046 0)
+			(at 304.8 127.5592 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -888,7 +952,7 @@
 			)
 		)
 		(pin "Ethernet_P1{10GbE}" input
-			(at 304.8 114.3 180)
+			(at 304.8 116.84 180)
 			(uuid "e41decb5-4541-4998-a9e7-26c572ae326b")
 			(effects
 				(font
@@ -918,7 +982,7 @@
 			)
 		)
 		(pin "P1_LED_ACT" input
-			(at 304.8 119.38 180)
+			(at 304.8 121.92 180)
 			(uuid "a184f207-aabf-401e-9698-e8ae51d6b0db")
 			(effects
 				(font
@@ -928,8 +992,28 @@
 			)
 		)
 		(pin "P1_LED_LINK_10G" input
-			(at 304.8 116.84 180)
+			(at 304.8 119.38 180)
 			(uuid "456b5cd6-b758-4951-a64a-dedb4be687ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P0_LINK_LESS_THAN_10G" input
+			(at 304.8 111.76 180)
+			(uuid "e378d694-66c3-473f-b3a3-e5efbf8ad420")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P1_LINK_LESS_THAN_10G" input
+			(at 304.8 124.46 180)
+			(uuid "54c4b682-9d3c-4246-a22e-22b46732d545")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1042,7 +1126,7 @@
 			)
 		)
 		(pin "P0_LINK_LESS_THAN_10G" output
-			(at 203.2 133.35 0)
+			(at 203.2 132.08 0)
 			(uuid "5e6f3de5-2c56-4fb3-a81a-654a2276cbfc")
 			(effects
 				(font
@@ -1052,7 +1136,7 @@
 			)
 		)
 		(pin "P1_LINK_LESS_THAN_10G" output
-			(at 203.2 135.89 0)
+			(at 203.2 134.62 0)
 			(uuid "1ea708a6-f556-4d54-aab3-8ef376fa6bf7")
 			(effects
 				(font
@@ -1082,7 +1166,7 @@
 			)
 		)
 		(pin "NCSI{NCSI}" bidirectional
-			(at 152.4 124.46 180)
+			(at 152.4 106.68 180)
 			(uuid "b682b0e5-44c5-4b77-9c86-25e7ae87bc6d")
 			(effects
 				(font
@@ -1109,16 +1193,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(pin "POR_BYPASS" input
-			(at 152.4 119.38 180)
-			(uuid "987c4e9e-15b9-4bfd-9482-0f30d6a38ac1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "P1_INT_MLC" input

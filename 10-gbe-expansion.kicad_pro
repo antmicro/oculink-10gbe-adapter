@@ -1095,6 +1095,30 @@
       "Net-(U1A-PET_3_P)": [
         "85Ohm-diff_PCIe"
       ],
+      "Net-(U4A-PET_0_N)": [
+        "85Ohm-diff_PCIe"
+      ],
+      "Net-(U4A-PET_0_P)": [
+        "85Ohm-diff_PCIe"
+      ],
+      "Net-(U4A-PET_1_N)": [
+        "85Ohm-diff_PCIe"
+      ],
+      "Net-(U4A-PET_1_P)": [
+        "85Ohm-diff_PCIe"
+      ],
+      "Net-(U4A-PET_2_N)": [
+        "85Ohm-diff_PCIe"
+      ],
+      "Net-(U4A-PET_2_P)": [
+        "85Ohm-diff_PCIe"
+      ],
+      "Net-(U4A-PET_3_N)": [
+        "85Ohm-diff_PCIe"
+      ],
+      "Net-(U4A-PET_3_P)": [
+        "85Ohm-diff_PCIe"
+      ],
       "P0_AVDDL": [
         "PWR"
       ],
