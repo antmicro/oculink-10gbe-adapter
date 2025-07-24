@@ -1050,6 +1050,30 @@
       "/X710-AT2 PCIe/PCIe_{x4}.TX7-": [
         "85Ohm-diff_PCIe"
       ],
+      "/X710-AT2 PCIe/PCIe_{x4}_AC.TX0+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT2 PCIe/PCIe_{x4}_AC.TX0-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT2 PCIe/PCIe_{x4}_AC.TX1+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT2 PCIe/PCIe_{x4}_AC.TX1-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT2 PCIe/PCIe_{x4}_AC.TX2+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT2 PCIe/PCIe_{x4}_AC.TX2-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT2 PCIe/PCIe_{x4}_AC.TX3+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT2 PCIe/PCIe_{x4}_AC.TX3-": [
+        "85Ohm-diff_PCIe"
+      ],
       "/X710-AT2 PCIe/PCIe_{x4}{PCIe}": [
         "85Ohm-diff_PCIe"
       ],
@@ -1093,30 +1117,6 @@
         "85Ohm-diff_PCIe"
       ],
       "Net-(U1A-PET_3_P)": [
-        "85Ohm-diff_PCIe"
-      ],
-      "Net-(U4A-PET_0_N)": [
-        "85Ohm-diff_PCIe"
-      ],
-      "Net-(U4A-PET_0_P)": [
-        "85Ohm-diff_PCIe"
-      ],
-      "Net-(U4A-PET_1_N)": [
-        "85Ohm-diff_PCIe"
-      ],
-      "Net-(U4A-PET_1_P)": [
-        "85Ohm-diff_PCIe"
-      ],
-      "Net-(U4A-PET_2_N)": [
-        "85Ohm-diff_PCIe"
-      ],
-      "Net-(U4A-PET_2_P)": [
-        "85Ohm-diff_PCIe"
-      ],
-      "Net-(U4A-PET_3_N)": [
-        "85Ohm-diff_PCIe"
-      ],
-      "Net-(U4A-PET_3_P)": [
         "85Ohm-diff_PCIe"
       ],
       "P0_AVDDL": [

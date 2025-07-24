@@ -12,4 +12,15 @@
 		(comment 1 "www.antmicro.com")
 	)
 	(lib_symbols)
+	(hierarchical_label "MAIN_PWR_OK"
+		(shape output)
+		(at 312.42 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1c3272d5-adad-4f11-97fa-d21dacd136ff")
+	)
 )
