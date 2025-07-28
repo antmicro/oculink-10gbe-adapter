@@ -811,16 +811,6 @@
 				(justify left)
 			)
 		)
-		(pin "~{PHY_RESET_3P3V}" output
-			(at 228.6 119.38 180)
-			(uuid "85ea455a-67b0-4358-8214-fc7fa27f6510")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "~{P0_INT}" input
 			(at 228.6 106.68 180)
 			(uuid "b20d9cb7-2177-45cc-8951-0979046e0580")
@@ -874,6 +864,16 @@
 		(pin "~{P1_INT}" input
 			(at 228.6 109.22 180)
 			(uuid "2b72144c-34fb-4e5d-8bdc-dfe1493c5475")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{PHY_RESET_3V3}" output
+			(at 228.6 119.38 180)
+			(uuid "3121d330-c2d7-4734-bbd0-780d5a5908c8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1393,16 +1393,6 @@
 				(justify right)
 			)
 		)
-		(pin "~{PHY_RESET_3P3V}" input
-			(at 203.2 63.5 0)
-			(uuid "6b458e51-977c-45e3-ac5e-3a2ed0da2f45")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "NCSI_CONN{NCSI}" bidirectional
 			(at 152.4 73.66 180)
 			(uuid "397df88b-14cf-44c4-905c-f637d54fb45d")
@@ -1411,6 +1401,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "~{PHY_RESET_3V3}" input
+			(at 203.2 63.5 0)
+			(uuid "ff408372-acd4-46f8-8023-1fdc708dbdb2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

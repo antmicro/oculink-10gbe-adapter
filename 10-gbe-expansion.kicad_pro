@@ -519,6 +519,12 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "+1V88": [
+        "PWR"
+      ],
+      "+3V3": [
+        "PWR"
+      ],
       "/2xRJ45/Ethernet_P0.D1+": [
         "100Ohm-diff_10GbE"
       ],
