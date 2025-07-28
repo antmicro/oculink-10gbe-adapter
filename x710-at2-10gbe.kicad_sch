@@ -4984,7 +4984,7 @@
 			(symbol "EZX710AT2_S_LMR5_1_7_1"
 				(rectangle
 					(start 5.08 2.54)
-					(end 38.1 -81.28)
+					(end 38.1 -71.12)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -4995,6 +4995,42 @@
 				)
 				(pin power_in line
 					(at 0 0 0)
+					(length 5.08)
+					(name "RSVDE19_1P88V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "RSVDD8_1P88V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -5.08 0)
 					(length 5.08)
 					(name "RSVDJ19_VSS"
 						(effects
@@ -5012,7 +5048,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -2.54 0)
+					(at 0 -7.62 0)
 					(length 5.08)
 					(name "RSVDJ21_VSS"
 						(effects
@@ -5030,7 +5066,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -5.08 0)
+					(at 0 -10.16 0)
 					(length 5.08)
 					(name "RSVH18_VSS"
 						(effects
@@ -5047,8 +5083,8 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -10.16 0)
+				(pin power_in line
+					(at 0 -12.7 0)
 					(length 5.08)
 					(name "RSVDH22_VSS"
 						(effects
@@ -5158,24 +5194,6 @@
 				(pin power_in line
 					(at 0 -27.94 0)
 					(length 5.08)
-					(name "RSVDE19_VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "E19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -30.48 0)
-					(length 5.08)
 					(name "RSVDE21_VSS"
 						(effects
 							(font
@@ -5192,7 +5210,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -33.02 0)
+					(at 0 -30.48 0)
 					(length 5.08)
 					(name "RSVDE23_VSS"
 						(effects
@@ -5210,7 +5228,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -35.56 0)
+					(at 0 -33.02 0)
 					(length 5.08)
 					(name "RSVDE25_VSS"
 						(effects
@@ -5228,7 +5246,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -38.1 0)
+					(at 0 -35.56 0)
 					(length 5.08)
 					(name "RSVDD22_VSS"
 						(effects
@@ -5246,25 +5264,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(name "RSVDD8_1P88V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -48.26 0)
+					(at 0 -38.1 0)
 					(length 5.08)
 					(name "RSVDG23_VSS"
 						(effects
@@ -5282,7 +5282,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -50.8 0)
+					(at 0 -40.64 0)
 					(length 5.08)
 					(name "RSVDH24_VSS"
 						(effects
@@ -5300,7 +5300,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 0 -55.88 0)
+					(at 0 -45.72 0)
 					(length 5.08)
 					(name "RSVDK34_NC"
 						(effects
@@ -5318,7 +5318,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 0 -58.42 0)
+					(at 0 -48.26 0)
 					(length 5.08)
 					(name "RSVDK36_NC"
 						(effects
@@ -5336,7 +5336,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 0 -60.96 0)
+					(at 0 -50.8 0)
 					(length 5.08)
 					(name "RSVDK26_NC"
 						(effects
@@ -5354,7 +5354,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 0 -63.5 0)
+					(at 0 -53.34 0)
 					(length 5.08)
 					(name "RSVDK28_NC"
 						(effects
@@ -5372,7 +5372,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 0 -68.58 0)
+					(at 0 -58.42 0)
 					(length 5.08)
 					(name "RSVDD20_NC"
 						(effects
@@ -5390,7 +5390,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 0 -71.12 0)
+					(at 0 -60.96 0)
 					(length 5.08)
 					(name "RSVDC21_NC"
 						(effects
@@ -5408,7 +5408,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 0 -76.2 0)
+					(at 0 -66.04 0)
 					(length 5.08)
 					(name "RSVDB42_NC"
 						(effects
@@ -5426,7 +5426,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 0 -78.74 0)
+					(at 0 -68.58 0)
 					(length 5.08)
 					(name "RSVDA41_NC"
 						(effects
@@ -5698,6 +5698,24 @@
 				(pin no_connect line
 					(at 43.18 -35.56 180)
 					(length 5.08)
+					(name "RSVDV34_NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "V34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 43.18 -38.1 180)
+					(length 5.08)
 					(name "RSVDV32_NC"
 						(effects
 							(font
@@ -5714,7 +5732,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 43.18 -38.1 180)
+					(at 43.18 -40.64 180)
 					(length 5.08)
 					(name "RSVDV30_NC"
 						(effects
@@ -5732,7 +5750,7 @@
 					)
 				)
 				(pin power_in line
-					(at 43.18 -43.18 180)
+					(at 43.18 -45.72 180)
 					(length 5.08)
 					(name "RSVDL31_VSS"
 						(effects
@@ -5750,7 +5768,7 @@
 					)
 				)
 				(pin power_in line
-					(at 43.18 -48.26 180)
+					(at 43.18 -50.8 180)
 					(length 5.08)
 					(name "RSVDD6_VSS"
 						(effects
@@ -5768,7 +5786,7 @@
 					)
 				)
 				(pin power_in line
-					(at 43.18 -50.8 180)
+					(at 43.18 -53.34 180)
 					(length 5.08)
 					(name "RSVDF38_VSS"
 						(effects
@@ -5786,7 +5804,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 43.18 -53.34 180)
+					(at 43.18 -55.88 180)
 					(length 5.08)
 					(name "RSVDD32_NC"
 						(effects
@@ -5804,7 +5822,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 43.18 -55.88 180)
+					(at 43.18 -58.42 180)
 					(length 5.08)
 					(name "RSVDJ39_NC"
 						(effects
@@ -5814,42 +5832,6 @@
 						)
 					)
 					(number "J39"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 43.18 -60.96 180)
-					(length 5.08)
-					(name "RSVDM15_NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "M15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 43.18 -63.5 180)
-					(length 5.08)
-					(name "RSVDM31_NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "M31"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -20823,194 +20805,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroResistors0402:R_2k_0402"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 20.32 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "R_2k_0402"
-				(at 20.32 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-				(at 20.32 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-				(at 20.32 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMD Chip Resistor, 2 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "CR0402-FX-2001GLF"
-				(at 20.32 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Bourns"
-				(at 20.32 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 20.32 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 20.32 -27.94 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Val" "2k"
-				(at 20.32 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Tolerance" "1%"
-				(at 20.32 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_2k_0402_0_1"
-				(rectangle
-					(start 0.635 0.889)
-					(end 4.445 -0.889)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_2k_0402_1_1"
-				(pin passive line
-					(at 0 0 0)
-					(length 0.635)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 0.635)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "antmicroResistors0402:R_3k3_0402"
 			(pin_numbers
 				(hide yes)
@@ -24738,6 +24532,146 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroResistors0402:R_3k3_0402")
+		(at 175.26 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a163feb-fc15-453d-a528-13db37e0378d")
+		(property "Reference" "R22"
+			(at 176.784 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_3k3_0402"
+			(at 187.96 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 190.5 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 193.04 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, 3.3 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 175.26 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0402-FX-3301GLF"
+			(at 195.58 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 198.12 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 200.66 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 203.2 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "3k3"
+			(at 176.784 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 185.42 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a32b5504-362d-4076-94dd-d878b5196893")
+		)
+		(pin "1"
+			(uuid "75aeb4f5-3703-46d0-8a27-4fbd24ee9934")
+		)
+		(instances
+			(project "10-gbe-expansion"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/46fcd652-659b-4e06-aa16-4947b5e55b68"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroResistors0402:R_8k2_0402")
 		(at 175.26 241.3 90)
 		(unit 1)
@@ -25106,6 +25040,146 @@
 			(project "10-gbe-expansion"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/46fcd652-659b-4e06-aa16-4947b5e55b68"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroResistors0402:R_3k3_0402")
+		(at 167.64 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2b7fd950-9202-4d61-9ab6-2fa2545297e2")
+		(property "Reference" "R21"
+			(at 169.164 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_3k3_0402"
+			(at 180.34 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 182.88 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 185.42 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, 3.3 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 167.64 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0402-FX-3301GLF"
+			(at 187.96 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 190.5 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 193.04 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 195.58 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "3k3"
+			(at 169.164 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 177.8 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1df1da54-2c3c-43d9-aa81-4a14bedfa725")
+		)
+		(pin "1"
+			(uuid "ce4dcb27-c012-463e-81ff-1f530b57dc9a")
+		)
+		(instances
+			(project "10-gbe-expansion"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/46fcd652-659b-4e06-aa16-4947b5e55b68"
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -29584,11 +29658,8 @@
 		(pin "N27"
 			(uuid "2c51b8dd-e5bf-4d9d-ba6a-22764fb41d4b")
 		)
-		(pin "M15"
+		(pin "V34"
 			(uuid "ed06ee2f-1e27-461b-8e19-bff709f41723")
-		)
-		(pin "M31"
-			(uuid "59daa691-c287-4599-a4b1-023b6ea88b06")
 		)
 		(pin "L7"
 			(uuid "f800add6-ec9e-4d47-a9c3-e688f06fd720")
@@ -29970,286 +30041,6 @@
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/46fcd652-659b-4e06-aa16-4947b5e55b68"
 					(reference "U4")
 					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroResistors0402:R_2k_0402")
-		(at 167.64 165.1 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c5745ef3-3fb8-4922-89ef-0b2a406590dd")
-		(property "Reference" "R21"
-			(at 169.164 161.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_2k_0402"
-			(at 180.34 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 182.88 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 185.42 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Chip Resistor, 2 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 167.64 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402-FX-2001GLF"
-			(at 187.96 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 190.5 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 193.04 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 195.58 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "2k"
-			(at 169.164 163.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 177.8 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ce0a03e0-441a-41a3-a1c9-0e901116f9ee")
-		)
-		(pin "2"
-			(uuid "b475a559-7290-4bdc-b2dc-e0d0b78a3341")
-		)
-		(instances
-			(project ""
-				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/46fcd652-659b-4e06-aa16-4947b5e55b68"
-					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroResistors0402:R_2k_0402")
-		(at 175.26 165.1 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c94c261a-f94a-4faf-a512-9840f5825769")
-		(property "Reference" "R22"
-			(at 176.784 161.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_2k_0402"
-			(at 187.96 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 190.5 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 193.04 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Chip Resistor, 2 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 175.26 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402-FX-2001GLF"
-			(at 195.58 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 198.12 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 200.66 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 203.2 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "2k"
-			(at 176.784 163.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 185.42 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0db7ec1f-ea89-4c5e-8acf-d4818675b077")
-		)
-		(pin "2"
-			(uuid "ee7255ab-63d0-4cac-aa50-fd83b2fc01d0")
-		)
-		(instances
-			(project "10-gbe-expansion"
-				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/46fcd652-659b-4e06-aa16-4947b5e55b68"
-					(reference "R22")
-					(unit 1)
 				)
 			)
 		)

@@ -965,7 +965,7 @@
 			(symbol "EZX710AT2_S_LMR5_1_2_1"
 				(rectangle
 					(start 5.08 2.54)
-					(end 35.56 -60.96)
+					(end 40.64 -60.96)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1000,7 +1000,7 @@
 				)
 				(polyline
 					(pts
-						(xy 26.67 1.27) (xy 26.67 -26.67)
+						(xy 31.75 1.27) (xy 31.75 -26.67)
 					)
 					(stroke
 						(width 0.254)
@@ -1031,7 +1031,7 @@
 					)
 				)
 				(text "P1 10GBASE-T"
-					(at 25.4 -19.05 900)
+					(at 30.48 -19.05 900)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1329,7 +1329,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 40.64 0 180)
+					(at 45.72 0 180)
 					(length 5.08)
 					(name "P1_A_P"
 						(effects
@@ -1347,7 +1347,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 40.64 -2.54 180)
+					(at 45.72 -2.54 180)
 					(length 5.08)
 					(name "P1_A_N"
 						(effects
@@ -1365,7 +1365,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 40.64 -7.62 180)
+					(at 45.72 -7.62 180)
 					(length 5.08)
 					(name "P1_B_P"
 						(effects
@@ -1383,7 +1383,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 40.64 -10.16 180)
+					(at 45.72 -10.16 180)
 					(length 5.08)
 					(name "P1_B_N"
 						(effects
@@ -1401,7 +1401,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 40.64 -15.24 180)
+					(at 45.72 -15.24 180)
 					(length 5.08)
 					(name "P1_C_P"
 						(effects
@@ -1419,7 +1419,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 40.64 -17.78 180)
+					(at 45.72 -17.78 180)
 					(length 5.08)
 					(name "P1_C_N"
 						(effects
@@ -1437,7 +1437,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 40.64 -22.86 180)
+					(at 45.72 -22.86 180)
 					(length 5.08)
 					(name "P1_D_P"
 						(effects
@@ -1455,7 +1455,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 40.64 -25.4 180)
+					(at 45.72 -25.4 180)
 					(length 5.08)
 					(name "P1_D_N"
 						(effects
@@ -1473,7 +1473,7 @@
 					)
 				)
 				(pin passive line
-					(at 40.64 -55.88 180)
+					(at 45.72 -55.88 180)
 					(length 5.08)
 					(name "BIAS_RDAC"
 						(effects
@@ -1491,7 +1491,7 @@
 					)
 				)
 				(pin passive line
-					(at 40.64 -58.42 180)
+					(at 45.72 -58.42 180)
 					(length 5.08)
 					(name "RESCAL_RES_P"
 						(effects
@@ -1512,7 +1512,7 @@
 			(symbol "EZX710AT2_S_LMR5_1_3_1"
 				(rectangle
 					(start 5.08 2.54)
-					(end 45.72 -66.04)
+					(end 40.64 -66.04)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1559,7 +1559,7 @@
 				)
 				(polyline
 					(pts
-						(xy 36.83 1.27) (xy 36.83 -8.89)
+						(xy 31.75 1.27) (xy 31.75 -8.89)
 					)
 					(stroke
 						(width 0.254)
@@ -1571,7 +1571,7 @@
 				)
 				(polyline
 					(pts
-						(xy 36.83 -11.43) (xy 36.83 -21.59)
+						(xy 31.75 -11.43) (xy 31.75 -21.59)
 					)
 					(stroke
 						(width 0.254)
@@ -1583,7 +1583,7 @@
 				)
 				(polyline
 					(pts
-						(xy 36.83 -29.21) (xy 36.83 -39.37)
+						(xy 31.75 -29.21) (xy 31.75 -39.37)
 					)
 					(stroke
 						(width 0.254)
@@ -1595,7 +1595,7 @@
 				)
 				(polyline
 					(pts
-						(xy 36.83 -41.91) (xy 36.83 -52.07)
+						(xy 31.75 -41.91) (xy 31.75 -52.07)
 					)
 					(stroke
 						(width 0.254)
@@ -1636,7 +1636,7 @@
 					)
 				)
 				(text "P3 SDP"
-					(at 35.306 -37.846 900)
+					(at 30.226 -37.846 900)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1646,7 +1646,7 @@
 					)
 				)
 				(text "P0 LED"
-					(at 35.56 -1.778 0)
+					(at 30.48 -1.778 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1656,7 +1656,7 @@
 					)
 				)
 				(text "P2 LED"
-					(at 35.56 -6.858 0)
+					(at 30.48 -6.858 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1666,7 +1666,7 @@
 					)
 				)
 				(text "P1 LED"
-					(at 35.56 -14.732 0)
+					(at 30.48 -14.732 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1676,7 +1676,7 @@
 					)
 				)
 				(text "P3 LED"
-					(at 35.56 -19.558 0)
+					(at 30.48 -19.558 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1686,7 +1686,7 @@
 					)
 				)
 				(text "P3 SDP"
-					(at 35.56 -51.054 900)
+					(at 30.48 -51.054 900)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2040,7 +2040,7 @@
 					)
 				)
 				(pin output line
-					(at 50.8 0 180)
+					(at 45.72 0 180)
 					(length 5.08)
 					(name "LED0_0"
 						(effects
@@ -2058,7 +2058,7 @@
 					)
 				)
 				(pin output line
-					(at 50.8 -2.54 180)
+					(at 45.72 -2.54 180)
 					(length 5.08)
 					(name "LED0_1"
 						(effects
@@ -2076,7 +2076,7 @@
 					)
 				)
 				(pin output line
-					(at 50.8 -5.08 180)
+					(at 45.72 -5.08 180)
 					(length 5.08)
 					(name "LED2_0"
 						(effects
@@ -2094,7 +2094,7 @@
 					)
 				)
 				(pin output line
-					(at 50.8 -7.62 180)
+					(at 45.72 -7.62 180)
 					(length 5.08)
 					(name "LED2_1"
 						(effects
@@ -2112,7 +2112,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -12.7 180)
+					(at 45.72 -12.7 180)
 					(length 5.08)
 					(name "LED1_0"
 						(effects
@@ -2130,7 +2130,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -15.24 180)
+					(at 45.72 -15.24 180)
 					(length 5.08)
 					(name "LED1_1"
 						(effects
@@ -2148,7 +2148,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -17.78 180)
+					(at 45.72 -17.78 180)
 					(length 5.08)
 					(name "LED3_0"
 						(effects
@@ -2166,7 +2166,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -20.32 180)
+					(at 45.72 -20.32 180)
 					(length 5.08)
 					(name "LED3_1"
 						(effects
@@ -2184,7 +2184,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -30.48 180)
+					(at 45.72 -30.48 180)
 					(length 5.08)
 					(name "SDP2_0"
 						(effects
@@ -2202,7 +2202,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -33.02 180)
+					(at 45.72 -33.02 180)
 					(length 5.08)
 					(name "SDP2_1"
 						(effects
@@ -2220,7 +2220,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -35.56 180)
+					(at 45.72 -35.56 180)
 					(length 5.08)
 					(name "SDP2_2"
 						(effects
@@ -2238,7 +2238,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -38.1 180)
+					(at 45.72 -38.1 180)
 					(length 5.08)
 					(name "SDP2_3"
 						(effects
@@ -2256,7 +2256,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -43.18 180)
+					(at 45.72 -43.18 180)
 					(length 5.08)
 					(name "SDP3_0"
 						(effects
@@ -2274,7 +2274,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -45.72 180)
+					(at 45.72 -45.72 180)
 					(length 5.08)
 					(name "SDP3_1"
 						(effects
@@ -2292,7 +2292,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -48.26 180)
+					(at 45.72 -48.26 180)
 					(length 5.08)
 					(name "SDP3_2"
 						(effects
@@ -2310,7 +2310,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -50.8 180)
+					(at 45.72 -50.8 180)
 					(length 5.08)
 					(name "SDP3_3"
 						(effects
@@ -2327,11 +2327,47 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 45.72 -60.96 180)
+					(length 5.08)
+					(name "TPIN_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 45.72 -63.5 180)
+					(length 5.08)
+					(name "TPIN_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(symbol "EZX710AT2_S_LMR5_1_4_1"
 				(rectangle
 					(start 5.08 2.54)
-					(end 48.26 -50.8)
+					(end 40.64 -50.8)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2354,7 +2390,7 @@
 				)
 				(polyline
 					(pts
-						(xy 36.83 -39.37) (xy 36.83 -49.53)
+						(xy 29.21 -39.37) (xy 29.21 -49.53)
 					)
 					(stroke
 						(width 0.254)
@@ -2366,7 +2402,7 @@
 				)
 				(polyline
 					(pts
-						(xy 38.1 -31.75) (xy 38.1 -24.13)
+						(xy 30.48 -31.75) (xy 30.48 -24.13)
 					)
 					(stroke
 						(width 0.254)
@@ -2378,7 +2414,7 @@
 				)
 				(polyline
 					(pts
-						(xy 39.37 1.27) (xy 39.37 -13.97)
+						(xy 31.75 1.27) (xy 31.75 -13.97)
 					)
 					(stroke
 						(width 0.254)
@@ -2399,7 +2435,7 @@
 					)
 				)
 				(text "SMBus"
-					(at 35.56 -30.988 900)
+					(at 27.94 -30.988 900)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2409,7 +2445,7 @@
 					)
 				)
 				(text "Flash"
-					(at 35.56 -47.244 900)
+					(at 27.94 -47.244 900)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2419,7 +2455,7 @@
 					)
 				)
 				(text "GPIO"
-					(at 38.1 -8.636 900)
+					(at 30.48 -8.636 900)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2699,7 +2735,7 @@
 					)
 				)
 				(pin tri_state line
-					(at 53.34 0 180)
+					(at 45.72 0 180)
 					(length 5.08)
 					(name "GPIO_0"
 						(effects
@@ -2717,7 +2753,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 53.34 -2.54 180)
+					(at 45.72 -2.54 180)
 					(length 5.08)
 					(name "GPIO_1"
 						(effects
@@ -2735,7 +2771,7 @@
 					)
 				)
 				(pin tri_state line
-					(at 53.34 -5.08 180)
+					(at 45.72 -5.08 180)
 					(length 5.08)
 					(name "GPIO_2"
 						(effects
@@ -2753,7 +2789,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 53.34 -7.62 180)
+					(at 45.72 -7.62 180)
 					(length 5.08)
 					(name "GPIO_3"
 						(effects
@@ -2771,7 +2807,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 53.34 -10.16 180)
+					(at 45.72 -10.16 180)
 					(length 5.08)
 					(name "GPIO_4"
 						(effects
@@ -2789,7 +2825,7 @@
 					)
 				)
 				(pin tri_state line
-					(at 53.34 -12.7 180)
+					(at 45.72 -12.7 180)
 					(length 5.08)
 					(name "GPIO_5"
 						(effects
@@ -2807,7 +2843,7 @@
 					)
 				)
 				(pin open_collector line
-					(at 53.34 -25.4 180)
+					(at 45.72 -25.4 180)
 					(length 5.08)
 					(name "~{SMBALRT}"
 						(effects
@@ -2825,7 +2861,7 @@
 					)
 				)
 				(pin open_collector line
-					(at 53.34 -27.94 180)
+					(at 45.72 -27.94 180)
 					(length 5.08)
 					(name "SMBCLK"
 						(effects
@@ -2843,7 +2879,7 @@
 					)
 				)
 				(pin open_collector line
-					(at 53.34 -30.48 180)
+					(at 45.72 -30.48 180)
 					(length 5.08)
 					(name "SMBD"
 						(effects
@@ -2861,7 +2897,7 @@
 					)
 				)
 				(pin tri_state line
-					(at 53.34 -40.64 180)
+					(at 45.72 -40.64 180)
 					(length 5.08)
 					(name "~{FLSH_CE}"
 						(effects
@@ -2879,7 +2915,7 @@
 					)
 				)
 				(pin tri_state line
-					(at 53.34 -43.18 180)
+					(at 45.72 -43.18 180)
 					(length 5.08)
 					(name "FLSH_SCK"
 						(effects
@@ -2897,7 +2933,7 @@
 					)
 				)
 				(pin tri_state line
-					(at 53.34 -45.72 180)
+					(at 45.72 -45.72 180)
 					(length 5.08)
 					(name "FLSH_SI"
 						(effects
@@ -2915,7 +2951,7 @@
 					)
 				)
 				(pin input line
-					(at 53.34 -48.26 180)
+					(at 45.72 -48.26 180)
 					(length 5.08)
 					(name "FLSH_SO"
 						(effects
@@ -2936,7 +2972,7 @@
 			(symbol "EZX710AT2_S_LMR5_1_5_1"
 				(rectangle
 					(start 5.08 2.54)
-					(end 45.72 -93.98)
+					(end 38.1 -93.98)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -3162,7 +3198,7 @@
 					)
 				)
 				(pin passive line
-					(at 50.8 0 180)
+					(at 43.18 0 180)
 					(length 5.08)
 					(name "DEBUG_Y16"
 						(effects
@@ -3180,7 +3216,7 @@
 					)
 				)
 				(pin passive line
-					(at 50.8 -2.54 180)
+					(at 43.18 -2.54 180)
 					(length 5.08)
 					(name "DEBUG_W7"
 						(effects
@@ -3198,7 +3234,7 @@
 					)
 				)
 				(pin passive line
-					(at 50.8 -5.08 180)
+					(at 43.18 -5.08 180)
 					(length 5.08)
 					(name "DEBUG_Y20"
 						(effects
@@ -3216,7 +3252,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -10.16 180)
+					(at 43.18 -10.16 180)
 					(length 5.08)
 					(name "RSVDW25_NC"
 						(effects
@@ -3234,7 +3270,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -12.7 180)
+					(at 43.18 -12.7 180)
 					(length 5.08)
 					(name "RSVDW27_NC"
 						(effects
@@ -3252,7 +3288,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -15.24 180)
+					(at 43.18 -15.24 180)
 					(length 5.08)
 					(name "RSVDV22_NC"
 						(effects
@@ -3270,7 +3306,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -17.78 180)
+					(at 43.18 -17.78 180)
 					(length 5.08)
 					(name "RSVDV24_NC"
 						(effects
@@ -3288,7 +3324,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -20.32 180)
+					(at 43.18 -20.32 180)
 					(length 5.08)
 					(name "RSVDV26_NC"
 						(effects
@@ -3306,7 +3342,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -22.86 180)
+					(at 43.18 -22.86 180)
 					(length 5.08)
 					(name "RSVDV28_NC"
 						(effects
@@ -3324,7 +3360,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -25.4 180)
+					(at 43.18 -25.4 180)
 					(length 5.08)
 					(name "RSVDU23_NC"
 						(effects
@@ -3342,7 +3378,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -27.94 180)
+					(at 43.18 -27.94 180)
 					(length 5.08)
 					(name "RSVDU25_NC"
 						(effects
@@ -3360,7 +3396,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -30.48 180)
+					(at 43.18 -30.48 180)
 					(length 5.08)
 					(name "RSVDU27_NC"
 						(effects
@@ -3378,7 +3414,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -33.02 180)
+					(at 43.18 -33.02 180)
 					(length 5.08)
 					(name "RSVDU29_NC"
 						(effects
@@ -3396,7 +3432,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -35.56 180)
+					(at 43.18 -35.56 180)
 					(length 5.08)
 					(name "RSVDT22_NC"
 						(effects
@@ -3414,7 +3450,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -38.1 180)
+					(at 43.18 -38.1 180)
 					(length 5.08)
 					(name "RSVDT24_NC"
 						(effects
@@ -3432,7 +3468,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -40.64 180)
+					(at 43.18 -40.64 180)
 					(length 5.08)
 					(name "RSVDT26_NC"
 						(effects
@@ -3450,7 +3486,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -43.18 180)
+					(at 43.18 -43.18 180)
 					(length 5.08)
 					(name "RSVDT28_NC"
 						(effects
@@ -3468,7 +3504,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -45.72 180)
+					(at 43.18 -45.72 180)
 					(length 5.08)
 					(name "RSVDR23_NC"
 						(effects
@@ -3486,7 +3522,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -48.26 180)
+					(at 43.18 -48.26 180)
 					(length 5.08)
 					(name "RSVDR25_NC"
 						(effects
@@ -3504,7 +3540,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -50.8 180)
+					(at 43.18 -50.8 180)
 					(length 5.08)
 					(name "RSVDR27_NC"
 						(effects
@@ -3522,7 +3558,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -53.34 180)
+					(at 43.18 -53.34 180)
 					(length 5.08)
 					(name "RSVDP24_NC"
 						(effects
@@ -3540,7 +3576,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -55.88 180)
+					(at 43.18 -55.88 180)
 					(length 5.08)
 					(name "RSVDP26_NC"
 						(effects
@@ -3558,7 +3594,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -58.42 180)
+					(at 43.18 -58.42 180)
 					(length 5.08)
 					(name "RSVDP28_NC"
 						(effects
@@ -3576,7 +3612,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -60.96 180)
+					(at 43.18 -60.96 180)
 					(length 5.08)
 					(name "RSVDN23_NC"
 						(effects
@@ -3594,7 +3630,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -63.5 180)
+					(at 43.18 -63.5 180)
 					(length 5.08)
 					(name "RSVDN25_NC"
 						(effects
@@ -3612,7 +3648,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -66.04 180)
+					(at 43.18 -66.04 180)
 					(length 5.08)
 					(name "RSVDN27_NC"
 						(effects
@@ -3630,7 +3666,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -68.58 180)
+					(at 43.18 -68.58 180)
 					(length 5.08)
 					(name "RSVDM22_NC"
 						(effects
@@ -3648,7 +3684,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -71.12 180)
+					(at 43.18 -71.12 180)
 					(length 5.08)
 					(name "RSVDM24_NC"
 						(effects
@@ -3666,7 +3702,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -73.66 180)
+					(at 43.18 -73.66 180)
 					(length 5.08)
 					(name "RSVDM26_NC"
 						(effects
@@ -3684,7 +3720,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -76.2 180)
+					(at 43.18 -76.2 180)
 					(length 5.08)
 					(name "RSVDM28_NC"
 						(effects
@@ -3702,7 +3738,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -78.74 180)
+					(at 43.18 -78.74 180)
 					(length 5.08)
 					(name "RSVDL23_NC"
 						(effects
@@ -3720,7 +3756,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -81.28 180)
+					(at 43.18 -81.28 180)
 					(length 5.08)
 					(name "RSVDL27_NC"
 						(effects
@@ -3738,7 +3774,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -83.82 180)
+					(at 43.18 -83.82 180)
 					(length 5.08)
 					(name "RSVDK22_NC"
 						(effects
@@ -3756,7 +3792,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -86.36 180)
+					(at 43.18 -86.36 180)
 					(length 5.08)
 					(name "RSVDJ23_NC"
 						(effects
@@ -3774,7 +3810,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -88.9 180)
+					(at 43.18 -88.9 180)
 					(length 5.08)
 					(name "RSVDJ25_NC"
 						(effects
@@ -3792,7 +3828,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -91.44 180)
+					(at 43.18 -91.44 180)
 					(length 5.08)
 					(name "RSVDW23_NC"
 						(effects
@@ -4948,7 +4984,7 @@
 			(symbol "EZX710AT2_S_LMR5_1_7_1"
 				(rectangle
 					(start 5.08 2.54)
-					(end 40.64 -81.28)
+					(end 38.1 -71.12)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -4959,6 +4995,42 @@
 				)
 				(pin power_in line
 					(at 0 0 0)
+					(length 5.08)
+					(name "RSVDE19_1P88V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "RSVDD8_1P88V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -5.08 0)
 					(length 5.08)
 					(name "RSVDJ19_VSS"
 						(effects
@@ -4976,7 +5048,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -2.54 0)
+					(at 0 -7.62 0)
 					(length 5.08)
 					(name "RSVDJ21_VSS"
 						(effects
@@ -4994,7 +5066,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -5.08 0)
+					(at 0 -10.16 0)
 					(length 5.08)
 					(name "RSVH18_VSS"
 						(effects
@@ -5011,26 +5083,8 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "TPIN_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "H20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 0)
+				(pin power_in line
+					(at 0 -12.7 0)
 					(length 5.08)
 					(name "RSVDH22_VSS"
 						(effects
@@ -5040,24 +5094,6 @@
 						)
 					)
 					(number "H22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -12.7 0)
-					(length 5.08)
-					(name "TPIN_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5158,24 +5194,6 @@
 				(pin power_in line
 					(at 0 -27.94 0)
 					(length 5.08)
-					(name "RSVDE19_VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "E19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -30.48 0)
-					(length 5.08)
 					(name "RSVDE21_VSS"
 						(effects
 							(font
@@ -5192,7 +5210,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -33.02 0)
+					(at 0 -30.48 0)
 					(length 5.08)
 					(name "RSVDE23_VSS"
 						(effects
@@ -5210,7 +5228,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -35.56 0)
+					(at 0 -33.02 0)
 					(length 5.08)
 					(name "RSVDE25_VSS"
 						(effects
@@ -5228,7 +5246,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -38.1 0)
+					(at 0 -35.56 0)
 					(length 5.08)
 					(name "RSVDD22_VSS"
 						(effects
@@ -5246,25 +5264,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(name "RSVDD8_1P88V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -48.26 0)
+					(at 0 -38.1 0)
 					(length 5.08)
 					(name "RSVDG23_VSS"
 						(effects
@@ -5282,7 +5282,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -50.8 0)
+					(at 0 -40.64 0)
 					(length 5.08)
 					(name "RSVDH24_VSS"
 						(effects
@@ -5300,7 +5300,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 0 -55.88 0)
+					(at 0 -45.72 0)
 					(length 5.08)
 					(name "RSVDK34_NC"
 						(effects
@@ -5318,7 +5318,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 0 -58.42 0)
+					(at 0 -48.26 0)
 					(length 5.08)
 					(name "RSVDK36_NC"
 						(effects
@@ -5336,7 +5336,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 0 -60.96 0)
+					(at 0 -50.8 0)
 					(length 5.08)
 					(name "RSVDK26_NC"
 						(effects
@@ -5354,7 +5354,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 0 -63.5 0)
+					(at 0 -53.34 0)
 					(length 5.08)
 					(name "RSVDK28_NC"
 						(effects
@@ -5372,7 +5372,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 0 -68.58 0)
+					(at 0 -58.42 0)
 					(length 5.08)
 					(name "RSVDD20_NC"
 						(effects
@@ -5390,7 +5390,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 0 -71.12 0)
+					(at 0 -60.96 0)
 					(length 5.08)
 					(name "RSVDC21_NC"
 						(effects
@@ -5408,7 +5408,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 0 -76.2 0)
+					(at 0 -66.04 0)
 					(length 5.08)
 					(name "RSVDB42_NC"
 						(effects
@@ -5426,7 +5426,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 0 -78.74 0)
+					(at 0 -68.58 0)
 					(length 5.08)
 					(name "RSVDA41_NC"
 						(effects
@@ -5444,7 +5444,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 45.72 0 180)
+					(at 43.18 0 180)
 					(length 5.08)
 					(name "RSVDL29_NC"
 						(effects
@@ -5462,7 +5462,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 45.72 -2.54 180)
+					(at 43.18 -2.54 180)
 					(length 5.08)
 					(name "RSVDM32_NC"
 						(effects
@@ -5480,7 +5480,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 45.72 -5.08 180)
+					(at 43.18 -5.08 180)
 					(length 5.08)
 					(name "RSVDM30_NC"
 						(effects
@@ -5498,7 +5498,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 45.72 -7.62 180)
+					(at 43.18 -7.62 180)
 					(length 5.08)
 					(name "RSVDN31_NC"
 						(effects
@@ -5516,7 +5516,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 45.72 -10.16 180)
+					(at 43.18 -10.16 180)
 					(length 5.08)
 					(name "RSVDN29_NC"
 						(effects
@@ -5534,7 +5534,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 45.72 -12.7 180)
+					(at 43.18 -12.7 180)
 					(length 5.08)
 					(name "RSVDP32_NC"
 						(effects
@@ -5552,7 +5552,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 45.72 -15.24 180)
+					(at 43.18 -15.24 180)
 					(length 5.08)
 					(name "RSVDP30_NC"
 						(effects
@@ -5570,7 +5570,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 45.72 -17.78 180)
+					(at 43.18 -17.78 180)
 					(length 5.08)
 					(name "RSVDR31_NC"
 						(effects
@@ -5588,7 +5588,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 45.72 -20.32 180)
+					(at 43.18 -20.32 180)
 					(length 5.08)
 					(name "RSVDR29_NC"
 						(effects
@@ -5606,7 +5606,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 45.72 -22.86 180)
+					(at 43.18 -22.86 180)
 					(length 5.08)
 					(name "RSVDT32_NC"
 						(effects
@@ -5624,7 +5624,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 45.72 -25.4 180)
+					(at 43.18 -25.4 180)
 					(length 5.08)
 					(name "RSVDT30_NC"
 						(effects
@@ -5642,7 +5642,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 45.72 -27.94 180)
+					(at 43.18 -27.94 180)
 					(length 5.08)
 					(name "RSVDU35_NC"
 						(effects
@@ -5660,7 +5660,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 45.72 -30.48 180)
+					(at 43.18 -30.48 180)
 					(length 5.08)
 					(name "RSVDU33_NC"
 						(effects
@@ -5678,7 +5678,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 45.72 -33.02 180)
+					(at 43.18 -33.02 180)
 					(length 5.08)
 					(name "RSVDU31_NC"
 						(effects
@@ -5696,7 +5696,25 @@
 					)
 				)
 				(pin no_connect line
-					(at 45.72 -35.56 180)
+					(at 43.18 -35.56 180)
+					(length 5.08)
+					(name "RSVDV34_NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "V34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 43.18 -38.1 180)
 					(length 5.08)
 					(name "RSVDV32_NC"
 						(effects
@@ -5714,7 +5732,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 45.72 -38.1 180)
+					(at 43.18 -40.64 180)
 					(length 5.08)
 					(name "RSVDV30_NC"
 						(effects
@@ -5732,7 +5750,7 @@
 					)
 				)
 				(pin power_in line
-					(at 45.72 -43.18 180)
+					(at 43.18 -45.72 180)
 					(length 5.08)
 					(name "RSVDL31_VSS"
 						(effects
@@ -5750,7 +5768,7 @@
 					)
 				)
 				(pin power_in line
-					(at 45.72 -48.26 180)
+					(at 43.18 -50.8 180)
 					(length 5.08)
 					(name "RSVDD6_VSS"
 						(effects
@@ -5768,7 +5786,7 @@
 					)
 				)
 				(pin power_in line
-					(at 45.72 -50.8 180)
+					(at 43.18 -53.34 180)
 					(length 5.08)
 					(name "RSVDF38_VSS"
 						(effects
@@ -5786,7 +5804,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 45.72 -53.34 180)
+					(at 43.18 -55.88 180)
 					(length 5.08)
 					(name "RSVDD32_NC"
 						(effects
@@ -5804,7 +5822,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 45.72 -55.88 180)
+					(at 43.18 -58.42 180)
 					(length 5.08)
 					(name "RSVDJ39_NC"
 						(effects
@@ -5814,42 +5832,6 @@
 						)
 					)
 					(number "J39"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 45.72 -60.96 180)
-					(length 5.08)
-					(name "RSVDM15_NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "M15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 45.72 -63.5 180)
-					(length 5.08)
-					(name "RSVDM31_NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "M31"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12777,6 +12759,42 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 45.72 -60.96 180)
+					(length 5.08)
+					(name "TPIN_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 45.72 -63.5 180)
+					(length 5.08)
+					(name "TPIN_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(symbol "EZX710AT2_S_LMR5_4_1"
 				(rectangle
@@ -13386,7 +13404,7 @@
 			(symbol "EZX710AT2_S_LMR5_5_1"
 				(rectangle
 					(start 5.08 2.54)
-					(end 45.72 -93.98)
+					(end 38.1 -93.98)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -13612,7 +13630,7 @@
 					)
 				)
 				(pin passive line
-					(at 50.8 0 180)
+					(at 43.18 0 180)
 					(length 5.08)
 					(name "DEBUG_Y16"
 						(effects
@@ -13630,7 +13648,7 @@
 					)
 				)
 				(pin passive line
-					(at 50.8 -2.54 180)
+					(at 43.18 -2.54 180)
 					(length 5.08)
 					(name "DEBUG_W7"
 						(effects
@@ -13648,7 +13666,7 @@
 					)
 				)
 				(pin passive line
-					(at 50.8 -5.08 180)
+					(at 43.18 -5.08 180)
 					(length 5.08)
 					(name "DEBUG_Y20"
 						(effects
@@ -13666,7 +13684,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -10.16 180)
+					(at 43.18 -10.16 180)
 					(length 5.08)
 					(name "RSVDW25_NC"
 						(effects
@@ -13684,7 +13702,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -12.7 180)
+					(at 43.18 -12.7 180)
 					(length 5.08)
 					(name "RSVDW27_NC"
 						(effects
@@ -13702,7 +13720,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -15.24 180)
+					(at 43.18 -15.24 180)
 					(length 5.08)
 					(name "RSVDV22_NC"
 						(effects
@@ -13720,7 +13738,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -17.78 180)
+					(at 43.18 -17.78 180)
 					(length 5.08)
 					(name "RSVDV24_NC"
 						(effects
@@ -13738,7 +13756,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -20.32 180)
+					(at 43.18 -20.32 180)
 					(length 5.08)
 					(name "RSVDV26_NC"
 						(effects
@@ -13756,7 +13774,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -22.86 180)
+					(at 43.18 -22.86 180)
 					(length 5.08)
 					(name "RSVDV28_NC"
 						(effects
@@ -13774,7 +13792,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -25.4 180)
+					(at 43.18 -25.4 180)
 					(length 5.08)
 					(name "RSVDU23_NC"
 						(effects
@@ -13792,7 +13810,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -27.94 180)
+					(at 43.18 -27.94 180)
 					(length 5.08)
 					(name "RSVDU25_NC"
 						(effects
@@ -13810,7 +13828,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -30.48 180)
+					(at 43.18 -30.48 180)
 					(length 5.08)
 					(name "RSVDU27_NC"
 						(effects
@@ -13828,7 +13846,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -33.02 180)
+					(at 43.18 -33.02 180)
 					(length 5.08)
 					(name "RSVDU29_NC"
 						(effects
@@ -13846,7 +13864,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -35.56 180)
+					(at 43.18 -35.56 180)
 					(length 5.08)
 					(name "RSVDT22_NC"
 						(effects
@@ -13864,7 +13882,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -38.1 180)
+					(at 43.18 -38.1 180)
 					(length 5.08)
 					(name "RSVDT24_NC"
 						(effects
@@ -13882,7 +13900,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -40.64 180)
+					(at 43.18 -40.64 180)
 					(length 5.08)
 					(name "RSVDT26_NC"
 						(effects
@@ -13900,7 +13918,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -43.18 180)
+					(at 43.18 -43.18 180)
 					(length 5.08)
 					(name "RSVDT28_NC"
 						(effects
@@ -13918,7 +13936,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -45.72 180)
+					(at 43.18 -45.72 180)
 					(length 5.08)
 					(name "RSVDR23_NC"
 						(effects
@@ -13936,7 +13954,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -48.26 180)
+					(at 43.18 -48.26 180)
 					(length 5.08)
 					(name "RSVDR25_NC"
 						(effects
@@ -13954,7 +13972,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -50.8 180)
+					(at 43.18 -50.8 180)
 					(length 5.08)
 					(name "RSVDR27_NC"
 						(effects
@@ -13972,7 +13990,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -53.34 180)
+					(at 43.18 -53.34 180)
 					(length 5.08)
 					(name "RSVDP24_NC"
 						(effects
@@ -13990,7 +14008,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -55.88 180)
+					(at 43.18 -55.88 180)
 					(length 5.08)
 					(name "RSVDP26_NC"
 						(effects
@@ -14008,7 +14026,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -58.42 180)
+					(at 43.18 -58.42 180)
 					(length 5.08)
 					(name "RSVDP28_NC"
 						(effects
@@ -14026,7 +14044,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -60.96 180)
+					(at 43.18 -60.96 180)
 					(length 5.08)
 					(name "RSVDN23_NC"
 						(effects
@@ -14044,7 +14062,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -63.5 180)
+					(at 43.18 -63.5 180)
 					(length 5.08)
 					(name "RSVDN25_NC"
 						(effects
@@ -14062,7 +14080,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -66.04 180)
+					(at 43.18 -66.04 180)
 					(length 5.08)
 					(name "RSVDN27_NC"
 						(effects
@@ -14080,7 +14098,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -68.58 180)
+					(at 43.18 -68.58 180)
 					(length 5.08)
 					(name "RSVDM22_NC"
 						(effects
@@ -14098,7 +14116,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -71.12 180)
+					(at 43.18 -71.12 180)
 					(length 5.08)
 					(name "RSVDM24_NC"
 						(effects
@@ -14116,7 +14134,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -73.66 180)
+					(at 43.18 -73.66 180)
 					(length 5.08)
 					(name "RSVDM26_NC"
 						(effects
@@ -14134,7 +14152,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -76.2 180)
+					(at 43.18 -76.2 180)
 					(length 5.08)
 					(name "RSVDM28_NC"
 						(effects
@@ -14152,7 +14170,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -78.74 180)
+					(at 43.18 -78.74 180)
 					(length 5.08)
 					(name "RSVDL23_NC"
 						(effects
@@ -14170,7 +14188,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -81.28 180)
+					(at 43.18 -81.28 180)
 					(length 5.08)
 					(name "RSVDL27_NC"
 						(effects
@@ -14188,7 +14206,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -83.82 180)
+					(at 43.18 -83.82 180)
 					(length 5.08)
 					(name "RSVDK22_NC"
 						(effects
@@ -14206,7 +14224,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -86.36 180)
+					(at 43.18 -86.36 180)
 					(length 5.08)
 					(name "RSVDJ23_NC"
 						(effects
@@ -14224,7 +14242,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -88.9 180)
+					(at 43.18 -88.9 180)
 					(length 5.08)
 					(name "RSVDJ25_NC"
 						(effects
@@ -14242,7 +14260,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 50.8 -91.44 180)
+					(at 43.18 -91.44 180)
 					(length 5.08)
 					(name "RSVDW23_NC"
 						(effects
@@ -15398,7 +15416,7 @@
 			(symbol "EZX710AT2_S_LMR5_7_1"
 				(rectangle
 					(start 5.08 2.54)
-					(end 40.64 -81.28)
+					(end 38.1 -71.12)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -15409,6 +15427,42 @@
 				)
 				(pin power_in line
 					(at 0 0 0)
+					(length 5.08)
+					(name "RSVDE19_1P88V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "RSVDD8_1P88V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -5.08 0)
 					(length 5.08)
 					(name "RSVDJ19_VSS"
 						(effects
@@ -15426,7 +15480,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -2.54 0)
+					(at 0 -7.62 0)
 					(length 5.08)
 					(name "RSVDJ21_VSS"
 						(effects
@@ -15444,7 +15498,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -5.08 0)
+					(at 0 -10.16 0)
 					(length 5.08)
 					(name "RSVH18_VSS"
 						(effects
@@ -15461,26 +15515,8 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "TPIN_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "H20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 0)
+				(pin power_in line
+					(at 0 -12.7 0)
 					(length 5.08)
 					(name "RSVDH22_VSS"
 						(effects
@@ -15490,24 +15526,6 @@
 						)
 					)
 					(number "H22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -12.7 0)
-					(length 5.08)
-					(name "TPIN_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -15608,24 +15626,6 @@
 				(pin power_in line
 					(at 0 -27.94 0)
 					(length 5.08)
-					(name "RSVDE19_VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "E19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -30.48 0)
-					(length 5.08)
 					(name "RSVDE21_VSS"
 						(effects
 							(font
@@ -15642,7 +15642,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -33.02 0)
+					(at 0 -30.48 0)
 					(length 5.08)
 					(name "RSVDE23_VSS"
 						(effects
@@ -15660,7 +15660,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -35.56 0)
+					(at 0 -33.02 0)
 					(length 5.08)
 					(name "RSVDE25_VSS"
 						(effects
@@ -15678,7 +15678,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -38.1 0)
+					(at 0 -35.56 0)
 					(length 5.08)
 					(name "RSVDD22_VSS"
 						(effects
@@ -15696,25 +15696,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(name "RSVDD8_1P88V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -48.26 0)
+					(at 0 -38.1 0)
 					(length 5.08)
 					(name "RSVDG23_VSS"
 						(effects
@@ -15732,7 +15714,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -50.8 0)
+					(at 0 -40.64 0)
 					(length 5.08)
 					(name "RSVDH24_VSS"
 						(effects
@@ -15750,7 +15732,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 0 -55.88 0)
+					(at 0 -45.72 0)
 					(length 5.08)
 					(name "RSVDK34_NC"
 						(effects
@@ -15768,7 +15750,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 0 -58.42 0)
+					(at 0 -48.26 0)
 					(length 5.08)
 					(name "RSVDK36_NC"
 						(effects
@@ -15786,7 +15768,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 0 -60.96 0)
+					(at 0 -50.8 0)
 					(length 5.08)
 					(name "RSVDK26_NC"
 						(effects
@@ -15804,7 +15786,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 0 -63.5 0)
+					(at 0 -53.34 0)
 					(length 5.08)
 					(name "RSVDK28_NC"
 						(effects
@@ -15822,7 +15804,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 0 -68.58 0)
+					(at 0 -58.42 0)
 					(length 5.08)
 					(name "RSVDD20_NC"
 						(effects
@@ -15840,7 +15822,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 0 -71.12 0)
+					(at 0 -60.96 0)
 					(length 5.08)
 					(name "RSVDC21_NC"
 						(effects
@@ -15858,7 +15840,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 0 -76.2 0)
+					(at 0 -66.04 0)
 					(length 5.08)
 					(name "RSVDB42_NC"
 						(effects
@@ -15876,7 +15858,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 0 -78.74 0)
+					(at 0 -68.58 0)
 					(length 5.08)
 					(name "RSVDA41_NC"
 						(effects
@@ -15894,7 +15876,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 45.72 0 180)
+					(at 43.18 0 180)
 					(length 5.08)
 					(name "RSVDL29_NC"
 						(effects
@@ -15912,7 +15894,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 45.72 -2.54 180)
+					(at 43.18 -2.54 180)
 					(length 5.08)
 					(name "RSVDM32_NC"
 						(effects
@@ -15930,7 +15912,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 45.72 -5.08 180)
+					(at 43.18 -5.08 180)
 					(length 5.08)
 					(name "RSVDM30_NC"
 						(effects
@@ -15948,7 +15930,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 45.72 -7.62 180)
+					(at 43.18 -7.62 180)
 					(length 5.08)
 					(name "RSVDN31_NC"
 						(effects
@@ -15966,7 +15948,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 45.72 -10.16 180)
+					(at 43.18 -10.16 180)
 					(length 5.08)
 					(name "RSVDN29_NC"
 						(effects
@@ -15984,7 +15966,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 45.72 -12.7 180)
+					(at 43.18 -12.7 180)
 					(length 5.08)
 					(name "RSVDP32_NC"
 						(effects
@@ -16002,7 +15984,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 45.72 -15.24 180)
+					(at 43.18 -15.24 180)
 					(length 5.08)
 					(name "RSVDP30_NC"
 						(effects
@@ -16020,7 +16002,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 45.72 -17.78 180)
+					(at 43.18 -17.78 180)
 					(length 5.08)
 					(name "RSVDR31_NC"
 						(effects
@@ -16038,7 +16020,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 45.72 -20.32 180)
+					(at 43.18 -20.32 180)
 					(length 5.08)
 					(name "RSVDR29_NC"
 						(effects
@@ -16056,7 +16038,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 45.72 -22.86 180)
+					(at 43.18 -22.86 180)
 					(length 5.08)
 					(name "RSVDT32_NC"
 						(effects
@@ -16074,7 +16056,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 45.72 -25.4 180)
+					(at 43.18 -25.4 180)
 					(length 5.08)
 					(name "RSVDT30_NC"
 						(effects
@@ -16092,7 +16074,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 45.72 -27.94 180)
+					(at 43.18 -27.94 180)
 					(length 5.08)
 					(name "RSVDU35_NC"
 						(effects
@@ -16110,7 +16092,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 45.72 -30.48 180)
+					(at 43.18 -30.48 180)
 					(length 5.08)
 					(name "RSVDU33_NC"
 						(effects
@@ -16128,7 +16110,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 45.72 -33.02 180)
+					(at 43.18 -33.02 180)
 					(length 5.08)
 					(name "RSVDU31_NC"
 						(effects
@@ -16146,7 +16128,25 @@
 					)
 				)
 				(pin no_connect line
-					(at 45.72 -35.56 180)
+					(at 43.18 -35.56 180)
+					(length 5.08)
+					(name "RSVDV34_NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "V34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 43.18 -38.1 180)
 					(length 5.08)
 					(name "RSVDV32_NC"
 						(effects
@@ -16164,7 +16164,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 45.72 -38.1 180)
+					(at 43.18 -40.64 180)
 					(length 5.08)
 					(name "RSVDV30_NC"
 						(effects
@@ -16182,7 +16182,7 @@
 					)
 				)
 				(pin power_in line
-					(at 45.72 -43.18 180)
+					(at 43.18 -45.72 180)
 					(length 5.08)
 					(name "RSVDL31_VSS"
 						(effects
@@ -16200,7 +16200,7 @@
 					)
 				)
 				(pin power_in line
-					(at 45.72 -48.26 180)
+					(at 43.18 -50.8 180)
 					(length 5.08)
 					(name "RSVDD6_VSS"
 						(effects
@@ -16218,7 +16218,7 @@
 					)
 				)
 				(pin power_in line
-					(at 45.72 -50.8 180)
+					(at 43.18 -53.34 180)
 					(length 5.08)
 					(name "RSVDF38_VSS"
 						(effects
@@ -16236,7 +16236,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 45.72 -53.34 180)
+					(at 43.18 -55.88 180)
 					(length 5.08)
 					(name "RSVDD32_NC"
 						(effects
@@ -16254,7 +16254,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 45.72 -55.88 180)
+					(at 43.18 -58.42 180)
 					(length 5.08)
 					(name "RSVDJ39_NC"
 						(effects
@@ -16264,42 +16264,6 @@
 						)
 					)
 					(number "J39"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 45.72 -60.96 180)
-					(length 5.08)
-					(name "RSVDM15_NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "M15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 45.72 -63.5 180)
-					(length 5.08)
-					(name "RSVDM31_NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "M31"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -35995,9 +35959,6 @@
 		(pin "U37"
 			(uuid "b2d085c9-6b06-4c49-9c34-ef13c4d15f39")
 		)
-		(pin "M31"
-			(uuid "082a11aa-52af-4450-aba4-364e0589f30b")
-		)
 		(pin "AC7"
 			(uuid "5cd199d4-c1e1-4cbb-a944-589d7149cd69")
 		)
@@ -36619,7 +36580,7 @@
 		(pin "J13"
 			(uuid "3c238cb0-c56d-49d1-99c8-f056d75ee824")
 		)
-		(pin "M15"
+		(pin "V34"
 			(uuid "11ccde35-e889-4d26-8372-e435509c9829")
 		)
 		(pin "M10"
@@ -37622,9 +37583,6 @@
 		(pin "U37"
 			(uuid "b2d085c9-6b06-4c49-9c34-ef13c4d15f3a")
 		)
-		(pin "M31"
-			(uuid "082a11aa-52af-4450-aba4-364e0589f30c")
-		)
 		(pin "AC7"
 			(uuid "5cd199d4-c1e1-4cbb-a944-589d7149cd6a")
 		)
@@ -38246,7 +38204,7 @@
 		(pin "J13"
 			(uuid "3c238cb0-c56d-49d1-99c8-f056d75ee825")
 		)
-		(pin "M15"
+		(pin "V34"
 			(uuid "11ccde35-e889-4d26-8372-e435509c982a")
 		)
 		(pin "M10"
