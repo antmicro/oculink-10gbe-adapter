@@ -15932,6 +15932,24 @@
 				(pin no_connect line
 					(at 43.18 -35.56 180)
 					(length 5.08)
+					(name "RSVDV34_NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "V34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 43.18 -38.1 180)
+					(length 5.08)
 					(name "RSVDV32_NC"
 						(effects
 							(font
@@ -15948,7 +15966,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 43.18 -38.1 180)
+					(at 43.18 -40.64 180)
 					(length 5.08)
 					(name "RSVDV30_NC"
 						(effects
@@ -15966,7 +15984,7 @@
 					)
 				)
 				(pin power_in line
-					(at 43.18 -43.18 180)
+					(at 43.18 -45.72 180)
 					(length 5.08)
 					(name "RSVDL31_VSS"
 						(effects
@@ -15984,7 +16002,7 @@
 					)
 				)
 				(pin power_in line
-					(at 43.18 -48.26 180)
+					(at 43.18 -50.8 180)
 					(length 5.08)
 					(name "RSVDD6_VSS"
 						(effects
@@ -16002,7 +16020,7 @@
 					)
 				)
 				(pin power_in line
-					(at 43.18 -50.8 180)
+					(at 43.18 -53.34 180)
 					(length 5.08)
 					(name "RSVDF38_VSS"
 						(effects
@@ -16020,7 +16038,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 43.18 -53.34 180)
+					(at 43.18 -55.88 180)
 					(length 5.08)
 					(name "RSVDD32_NC"
 						(effects
@@ -16038,7 +16056,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 43.18 -55.88 180)
+					(at 43.18 -58.42 180)
 					(length 5.08)
 					(name "RSVDJ39_NC"
 						(effects
@@ -16048,42 +16066,6 @@
 						)
 					)
 					(number "J39"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 43.18 -60.96 180)
-					(length 5.08)
-					(name "RSVDM15_NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "M15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 43.18 -63.5 180)
-					(length 5.08)
-					(name "RSVDM31_NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "M31"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -21735,6 +21717,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 247.65) (xy 271.78 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14f9ee26-77da-49e6-81ac-d45596b353e1")
+	)
+	(wire
+		(pts
 			(xy 273.05 33.02) (xy 276.86 33.02)
 		)
 		(stroke
@@ -21835,6 +21827,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 247.65) (xy 262.89 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2abe691c-0d85-4468-adf1-4734fa716893")
+	)
+	(wire
+		(pts
 			(xy 118.11 247.65) (xy 118.11 250.19)
 		)
 		(stroke
@@ -21855,16 +21857,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 247.65) (xy 254 250.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2dd5567d-ee83-4f68-b545-4aa329b38e22")
-	)
-	(wire
-		(pts
 			(xy 173.99 168.91) (xy 173.99 171.45)
 		)
 		(stroke
@@ -21875,13 +21867,13 @@
 	)
 	(wire
 		(pts
-			(xy 254 229.87) (xy 254 242.57)
+			(xy 262.89 229.87) (xy 262.89 242.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3483677d-4346-4982-aba9-da6f106c70d8")
+		(uuid "335eb3b4-202e-4972-8907-a16bb5519d2e")
 	)
 	(wire
 		(pts
@@ -21945,16 +21937,6 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 227.33) (xy 262.89 242.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4407499a-1c3e-46ff-a8df-0281150acdcf")
-	)
-	(wire
-		(pts
 			(xy 55.88 184.15) (xy 195.58 184.15)
 		)
 		(stroke
@@ -21962,6 +21944,16 @@
 			(type default)
 		)
 		(uuid "44bca168-549e-44c1-8012-22f23f92f68e")
+	)
+	(wire
+		(pts
+			(xy 238.76 224.79) (xy 271.78 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45321f29-9c37-4b0a-95e7-7fe031b949a6")
 	)
 	(wire
 		(pts
@@ -22055,23 +22047,13 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 247.65) (xy 271.78 250.19)
+			(xy 238.76 232.41) (xy 254 232.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "66d9fa9d-66f4-4132-86aa-9d2f668702b3")
-	)
-	(wire
-		(pts
-			(xy 271.78 242.57) (xy 271.78 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71ed928c-e163-4375-b43c-cca9c33074cb")
+		(uuid "7147f6e1-e5ef-4768-bdbf-0868ce31f34d")
 	)
 	(wire
 		(pts
@@ -22215,26 +22197,6 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 227.33) (xy 262.89 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8be89fea-dbb2-4975-9a7f-8a671c20872c")
-	)
-	(wire
-		(pts
-			(xy 238.76 229.87) (xy 254 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d2f8af4-72da-4b79-86ca-5a873b0a0543")
-	)
-	(wire
-		(pts
 			(xy 171.45 247.65) (xy 171.45 250.19)
 		)
 		(stroke
@@ -22282,16 +22244,6 @@
 			(type default)
 		)
 		(uuid "9a231711-de43-4181-9af7-d17bc9be88f3")
-	)
-	(wire
-		(pts
-			(xy 238.76 222.25) (xy 271.78 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ac87ff3-9260-45fa-9a41-b51666980975")
 	)
 	(wire
 		(pts
@@ -22385,6 +22337,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 229.87) (xy 262.89 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae7b63c3-b236-470d-a658-2e3cce0eb47e")
+	)
+	(wire
+		(pts
 			(xy 73.66 189.23) (xy 195.58 189.23)
 		)
 		(stroke
@@ -22425,6 +22387,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 247.65) (xy 254 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8e7fbe6-15f5-4f65-9101-8fce9998cdbc")
+	)
+	(wire
+		(pts
 			(xy 153.67 76.2) (xy 153.67 64.77)
 		)
 		(stroke
@@ -22462,16 +22434,6 @@
 			(type default)
 		)
 		(uuid "bdacdb21-404d-44aa-85f2-acaadf0051e6")
-	)
-	(wire
-		(pts
-			(xy 262.89 247.65) (xy 262.89 250.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c186006a-dcb7-4a30-8e8b-e3f17259abd1")
 	)
 	(wire
 		(pts
@@ -22595,6 +22557,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 232.41) (xy 254 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb49b624-892a-45c6-a59c-29cdd6589266")
+	)
+	(wire
+		(pts
 			(xy 118.11 201.93) (xy 195.58 201.93)
 		)
 		(stroke
@@ -22602,6 +22574,16 @@
 			(type default)
 		)
 		(uuid "eb859bda-08fe-4cdd-b8c7-d39d4dd93320")
+	)
+	(wire
+		(pts
+			(xy 271.78 242.57) (xy 271.78 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed65097f-4da5-4185-801d-c73b6e6f703a")
 	)
 	(wire
 		(pts
@@ -22813,16 +22795,6 @@
 		)
 		(uuid "4a50b611-0733-4f2a-98a7-b841f3f5ceeb")
 	)
-	(label "RSVDL31_VSS"
-		(at 241.3 222.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "61133a46-f332-4973-bdb1-b472eb5f1d57")
-	)
 	(label "RSVDH22_VSS"
 		(at 193.04 191.77 180)
 		(effects
@@ -22853,16 +22825,6 @@
 		)
 		(uuid "6953bddc-ebb1-47f5-82a3-9e100e31298a")
 	)
-	(label "RSVDF38_VSS"
-		(at 241.3 229.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "69904791-75aa-4827-bb49-0c84b13819a7")
-	)
 	(label "RSVDG21_VSS"
 		(at 193.04 196.85 180)
 		(effects
@@ -22872,6 +22834,16 @@
 			(justify right bottom)
 		)
 		(uuid "6cf57fa2-4dbd-471e-80de-3bd29369d371")
+	)
+	(label "RSVDF38_VSS"
+		(at 241.3 232.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d3f9b80-f8f8-4deb-ad56-64a23fca8986")
 	)
 	(label "RSVDH24_VSS"
 		(at 193.04 219.71 180)
@@ -22892,16 +22864,6 @@
 			(justify left bottom)
 		)
 		(uuid "72e26698-b7e1-48b8-82bc-39b6bb0deed8")
-	)
-	(label "RSVDD6_VSS"
-		(at 241.3 227.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7cec2dd7-2ba2-44fe-a4ba-2a3397a07cd8")
 	)
 	(label "RSVDW1_VSS"
 		(at 193.04 64.77 180)
@@ -22983,6 +22945,16 @@
 		)
 		(uuid "d180038d-04b7-44ea-8af7-40264f5b58df")
 	)
+	(label "RSVDD6_VSS"
+		(at 241.3 229.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e5a6a834-54ea-456b-88af-179627071462")
+	)
 	(label "RSVDD8_1P88V"
 		(at 193.04 181.61 180)
 		(effects
@@ -23012,6 +22984,16 @@
 			(justify right bottom)
 		)
 		(uuid "f75218b7-24e9-4580-a6de-89f69e3cfea0")
+	)
+	(label "RSVDL31_VSS"
+		(at 241.3 224.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe719806-e332-43a7-9aec-9c885b7c046d")
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
@@ -27482,9 +27464,6 @@
 		(pin "U37"
 			(uuid "b2d085c9-6b06-4c49-9c34-ef13c4d15f39")
 		)
-		(pin "M31"
-			(uuid "1df896fc-0d26-4a42-a9e0-df8574f04e9d")
-		)
 		(pin "AC7"
 			(uuid "5cd199d4-c1e1-4cbb-a944-589d7149cd69")
 		)
@@ -28105,9 +28084,6 @@
 		)
 		(pin "J13"
 			(uuid "5391cbc1-618a-42df-b105-40052a53f22c")
-		)
-		(pin "M15"
-			(uuid "bf9c3fc2-3307-4adc-b39a-d3d45a213616")
 		)
 		(pin "M10"
 			(uuid "2ddbfea3-38e6-453e-968e-0a6255525407")
@@ -28918,6 +28894,9 @@
 		)
 		(pin "Y42"
 			(uuid "7c24da51-bbd1-4c9b-a9ba-8eed3f0e5e2c")
+		)
+		(pin "V34"
+			(uuid "d1ec5ab9-f81b-4be4-8f25-3618afb0c4ec")
 		)
 		(instances
 			(project "10-gbe-expansion"

@@ -223,6 +223,217 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "antmicroCapacitors0402:C_470p_0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 20.32 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "C_470p_0402"
+				(at 20.32 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+				(at 20.32 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
+				(at 20.32 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD Multilayer Ceramic Capacitor, General Purpose, 470 pF, 25 V, 0402 [1005 Metric], ± 10%, X7R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "0402B471K250CT"
+				(at 20.32 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Walsin"
+				(at 20.32 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 20.32 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 20.32 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Val" "470p"
+				(at 20.32 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Voltage" ""
+				(at 20.32 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Dielectric" ""
+				(at 20.32 -30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE, MLCC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_470p_0402_0_1"
+				(polyline
+					(pts
+						(xy 2.032 -1.524) (xy 2.032 1.524)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 -1.524) (xy 3.048 1.524)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_470p_0402_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "antmicroCapacitors0603:C_22u_16V_0603"
 			(pin_numbers
 				(hide yes)
@@ -1494,7 +1705,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroResistors0402:R_270R_0402"
+		(symbol "antmicroResistors0402:R_220R_0402"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1514,7 +1725,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "R_270R_0402"
+			(property "Value" "R_220R_0402"
 				(at 20.32 -12.7 0)
 				(effects
 					(font
@@ -1547,7 +1758,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SMD Chip Resistor, 270 ohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(property "Description" "SMD Chip Resistor, 220 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1556,7 +1767,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "CR0402-FX-2700GLF"
+			(property "MPN" "CR0402-FX-2200GLF"
 				(at 20.32 -20.32 0)
 				(effects
 					(font
@@ -1600,7 +1811,7 @@
 					(hide yes)
 				)
 			)
-			(property "Val" "270R"
+			(property "Val" "220R"
 				(at 20.32 -7.62 0)
 				(effects
 					(font
@@ -1629,7 +1840,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_270R_0402_0_1"
+			(symbol "R_220R_0402_0_1"
 				(rectangle
 					(start 0.635 0.889)
 					(end 4.445 -0.889)
@@ -1642,7 +1853,7 @@
 					)
 				)
 			)
-			(symbol "R_270R_0402_1_1"
+			(symbol "R_220R_0402_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 0.635)
@@ -2129,10 +2340,28 @@
 		(uuid "13884e68-65a8-4cbe-8e46-50acf3b76eac")
 	)
 	(junction
+		(at 243.84 220.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "231efd27-697b-4579-92e6-c93114360922")
+	)
+	(junction
 		(at 176.53 226.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "30bcd512-5f04-443f-8294-b74cbd025b8f")
+	)
+	(junction
+		(at 233.68 241.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "398cdb06-9879-4568-844f-65f22c580316")
+	)
+	(junction
+		(at 243.84 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42acec1b-e245-4b53-8c1b-930744a1ef1f")
 	)
 	(junction
 		(at 201.93 231.14)
@@ -2165,6 +2394,30 @@
 		(uuid "81643eb9-6e3e-4792-9c20-64777f9e66b2")
 	)
 	(junction
+		(at 228.6 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84050aae-ddb4-4721-9168-2dfadbc462f2")
+	)
+	(junction
+		(at 243.84 241.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8cc1ca95-785f-498a-863b-2ec54f554e34")
+	)
+	(junction
+		(at 254 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9212bd98-4c51-4c30-9be1-3e40ea342980")
+	)
+	(junction
+		(at 233.68 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9eef2375-82a9-4964-b5b1-b0e896829260")
+	)
+	(junction
 		(at 201.93 228.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2175,6 +2428,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a75e70b0-31fc-41ab-80c2-f6003f842b15")
+	)
+	(junction
+		(at 228.6 241.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd0f0d64-d8bf-44d5-ad18-1d4cbcd15155")
+	)
+	(junction
+		(at 243.84 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c62f293f-a20a-448f-91b6-c4fcd8f0d699")
 	)
 	(junction
 		(at 228.6 80.01)
@@ -2189,10 +2454,28 @@
 		(uuid "d410750a-eaa7-41a6-8dbf-79748a5cb420")
 	)
 	(junction
+		(at 254 228.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d432ab84-e2e9-420c-ab8b-5e6eb3e04985")
+	)
+	(junction
+		(at 233.68 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d68ba671-7925-4e62-861e-5cac5eb7b437")
+	)
+	(junction
 		(at 176.53 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d9a0712e-93e9-4b8e-9d1d-a57cb470d865")
+	)
+	(junction
+		(at 233.68 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de4a26c1-d98c-467a-9b54-06463713f7b4")
 	)
 	(junction
 		(at 185.42 97.79)
@@ -2352,13 +2635,13 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 220.98) (xy 234.95 220.98)
+			(xy 243.84 105.41) (xy 233.68 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "002e4fc4-7e19-4688-93fe-a33ac6ba6833")
+		(uuid "0043bbda-76e1-4a9c-8b7b-7681b84943a4")
 	)
 	(bus
 		(pts
@@ -2369,6 +2652,26 @@
 			(type default)
 		)
 		(uuid "01bc1fc4-849b-4c17-b1ae-3ce513a80507")
+	)
+	(wire
+		(pts
+			(xy 254 228.6) (xy 259.08 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0426dba9-6066-4386-8b9f-402d4aad0c9d")
+	)
+	(wire
+		(pts
+			(xy 228.6 105.41) (xy 233.68 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a6fbc61-7fd3-45d2-84ad-d596460fe11b")
 	)
 	(wire
 		(pts
@@ -2389,6 +2692,16 @@
 			(type default)
 		)
 		(uuid "0b48af36-272e-4139-b748-da2e4ef88900")
+	)
+	(wire
+		(pts
+			(xy 226.06 218.44) (xy 233.68 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cb68a99-246a-4232-b586-fe193cb33ecd")
 	)
 	(wire
 		(pts
@@ -2440,16 +2753,6 @@
 		)
 		(uuid "1a430023-ded4-45dc-ba23-afdb8e984133")
 	)
-	(wire
-		(pts
-			(xy 226.06 218.44) (xy 234.95 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e08eb07-62b9-4650-bcc9-3f306c04ea9b")
-	)
 	(bus
 		(pts
 			(xy 179.07 223.52) (xy 181.61 220.98)
@@ -2459,16 +2762,6 @@
 			(type default)
 		)
 		(uuid "1ec38032-258b-445a-97a7-724f113f4f3f")
-	)
-	(wire
-		(pts
-			(xy 226.06 85.09) (xy 234.95 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ef3ec41-d1bd-4c7d-95bf-89739d832f99")
 	)
 	(bus
 		(pts
@@ -2512,7 +2805,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 82.55) (xy 247.65 82.55)
+			(xy 264.16 82.55) (xy 271.78 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2552,6 +2845,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 220.98) (xy 259.08 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3780fbed-0274-4b8d-b57d-d126e3258e6a")
+	)
+	(wire
+		(pts
 			(xy 226.06 226.06) (xy 228.6 226.06)
 		)
 		(stroke
@@ -2562,7 +2865,17 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 85.09) (xy 247.65 85.09)
+			(xy 233.68 238.76) (xy 233.68 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a545a81-fbfa-4fc9-a5ee-b829efcf806b")
+	)
+	(wire
+		(pts
+			(xy 264.16 85.09) (xy 271.78 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2602,13 +2915,33 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 92.71) (xy 234.95 92.71)
+			(xy 233.68 218.44) (xy 233.68 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "516a8e50-71e6-4651-bd33-f835084d7b6a")
+	)
+	(wire
+		(pts
+			(xy 226.06 92.71) (xy 254 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "52679c7b-d814-417e-ad98-beb8409fef91")
+	)
+	(wire
+		(pts
+			(xy 243.84 102.87) (xy 243.84 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "563d5896-e81d-42e9-8351-9d326f9bfb30")
 	)
 	(wire
 		(pts
@@ -2652,7 +2985,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 228.6) (xy 247.65 228.6)
+			(xy 264.16 228.6) (xy 271.78 228.6)
 		)
 		(stroke
 			(width 0)
@@ -2672,16 +3005,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 228.6) (xy 234.95 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "617b02b9-9328-4ba0-8e88-233839440271")
-	)
-	(wire
-		(pts
 			(xy 185.42 226.06) (xy 194.31 226.06)
 		)
 		(stroke
@@ -2689,6 +3012,16 @@
 			(type default)
 		)
 		(uuid "6457e548-a9bd-4792-8a83-30d15cee7c8d")
+	)
+	(wire
+		(pts
+			(xy 233.68 82.55) (xy 259.08 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65237964-cf5f-48e9-929b-0d503c3b5929")
 	)
 	(wire
 		(pts
@@ -2702,6 +3035,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 241.3) (xy 233.68 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68ced429-4ea3-4120-87e6-4754d434701c")
+	)
+	(wire
+		(pts
 			(xy 140.97 97.79) (xy 140.97 100.33)
 		)
 		(stroke
@@ -2709,6 +3052,26 @@
 			(type default)
 		)
 		(uuid "6a8d721d-fddb-4bd4-8143-19be8059337d")
+	)
+	(wire
+		(pts
+			(xy 243.84 238.76) (xy 243.84 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b5a65de-18f1-4880-b385-13425946cd12")
+	)
+	(wire
+		(pts
+			(xy 254 241.3) (xy 243.84 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ee610eb-2892-4609-a099-47a411bbe4f5")
 	)
 	(wire
 		(pts
@@ -2792,6 +3155,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 102.87) (xy 233.68 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77418e46-1730-4435-9c10-a189c744ceaf")
+	)
+	(wire
+		(pts
 			(xy 204.47 215.9) (xy 184.15 215.9)
 		)
 		(stroke
@@ -2799,6 +3172,16 @@
 			(type default)
 		)
 		(uuid "79cf5822-40ff-4ad1-813b-68878b7d748a")
+	)
+	(wire
+		(pts
+			(xy 254 92.71) (xy 259.08 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bde694d-3d37-40b6-bbe4-2269e29c9937")
 	)
 	(wire
 		(pts
@@ -2852,7 +3235,17 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 92.71) (xy 247.65 92.71)
+			(xy 243.84 220.98) (xy 243.84 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8377e99c-d888-4555-aa42-5e5c8305db70")
+	)
+	(wire
+		(pts
+			(xy 264.16 92.71) (xy 271.78 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2862,7 +3255,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 220.98) (xy 247.65 220.98)
+			(xy 264.16 220.98) (xy 271.78 220.98)
 		)
 		(stroke
 			(width 0)
@@ -2882,6 +3275,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 228.6) (xy 254 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bedeaf1-32cc-4506-9e44-6a28f945cddb")
+	)
+	(wire
+		(pts
 			(xy 176.53 105.41) (xy 176.53 107.95)
 		)
 		(stroke
@@ -2892,6 +3295,26 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 241.3) (xy 228.6 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91334cb9-51b3-4b67-823f-5806a6b18e7a")
+	)
+	(wire
+		(pts
+			(xy 226.06 82.55) (xy 233.68 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "968a5994-22fc-43a2-8b5d-727a01605aac")
+	)
+	(wire
+		(pts
 			(xy 148.59 97.79) (xy 160.02 97.79)
 		)
 		(stroke
@@ -2899,6 +3322,16 @@
 			(type default)
 		)
 		(uuid "9693bcd6-740d-49c0-a041-bb44bf7b349a")
+	)
+	(wire
+		(pts
+			(xy 228.6 241.3) (xy 233.68 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "981ad566-d1ff-4407-a462-d42adb725a05")
 	)
 	(wire
 		(pts
@@ -3002,13 +3435,23 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 82.55) (xy 234.95 82.55)
+			(xy 254 92.71) (xy 254 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b27e236d-7671-4754-bacb-ed5f9d0b8da9")
+		(uuid "b2cb5c1f-871a-440f-bd90-de125a700a46")
+	)
+	(wire
+		(pts
+			(xy 226.06 85.09) (xy 243.84 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6205a5e-f74e-4ee0-9c63-045a68ccff0a")
 	)
 	(bus
 		(pts
@@ -3032,7 +3475,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 233.68) (xy 228.6 236.22)
+			(xy 228.6 233.68) (xy 228.6 241.3)
 		)
 		(stroke
 			(width 0)
@@ -3072,6 +3515,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 105.41) (xy 243.84 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c07e8296-d1bf-432c-a1d7-d3f2c8d5cd5f")
+	)
+	(wire
+		(pts
 			(xy 228.6 80.01) (xy 228.6 77.47)
 		)
 		(stroke
@@ -3079,6 +3532,16 @@
 			(type default)
 		)
 		(uuid "c0f651aa-b08f-4129-996c-cf6d6b6d5b37")
+	)
+	(wire
+		(pts
+			(xy 254 102.87) (xy 254 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0f995a5-5a30-4238-8915-c47c9df81247")
 	)
 	(wire
 		(pts
@@ -3192,6 +3655,26 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 228.6) (xy 254 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d02e9fda-0326-4c4e-a674-43e80d4fd491")
+	)
+	(wire
+		(pts
+			(xy 226.06 220.98) (xy 243.84 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2ee9b8f-3f3e-4e88-a81e-e77899eb6f6b")
+	)
+	(wire
+		(pts
 			(xy 228.6 80.01) (xy 228.6 90.17)
 		)
 		(stroke
@@ -3209,6 +3692,16 @@
 			(type default)
 		)
 		(uuid "dd45ca38-33e9-42e8-911c-15654d38ac50")
+	)
+	(wire
+		(pts
+			(xy 243.84 85.09) (xy 259.08 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de71739e-9622-4e35-af6c-421188de32aa")
 	)
 	(wire
 		(pts
@@ -3242,7 +3735,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 218.44) (xy 247.65 218.44)
+			(xy 264.16 218.44) (xy 271.78 218.44)
 		)
 		(stroke
 			(width 0)
@@ -3302,6 +3795,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 85.09) (xy 243.84 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef045472-24b2-42ae-86d6-51690ce4cdaa")
+	)
+	(wire
+		(pts
 			(xy 204.47 210.82) (xy 184.15 210.82)
 		)
 		(stroke
@@ -3322,7 +3825,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 97.79) (xy 228.6 107.95)
+			(xy 228.6 97.79) (xy 228.6 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3352,6 +3855,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 82.55) (xy 233.68 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f68641ac-0e38-4662-88a8-fce464b56e33")
+	)
+	(wire
+		(pts
 			(xy 201.93 92.71) (xy 201.93 95.25)
 		)
 		(stroke
@@ -3359,6 +3872,36 @@
 			(type default)
 		)
 		(uuid "f8ae4ad0-29f7-4c32-b076-d29eecf96c01")
+	)
+	(wire
+		(pts
+			(xy 254 238.76) (xy 254 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8de7126-b069-4c63-8d81-ddbb38c8df78")
+	)
+	(wire
+		(pts
+			(xy 228.6 105.41) (xy 228.6 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9bcb9a0-a7c3-41c2-ae1b-cca9a47e969f")
+	)
+	(wire
+		(pts
+			(xy 233.68 218.44) (xy 259.08 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb779ba5-e962-4edf-baaf-de55db1545e8")
 	)
 	(bus
 		(pts
@@ -3573,7 +4116,7 @@
 	)
 	(hierarchical_label "~{P0_LED_LINK_10G}"
 		(shape input)
-		(at 247.65 85.09 0)
+		(at 271.78 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3584,7 +4127,7 @@
 	)
 	(hierarchical_label "~{P1_LED_ACT}"
 		(shape input)
-		(at 247.65 228.6 0)
+		(at 271.78 228.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3595,7 +4138,7 @@
 	)
 	(hierarchical_label "~{P0_LED_ACT}"
 		(shape input)
-		(at 247.65 92.71 0)
+		(at 271.78 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3606,7 +4149,7 @@
 	)
 	(hierarchical_label "~{P1_LED_LINK_10G}"
 		(shape input)
-		(at 247.65 220.98 0)
+		(at 271.78 220.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3628,7 +4171,7 @@
 	)
 	(hierarchical_label "~{P1_LINK_LESS_THAN_10G}"
 		(shape input)
-		(at 247.65 218.44 0)
+		(at 271.78 218.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3639,7 +4182,7 @@
 	)
 	(hierarchical_label "~{P0_LINK_LESS_THAN_10G}"
 		(shape input)
-		(at 247.65 82.55 0)
+		(at 271.78 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3737,6 +4280,146 @@
 			(project "10-gbe-expansion"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/b3dd2e9f-aefc-4b19-a6a4-069fdee319cd"
 					(reference "#PWR0120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroResistors0402:R_220R_0402")
+		(at 259.08 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "133ae8d5-0f32-47fd-8d38-392ddb7422f9")
+		(property "Reference" "R3"
+			(at 259.08 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_220R_0402"
+			(at 279.4 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 279.4 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 279.4 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, 220 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 259.08 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0402-FX-2200GLF"
+			(at 279.4 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 279.4 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 279.4 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 279.4 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "220R"
+			(at 264.16 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 279.4 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3dcf4b79-1b13-4612-a66c-e19787d1687c")
+		)
+		(pin "2"
+			(uuid "e4b77fb8-036f-4035-b2b8-fbb117765768")
+		)
+		(instances
+			(project "10-gbe-expansion"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/b3dd2e9f-aefc-4b19-a6a4-069fdee319cd"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -3981,6 +4664,446 @@
 			(project "10-gbe-expansion"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/b3dd2e9f-aefc-4b19-a6a4-069fdee319cd"
 					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroCapacitors0402:C_470p_0402")
+		(at 233.68 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d1b1925-0302-4d98-a77b-4dc790d835d5")
+		(property "Reference" "C98"
+			(at 235.712 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_470p_0402"
+			(at 243.84 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+			(at 246.38 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
+			(at 248.92 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, General Purpose, 470 pF, 25 V, 0402 [1005 Metric], ± 10%, X7R"
+			(at 233.68 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402B471K250CT"
+			(at 251.46 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Walsin"
+			(at 254 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 256.54 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 259.08 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "470p"
+			(at 235.712 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" ""
+			(at 261.62 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" ""
+			(at 264.16 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "27284d7a-7958-4cd6-8c4b-4415fb55e284")
+		)
+		(pin "1"
+			(uuid "b1d40ec4-8065-4a66-805f-59ef6df62de5")
+		)
+		(instances
+			(project ""
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/b3dd2e9f-aefc-4b19-a6a4-069fdee319cd"
+					(reference "C98")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroResistors0402:R_220R_0402")
+		(at 259.08 220.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "31c9d01b-dc32-43ee-9d50-596f170bca92")
+		(property "Reference" "R6"
+			(at 259.08 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_220R_0402"
+			(at 279.4 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 279.4 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 279.4 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, 220 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 259.08 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0402-FX-2200GLF"
+			(at 279.4 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 279.4 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 279.4 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 279.4 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "220R"
+			(at 264.16 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 279.4 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f1dddc8-7f08-42d6-9a55-3b637ad6d2d9")
+		)
+		(pin "2"
+			(uuid "336abb0c-aa58-4a1b-824a-b511377dfeba")
+		)
+		(instances
+			(project "10-gbe-expansion"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/b3dd2e9f-aefc-4b19-a6a4-069fdee319cd"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroCapacitors0402:C_470p_0402")
+		(at 243.84 238.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3570763b-0a89-4750-b52e-9756cd78a00b")
+		(property "Reference" "C102"
+			(at 245.872 234.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_470p_0402"
+			(at 254 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+			(at 256.54 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
+			(at 259.08 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, General Purpose, 470 pF, 25 V, 0402 [1005 Metric], ± 10%, X7R"
+			(at 243.84 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402B471K250CT"
+			(at 261.62 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Walsin"
+			(at 264.16 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 266.7 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 269.24 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "470p"
+			(at 245.872 237.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" ""
+			(at 271.78 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" ""
+			(at 274.32 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fc0cc992-dc22-4bd2-9eb0-f061f3d46a81")
+		)
+		(pin "1"
+			(uuid "85eaac44-4d8a-47d8-bff7-9d2274d0325a")
+		)
+		(instances
+			(project "10-gbe-expansion"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/b3dd2e9f-aefc-4b19-a6a4-069fdee319cd"
+					(reference "C102")
 					(unit 1)
 				)
 			)
@@ -4247,16 +5370,16 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_270R_0402")
-		(at 234.95 218.44 0)
+		(lib_id "antmicroCapacitors0402:C_470p_0402")
+		(at 243.84 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3eb78965-7fce-4726-8870-eb71745cc75d")
-		(property "Reference" "R6"
-			(at 234.95 217.17 0)
+		(uuid "506ad9f5-bf48-4a3a-940c-4bcc83125c14")
+		(property "Reference" "C99"
+			(at 245.872 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4265,8 +5388,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_270R_0402"
-			(at 255.27 231.14 0)
+		(property "Value" "C_470p_0402"
+			(at 254 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4276,8 +5399,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 255.27 233.68 0)
+		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+			(at 256.54 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4287,8 +5410,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 255.27 236.22 0)
+		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
+			(at 259.08 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4298,8 +5421,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Chip Resistor, 270 ohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 234.95 218.44 0)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, General Purpose, 470 pF, 25 V, 0402 [1005 Metric], ± 10%, X7R"
+			(at 243.84 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4307,8 +5430,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CR0402-FX-2700GLF"
-			(at 255.27 238.76 0)
+		(property "MPN" "0402B471K250CT"
+			(at 261.62 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4318,8 +5441,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Bourns"
-			(at 255.27 241.3 0)
+		(property "Manufacturer" "Walsin"
+			(at 264.16 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4330,7 +5453,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 255.27 243.84 0)
+			(at 266.7 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4341,7 +5464,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 255.27 246.38 0)
+			(at 269.24 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4351,18 +5474,28 @@
 				(hide yes)
 			)
 		)
-		(property "Val" "270R"
-			(at 240.03 217.17 0)
+		(property "Val" "470p"
+			(at 245.872 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Tolerance" "1%"
-			(at 255.27 228.6 0)
+		(property "Voltage" ""
+			(at 271.78 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" ""
+			(at 274.32 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4372,15 +5505,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "b077e5ec-42a7-4d5b-af82-2605f14efeb8")
+			(uuid "8f342174-b851-47e0-8396-cd9e6cb1dcf2")
 		)
 		(pin "1"
-			(uuid "95fc12b3-bfaa-4715-9584-f2d2ebd1686f")
+			(uuid "cb3eb9ad-3233-4534-83e6-443fa330dcb2")
 		)
 		(instances
 			(project "10-gbe-expansion"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/b3dd2e9f-aefc-4b19-a6a4-069fdee319cd"
-					(reference "R6")
+					(reference "C99")
 					(unit 1)
 				)
 			)
@@ -4725,16 +5858,16 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_270R_0402")
-		(at 234.95 85.09 0)
+		(lib_id "antmicroResistors0402:R_220R_0402")
+		(at 259.08 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "69ebcd4c-71ad-4857-97c8-1de43d2666db")
-		(property "Reference" "R4"
-			(at 234.95 83.82 0)
+		(uuid "87ce50e6-667e-4ee8-bd00-a46ee9f99c7f")
+		(property "Reference" "R54"
+			(at 259.08 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4743,8 +5876,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_270R_0402"
-			(at 255.27 97.79 0)
+		(property "Value" "R_220R_0402"
+			(at 279.4 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4755,7 +5888,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 255.27 100.33 0)
+			(at 279.4 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4766,7 +5899,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 255.27 102.87 0)
+			(at 279.4 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4776,8 +5909,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Chip Resistor, 270 ohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 234.95 85.09 0)
+		(property "Description" "SMD Chip Resistor, 220 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 259.08 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4785,148 +5918,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CR0402-FX-2700GLF"
-			(at 255.27 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 255.27 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 255.27 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 255.27 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "270R"
-			(at 240.03 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 255.27 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1d5ac9ed-06f2-459c-b9bb-40811fa6decc")
-		)
-		(pin "1"
-			(uuid "e4e2a113-70aa-49a5-9ab4-5c15dadced9b")
-		)
-		(instances
-			(project "10-gbe-expansion"
-				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/b3dd2e9f-aefc-4b19-a6a4-069fdee319cd"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroResistors0402:R_270R_0402")
-		(at 234.95 228.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "76b29289-9ab6-48a5-a87c-6d5150deab1a")
-		(property "Reference" "R8"
-			(at 234.95 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_270R_0402"
-			(at 255.27 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 255.27 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 255.27 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Chip Resistor, 270 ohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 234.95 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402-FX-2700GLF"
-			(at 255.27 248.92 0)
+		(property "MPN" "CR0402-FX-2200GLF"
+			(at 279.4 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4937,7 +5930,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 255.27 251.46 0)
+			(at 279.4 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4948,7 +5941,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 255.27 254 0)
+			(at 279.4 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4959,7 +5952,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 255.27 256.54 0)
+			(at 279.4 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4969,8 +5962,8 @@
 				(hide yes)
 			)
 		)
-		(property "Val" "270R"
-			(at 240.03 227.33 0)
+		(property "Val" "220R"
+			(at 264.16 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4980,7 +5973,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 255.27 238.76 0)
+			(at 279.4 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4989,16 +5982,16 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "35750138-d237-4ad4-8ddc-90c9c48dd267")
-		)
 		(pin "1"
-			(uuid "e42cb9b7-be7e-40be-b374-012caf133ce9")
+			(uuid "d420d468-670d-4f94-b691-89f7d86d526b")
+		)
+		(pin "2"
+			(uuid "67eae41c-9593-4817-80b5-b76be273be24")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project ""
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/b3dd2e9f-aefc-4b19-a6a4-069fdee319cd"
-					(reference "R8")
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -5509,146 +6502,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_270R_0402")
-		(at 234.95 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9f7b860f-a1e4-407f-b92b-230d4455d9b1")
-		(property "Reference" "R5"
-			(at 234.95 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_270R_0402"
-			(at 255.27 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 255.27 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 255.27 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Chip Resistor, 270 ohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 234.95 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402-FX-2700GLF"
-			(at 255.27 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 255.27 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 255.27 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 255.27 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "270R"
-			(at 240.03 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 255.27 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "107ebe24-3934-42bf-b23f-8819d208e5e0")
-		)
-		(pin "1"
-			(uuid "ab718d34-9e92-4670-8c17-ede50f414863")
-		)
-		(instances
-			(project "10-gbe-expansion"
-				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/b3dd2e9f-aefc-4b19-a6a4-069fdee319cd"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicropower:+3V3")
 		(at 228.6 77.47 0)
 		(unit 1)
@@ -5737,146 +6590,6 @@
 			(project "10-gbe-expansion"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/b3dd2e9f-aefc-4b19-a6a4-069fdee319cd"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroResistors0402:R_270R_0402")
-		(at 234.95 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a3ca9b60-e463-4efc-bdab-754c7fd82a78")
-		(property "Reference" "R3"
-			(at 234.95 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_270R_0402"
-			(at 255.27 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 255.27 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 255.27 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Chip Resistor, 270 ohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 234.95 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402-FX-2700GLF"
-			(at 255.27 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 255.27 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 255.27 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 255.27 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "270R"
-			(at 240.03 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 255.27 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2ef646c4-887a-431b-8e27-e321509e88ae")
-		)
-		(pin "1"
-			(uuid "63aa2240-10cb-4e01-bf5d-66ac201a0edb")
-		)
-		(instances
-			(project ""
-				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/b3dd2e9f-aefc-4b19-a6a4-069fdee319cd"
-					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -6035,7 +6748,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 228.6 236.22 0)
+		(at 228.6 243.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6043,7 +6756,7 @@
 		(dnp no)
 		(uuid "ab7498f5-bb39-419c-a9e5-576ad67c8506")
 		(property "Reference" "#PWR07"
-			(at 237.49 238.76 0)
+			(at 237.49 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6054,7 +6767,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 228.6 240.03 0)
+			(at 228.6 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6063,7 +6776,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 243.84 0)
+			(at 237.49 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6074,7 +6787,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 248.92 0)
+			(at 237.49 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6085,7 +6798,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 228.6 236.22 0)
+			(at 228.6 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6094,7 +6807,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 237.49 243.84 0)
+			(at 237.49 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6105,7 +6818,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 237.49 246.38 0)
+			(at 237.49 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6122,6 +6835,156 @@
 			(project "10-gbe-expansion"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/b3dd2e9f-aefc-4b19-a6a4-069fdee319cd"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroCapacitors0402:C_470p_0402")
+		(at 254 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac5b4d07-f3e6-47ee-a0ef-2fbef41293f5")
+		(property "Reference" "C100"
+			(at 256.032 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_470p_0402"
+			(at 264.16 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+			(at 266.7 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
+			(at 269.24 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, General Purpose, 470 pF, 25 V, 0402 [1005 Metric], ± 10%, X7R"
+			(at 254 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402B471K250CT"
+			(at 271.78 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Walsin"
+			(at 274.32 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 276.86 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 279.4 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "470p"
+			(at 256.032 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" ""
+			(at 281.94 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" ""
+			(at 284.48 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c97c8da1-ed8b-4d75-b888-c64fde1b0978")
+		)
+		(pin "1"
+			(uuid "094b19af-4074-441e-b142-dfec2faf0aec")
+		)
+		(instances
+			(project "10-gbe-expansion"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/b3dd2e9f-aefc-4b19-a6a4-069fdee319cd"
+					(reference "C100")
 					(unit 1)
 				)
 			)
@@ -6372,6 +7235,156 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroCapacitors0402:C_470p_0402")
+		(at 254 238.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b99bd202-eaa4-4ddf-beda-b27b1aaeacd4")
+		(property "Reference" "C103"
+			(at 256.032 234.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_470p_0402"
+			(at 264.16 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+			(at 266.7 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
+			(at 269.24 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, General Purpose, 470 pF, 25 V, 0402 [1005 Metric], ± 10%, X7R"
+			(at 254 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402B471K250CT"
+			(at 271.78 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Walsin"
+			(at 274.32 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 276.86 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 279.4 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "470p"
+			(at 256.032 237.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" ""
+			(at 281.94 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" ""
+			(at 284.48 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "24e710b5-cd1c-4268-a547-1d902f569360")
+		)
+		(pin "1"
+			(uuid "195fed5d-44a8-4153-831c-e0331980af53")
+		)
+		(instances
+			(project "10-gbe-expansion"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/b3dd2e9f-aefc-4b19-a6a4-069fdee319cd"
+					(reference "C103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroCapacitors0402:C_1u_25V_0402")
 		(at 194.31 233.68 90)
 		(unit 1)
@@ -6516,6 +7529,146 @@
 			(project "10-gbe-expansion"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/b3dd2e9f-aefc-4b19-a6a4-069fdee319cd"
 					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroResistors0402:R_220R_0402")
+		(at 259.08 218.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4b5c57e-5cbe-4d75-80b4-6357d81047d8")
+		(property "Reference" "R5"
+			(at 259.08 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_220R_0402"
+			(at 279.4 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 279.4 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 279.4 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, 220 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 259.08 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0402-FX-2200GLF"
+			(at 279.4 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 279.4 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 279.4 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 279.4 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "220R"
+			(at 264.16 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 279.4 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61f021af-29b5-4400-84c3-815c255967d3")
+		)
+		(pin "2"
+			(uuid "bdb59920-a1aa-4822-a389-2ea70f759389")
+		)
+		(instances
+			(project "10-gbe-expansion"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/b3dd2e9f-aefc-4b19-a6a4-069fdee319cd"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -7365,16 +8518,16 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_270R_0402")
-		(at 234.95 220.98 0)
+		(lib_id "antmicroCapacitors0402:C_470p_0402")
+		(at 233.68 238.76 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e847861f-a6df-4fe3-ad8c-41b5e88cce95")
-		(property "Reference" "R7"
-			(at 234.95 219.71 0)
+		(uuid "ecb1c03f-635e-4d2b-a5a4-8c8810b10979")
+		(property "Reference" "C101"
+			(at 235.712 234.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7383,8 +8536,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_270R_0402"
-			(at 255.27 233.68 0)
+		(property "Value" "C_470p_0402"
+			(at 243.84 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7394,8 +8547,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 255.27 236.22 0)
+		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+			(at 246.38 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7405,8 +8558,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 255.27 238.76 0)
+		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
+			(at 248.92 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7416,8 +8569,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Chip Resistor, 270 ohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 234.95 220.98 0)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, General Purpose, 470 pF, 25 V, 0402 [1005 Metric], ± 10%, X7R"
+			(at 233.68 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7425,8 +8578,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CR0402-FX-2700GLF"
-			(at 255.27 241.3 0)
+		(property "MPN" "0402B471K250CT"
+			(at 251.46 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7436,8 +8589,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Bourns"
-			(at 255.27 243.84 0)
+		(property "Manufacturer" "Walsin"
+			(at 254 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7448,7 +8601,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 255.27 246.38 0)
+			(at 256.54 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7459,7 +8612,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 255.27 248.92 0)
+			(at 259.08 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7469,18 +8622,28 @@
 				(hide yes)
 			)
 		)
-		(property "Val" "270R"
-			(at 240.03 219.71 0)
+		(property "Val" "470p"
+			(at 235.712 237.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Tolerance" "1%"
-			(at 255.27 231.14 0)
+		(property "Voltage" ""
+			(at 261.62 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" ""
+			(at 264.16 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7490,15 +8653,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "a5bdd738-e4c9-4fe4-a16c-5c02300eb05c")
+			(uuid "f8603a83-73d9-47b9-9d7a-8642847f522b")
 		)
 		(pin "1"
-			(uuid "aac11463-aed5-4522-9db2-79f69e719193")
+			(uuid "1ef73f06-af80-4f9a-8b30-0d47b3f99c6e")
 		)
 		(instances
 			(project "10-gbe-expansion"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/b3dd2e9f-aefc-4b19-a6a4-069fdee319cd"
-					(reference "R7")
+					(reference "C101")
 					(unit 1)
 				)
 			)
@@ -7749,6 +8912,146 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroResistors0402:R_220R_0402")
+		(at 259.08 228.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fad9c063-8956-4bb3-a758-d720b4839aaf")
+		(property "Reference" "R7"
+			(at 259.08 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_220R_0402"
+			(at 279.4 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 279.4 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 279.4 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, 220 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 259.08 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0402-FX-2200GLF"
+			(at 279.4 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 279.4 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 279.4 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 279.4 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "220R"
+			(at 264.16 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 279.4 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "339bd796-d959-47e3-8ef7-631f588524b7")
+		)
+		(pin "2"
+			(uuid "2c71a321-c448-490e-a46f-e737d11f16f6")
+		)
+		(instances
+			(project "10-gbe-expansion"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/b3dd2e9f-aefc-4b19-a6a4-069fdee319cd"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:GND")
 		(at 167.64 236.22 0)
 		(unit 1)
@@ -7837,6 +9140,146 @@
 			(project "10-gbe-expansion"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/b3dd2e9f-aefc-4b19-a6a4-069fdee319cd"
 					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroResistors0402:R_220R_0402")
+		(at 259.08 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd0bba02-fbfd-4ccd-866c-0f9bdbd1d8e7")
+		(property "Reference" "R4"
+			(at 259.08 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_220R_0402"
+			(at 279.4 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 279.4 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 279.4 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, 220 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 259.08 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0402-FX-2200GLF"
+			(at 279.4 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 279.4 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 279.4 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 279.4 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "220R"
+			(at 264.16 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 279.4 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "895a6584-bec2-4cbc-b09d-f89417979795")
+		)
+		(pin "2"
+			(uuid "f72ac41a-7cf1-4dd9-96c6-4f1e854cf603")
+		)
+		(instances
+			(project "10-gbe-expansion"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/b3dd2e9f-aefc-4b19-a6a4-069fdee319cd"
+					(reference "R4")
 					(unit 1)
 				)
 			)

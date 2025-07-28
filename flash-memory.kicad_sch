@@ -512,7 +512,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroResistors0402:R_8k2_0402"
+		(symbol "antmicroResistors0402:R_10k_0402"
 			(pin_numbers
 				(hide yes)
 			)
@@ -532,7 +532,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "R_8k2_0402"
+			(property "Value" "R_10k_0402"
 				(at 20.32 -12.7 0)
 				(effects
 					(font
@@ -565,7 +565,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SMD Chip Resistor"
+			(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 				(at 0 0 0)
 				(effects
 					(font
@@ -574,7 +574,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "CR0402-FX-8201GLF"
+			(property "MPN" "CR0402-FX-1002GLF"
 				(at 20.32 -20.32 0)
 				(effects
 					(font
@@ -618,7 +618,7 @@
 					(hide yes)
 				)
 			)
-			(property "Val" "8k2"
+			(property "Val" "10k"
 				(at 20.32 -7.62 0)
 				(effects
 					(font
@@ -647,7 +647,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_8k2_0402_0_1"
+			(symbol "R_10k_0402_0_1"
 				(rectangle
 					(start 0.635 0.889)
 					(end 4.445 -0.889)
@@ -660,7 +660,7 @@
 					)
 				)
 			)
-			(symbol "R_8k2_0402_1_1"
+			(symbol "R_10k_0402_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 0.635)
@@ -1332,147 +1332,6 @@
 		(uuid "cb36e674-ee47-4903-bb6a-1b422ffa3df9")
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_8k2_0402")
-		(at 193.04 140.97 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0a01f50c-d359-4370-9655-6a8d7109609a")
-		(property "Reference" "R1"
-			(at 191.516 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_8k2_0402"
-			(at 180.34 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 177.8 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 175.26 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Chip Resistor"
-			(at 193.04 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402-FX-8201GLF"
-			(at 172.72 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 170.18 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 167.64 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 165.1 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "8k2"
-			(at 191.516 139.7 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 182.88 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2c61995c-b72e-4dce-9cb9-96b69184c226")
-		)
-		(pin "1"
-			(uuid "ec97e666-d3bf-4c18-83dc-25c24074df44")
-		)
-		(instances
-			(project ""
-				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/cf61e8ef-a7e0-463f-9b69-1bf3871ad792"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicropower:+3V3")
 		(at 193.04 130.81 0)
 		(unit 1)
@@ -1701,6 +1560,147 @@
 			(project ""
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/cf61e8ef-a7e0-463f-9b69-1bf3871ad792"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroResistors0402:R_10k_0402")
+		(at 193.04 140.97 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d9b9440-bf30-47f0-b33d-ef2b6811a53d")
+		(property "Reference" "R1"
+			(at 191.77 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_10k_0402"
+			(at 180.34 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 177.8 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 175.26 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 193.04 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0402-FX-1002GLF"
+			(at 172.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 170.18 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 167.64 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 165.1 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "10k"
+			(at 191.77 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 182.88 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "685cdcc7-31e2-4829-97b4-6a7473d1407c")
+		)
+		(pin "2"
+			(uuid "00e4e2bc-2526-4f28-afaa-09abf16b42d7")
+		)
+		(instances
+			(project "10-gbe-expansion"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/cf61e8ef-a7e0-463f-9b69-1bf3871ad792"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -1954,16 +1954,16 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_8k2_0402")
+		(lib_id "antmicroResistors0402:R_10k_0402")
 		(at 196.85 140.97 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e2893785-b167-4a7c-94e5-88a5fd02746d")
+		(uuid "d503fa0e-0444-47b7-b761-4cb40abc503b")
 		(property "Reference" "R2"
-			(at 198.374 137.16 90)
+			(at 198.12 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1972,7 +1972,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_8k2_0402"
+		(property "Value" "R_10k_0402"
 			(at 209.55 120.65 0)
 			(effects
 				(font
@@ -2005,7 +2005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Chip Resistor"
+		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 196.85 140.97 0)
 			(effects
 				(font
@@ -2014,7 +2014,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CR0402-FX-8201GLF"
+		(property "MPN" "CR0402-FX-1002GLF"
 			(at 217.17 120.65 0)
 			(effects
 				(font
@@ -2058,8 +2058,8 @@
 				(hide yes)
 			)
 		)
-		(property "Val" "8k2"
-			(at 198.374 139.7 90)
+		(property "Val" "10k"
+			(at 198.12 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2078,14 +2078,14 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "277b313a-5f3a-48d5-ac97-e2586184a363")
-		)
 		(pin "1"
-			(uuid "2ef92b33-beff-4bd5-9140-6f84e22e2165")
+			(uuid "2b9e8a60-356e-4193-8339-89757f7f0091")
+		)
+		(pin "2"
+			(uuid "7d255944-bca9-4ce9-8569-05a1e4908aa4")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project ""
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/cf61e8ef-a7e0-463f-9b69-1bf3871ad792"
 					(reference "R2")
 					(unit 1)
