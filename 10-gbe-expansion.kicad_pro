@@ -224,8 +224,8 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.2,
-          "drill": 0.5
+          "diameter": 0.1,
+          "drill": 0.45
         }
       ],
       "zones_allow_external_fillets": false
@@ -499,7 +499,7 @@
         "diff_pair_width": 0.15,
         "line_style": 0,
         "name": "100Ohm-diff_10GbE",
-        "pcb_color": "rgb(194, 0, 194)",
+        "pcb_color": "rgb(0, 255, 255)",
         "priority": 2,
         "schematic_color": "rgb(0, 194, 194)",
         "wire_width": 6
@@ -510,7 +510,7 @@
         "diff_pair_width": 0.15,
         "line_style": 0,
         "name": "85Ohm-diff_PCIe",
-        "pcb_color": "rgb(0, 0, 194)",
+        "pcb_color": "rgb(194, 0, 194)",
         "priority": 3,
         "schematic_color": "rgb(194, 0, 194)",
         "wire_width": 6
@@ -519,7 +519,7 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "GND",
-        "pcb_color": "rgb(0, 0, 0)",
+        "pcb_color": "rgb(0, 0, 255)",
         "priority": 1,
         "schematic_color": "rgb(0, 0, 0)",
         "wire_width": 6
@@ -528,7 +528,7 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "PWR",
-        "pcb_color": "rgb(255, 153, 0)",
+        "pcb_color": "rgb(221, 133, 0)",
         "priority": 0,
         "schematic_color": "rgb(255, 0, 0)",
         "wire_width": 6
