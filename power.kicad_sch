@@ -853,9 +853,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "1V8 DC-DC\n1.8236-1.9364V\nMax ripple: 50mV_p-p"
+	(text_box "1V DC-DC\n0.95-1.05V\nMax ripple: 30mV_p-p"
 		(exclude_from_sim no)
-		(at 228.6 81.28 0)
+		(at 177.8 157.48 0)
 		(size 27.94 15.24)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -869,13 +869,50 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left top)
+		)
+		(uuid "521e5dc0-6cd5-4abc-ba58-a70e8b5bf3c8")
+	)
+	(text_box "1V DC-DC\n0.95-1.05V\nMax ripple: 10mV_p-p"
+		(exclude_from_sim no)
+		(at 177.8 182.88 0)
+		(size 27.94 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5f59b621-717d-45aa-80b5-2ec6c5618d87")
+	)
+	(text_box "1V88 DC-DC\n1.8236-1.9364V\nMax ripple: 50mV_p-p"
+		(exclude_from_sim no)
+		(at 177.8 132.08 0)
+		(size 27.94 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
 		)
 		(uuid "7aa54feb-3738-4776-b3d3-6d8256f9c26e")
 	)
-	(text_box "0.92 DC-DC\n0.87-0.96V\nMax ripple: 20mV_p-p"
+	(text_box "0V92 DC-DC\n0.87-0.96V\nMax ripple: 20mV_p-p"
 		(exclude_from_sim no)
-		(at 228.6 106.68 0)
+		(at 177.8 106.68 0)
 		(size 27.94 15.24)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -889,13 +926,12 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left top)
 		)
 		(uuid "8d44a5f1-e5fc-4ee8-b74d-51d73b8ab4af")
 	)
-	(text_box "3V3 DC-DC\n3.14-3.47V\nMax ripple: 70mV_p-p\nX710-AT2: 0.561A"
+	(text_box "3V3 DC-DC\n3.14-3.47V\nMax ripple: 70mV_p-p\n"
 		(exclude_from_sim no)
-		(at 228.6 55.88 0)
+		(at 177.8 81.28 0)
 		(size 27.94 15.24)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -909,17 +945,12 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left top)
 		)
 		(uuid "e4b5d3b5-d609-41ad-9fa7-308bb23363ea")
 	)
-	(no_connect
-		(at 312.42 149.86)
-		(uuid "5fa79db8-6ed9-4e1e-ae8c-bda5e9a96582")
-	)
 	(wire
 		(pts
-			(xy 266.7 63.5) (xy 266.7 60.96)
+			(xy 215.9 88.9) (xy 215.9 86.36)
 		)
 		(stroke
 			(width 0)
@@ -929,7 +960,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 152.4) (xy 266.7 149.86)
+			(xy 215.9 190.5) (xy 215.9 187.96)
 		)
 		(stroke
 			(width 0)
@@ -939,7 +970,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 114.3) (xy 266.7 114.3)
+			(xy 228.6 114.3) (xy 215.9 114.3)
 		)
 		(stroke
 			(width 0)
@@ -949,7 +980,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 111.76) (xy 279.4 114.3)
+			(xy 228.6 111.76) (xy 228.6 114.3)
 		)
 		(stroke
 			(width 0)
@@ -959,7 +990,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 149.86) (xy 279.4 152.4)
+			(xy 228.6 187.96) (xy 228.6 190.5)
 		)
 		(stroke
 			(width 0)
@@ -969,7 +1000,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 137.16) (xy 279.4 139.7)
+			(xy 228.6 162.56) (xy 228.6 165.1)
 		)
 		(stroke
 			(width 0)
@@ -979,7 +1010,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 86.36) (xy 279.4 88.9)
+			(xy 228.6 137.16) (xy 228.6 139.7)
 		)
 		(stroke
 			(width 0)
@@ -989,7 +1020,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 88.9) (xy 266.7 88.9)
+			(xy 228.6 139.7) (xy 215.9 139.7)
 		)
 		(stroke
 			(width 0)
@@ -999,7 +1030,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 139.7) (xy 266.7 137.16)
+			(xy 215.9 165.1) (xy 215.9 162.56)
 		)
 		(stroke
 			(width 0)
@@ -1009,7 +1040,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 63.5) (xy 266.7 63.5)
+			(xy 228.6 88.9) (xy 215.9 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1019,7 +1050,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 60.96) (xy 279.4 63.5)
+			(xy 228.6 86.36) (xy 228.6 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1029,7 +1060,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 114.3) (xy 266.7 111.76)
+			(xy 215.9 114.3) (xy 215.9 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1039,7 +1070,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 152.4) (xy 266.7 152.4)
+			(xy 228.6 190.5) (xy 215.9 190.5)
 		)
 		(stroke
 			(width 0)
@@ -1049,7 +1080,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 139.7) (xy 266.7 139.7)
+			(xy 228.6 165.1) (xy 215.9 165.1)
 		)
 		(stroke
 			(width 0)
@@ -1059,7 +1090,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 173.99) (xy 203.2 177.8)
+			(xy 152.4 199.39) (xy 152.4 203.2)
 		)
 		(stroke
 			(width 0)
@@ -1069,7 +1100,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 88.9) (xy 266.7 86.36)
+			(xy 215.9 139.7) (xy 215.9 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1079,7 +1110,7 @@
 	)
 	(hierarchical_label "MAIN_PWR_OK"
 		(shape output)
-		(at 312.42 149.86 0)
+		(at 261.62 175.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1090,7 +1121,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:PWR_FLAG")
-		(at 203.2 173.99 0)
+		(at 152.4 199.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1098,7 +1129,7 @@
 		(dnp no)
 		(uuid "1bd99573-a062-44e3-9a58-00510f36cfb4")
 		(property "Reference" "#FLG01"
-			(at 203.2 172.085 0)
+			(at 152.4 197.485 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1107,7 +1138,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 203.2 169.926 0)
+			(at 152.4 195.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1115,7 +1146,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 173.99 0)
+			(at 152.4 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1124,7 +1155,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 173.99 0)
+			(at 152.4 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1133,7 +1164,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 203.2 173.99 0)
+			(at 152.4 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1155,7 +1186,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 203.2 177.8 0)
+		(at 152.4 203.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1163,7 +1194,7 @@
 		(dnp no)
 		(uuid "27177f58-76b4-4811-b5be-b258db0fc0e3")
 		(property "Reference" "#PWR045"
-			(at 212.09 180.34 0)
+			(at 161.29 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1174,7 +1205,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 203.2 181.61 0)
+			(at 152.4 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1183,7 +1214,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 185.42 0)
+			(at 161.29 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1194,7 +1225,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 190.5 0)
+			(at 161.29 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1205,7 +1236,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 203.2 177.8 0)
+			(at 152.4 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1214,7 +1245,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 212.09 185.42 0)
+			(at 161.29 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1225,7 +1256,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 212.09 187.96 0)
+			(at 161.29 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1249,7 +1280,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:+3V3")
-		(at 266.7 60.96 0)
+		(at 215.9 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1257,7 +1288,7 @@
 		(dnp no)
 		(uuid "34333b38-033b-4361-8a2a-b862e7d674b4")
 		(property "Reference" "#PWR0159"
-			(at 281.94 60.96 0)
+			(at 231.14 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1268,7 +1299,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 266.7 57.15 0)
+			(at 215.9 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1277,7 +1308,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 281.94 68.58 0)
+			(at 231.14 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1288,7 +1319,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 281.94 71.12 0)
+			(at 231.14 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1299,7 +1330,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 266.7 60.96 0)
+			(at 215.9 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1308,7 +1339,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 281.94 63.5 0)
+			(at 231.14 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1319,7 +1350,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 281.94 66.04 0)
+			(at 231.14 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1343,7 +1374,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:+1V0")
-		(at 266.7 149.86 0)
+		(at 215.9 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1351,7 +1382,7 @@
 		(dnp no)
 		(uuid "3da0fc3e-6cf6-435c-a636-deba3e5a59bb")
 		(property "Reference" "#PWR0201"
-			(at 266.7 153.67 0)
+			(at 215.9 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1360,7 +1391,7 @@
 			)
 		)
 		(property "Value" "+1V0"
-			(at 266.7 146.05 0)
+			(at 215.9 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1368,7 +1399,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 266.7 149.86 0)
+			(at 215.9 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1377,7 +1408,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 149.86 0)
+			(at 215.9 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1386,7 +1417,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 266.7 149.86 0)
+			(at 215.9 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1408,7 +1439,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:PWR_FLAG")
-		(at 279.4 149.86 0)
+		(at 228.6 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1416,7 +1447,7 @@
 		(dnp no)
 		(uuid "51860ad2-1a42-4cd4-bc1d-855da4f52358")
 		(property "Reference" "#FLG07"
-			(at 279.4 147.955 0)
+			(at 228.6 186.055 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1425,7 +1456,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 279.4 146.05 0)
+			(at 228.6 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1433,7 +1464,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 279.4 149.86 0)
+			(at 228.6 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1442,7 +1473,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 279.4 149.86 0)
+			(at 228.6 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1451,7 +1482,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 279.4 149.86 0)
+			(at 228.6 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1473,7 +1504,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:+1V8")
-		(at 266.7 86.36 0)
+		(at 215.9 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1481,7 +1512,7 @@
 		(dnp no)
 		(uuid "6e68d45e-a7ba-4843-b539-51243ed3c5a7")
 		(property "Reference" "#PWR0178"
-			(at 281.94 88.9 0)
+			(at 231.14 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1492,7 +1523,7 @@
 			)
 		)
 		(property "Value" "+1V88"
-			(at 266.7 82.55 0)
+			(at 215.9 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1501,7 +1532,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 281.94 93.98 0)
+			(at 231.14 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1512,7 +1543,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 281.94 96.52 0)
+			(at 231.14 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1523,7 +1554,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 266.7 86.36 0)
+			(at 215.9 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1532,7 +1563,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 281.94 91.44 0)
+			(at 231.14 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1543,7 +1574,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 281.94 93.98 0)
+			(at 231.14 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1567,7 +1598,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:PWR_FLAG")
-		(at 279.4 60.96 0)
+		(at 228.6 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1575,7 +1606,7 @@
 		(dnp no)
 		(uuid "78d9215c-9610-4031-b0b7-b6caa9c68316")
 		(property "Reference" "#FLG03"
-			(at 279.4 59.055 0)
+			(at 228.6 84.455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1584,7 +1615,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 279.4 57.15 0)
+			(at 228.6 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1592,7 +1623,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 279.4 60.96 0)
+			(at 228.6 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1601,7 +1632,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 279.4 60.96 0)
+			(at 228.6 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1610,7 +1641,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 279.4 60.96 0)
+			(at 228.6 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1632,7 +1663,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:PWR_FLAG")
-		(at 279.4 111.76 0)
+		(at 228.6 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1640,7 +1671,7 @@
 		(dnp no)
 		(uuid "7df75a37-5c10-49f1-96da-62802529f87d")
 		(property "Reference" "#FLG05"
-			(at 279.4 109.855 0)
+			(at 228.6 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1649,7 +1680,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 279.4 107.95 0)
+			(at 228.6 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1657,7 +1688,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 279.4 111.76 0)
+			(at 228.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1666,7 +1697,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 279.4 111.76 0)
+			(at 228.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1675,7 +1706,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 279.4 111.76 0)
+			(at 228.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1697,7 +1728,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:PWR_FLAG")
-		(at 279.4 86.36 0)
+		(at 228.6 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1705,7 +1736,7 @@
 		(dnp no)
 		(uuid "a1053d7a-b8b3-479f-97ca-e3114ce8f430")
 		(property "Reference" "#FLG04"
-			(at 279.4 84.455 0)
+			(at 228.6 135.255 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1714,7 +1745,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 279.4 82.55 0)
+			(at 228.6 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1722,7 +1753,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 279.4 86.36 0)
+			(at 228.6 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1731,7 +1762,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 279.4 86.36 0)
+			(at 228.6 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1740,7 +1771,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 279.4 86.36 0)
+			(at 228.6 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1762,7 +1793,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:VDD")
-		(at 266.7 137.16 0)
+		(at 215.9 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1770,7 +1801,7 @@
 		(dnp no)
 		(uuid "c01adfdc-3fe0-4cb0-918c-515e853e7cdb")
 		(property "Reference" "#PWR039"
-			(at 266.7 140.97 0)
+			(at 215.9 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1779,7 +1810,7 @@
 			)
 		)
 		(property "Value" "DVDD"
-			(at 266.7 133.35 0)
+			(at 215.9 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1787,7 +1818,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 266.7 137.16 0)
+			(at 215.9 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1796,7 +1827,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 137.16 0)
+			(at 215.9 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1805,7 +1836,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 266.7 137.16 0)
+			(at 215.9 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1827,7 +1858,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:VCC")
-		(at 266.7 111.76 0)
+		(at 215.9 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1835,7 +1866,7 @@
 		(dnp no)
 		(uuid "cbd7e6fe-aab0-43ef-b4b9-5a90d097c3e2")
 		(property "Reference" "#PWR0136"
-			(at 266.7 115.57 0)
+			(at 215.9 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1844,7 +1875,7 @@
 			)
 		)
 		(property "Value" "VCCD"
-			(at 266.7 107.95 0)
+			(at 215.9 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1852,7 +1883,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 266.7 111.76 0)
+			(at 215.9 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1861,7 +1892,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 111.76 0)
+			(at 215.9 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1870,7 +1901,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 266.7 111.76 0)
+			(at 215.9 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1892,7 +1923,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:PWR_FLAG")
-		(at 279.4 137.16 0)
+		(at 228.6 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1900,7 +1931,7 @@
 		(dnp no)
 		(uuid "f0d2732a-092f-4634-bdad-36e1f05cc37d")
 		(property "Reference" "#FLG06"
-			(at 279.4 135.255 0)
+			(at 228.6 160.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1909,7 +1940,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 279.4 133.35 0)
+			(at 228.6 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1917,7 +1948,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 279.4 137.16 0)
+			(at 228.6 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1926,7 +1957,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 279.4 137.16 0)
+			(at 228.6 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1935,7 +1966,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 279.4 137.16 0)
+			(at 228.6 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
