@@ -53,6 +53,10 @@
 		(color 0 0 0 0)
 		(uuid "1757bc61-0494-4e38-b641-ba63753119ca")
 	)
+	(no_connect
+		(at 152.4 175.26)
+		(uuid "e16e8144-0319-4fcc-bdb3-c2d21ff78fa3")
+	)
 	(bus
 		(pts
 			(xy 203.2 55.88) (xy 223.52 55.88)
@@ -82,6 +86,16 @@
 			(type default)
 		)
 		(uuid "01bae73d-89cd-41a7-80c6-edee5bcc1c99")
+	)
+	(wire
+		(pts
+			(xy 76.2 160.02) (xy 149.86 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06087a6b-1c30-481f-9ce9-d42e36556f9a")
 	)
 	(wire
 		(pts
@@ -123,16 +137,6 @@
 		)
 		(uuid "0d4ab523-26e0-41ae-be86-1282e5d3b3fc")
 	)
-	(bus
-		(pts
-			(xy 88.9 167.64) (xy 152.4 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "103926dc-0844-4964-8fd6-e5a793219b6d")
-	)
 	(wire
 		(pts
 			(xy 215.9 63.5) (xy 215.9 119.38)
@@ -162,6 +166,16 @@
 			(type default)
 		)
 		(uuid "1bae3859-73ce-4a26-a2d3-da405b9397a9")
+	)
+	(bus
+		(pts
+			(xy 76.2 134.62) (xy 152.4 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fc70ceb-1fd4-4c98-aad7-fcbfd862476e")
 	)
 	(bus
 		(pts
@@ -245,16 +259,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 162.56) (xy 152.4 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ea27619-80be-49b3-a376-69c4b9b11d80")
-	)
-	(wire
-		(pts
 			(xy 129.54 110.49) (xy 129.54 95.25)
 		)
 		(stroke
@@ -262,6 +266,16 @@
 			(type default)
 		)
 		(uuid "4efd36d7-c0fa-4924-b68c-12bc339b95fd")
+	)
+	(wire
+		(pts
+			(xy 76.2 162.56) (xy 152.4 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bfcabab-5716-4d3d-bb67-4d74eefb8052")
 	)
 	(bus
 		(pts
@@ -295,13 +309,13 @@
 	)
 	(bus
 		(pts
-			(xy 88.9 134.62) (xy 152.4 134.62)
+			(xy 76.2 167.64) (xy 152.4 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "703c4158-4303-4038-bc1c-526424e79716")
+		(uuid "72ed1455-f137-4eb6-84f0-ab677fab6b1f")
 	)
 	(wire
 		(pts
@@ -332,16 +346,6 @@
 			(type default)
 		)
 		(uuid "90b440c0-6716-4ced-aa75-9125630dfbbd")
-	)
-	(wire
-		(pts
-			(xy 88.9 160.02) (xy 149.86 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95a7abb9-94fb-4cd8-806e-e2319e660138")
 	)
 	(bus
 		(pts
@@ -493,16 +497,6 @@
 		)
 		(uuid "c4987b65-1c10-4ab9-ad87-ff74b06483cc")
 	)
-	(bus
-		(pts
-			(xy 88.9 170.18) (xy 152.4 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7821f4d-76de-4278-92bc-314e336ec980")
-	)
 	(polyline
 		(pts
 			(xy 182.88 73.66) (xy 185.42 73.66)
@@ -575,13 +569,13 @@
 	)
 	(bus
 		(pts
-			(xy 88.9 175.26) (xy 152.4 175.26)
+			(xy 76.2 170.18) (xy 152.4 170.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f7432b91-5875-467b-bba7-563464652bda")
+		(uuid "f2a49452-4994-4c42-aca1-a83dc785e445")
 	)
 	(bus
 		(pts
@@ -592,6 +586,118 @@
 			(type default)
 		)
 		(uuid "fc6b6267-ace5-42d9-b213-ded60e9d1ced")
+	)
+	(sheet
+		(at 50.8 127)
+		(size 25.4 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "0cbe4665-19ed-43d5-9283-363c2bb680b6")
+		(property "Sheetname" "OCuLink"
+			(at 50.8 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "oculink.kicad_sch"
+			(at 50.8 178.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PCIe_{x4}{PCIe}" input
+			(at 76.2 167.64 0)
+			(uuid "b404cecd-431c-4293-b43b-8a23346669bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "REFCLK{CLK}" input
+			(at 76.2 170.18 0)
+			(uuid "6eb4e0e9-29f1-4e83-9ea9-294d0bb88745")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{PE_RST}" output
+			(at 76.2 160.02 0)
+			(uuid "7e2edc4c-1b06-426d-a935-c66c5b0a49a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{PE_WAKE}" output
+			(at 76.2 162.56 0)
+			(uuid "6914cd61-96f2-4bce-adb0-87fcaec90f8e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SMBus{I2C}" bidirectional
+			(at 76.2 134.62 0)
+			(uuid "42573c5d-22c7-401e-b173-1152d9909121")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+5V_OCuLink" input
+			(at 76.2 129.54 0)
+			(uuid "7792d4f4-1d42-4778-ab73-c416d10ccedb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{CPRSNT}" input
+			(at 76.2 157.48 0)
+			(uuid "11b3d89c-45f9-4a1b-b71d-9262afb154c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "10-gbe-expansion"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39"
+					(page "11")
+				)
+			)
+		)
 	)
 	(sheet
 		(at 152.4 157.48)

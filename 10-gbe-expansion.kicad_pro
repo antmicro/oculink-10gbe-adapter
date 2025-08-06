@@ -224,8 +224,8 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.1,
-          "drill": 0.45
+          "diameter": 0.45,
+          "drill": 0.1
         }
       ],
       "zones_allow_external_fillets": false
@@ -477,7 +477,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -488,7 +488,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.1,
         "via_diameter": 0.5,
         "via_drill": 0.3,
         "wire_width": 6
@@ -801,6 +801,114 @@
         "85Ohm-diff_PCIe"
       ],
       "/Ethernet controller/PE_CLK_P": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/OCuLink/PCIe_{x4}.RX0+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/OCuLink/PCIe_{x4}.RX0-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/OCuLink/PCIe_{x4}.RX1+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/OCuLink/PCIe_{x4}.RX1-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/OCuLink/PCIe_{x4}.RX2+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/OCuLink/PCIe_{x4}.RX2-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/OCuLink/PCIe_{x4}.RX3+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/OCuLink/PCIe_{x4}.RX3-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/OCuLink/PCIe_{x4}.RX4+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/OCuLink/PCIe_{x4}.RX4-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/OCuLink/PCIe_{x4}.RX5+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/OCuLink/PCIe_{x4}.RX5-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/OCuLink/PCIe_{x4}.RX6+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/OCuLink/PCIe_{x4}.RX6-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/OCuLink/PCIe_{x4}.RX7+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/OCuLink/PCIe_{x4}.RX7-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/OCuLink/PCIe_{x4}.TX0+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/OCuLink/PCIe_{x4}.TX0-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/OCuLink/PCIe_{x4}.TX1+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/OCuLink/PCIe_{x4}.TX1-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/OCuLink/PCIe_{x4}.TX2+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/OCuLink/PCIe_{x4}.TX2-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/OCuLink/PCIe_{x4}.TX3+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/OCuLink/PCIe_{x4}.TX3-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/OCuLink/PCIe_{x4}.TX4+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/OCuLink/PCIe_{x4}.TX4-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/OCuLink/PCIe_{x4}.TX5+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/OCuLink/PCIe_{x4}.TX5-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/OCuLink/PCIe_{x4}.TX6+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/OCuLink/PCIe_{x4}.TX6-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/OCuLink/PCIe_{x4}.TX7+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/OCuLink/PCIe_{x4}.TX7-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/OCuLink/PCIe_{x4}{PCIe}": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/OCuLink/REFCLK.+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/OCuLink/REFCLK.-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/OCuLink/REFCLK{CLK}": [
         "85Ohm-diff_PCIe"
       ],
       "/PCIe_{x4}_1.x4": [
@@ -1348,6 +1456,10 @@
     [
       "5c16e05d-0fb9-4db6-bb95-cf7113880df7",
       "X710-AT2 RSVD"
+    ],
+    [
+      "0cbe4665-19ed-43d5-9283-363c2bb680b6",
+      "OCuLink"
     ]
   ],
   "text_variables": {}
