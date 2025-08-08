@@ -11,7 +11,260 @@
 		(company "Antmicro Ltd")
 		(comment 1 "www.antmicro.com")
 	)
-	(lib_symbols)
+	(lib_symbols
+		(symbol "antmicroMechanicalParts:MP_Pad6mm_Drill3.2mm"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "MP"
+				(at 20.32 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "MP_Pad6mm_Drill3.2mm"
+				(at 20.32 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:MP_Pad6mm_Drill3.2mm"
+				(at 20.32 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 16.84 -15.57 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mechanical part"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 20.32 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 20.32 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "MECHANICAL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MP_Pad6mm_Drill3.2mm_1_1"
+				(circle
+					(center 5.08 0)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 5.08 0)
+					(radius 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "antmicropower:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 8.89 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 8.89 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 8.89 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 8.89 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 8.89 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 8.89 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "GND_1_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
 	(rectangle
 		(start 139.7 88.9)
 		(end 292.1 190.5)
@@ -48,10 +301,28 @@
 		(uuid "9513afbc-b3d4-41e9-af1b-a24b2fca8ad2")
 	)
 	(junction
+		(at 323.85 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05e0c536-37e7-4824-b8ea-aeefd987c2b1")
+	)
+	(junction
 		(at 149.86 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1757bc61-0494-4e38-b641-ba63753119ca")
+	)
+	(junction
+		(at 323.85 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83c8632b-93ac-44c5-b08c-d789e373aacc")
+	)
+	(junction
+		(at 323.85 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8145b04-4053-42b6-8f13-2cb7ea53fda1")
 	)
 	(no_connect
 		(at 152.4 175.26)
@@ -136,6 +407,16 @@
 			(type default)
 		)
 		(uuid "0d4ab523-26e0-41ae-be86-1282e5d3b3fc")
+	)
+	(wire
+		(pts
+			(xy 323.85 204.47) (xy 323.85 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "163f2a8e-521a-417f-997e-2b9f7cc9f6cf")
 	)
 	(wire
 		(pts
@@ -299,6 +580,16 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 196.85) (xy 323.85 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66bc384e-121f-4f2b-bb6f-2fc2f4cbe8b7")
+	)
+	(wire
+		(pts
 			(xy 300.99 124.46) (xy 304.8 124.46)
 		)
 		(stroke
@@ -306,6 +597,36 @@
 			(type default)
 		)
 		(uuid "69bdbcb3-f273-49e9-a80e-102641505d03")
+	)
+	(wire
+		(pts
+			(xy 326.39 181.61) (xy 323.85 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a2f4e1f-cbc2-4ae8-b2f9-b1b02a5e5cef")
+	)
+	(wire
+		(pts
+			(xy 323.85 189.23) (xy 326.39 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a5d14fb-4049-4027-9c2e-e7e6d1238e2e")
+	)
+	(wire
+		(pts
+			(xy 323.85 189.23) (xy 323.85 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c4ab4e6-56e6-4fc8-b9a6-2ec84c10754a")
 	)
 	(bus
 		(pts
@@ -407,6 +728,16 @@
 		)
 		(uuid "ab70eaf9-16d9-4f95-896c-7170584806d5")
 	)
+	(wire
+		(pts
+			(xy 326.39 204.47) (xy 323.85 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aec88a0b-c9cd-47a3-9a42-5dfca59ab9bd")
+	)
 	(bus
 		(pts
 			(xy 203.2 73.66) (xy 205.74 73.66)
@@ -486,6 +817,16 @@
 			(type default)
 		)
 		(uuid "be325ce7-521f-4566-862e-0140a9a8e526")
+	)
+	(wire
+		(pts
+			(xy 323.85 181.61) (xy 323.85 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1c9c54b-8e6d-467a-9cb5-fbc6276313f0")
 	)
 	(wire
 		(pts
@@ -577,6 +918,16 @@
 		)
 		(uuid "f2a49452-4994-4c42-aca1-a83dc785e445")
 	)
+	(wire
+		(pts
+			(xy 323.85 196.85) (xy 326.39 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8f52a3d-6164-4ff5-bcab-123200235186")
+	)
 	(bus
 		(pts
 			(xy 152.4 73.66) (xy 134.62 73.66)
@@ -586,6 +937,480 @@
 			(type default)
 		)
 		(uuid "fc6b6267-ace5-42d9-b213-ded60e9d1ced")
+	)
+	(symbol
+		(lib_id "antmicroMechanicalParts:MP_Pad6mm_Drill3.2mm")
+		(at 326.39 196.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "265120e7-f5cf-4a66-88d2-189d1f966fce")
+		(property "Reference" "MP3"
+			(at 335.28 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MP_Pad6mm_Drill3.2mm"
+			(at 335.28 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:MP_Pad6mm_Drill3.2mm"
+			(at 346.71 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 343.23 212.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mechanical part"
+			(at 326.39 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 346.71 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 346.71 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c52f859-542d-49bd-8e0c-a933b61f85ad")
+		)
+		(instances
+			(project "10-gbe-expansion"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39"
+					(reference "MP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroMechanicalParts:MP_Pad6mm_Drill3.2mm")
+		(at 326.39 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99bef04a-03cf-44c2-8acc-69f0dc8286c1")
+		(property "Reference" "MP1"
+			(at 335.28 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MP_Pad6mm_Drill3.2mm"
+			(at 335.28 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:MP_Pad6mm_Drill3.2mm"
+			(at 346.71 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 343.23 197.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mechanical part"
+			(at 326.39 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 346.71 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 346.71 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8cbb5b17-9917-446f-bd32-124c3cc42f9c")
+		)
+		(instances
+			(project ""
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39"
+					(reference "MP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroMechanicalParts:MP_Pad6mm_Drill3.2mm")
+		(at 326.39 204.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a42914dc-65a9-4845-b4e9-adbffecf7253")
+		(property "Reference" "MP4"
+			(at 335.28 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MP_Pad6mm_Drill3.2mm"
+			(at 335.28 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:MP_Pad6mm_Drill3.2mm"
+			(at 346.71 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 343.23 220.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mechanical part"
+			(at 326.39 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 346.71 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 346.71 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a73452f2-391b-4323-9d6b-bcb4dd0d13ea")
+		)
+		(instances
+			(project "10-gbe-expansion"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39"
+					(reference "MP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroMechanicalParts:MP_Pad6mm_Drill3.2mm")
+		(at 326.39 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b213e441-b655-4680-bae8-10d8776486d1")
+		(property "Reference" "MP2"
+			(at 335.28 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MP_Pad6mm_Drill3.2mm"
+			(at 335.28 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:MP_Pad6mm_Drill3.2mm"
+			(at 346.71 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 343.23 204.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mechanical part"
+			(at 326.39 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 346.71 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 346.71 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02c97c21-070e-43dc-b577-7639e8a28abf")
+		)
+		(instances
+			(project "10-gbe-expansion"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39"
+					(reference "MP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
+		(at 323.85 207.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5c940f7-d7b8-4fd4-8a49-efe64725e53a")
+		(property "Reference" "#PWR0284"
+			(at 332.74 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 323.85 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 332.74 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 332.74 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 323.85 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 332.74 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 332.74 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8950ab64-98cc-41f4-80f2-4a5c294b02cd")
+		)
+		(instances
+			(project "10-gbe-expansion"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39"
+					(reference "#PWR0284")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(sheet
 		(at 50.8 127)

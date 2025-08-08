@@ -11925,9 +11925,9 @@
 		(at 107.95 203.2 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f6f62c78-1ec0-42b0-aa12-cc54cc9fa54c")
 		(property "Reference" "J3"

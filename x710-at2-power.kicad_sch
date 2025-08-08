@@ -12447,6 +12447,282 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "antmicroMechanicalParts:Heatsink_960-31-18-S-AB-0"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 17.78 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "Heatsink_960-31-18-S-AB-0"
+				(at 17.78 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:Heatsink_960-31-18-S-AB-0"
+				(at 17.78 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Wakefield%20Thermal%20PDFs/960_Series.pdf"
+				(at 17.78 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Heat Sink BGA Aluminum Top Mount"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "960-31-18-S-AB-0"
+				(at 17.78 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Wakefield-Vette"
+				(at 17.78 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 17.78 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 17.78 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "HEATSINK"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Heatsink_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Heatsink_960-31-18-S-AB-0_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.635 0) (xy 0.635 -3.175) (xy 1.27 -3.175) (xy 1.27 0) (xy 1.905 0) (xy 1.905 -3.175)
+						(xy 2.54 -3.175) (xy 2.54 0) (xy 3.175 0) (xy 3.175 -3.175) (xy 3.81 -3.175) (xy 3.81 0) (xy 4.445 0)
+						(xy 4.445 -3.175) (xy 5.08 -3.175) (xy 5.08 0) (xy 5.715 0) (xy 5.715 -4.445) (xy 0 -4.445) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "antmicroMechanicalParts:Heatsink_ATS-61500R-C2-R0"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 17.78 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "Heatsink_ATS-61500R-C2-R0"
+				(at 17.78 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:Heatsink_ATS-61500R-C2-R0"
+				(at 17.78 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.qats.com/DataSheet/ATS-61500-Series-C2-R0"
+				(at 17.78 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Heat Sinks fanSINK Assembly with Mounting Hardware"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "ATS-61500R-C2-R0"
+				(at 17.78 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Advanced Thermal Solutions"
+				(at 17.78 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 17.78 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 17.78 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "HEATSINK"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Heatsink_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Heatsink_ATS-61500R-C2-R0_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.635 0) (xy 0.635 -3.175) (xy 1.27 -3.175) (xy 1.27 0) (xy 1.905 0) (xy 1.905 -3.175)
+						(xy 2.54 -3.175) (xy 2.54 0) (xy 3.175 0) (xy 3.175 -3.175) (xy 3.81 -3.175) (xy 3.81 0) (xy 4.445 0)
+						(xy 4.445 -3.175) (xy 5.08 -3.175) (xy 5.08 0) (xy 5.715 0) (xy 5.715 -4.445) (xy 0 -4.445) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "antmicropower:+1V0"
 			(power)
 			(pin_names
@@ -18817,7 +19093,7 @@
 			(fill
 				(type none)
 			)
-			(uuid b1923abc-fdef-4ff5-ae66-2d8ecb85d273)
+			(uuid cacc63f4-d956-45d2-8445-1f0f10ac26b1)
 		)
 	)
 	(netclass_flag ""
@@ -36646,6 +36922,120 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroMechanicalParts:Heatsink_960-31-18-S-AB-0")
+		(at 223.52 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82a20f7e-f15e-4af5-9ecf-2ad4290152ad")
+		(property "Reference" "H2"
+			(at 229.87 180.0225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Heatsink_960-31-18-S-AB-0"
+			(at 229.87 182.5625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Heatsink_960-31-18-S-AB-0"
+			(at 241.3 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Wakefield%20Thermal%20PDFs/960_Series.pdf"
+			(at 241.3 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Heat Sink BGA Aluminum Top Mount"
+			(at 223.52 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "960-31-18-S-AB-0"
+			(at 241.3 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wakefield-Vette"
+			(at 241.3 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 241.3 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 241.3 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/745fdd8b-25af-4553-a7ea-a0fa564ee0a7"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:GND")
 		(at 361.95 76.2 0)
 		(unit 1)
@@ -47570,6 +47960,120 @@
 			(project "10-gbe-expansion"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/745fdd8b-25af-4553-a7ea-a0fa564ee0a7"
 					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroMechanicalParts:Heatsink_ATS-61500R-C2-R0")
+		(at 223.52 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "dec4c406-103c-4659-9b0b-3e1cf86ba4e2")
+		(property "Reference" "H1"
+			(at 229.87 187.6425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Heatsink_ATS-61500R-C2-R0"
+			(at 229.87 190.1825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Heatsink_ATS-61500R-C2-R0"
+			(at 241.3 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.qats.com/DataSheet/ATS-61500-Series-C2-R0"
+			(at 241.3 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Heat Sinks fanSINK Assembly with Mounting Hardware"
+			(at 223.52 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ATS-61500R-C2-R0"
+			(at 241.3 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Advanced Thermal Solutions"
+			(at 241.3 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 241.3 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 241.3 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/745fdd8b-25af-4553-a7ea-a0fa564ee0a7"
+					(reference "H1")
 					(unit 1)
 				)
 			)

@@ -24195,21 +24195,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 288.29 49.53) (xy 240.03 49.53) (xy 240.03 88.9) (xy 288.29 88.9)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid dfeb2b5a-77b5-433a-87f4-038b565748ea)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 191.77 49.53) (xy 143.51 49.53) (xy 143.51 88.9) (xy 191.77 88.9)
 			)
 			(stroke
@@ -24219,7 +24204,22 @@
 			(fill
 				(type none)
 			)
-			(uuid ee032c04-c2c4-4c94-80c0-027e86c95c6e)
+			(uuid 912f4e84-7c32-45ed-a590-943d7a27e5e4)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 288.29 49.53) (xy 240.03 49.53) (xy 240.03 88.9) (xy 288.29 88.9)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid c612ee43-4bca-4274-8e33-24ddafe61501)
 		)
 	)
 	(netclass_flag ""
@@ -27773,7 +27773,7 @@
 		(at 175.26 251.46 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "a50733d1-6dfc-45d8-8e92-901a966a4f1e")
@@ -30341,7 +30341,7 @@
 		(at 251.46 226.06 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "d2a0ac1f-e151-42f6-8fbe-20c490a61168")
@@ -31146,7 +31146,7 @@
 		(at 261.62 226.06 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "f8320bad-0ee0-4505-8e38-3d98cd320940")
