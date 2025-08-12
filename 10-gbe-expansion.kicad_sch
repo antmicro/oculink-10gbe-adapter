@@ -448,6 +448,16 @@
 		)
 		(uuid "1bae3859-73ce-4a26-a2d3-da405b9397a9")
 	)
+	(wire
+		(pts
+			(xy 88.9 99.06) (xy 88.9 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dcd0ae6-5b12-469a-aec6-38e3bad20d6b")
+	)
 	(bus
 		(pts
 			(xy 76.2 134.62) (xy 152.4 134.62)
@@ -497,6 +507,16 @@
 			(type default)
 		)
 		(uuid "28914bd5-1044-40ce-9299-6d465d461107")
+	)
+	(wire
+		(pts
+			(xy 101.6 99.06) (xy 88.9 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "310e93d4-51b2-4f6e-9d55-5fd4e6e934c4")
 	)
 	(wire
 		(pts
@@ -887,6 +907,16 @@
 			(type default)
 		)
 		(uuid "dfd67567-ceb9-419b-9890-be631e48b1ca")
+	)
+	(wire
+		(pts
+			(xy 88.9 129.54) (xy 76.2 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e46e82da-afcf-450d-be36-76537112e1e1")
 	)
 	(wire
 		(pts
@@ -1658,6 +1688,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "+5V_OCuLink" input
+			(at 101.6 99.06 180)
+			(uuid "cd96a3d7-67ab-437f-bc02-159bf0f92c8a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

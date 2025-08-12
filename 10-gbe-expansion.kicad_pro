@@ -1460,6 +1460,18 @@
     [
       "0cbe4665-19ed-43d5-9283-363c2bb680b6",
       "OCuLink"
+    ],
+    [
+      "6ef59793-527b-4d85-9643-0ce8a14d0e9d",
+      "Ideal diode 1"
+    ],
+    [
+      "151969d2-a4e0-4623-bed4-6527ef713b4c",
+      "Ideal diode 2"
+    ],
+    [
+      "afae361c-f913-4a70-8dff-1a215fa43817",
+      "Ideal diode 3"
     ]
   ],
   "text_variables": {}
