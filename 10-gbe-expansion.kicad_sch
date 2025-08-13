@@ -738,16 +738,6 @@
 		)
 		(uuid "a94508a5-7629-4a1b-b8da-6d9c94e64579")
 	)
-	(bus
-		(pts
-			(xy 134.62 73.66) (xy 134.62 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab70eaf9-16d9-4f95-896c-7170584806d5")
-	)
 	(wire
 		(pts
 			(xy 326.39 204.47) (xy 323.85 204.47)
@@ -787,16 +777,6 @@
 			(type default)
 		)
 		(uuid "b8c29a26-8e01-461f-b3e9-8f49a4e1ead5")
-	)
-	(bus
-		(pts
-			(xy 152.4 106.68) (xy 134.62 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b999758c-8583-4e0f-be4f-15ab98ffefda")
 	)
 	(wire
 		(pts
@@ -957,16 +937,6 @@
 			(type default)
 		)
 		(uuid "f8f52a3d-6164-4ff5-bcab-123200235186")
-	)
-	(bus
-		(pts
-			(xy 152.4 73.66) (xy 134.62 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc6b6267-ace5-42d9-b213-ded60e9d1ced")
 	)
 	(symbol
 		(lib_id "antmicroMechanicalParts:MP_Pad6mm_Drill3.2mm")
@@ -2182,16 +2152,6 @@
 				(justify left)
 			)
 		)
-		(pin "NCSI{NCSI}" bidirectional
-			(at 152.4 106.68 180)
-			(uuid "b682b0e5-44c5-4b77-9c86-25e7ae87bc6d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "~{PE_RST}" input
 			(at 152.4 137.16 180)
 			(uuid "1ae088fa-ed8c-4829-b31f-6004fe20bccf")
@@ -2362,16 +2322,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(pin "NCSI_CONN{NCSI}" bidirectional
-			(at 152.4 73.66 180)
-			(uuid "397df88b-14cf-44c4-905c-f637d54fb45d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "~{PHY_RESET_3V3}" input

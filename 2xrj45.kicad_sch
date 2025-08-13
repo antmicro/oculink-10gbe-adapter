@@ -1760,7 +1760,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroMechanicalParts:MP_Terminal_M3_SMD_7466303R"
+		(symbol "antmicroMechanicalParts:MP_Terminal_M3_THT_7760"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1774,7 +1774,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "MP_Terminal_M3_SMD_7466303R"
+			(property "Value" "MP_Terminal_M3_THT_7760"
 				(at 22.86 -7.62 0)
 				(effects
 					(font
@@ -1785,7 +1785,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "antmicro-footprints:MP_Terminal_M3_SMD_7466303R"
+			(property "Footprint" "antmicro-footprints:MP_Terminal_M3_THT_7760"
 				(at 22.86 -10.16 0)
 				(effects
 					(font
@@ -1796,7 +1796,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.mouser.com/datasheet/2/445/7466303-2890962.pdf"
+			(property "Datasheet" "https://www.mouser.pl/datasheet/2/215/7760-741244.pdf"
 				(at 22.86 -12.7 0)
 				(effects
 					(font
@@ -1807,26 +1807,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "PCB Terminal, 90° SMT Block, Brass, Tin, REDCUBE WP-SMRA"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "7466303R"
-				(at 22.86 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Manufacturer" "Würth Elektronik"
+			(property "Description" "PCB Terminal, 90° THT, Brass, Tin"
 				(at 22.86 -15.24 0)
 				(effects
 					(font
@@ -1837,7 +1818,17 @@
 					(hide yes)
 				)
 			)
-			(property "Author" "Antmicro"
+			(property "MPN" "7760"
+				(at 22.86 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer" "Keystone Electronics"
 				(at 22.86 -17.78 0)
 				(effects
 					(font
@@ -1848,7 +1839,7 @@
 					(hide yes)
 				)
 			)
-			(property "License" "Apache-2.0"
+			(property "Author" "Antmicro"
 				(at 22.86 -20.32 0)
 				(effects
 					(font
@@ -1859,7 +1850,18 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "HORIZONTAL, SMT, WIRE-BOARD, CONNECTOR"
+			(property "License" "Apache-2.0"
+				(at 22.86 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "HORIZONTAL, THT, WIRE-BOARD, CONNECTOR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1868,7 +1870,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "MP_Terminal_M3_SMD_7466303R_1_1"
+			(symbol "MP_Terminal_M3_THT_7760_1_1"
 				(rectangle
 					(start 2.54 -2.54)
 					(end 7.62 2.54)
@@ -5261,123 +5263,6 @@
 		(uuid "e648cde8-fc0f-4f8a-8e1f-a12754988f53")
 	)
 	(symbol
-		(lib_id "antmicroMechanicalParts:MP_Terminal_M3_SMD_7466303R")
-		(at 372.11 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0d3315e3-1677-4740-b9f4-012d493ef426")
-		(property "Reference" "J9"
-			(at 381 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MP_Terminal_M3_SMD_7466303R"
-			(at 394.97 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:MP_Terminal_M3_SMD_7466303R"
-			(at 394.97 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/445/7466303-2890962.pdf"
-			(at 394.97 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "PCB Terminal, 90° SMT Block, Brass, Tin, REDCUBE WP-SMRA"
-			(at 372.11 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "7466303R"
-			(at 381 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 394.97 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 394.97 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 394.97 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6a8ae47e-bc63-4f55-87ec-429863ce036b")
-		)
-		(instances
-			(project "10-gbe-expansion"
-				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/b3dd2e9f-aefc-4b19-a6a4-069fdee319cd"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicropower:GND")
 		(at 176.53 243.84 0)
 		(unit 1)
@@ -5606,6 +5491,125 @@
 			(project "10-gbe-expansion"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/b3dd2e9f-aefc-4b19-a6a4-069fdee319cd"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroMechanicalParts:MP_Terminal_M3_THT_7760")
+		(at 370.84 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17b4b41e-d122-4990-be48-f639461337d7")
+		(property "Reference" "J10"
+			(at 379.73 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MP_Terminal_M3_THT_7760"
+			(at 393.7 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:MP_Terminal_M3_THT_7760"
+			(at 393.7 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/215/7760-741244.pdf"
+			(at 393.7 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB Terminal, 90° THT, Brass, Tin"
+			(at 393.7 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "7760"
+			(at 379.73 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Keystone Electronics"
+			(at 393.7 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 393.7 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 393.7 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d58bbab-c51b-431c-b0b2-e518908b74a6")
+		)
+		(instances
+			(project "10-gbe-expansion"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/b3dd2e9f-aefc-4b19-a6a4-069fdee319cd"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -6000,6 +6004,125 @@
 			(project ""
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/b3dd2e9f-aefc-4b19-a6a4-069fdee319cd"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroMechanicalParts:MP_Terminal_M3_THT_7760")
+		(at 370.84 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d4b1e97-b12e-4130-b9b9-699131f3e30f")
+		(property "Reference" "J9"
+			(at 379.73 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MP_Terminal_M3_THT_7760"
+			(at 393.7 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:MP_Terminal_M3_THT_7760"
+			(at 393.7 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/215/7760-741244.pdf"
+			(at 393.7 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB Terminal, 90° THT, Brass, Tin"
+			(at 393.7 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "7760"
+			(at 379.73 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Keystone Electronics"
+			(at 393.7 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 393.7 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 393.7 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a739ac9-d466-4872-b88a-8489e4d8b7d9")
+		)
+		(instances
+			(project "10-gbe-expansion"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/b3dd2e9f-aefc-4b19-a6a4-069fdee319cd"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -7208,123 +7331,6 @@
 			(project "10-gbe-expansion"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/b3dd2e9f-aefc-4b19-a6a4-069fdee319cd"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroMechanicalParts:MP_Terminal_M3_SMD_7466303R")
-		(at 372.11 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ede48f5-d81c-477e-a27e-15cf94b8e01e")
-		(property "Reference" "J10"
-			(at 381 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MP_Terminal_M3_SMD_7466303R"
-			(at 394.97 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:MP_Terminal_M3_SMD_7466303R"
-			(at 394.97 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/445/7466303-2890962.pdf"
-			(at 394.97 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "PCB Terminal, 90° SMT Block, Brass, Tin, REDCUBE WP-SMRA"
-			(at 372.11 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "7466303R"
-			(at 381 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 394.97 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 394.97 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 394.97 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "15458cfc-5059-46b2-9483-3b70e8eda30d")
-		)
-		(instances
-			(project "10-gbe-expansion"
-				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/b3dd2e9f-aefc-4b19-a6a4-069fdee319cd"
-					(reference "J10")
 					(unit 1)
 				)
 			)
