@@ -66,11 +66,12 @@
 				)
 			)
 			(property "Description" "SMD Multilayer Ceramic Capacitor, 100nF, 50V, 0402, ±5%, X7R"
-				(at 0 0 0)
+				(at 15.24 -33.02 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -279,11 +280,12 @@
 				)
 			)
 			(property "Description" "SMD Multilayer Ceramic Capacitor, 1 µF, 25 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
-				(at 0 0 0)
+				(at 20.32 -33.02 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -490,11 +492,12 @@
 				)
 			)
 			(property "Description" "SMD Multilayer Ceramic Capacitor, General Purpose, 470 pF, 25 V, 0402 [1005 Metric], ± 10%, X7R"
-				(at 0 0 0)
+				(at 20.32 -33.02 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -552,7 +555,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Voltage" ""
+			(property "Voltage" "25V"
 				(at 20.32 -27.94 0)
 				(effects
 					(font
@@ -562,7 +565,7 @@
 					(hide yes)
 				)
 			)
-			(property "Dielectric" ""
+			(property "Dielectric" "X7R"
 				(at 20.32 -30.48 0)
 				(effects
 					(font
@@ -701,11 +704,12 @@
 				)
 			)
 			(property "Description" "SMD Multilayer Ceramic Capacitor"
-				(at 0 0 0)
+				(at 20.32 -33.02 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -912,11 +916,12 @@
 				)
 			)
 			(property "Description" "SMD Multilayer Ceramic Capacitor, 100 µF, 6.3 V, 0805 [2012 Metric], ± 20%, X5R, GRM Series"
-				(at 0 0 0)
+				(at 20.32 -33.02 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -1133,11 +1138,12 @@
 				)
 			)
 			(property "Description" "SMD Multilayer Ceramic Capacitor, 220 µF, 6.3 V, 1206 [3216 Metric], ± 20%, X5R, GRM Series"
-				(at 0 0 0)
+				(at 20.32 -33.02 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -1354,11 +1360,12 @@
 				)
 			)
 			(property "Description" "Ferrite Bead, 0603 [1608 Metric], 33 ohm, 3 A, BLM18PG, 0.025 ohm, ± 25%, DC power line"
-				(at 0 0 0)
+				(at 13.97 -22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -1567,11 +1574,12 @@
 				)
 			)
 			(property "Description" "Wirewound Inductor, 2.4 nH, 0.05 ohm, 15 GHz, 850 mA, 0402 [1005 Metric], LQW15AN"
-				(at 0 0 0)
+				(at 13.97 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -1796,7 +1804,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.mouser.pl/datasheet/2/215/7760-741244.pdf"
+			(property "Datasheet" "https://www.mouser.com/datasheet/2/215/7760-741244.pdf"
 				(at 22.86 -12.7 0)
 				(effects
 					(font
@@ -1808,7 +1816,7 @@
 				)
 			)
 			(property "Description" "PCB Terminal, 90° THT, Brass, Tin"
-				(at 22.86 -15.24 0)
+				(at 22.86 -25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1861,7 +1869,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "HORIZONTAL, THT, WIRE-BOARD, CONNECTOR"
+			(property "ki_keywords" "HORIZONTAL, THT, CONNECTOR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1962,11 +1970,12 @@
 				)
 			)
 			(property "Description" "Modular Connectors / Ethernet Connectors 1X1 TAB DOWN W/LED'S ETHERNET (NON PoE)"
-				(at 0 0 0)
+				(at 35.56 -22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -2568,11 +2577,12 @@
 				)
 			)
 			(property "Description" "SMD Chip Resistor, 220 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-				(at 0 0 0)
+				(at 20.32 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -2757,11 +2767,12 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
+				(at 15.24 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -2901,11 +2912,12 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
+				(at 15.24 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -3047,11 +3059,12 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
+				(at 8.89 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -5538,7 +5551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/2/215/7760-741244.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/215/7760-741244.pdf"
 			(at 393.7 134.62 0)
 			(effects
 				(font
@@ -5974,7 +5987,7 @@
 				(justify right)
 			)
 		)
-		(property "Voltage" ""
+		(property "Voltage" "25V"
 			(at 261.62 82.55 0)
 			(effects
 				(font
@@ -5984,7 +5997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
+		(property "Dielectric" "X7R"
 			(at 264.16 82.55 0)
 			(effects
 				(font
@@ -6051,7 +6064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/2/215/7760-741244.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/215/7760-741244.pdf"
 			(at 393.7 127 0)
 			(effects
 				(font
@@ -6543,7 +6556,7 @@
 				(justify right)
 			)
 		)
-		(property "Voltage" ""
+		(property "Voltage" "25V"
 			(at 271.78 218.44 0)
 			(effects
 				(font
@@ -6553,7 +6566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
+		(property "Dielectric" "X7R"
 			(at 274.32 218.44 0)
 			(effects
 				(font
@@ -7207,7 +7220,7 @@
 				(justify right)
 			)
 		)
-		(property "Voltage" ""
+		(property "Voltage" "25V"
 			(at 271.78 82.55 0)
 			(effects
 				(font
@@ -7217,7 +7230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
+		(property "Dielectric" "X7R"
 			(at 274.32 82.55 0)
 			(effects
 				(font
@@ -9279,7 +9292,7 @@
 				(justify right)
 			)
 		)
-		(property "Voltage" ""
+		(property "Voltage" "25V"
 			(at 281.94 82.55 0)
 			(effects
 				(font
@@ -9289,7 +9302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
+		(property "Dielectric" "X7R"
 			(at 284.48 82.55 0)
 			(effects
 				(font
@@ -9767,7 +9780,7 @@
 				(justify right)
 			)
 		)
-		(property "Voltage" ""
+		(property "Voltage" "25V"
 			(at 281.94 218.44 0)
 			(effects
 				(font
@@ -9777,7 +9790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
+		(property "Dielectric" "X7R"
 			(at 284.48 218.44 0)
 			(effects
 				(font
@@ -11193,7 +11206,7 @@
 				(justify right)
 			)
 		)
-		(property "Voltage" ""
+		(property "Voltage" "25V"
 			(at 261.62 218.44 0)
 			(effects
 				(font
@@ -11203,7 +11216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
+		(property "Dielectric" "X7R"
 			(at 264.16 218.44 0)
 			(effects
 				(font

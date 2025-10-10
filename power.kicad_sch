@@ -66,11 +66,12 @@
 				)
 			)
 			(property "Description" "SMD Multilayer Ceramic Capacitor, 100nF, 50V, 0402, ±5%, X7R"
-				(at 0 0 0)
+				(at 15.24 -33.02 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -256,7 +257,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
+			(property "Footprint" "antmicro-footprints:C_0603_1608Metric_EIA"
 				(at 20.32 -12.7 0)
 				(effects
 					(font
@@ -279,11 +280,12 @@
 				)
 			)
 			(property "Description" "SMD Multilayer Ceramic Capacitor"
-				(at 0 0 0)
+				(at 20.32 -33.02 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -353,16 +355,6 @@
 			)
 			(property "Dielectric" ""
 				(at 20.32 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Public" "False"
-				(at 20.32 -33.02 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -494,11 +486,12 @@
 				)
 			)
 			(property "Description" "Switching Voltage Regulators 3-V to 16-V input voltage, 4-A FCCM mode, synchronous buck converter in SOT-563 package 6-SOT-5X3 -40 to 125"
-				(at 0 0 0)
+				(at 30.48 -25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -719,7 +712,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.mouser.pl/datasheet/2/54/Bourns_04_01_2025_SRP4021HMT_Datasheet-3580094.pdf"
+			(property "Datasheet" "https://www.mouser.com/datasheet/2/54/Bourns_04_01_2025_SRP4021HMT_Datasheet-3580094.pdf"
 				(at 15.24 -15.24 0)
 				(effects
 					(font
@@ -731,7 +724,7 @@
 				)
 			)
 			(property "Description" "Power Inductors - SMD Ind,4.1x4.2x1.9mm,1uH+/-20%,10A, Shielded"
-				(at 15.24 -17.78 0)
+				(at 15.24 -38.1 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1002,11 +995,12 @@
 				)
 			)
 			(property "Description" "LED, Green, SMD, 0603, 20 mA, 1.7 V, 570 nm"
-				(at 0 0 0)
+				(at 20.32 -25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -1240,11 +1234,12 @@
 				)
 			)
 			(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-				(at 0 0 0)
+				(at 20.32 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -1428,11 +1423,12 @@
 				)
 			)
 			(property "Description" "MULTICOMP PRO MCMR04X3000FTLSMD Chip Resistor, Ceramic, 300 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film"
-				(at 0 0 0)
+				(at 20.32 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -1616,11 +1612,12 @@
 				)
 			)
 			(property "Description" "SMD Chip Resistor, 5.1 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-				(at 0 0 0)
+				(at 20.32 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -1804,11 +1801,12 @@
 				)
 			)
 			(property "Description" "ESD, TVS Diode, 14V, UNI, 400W, SOD-123FL"
-				(at 0 0 0)
+				(at 15.24 -25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -2000,6 +1998,7 @@
 						(thickness 0.15)
 					)
 					(justify left bottom)
+					(hide yes)
 				)
 			)
 			(property "Footprint" "antmicro-footprints:USB-C_Receptacle_GCT_USB4105-GF-A"
@@ -2025,11 +2024,12 @@
 				)
 			)
 			(property "Description" "USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle"
-				(at 0 0 0)
+				(at 38.1 -22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -2052,7 +2052,6 @@
 						(thickness 0.15)
 					)
 					(justify left bottom)
-					(hide yes)
 				)
 			)
 			(property "Author" "Antmicro"
@@ -2286,7 +2285,7 @@
 						(type background)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 0 0 180)
 					(length 3.81)
 					(name "VBUS"
@@ -2649,11 +2648,12 @@
 				)
 			)
 			(property "Description" "Pin Header, Pitch 2.5 mm, 1 Row, 2 Contacts, Nano-Fit"
-				(at 0 0 0)
+				(at 26.67 -22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -2855,11 +2855,12 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
+				(at 0 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -2979,11 +2980,12 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
+				(at 15.24 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -3123,11 +3125,12 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
+				(at 15.24 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -3269,11 +3272,12 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
+				(at 8.89 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -3381,11 +3385,12 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -3469,11 +3474,12 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
+				(at 0 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -3582,11 +3588,12 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
+				(at 0 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -4815,7 +4822,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
+		(property "Footprint" "antmicro-footprints:C_0603_1608Metric_EIA"
 			(at 309.88 82.55 0)
 			(effects
 				(font
@@ -4837,7 +4844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor"
 			(at 297.18 102.87 0)
 			(effects
 				(font
@@ -5105,7 +5112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
+		(property "Footprint" "antmicro-footprints:C_0603_1608Metric_EIA"
 			(at 309.88 158.75 0)
 			(effects
 				(font
@@ -5127,7 +5134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor"
 			(at 297.18 179.07 0)
 			(effects
 				(font
@@ -5464,7 +5471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/2/54/Bourns_04_01_2025_SRP4021HMT_Datasheet-3580094.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/54/Bourns_04_01_2025_SRP4021HMT_Datasheet-3580094.pdf"
 			(at 304.8 187.96 0)
 			(effects
 				(font
@@ -6219,7 +6226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/2/54/Bourns_04_01_2025_SRP4021HMT_Datasheet-3580094.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/54/Bourns_04_01_2025_SRP4021HMT_Datasheet-3580094.pdf"
 			(at 304.8 161.29 0)
 			(effects
 				(font
@@ -7118,7 +7125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/2/54/Bourns_04_01_2025_SRP4021HMT_Datasheet-3580094.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/54/Bourns_04_01_2025_SRP4021HMT_Datasheet-3580094.pdf"
 			(at 304.8 215.9 0)
 			(effects
 				(font
@@ -7556,7 +7563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/2/54/Bourns_04_01_2025_SRP4021HMT_Datasheet-3580094.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/54/Bourns_04_01_2025_SRP4021HMT_Datasheet-3580094.pdf"
 			(at 304.8 135.89 0)
 			(effects
 				(font
@@ -7731,7 +7738,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
+		(property "Footprint" "antmicro-footprints:C_0603_1608Metric_EIA"
 			(at 309.88 132.08 0)
 			(effects
 				(font
@@ -7753,7 +7760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor"
 			(at 297.18 152.4 0)
 			(effects
 				(font
@@ -7986,7 +7993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
+		(property "Footprint" "antmicro-footprints:C_0603_1608Metric_EIA"
 			(at 270.51 107.95 0)
 			(effects
 				(font
@@ -8008,7 +8015,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor"
 			(at 257.81 128.27 0)
 			(effects
 				(font
@@ -8147,7 +8154,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
+		(property "Footprint" "antmicro-footprints:C_0603_1608Metric_EIA"
 			(at 270.51 187.96 0)
 			(effects
 				(font
@@ -8169,7 +8176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor"
 			(at 257.81 208.28 0)
 			(effects
 				(font
@@ -9612,7 +9619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
+		(property "Footprint" "antmicro-footprints:C_0603_1608Metric_EIA"
 			(at 270.51 133.35 0)
 			(effects
 				(font
@@ -9634,7 +9641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor"
 			(at 257.81 153.67 0)
 			(effects
 				(font
@@ -9773,7 +9780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
+		(property "Footprint" "antmicro-footprints:C_0603_1608Metric_EIA"
 			(at 270.51 82.55 0)
 			(effects
 				(font
@@ -9795,7 +9802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor"
 			(at 257.81 102.87 0)
 			(effects
 				(font
@@ -10310,7 +10317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
+		(property "Footprint" "antmicro-footprints:C_0603_1608Metric_EIA"
 			(at 320.04 82.55 0)
 			(effects
 				(font
@@ -10332,7 +10339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor"
 			(at 307.34 102.87 0)
 			(effects
 				(font
@@ -10677,7 +10684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
+		(property "Footprint" "antmicro-footprints:C_0603_1608Metric_EIA"
 			(at 270.51 160.02 0)
 			(effects
 				(font
@@ -10699,7 +10706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor"
 			(at 257.81 180.34 0)
 			(effects
 				(font
@@ -11503,7 +11510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
+		(property "Footprint" "antmicro-footprints:C_0603_1608Metric_EIA"
 			(at 309.88 106.68 0)
 			(effects
 				(font
@@ -11525,7 +11532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor"
 			(at 297.18 127 0)
 			(effects
 				(font
@@ -11996,7 +12003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/2/54/Bourns_04_01_2025_SRP4021HMT_Datasheet-3580094.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/54/Bourns_04_01_2025_SRP4021HMT_Datasheet-3580094.pdf"
 			(at 304.8 110.49 0)
 			(effects
 				(font
@@ -12171,7 +12178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
+		(property "Footprint" "antmicro-footprints:C_0603_1608Metric_EIA"
 			(at 309.88 186.69 0)
 			(effects
 				(font
@@ -12193,7 +12200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor"
 			(at 297.18 207.01 0)
 			(effects
 				(font

@@ -60,11 +60,12 @@
 				)
 			)
 			(property "Description" "Pin Header, Vertical, Board-to-Board, 2.54 mm, 1 Rows, 3 Contacts, Through Hole Straight, WR-PHD"
-				(at 0 0 0)
+				(at 20.32 -25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -90,7 +91,7 @@
 				)
 			)
 			(property "Author" "Antmicro"
-				(at 20.32 -22.86 0)
+				(at 20.32 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -101,7 +102,7 @@
 				)
 			)
 			(property "License" "Apache-2.0"
-				(at 20.32 -25.4 0)
+				(at 20.32 -22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -121,6 +122,17 @@
 				)
 			)
 			(symbol "PinHeader_1x3_P2.54mm_Drill1.1mm_1_1"
+				(rectangle
+					(start 2.54 2.54)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(rectangle
 					(start 4.191 -0.254)
 					(end 3.683 0.254)
@@ -152,17 +164,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 -6.35)
-					(end 2.54 1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
 					)
 				)
 				(pin passive line
@@ -270,7 +271,7 @@
 				)
 			)
 			(property "Description" "Ethernet ICs Intel Ethernet Controller 10 Gigabit X7"
-				(at 76.2 -12.7 0)
+				(at 76.2 -22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2103,7 +2104,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 0 -38.1 0)
 					(length 5.08)
 					(name "SDP0_3"
@@ -2121,7 +2122,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(name "SDP1_0"
@@ -2139,7 +2140,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 0 -45.72 0)
 					(length 5.08)
 					(name "SDP1_1"
@@ -2157,7 +2158,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 0 -48.26 0)
 					(length 5.08)
 					(name "SDP1_2"
@@ -2175,7 +2176,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 0 -50.8 0)
 					(length 5.08)
 					(name "SDP1_3"
@@ -2321,7 +2322,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 45.72 -12.7 180)
 					(length 5.08)
 					(name "LED1_0"
@@ -2339,7 +2340,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 45.72 -15.24 180)
 					(length 5.08)
 					(name "LED1_1"
@@ -2357,7 +2358,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 45.72 -17.78 180)
 					(length 5.08)
 					(name "LED3_0"
@@ -2375,7 +2376,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 45.72 -20.32 180)
 					(length 5.08)
 					(name "LED3_1"
@@ -2393,7 +2394,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 45.72 -30.48 180)
 					(length 5.08)
 					(name "SDP2_0"
@@ -2411,7 +2412,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 45.72 -33.02 180)
 					(length 5.08)
 					(name "SDP2_1"
@@ -2429,7 +2430,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 45.72 -35.56 180)
 					(length 5.08)
 					(name "SDP2_2"
@@ -2447,7 +2448,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 45.72 -38.1 180)
 					(length 5.08)
 					(name "SDP2_3"
@@ -2465,7 +2466,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 45.72 -43.18 180)
 					(length 5.08)
 					(name "SDP3_0"
@@ -2483,7 +2484,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 45.72 -45.72 180)
 					(length 5.08)
 					(name "SDP3_1"
@@ -2501,7 +2502,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 45.72 -48.26 180)
 					(length 5.08)
 					(name "SDP3_2"
@@ -2519,7 +2520,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 45.72 -50.8 180)
 					(length 5.08)
 					(name "SDP3_3"
@@ -2962,7 +2963,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 45.72 -2.54 180)
 					(length 5.08)
 					(name "GPIO_1"
@@ -2998,7 +2999,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 45.72 -7.62 180)
 					(length 5.08)
 					(name "GPIO_3"
@@ -3016,7 +3017,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 45.72 -10.16 180)
 					(length 5.08)
 					(name "GPIO_4"
@@ -3335,7 +3336,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 0 -31.75 0)
 					(length 5.08)
 					(name "RSVDR9_NC"
@@ -3353,7 +3354,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 0 -34.29 0)
 					(length 5.08)
 					(name "RSVDU9_NC"
@@ -3371,7 +3372,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 0 -36.83 0)
 					(length 5.08)
 					(name "RSVDK24_NC"
@@ -3389,7 +3390,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 0 -39.37 0)
 					(length 5.08)
 					(name "RSVDL25_NC"
@@ -3461,7 +3462,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -10.16 180)
 					(length 5.08)
 					(name "RSVDW25_NC"
@@ -3479,7 +3480,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -12.7 180)
 					(length 5.08)
 					(name "RSVDW27_NC"
@@ -3497,7 +3498,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -15.24 180)
 					(length 5.08)
 					(name "RSVDV22_NC"
@@ -3515,7 +3516,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -17.78 180)
 					(length 5.08)
 					(name "RSVDV24_NC"
@@ -3533,7 +3534,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -20.32 180)
 					(length 5.08)
 					(name "RSVDV26_NC"
@@ -3551,7 +3552,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -22.86 180)
 					(length 5.08)
 					(name "RSVDV28_NC"
@@ -3569,7 +3570,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -25.4 180)
 					(length 5.08)
 					(name "RSVDU23_NC"
@@ -3587,7 +3588,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -27.94 180)
 					(length 5.08)
 					(name "RSVDU25_NC"
@@ -3605,7 +3606,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -30.48 180)
 					(length 5.08)
 					(name "RSVDU27_NC"
@@ -3623,7 +3624,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -33.02 180)
 					(length 5.08)
 					(name "RSVDU29_NC"
@@ -3641,7 +3642,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -35.56 180)
 					(length 5.08)
 					(name "RSVDT22_NC"
@@ -3659,7 +3660,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -38.1 180)
 					(length 5.08)
 					(name "RSVDT24_NC"
@@ -3677,7 +3678,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -40.64 180)
 					(length 5.08)
 					(name "RSVDT26_NC"
@@ -3695,7 +3696,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -43.18 180)
 					(length 5.08)
 					(name "RSVDT28_NC"
@@ -3713,7 +3714,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -45.72 180)
 					(length 5.08)
 					(name "RSVDR23_NC"
@@ -3731,7 +3732,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -48.26 180)
 					(length 5.08)
 					(name "RSVDR25_NC"
@@ -3749,7 +3750,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -50.8 180)
 					(length 5.08)
 					(name "RSVDR27_NC"
@@ -3767,7 +3768,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -53.34 180)
 					(length 5.08)
 					(name "RSVDP24_NC"
@@ -3785,7 +3786,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -55.88 180)
 					(length 5.08)
 					(name "RSVDP26_NC"
@@ -3803,7 +3804,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -58.42 180)
 					(length 5.08)
 					(name "RSVDP28_NC"
@@ -3821,7 +3822,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -60.96 180)
 					(length 5.08)
 					(name "RSVDN23_NC"
@@ -3839,7 +3840,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -63.5 180)
 					(length 5.08)
 					(name "RSVDN25_NC"
@@ -3857,7 +3858,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -66.04 180)
 					(length 5.08)
 					(name "RSVDN27_NC"
@@ -3875,7 +3876,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -68.58 180)
 					(length 5.08)
 					(name "RSVDM22_NC"
@@ -3893,7 +3894,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -71.12 180)
 					(length 5.08)
 					(name "RSVDM24_NC"
@@ -3911,7 +3912,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -73.66 180)
 					(length 5.08)
 					(name "RSVDM26_NC"
@@ -3929,7 +3930,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -76.2 180)
 					(length 5.08)
 					(name "RSVDM28_NC"
@@ -3947,7 +3948,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -78.74 180)
 					(length 5.08)
 					(name "RSVDL23_NC"
@@ -3965,7 +3966,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -81.28 180)
 					(length 5.08)
 					(name "RSVDL27_NC"
@@ -3983,7 +3984,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -83.82 180)
 					(length 5.08)
 					(name "RSVDK22_NC"
@@ -4001,7 +4002,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -86.36 180)
 					(length 5.08)
 					(name "RSVDJ23_NC"
@@ -4019,7 +4020,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -88.9 180)
 					(length 5.08)
 					(name "RSVDJ25_NC"
@@ -4037,7 +4038,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -91.44 180)
 					(length 5.08)
 					(name "RSVDW23_NC"
@@ -4308,7 +4309,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 0 -20.32 0)
 					(length 5.08)
 					(name "RSVDK30_NC"
@@ -4326,7 +4327,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 0 -22.86 0)
 					(length 5.08)
 					(name "RSVDK32_NC"
@@ -4398,7 +4399,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 0 -38.1 0)
 					(length 5.08)
 					(name "RSVDR33_NC"
@@ -4416,7 +4417,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 0 -40.64 0)
 					(length 5.08)
 					(name "RSVDM34_NC"
@@ -4434,7 +4435,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 0 -43.18 0)
 					(length 5.08)
 					(name "RSVDP34_NC"
@@ -4452,7 +4453,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 0 -45.72 0)
 					(length 5.08)
 					(name "RSVDN33_NC"
@@ -5010,7 +5011,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 55.88 -63.5 180)
 					(length 5.08)
 					(name "RSVDL35_NC"
@@ -5028,7 +5029,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 55.88 -66.04 180)
 					(length 5.08)
 					(name "RSVDM36_NC"
@@ -5046,7 +5047,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 55.88 -68.58 180)
 					(length 5.08)
 					(name "RSVDN35_NC"
@@ -5064,7 +5065,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 55.88 -71.12 180)
 					(length 5.08)
 					(name "RSVDP36_NC"
@@ -5082,7 +5083,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 55.88 -73.66 180)
 					(length 5.08)
 					(name "RSVDR37_NC"
@@ -5100,7 +5101,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 55.88 -76.2 180)
 					(length 5.08)
 					(name "RSVDH16_NC"
@@ -5118,7 +5119,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 55.88 -78.74 180)
 					(length 5.08)
 					(name "RSVDG15_NC"
@@ -5136,7 +5137,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 55.88 -81.28 180)
 					(length 5.08)
 					(name "RSVDJ15_NC"
@@ -5154,7 +5155,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 55.88 -83.82 180)
 					(length 5.08)
 					(name "RSVDH14_NC"
@@ -5172,7 +5173,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 55.88 -86.36 180)
 					(length 5.08)
 					(name "RSVDG13_NC"
@@ -5509,7 +5510,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 0 -45.72 0)
 					(length 5.08)
 					(name "RSVDK34_NC"
@@ -5527,7 +5528,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 0 -48.26 0)
 					(length 5.08)
 					(name "RSVDK36_NC"
@@ -5545,7 +5546,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 0 -50.8 0)
 					(length 5.08)
 					(name "RSVDK26_NC"
@@ -5563,7 +5564,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 0 -53.34 0)
 					(length 5.08)
 					(name "RSVDK28_NC"
@@ -5581,7 +5582,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 0 -58.42 0)
 					(length 5.08)
 					(name "RSVDD20_NC"
@@ -5599,7 +5600,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 0 -60.96 0)
 					(length 5.08)
 					(name "RSVDC21_NC"
@@ -5617,7 +5618,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 0 -66.04 0)
 					(length 5.08)
 					(name "RSVDB42_NC"
@@ -5635,7 +5636,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 0 -68.58 0)
 					(length 5.08)
 					(name "RSVDA41_NC"
@@ -5653,7 +5654,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 0 180)
 					(length 5.08)
 					(name "RSVDL29_NC"
@@ -5671,7 +5672,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -2.54 180)
 					(length 5.08)
 					(name "RSVDM32_NC"
@@ -5689,7 +5690,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -5.08 180)
 					(length 5.08)
 					(name "RSVDM30_NC"
@@ -5707,7 +5708,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -7.62 180)
 					(length 5.08)
 					(name "RSVDN31_NC"
@@ -5725,7 +5726,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -10.16 180)
 					(length 5.08)
 					(name "RSVDN29_NC"
@@ -5743,7 +5744,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -12.7 180)
 					(length 5.08)
 					(name "RSVDP32_NC"
@@ -5761,7 +5762,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -15.24 180)
 					(length 5.08)
 					(name "RSVDP30_NC"
@@ -5779,7 +5780,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -17.78 180)
 					(length 5.08)
 					(name "RSVDR31_NC"
@@ -5797,7 +5798,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -20.32 180)
 					(length 5.08)
 					(name "RSVDR29_NC"
@@ -5815,7 +5816,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -22.86 180)
 					(length 5.08)
 					(name "RSVDT32_NC"
@@ -5833,7 +5834,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -25.4 180)
 					(length 5.08)
 					(name "RSVDT30_NC"
@@ -5851,7 +5852,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -27.94 180)
 					(length 5.08)
 					(name "RSVDU35_NC"
@@ -5869,7 +5870,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -30.48 180)
 					(length 5.08)
 					(name "RSVDU33_NC"
@@ -5887,7 +5888,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -33.02 180)
 					(length 5.08)
 					(name "RSVDU31_NC"
@@ -5905,7 +5906,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -35.56 180)
 					(length 5.08)
 					(name "RSVDV34_NC"
@@ -5923,7 +5924,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -38.1 180)
 					(length 5.08)
 					(name "RSVDV32_NC"
@@ -5941,7 +5942,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -40.64 180)
 					(length 5.08)
 					(name "RSVDV30_NC"
@@ -6013,7 +6014,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -55.88 180)
 					(length 5.08)
 					(name "RSVDD32_NC"
@@ -6031,7 +6032,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 43.18 -58.42 180)
 					(length 5.08)
 					(name "RSVDJ39_NC"
@@ -7307,7 +7308,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 50.8 -33.02 180)
 					(length 5.08)
 					(name "RSVDV8_NC"
@@ -7325,7 +7326,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 50.8 -35.56 180)
 					(length 5.08)
 					(name "RSVDV10_NC"
@@ -10282,11 +10283,12 @@
 				)
 			)
 			(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-				(at 0 0 0)
+				(at 20.32 -33.02 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -10481,11 +10483,12 @@
 				)
 			)
 			(property "Description" "SMD Chip Resistor, 100 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-				(at 0 0 0)
+				(at 20.32 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -10669,11 +10672,12 @@
 				)
 			)
 			(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-				(at 0 0 0)
+				(at 20.32 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -10857,11 +10861,12 @@
 				)
 			)
 			(property "Description" "SMD Chip Resistor, 1 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-				(at 0 0 0)
+				(at 20.32 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -11034,11 +11039,12 @@
 				)
 			)
 			(property "Description" "Jumper"
-				(at 0 0 0)
+				(at 7.62 -22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -11161,11 +11167,12 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
+				(at 15.24 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -11305,11 +11312,12 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
+				(at 15.24 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -11451,11 +11459,12 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
+				(at 8.89 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -11588,8 +11597,260 @@
 		(uuid "a6dace8f-0352-4b5d-be2c-23d55a2240f6")
 	)
 	(no_connect
+		(at 238.76 212.09)
+		(uuid "082785b8-0655-4ef7-aca3-5d3a60c6b4ff")
+	)
+	(no_connect
+		(at 238.76 135.89)
+		(uuid "0cdcac43-cd71-4c14-8095-63ca1bcfe307")
+	)
+	(no_connect
+		(at 238.76 237.49)
+		(uuid "12ba3c56-8678-4506-af21-6f2c46c88e80")
+	)
+	(no_connect
+		(at 195.58 88.9)
+		(uuid "142f6c6c-8ae1-4386-935f-a99d15f50e6b")
+	)
+	(no_connect
+		(at 195.58 81.28)
+		(uuid "1cfefe25-2741-4d1c-9a12-797d2910e201")
+	)
+	(no_connect
+		(at 238.76 120.65)
+		(uuid "1fb2537a-fd9f-424b-b3ed-55ea708dc123")
+	)
+	(no_connect
+		(at 238.76 110.49)
+		(uuid "255fe813-8c08-4d20-ae93-181b0a380900")
+	)
+	(no_connect
+		(at 238.76 62.23)
+		(uuid "2d0ac218-b1b2-4033-b09e-a1abde621adb")
+	)
+	(no_connect
+		(at 238.76 214.63)
+		(uuid "2e12a106-ebf7-4e3a-95e8-23ac5efc8930")
+	)
+	(no_connect
+		(at 238.76 118.11)
+		(uuid "2e742cc7-74b5-4c89-8af0-59f08bbaa80e")
+	)
+	(no_connect
+		(at 238.76 97.79)
+		(uuid "2f8154de-b526-4b38-a11f-d93492b481eb")
+	)
+	(no_connect
+		(at 195.58 86.36)
+		(uuid "324b5a4f-ccfb-4a23-b0d6-f73bb518e851")
+	)
+	(no_connect
+		(at 238.76 67.31)
+		(uuid "326e48eb-ea13-4024-af33-5ab44f7eb1ec")
+	)
+	(no_connect
+		(at 195.58 245.11)
+		(uuid "32eb045f-4d13-42ab-b2f6-7e338a155eb8")
+	)
+	(no_connect
+		(at 238.76 77.47)
+		(uuid "38364368-7929-4f54-b4d3-5392330f21c1")
+	)
+	(no_connect
+		(at 195.58 229.87)
+		(uuid "3d9ab834-26a1-4f4b-9336-1111bc904dfc")
+	)
+	(no_connect
+		(at 238.76 125.73)
+		(uuid "40426ebc-b507-4b7c-9644-c1287062f585")
+	)
+	(no_connect
+		(at 238.76 105.41)
+		(uuid "44a8b789-88d8-41d2-98ee-a2d466ea8ee4")
+	)
+	(no_connect
+		(at 195.58 227.33)
+		(uuid "46e23723-cf82-4b32-a001-bc0df59fbda7")
+	)
+	(no_connect
+		(at 238.76 140.97)
+		(uuid "4882b72b-de68-4b6e-9074-ef0003c55a35")
+	)
+	(no_connect
+		(at 238.76 69.85)
+		(uuid "4bcbdf9f-f63b-4906-ba8d-14712f0d5528")
+	)
+	(no_connect
+		(at 195.58 240.03)
+		(uuid "579a5c67-a767-4f9a-9978-4234ed5f86d8")
+	)
+	(no_connect
+		(at 238.76 113.03)
+		(uuid "5965d0cd-6caf-42a2-972d-5b45e2ca50c0")
+	)
+	(no_connect
+		(at 238.76 123.19)
+		(uuid "5b337182-38ee-4f80-a010-73817e79f9c8")
+	)
+	(no_connect
+		(at 238.76 92.71)
+		(uuid "5c3d22e2-5f93-4e55-adef-1bd59278def1")
+	)
+	(no_connect
+		(at 238.76 59.69)
+		(uuid "5cafecb0-eb46-4ac4-a3b6-ab5af8d3d272")
+	)
+	(no_connect
+		(at 238.76 85.09)
+		(uuid "657a46e1-b94b-40f0-ae90-0c6fd21c66d7")
+	)
+	(no_connect
+		(at 238.76 95.25)
+		(uuid "6a9c1ba9-4f2e-4e0e-b3c5-25ee093b3761")
+	)
+	(no_connect
+		(at 238.76 64.77)
+		(uuid "6c6aca56-ee4b-43f8-8edc-88a01a301e52")
+	)
+	(no_connect
+		(at 195.58 237.49)
+		(uuid "6ca8fcf1-2ba4-4020-b946-ccd4f9e4ea0f")
+	)
+	(no_connect
+		(at 195.58 224.79)
+		(uuid "6d2fe64a-2e1c-4865-9570-7c51d8715846")
+	)
+	(no_connect
+		(at 238.76 196.85)
+		(uuid "6f2cc81d-63d5-493a-a7d9-d2e197f5feb8")
+	)
+	(no_connect
+		(at 238.76 219.71)
+		(uuid "70aec0e5-f6f2-47ec-8cb4-bfd2c56a8434")
+	)
+	(no_connect
+		(at 238.76 87.63)
+		(uuid "74ba18c3-a150-4490-bba1-68239223dab7")
+	)
+	(no_connect
+		(at 238.76 207.01)
+		(uuid "75998109-5abe-4741-a8fd-4b9c8c9b192f")
+	)
+	(no_connect
+		(at 238.76 82.55)
+		(uuid "7ce370e1-68ba-43e5-8d98-5dc2f6827f33")
+	)
+	(no_connect
+		(at 238.76 74.93)
+		(uuid "7d66f5a8-9843-49a8-b9bc-b92a46f323bf")
+	)
+	(no_connect
+		(at 238.76 199.39)
+		(uuid "856d0c13-1133-488b-9098-6b2187885767")
+	)
+	(no_connect
+		(at 238.76 72.39)
+		(uuid "863c4c14-7455-4638-9865-2be83d516a38")
+	)
+	(no_connect
+		(at 238.76 181.61)
+		(uuid "8a6c2074-f1f5-498f-a2a1-b7a72c50d84b")
+	)
+	(no_connect
+		(at 238.76 179.07)
+		(uuid "8eb9d3e3-cb65-4804-964c-e29222b452fe")
+	)
+	(no_connect
+		(at 238.76 184.15)
+		(uuid "9260c7cd-05cb-49fc-a225-6ddd0b7693bc")
+	)
+	(no_connect
+		(at 238.76 191.77)
+		(uuid "a3356929-1fb3-4fd8-abff-b7603e97501a")
+	)
+	(no_connect
+		(at 195.58 83.82)
+		(uuid "a5101b5e-9965-4b1b-80e0-341c66da0cd5")
+	)
+	(no_connect
+		(at 238.76 100.33)
+		(uuid "a521883d-6ed6-44bd-a43a-107f0e05c6ed")
+	)
+	(no_connect
+		(at 195.58 232.41)
+		(uuid "af48c011-262a-4a14-88ce-77a8fc3209a6")
+	)
+	(no_connect
+		(at 238.76 194.31)
+		(uuid "afaa8b40-c054-4458-a8ff-fda3cc5c0a7c")
+	)
+	(no_connect
+		(at 238.76 209.55)
+		(uuid "b0f80c6a-e9f4-4456-81c0-34f61cb6d4d9")
+	)
+	(no_connect
+		(at 238.76 128.27)
+		(uuid "b3a7c8f3-f3d9-4b0c-a747-93408ce24703")
+	)
+	(no_connect
+		(at 238.76 133.35)
+		(uuid "b611b8e2-366e-4c5d-a8be-3a347376c533")
+	)
+	(no_connect
+		(at 238.76 115.57)
+		(uuid "bbe5bcc9-92d5-4442-a2c5-3f99ef7bb19e")
+	)
+	(no_connect
 		(at 273.05 30.48)
 		(uuid "c62ebedf-0a2a-45ee-ab60-51789f01e324")
+	)
+	(no_connect
+		(at 238.76 102.87)
+		(uuid "c845201e-5040-4cc4-a20f-0a63451204b7")
+	)
+	(no_connect
+		(at 238.76 234.95)
+		(uuid "c8ef6002-b4db-4c88-a8f0-8d2a18d55421")
+	)
+	(no_connect
+		(at 238.76 201.93)
+		(uuid "cb0d6ede-2ec2-435f-9955-b126ae7205f6")
+	)
+	(no_connect
+		(at 238.76 130.81)
+		(uuid "d0ecc6cd-a834-4e57-81fb-85854683474a")
+	)
+	(no_connect
+		(at 238.76 189.23)
+		(uuid "d25807f0-e42e-4725-89a7-4c5a21aa630c")
+	)
+	(no_connect
+		(at 238.76 80.01)
+		(uuid "d2580ca8-cd5a-4eba-9eef-ed1adac7dd86")
+	)
+	(no_connect
+		(at 238.76 90.17)
+		(uuid "d529b71f-4cc2-4860-a7b2-0786535444b5")
+	)
+	(no_connect
+		(at 238.76 107.95)
+		(uuid "d95b905a-78e3-45bf-b28d-2ee8b92c1a75")
+	)
+	(no_connect
+		(at 238.76 204.47)
+		(uuid "e76ff228-033f-46ee-8291-3d3d82cde509")
+	)
+	(no_connect
+		(at 238.76 138.43)
+		(uuid "fa06b603-412c-4703-adb1-ac5b525be704")
+	)
+	(no_connect
+		(at 238.76 217.17)
+		(uuid "fc8fdc8f-8f60-44c7-a889-87a1895d7a05")
+	)
+	(no_connect
+		(at 238.76 186.69)
+		(uuid "ffbbc1ee-929b-4380-b8fa-827bd0063aad")
 	)
 	(wire
 		(pts
@@ -17112,7 +17373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Jumper"
 			(at 281.94 30.48 0)
 			(effects
 				(font
@@ -19219,7 +19480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Pin Header, Vertical, Board-to-Board, 2.54 mm, 1 Rows, 3 Contacts, Through Hole Straight, WR-PHD"
 			(at 273.05 30.48 0)
 			(effects
 				(font
