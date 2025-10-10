@@ -915,6 +915,9 @@
       "/PCIe_{x4}_1.x4": [
         "85Ohm-diff_PCIe"
       ],
+      "/Power/VCC": [
+        "PWR"
+      ],
       "/X710-AT PCIe/PCIE_{REF}.CK+": [
         "85Ohm-diff_PCIe"
       ],
