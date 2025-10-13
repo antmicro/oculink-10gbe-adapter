@@ -1418,39 +1418,9 @@
 				(justify left top)
 			)
 		)
-		(pin "PCIe_{x4}{PCIe}" input
-			(at 76.2 167.64 0)
-			(uuid "b404cecd-431c-4293-b43b-8a23346669bb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "REFCLK{CLK}" input
-			(at 76.2 170.18 0)
-			(uuid "6eb4e0e9-29f1-4e83-9ea9-294d0bb88745")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "~{PE_RST}" output
 			(at 76.2 160.02 0)
 			(uuid "7e2edc4c-1b06-426d-a935-c66c5b0a49a6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "~{PE_WAKE}" output
-			(at 76.2 162.56 0)
-			(uuid "6914cd61-96f2-4bce-adb0-87fcaec90f8e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1471,6 +1441,36 @@
 		(pin "~{CPRSNT}" input
 			(at 76.2 157.48 0)
 			(uuid "11b3d89c-45f9-4a1b-b71d-9262afb154c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIe_{x4}{PCIe}" bidirectional
+			(at 76.2 167.64 0)
+			(uuid "f27e193b-ce41-4481-92f9-04089dce2fb5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "REFCLK{CLK}" output
+			(at 76.2 170.18 0)
+			(uuid "1dd8f404-7730-48f6-b258-d3f7f0d21117")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{PE_WAKE}" input
+			(at 76.2 162.56 0)
+			(uuid "b03c69a4-df8b-47e7-97c4-244b0ecd559a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1530,16 +1530,6 @@
 				(justify left)
 			)
 		)
-		(pin "PCIe_{x4}{PCIe}" input
-			(at 152.4 167.64 180)
-			(uuid "d11be0bf-c121-40d3-9e2e-75deb763d33e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "~{PE_RST}" input
 			(at 152.4 160.02 180)
 			(uuid "70fd9c86-21a8-4362-ab59-55781f0b1940")
@@ -1550,9 +1540,9 @@
 				(justify left)
 			)
 		)
-		(pin "~{PE_WAKE}" input
-			(at 152.4 162.56 180)
-			(uuid "3c233e3c-0cff-4829-ab66-3bb9037dc6bf")
+		(pin "REFCLK{CLK}" input
+			(at 152.4 170.18 180)
+			(uuid "50d31696-7eb4-49af-98f4-2207fedfb916")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1560,9 +1550,19 @@
 				(justify left)
 			)
 		)
-		(pin "REFCLK{CLK}" input
-			(at 152.4 170.18 180)
-			(uuid "50d31696-7eb4-49af-98f4-2207fedfb916")
+		(pin "PCIe_{x4}{PCIe}" bidirectional
+			(at 152.4 167.64 180)
+			(uuid "8fb21973-3f4c-4706-b5ee-35f52d4602b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{PE_WAKE}" output
+			(at 152.4 162.56 180)
+			(uuid "eb5e7394-6224-4cef-b022-2bf2d131fb43")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1664,26 +1664,6 @@
 				(justify left top)
 			)
 		)
-		(pin "Ethernet_P0{10GbE}" input
-			(at 279.4 104.14 0)
-			(uuid "77f99ea0-7713-4b38-80f7-7a079f9e2c33")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Ethernet_P1{10GbE}" input
-			(at 279.4 116.84 0)
-			(uuid "3b87a996-30fd-41c9-a26f-d70876701272")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "REFCLK{CLK}" input
 			(at 228.6 114.3 180)
 			(uuid "a3c4ff7b-4dd5-4933-9763-960e7dd3f2b6")
@@ -1772,6 +1752,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "Ethernet_P0{10GbE}" bidirectional
+			(at 279.4 104.14 0)
+			(uuid "b6f0985b-6baf-4c70-879b-04b56bb86da5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Ethernet_P1{10GbE}" bidirectional
+			(at 279.4 116.84 0)
+			(uuid "0db5f833-99f2-42a7-a531-b3cc498f89a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -1900,26 +1900,6 @@
 				(justify left top)
 			)
 		)
-		(pin "Ethernet_P0{10GbE}" input
-			(at 304.8 104.14 180)
-			(uuid "0422c532-eef4-428e-84f2-7b43de40bfa1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Ethernet_P1{10GbE}" input
-			(at 304.8 116.84 180)
-			(uuid "e41decb5-4541-4998-a9e7-26c572ae326b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "~{P0_LED_ACT}" input
 			(at 304.8 106.68 180)
 			(uuid "425170b6-665a-4ebd-a120-1d819ae59536")
@@ -1973,6 +1953,26 @@
 		(pin "~{P1_LINK_LESS_THAN_10G}" input
 			(at 304.8 124.46 180)
 			(uuid "d92e204e-9049-497a-b4d6-290975e24973")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Ethernet_P0{10GbE}" bidirectional
+			(at 304.8 104.14 180)
+			(uuid "6adb4acf-ab92-4530-8560-32e809c0f193")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Ethernet_P1{10GbE}" bidirectional
+			(at 304.8 116.84 180)
+			(uuid "f820e24d-b079-48c0-9db1-51a4fcb1bad0")
 			(effects
 				(font
 					(size 1.27 1.27)

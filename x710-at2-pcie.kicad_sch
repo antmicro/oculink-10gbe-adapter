@@ -12068,7 +12068,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 69.85) (xy 254 74.93)
+			(xy 254 72.39) (xy 254 74.93)
 		)
 		(stroke
 			(width 0)
@@ -13270,7 +13270,7 @@
 		(uuid "576ce544-38ad-4de3-93a0-8d186ec2ae95")
 	)
 	(hierarchical_label "PCIe_{x4}{PCIe}"
-		(shape input)
+		(shape bidirectional)
 		(at 135.89 166.37 180)
 		(effects
 			(font
@@ -13630,7 +13630,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:+3V3")
-		(at 254 69.85 0)
+		(at 254 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13638,57 +13638,6 @@
 		(dnp no)
 		(uuid "12e5fea9-f501-49d7-85ae-37f20c2b9488")
 		(property "Reference" "#PWR0191"
-			(at 269.24 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 254 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 269.24 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.24 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 254 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
 			(at 269.24 72.39 0)
 			(effects
 				(font
@@ -13699,8 +13648,59 @@
 				(hide yes)
 			)
 		)
-		(property "License" "Apache-2.0"
+		(property "Value" "+3V3"
+			(at 254 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 254 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
 			(at 269.24 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 269.24 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)

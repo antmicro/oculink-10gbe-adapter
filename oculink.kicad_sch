@@ -3674,7 +3674,7 @@
 		(uuid "3f95ff5b-843b-4446-9bcd-234f9ee4b092")
 	)
 	(hierarchical_label "PCIe_{x4}{PCIe}"
-		(shape input)
+		(shape bidirectional)
 		(at 238.76 184.15 0)
 		(effects
 			(font

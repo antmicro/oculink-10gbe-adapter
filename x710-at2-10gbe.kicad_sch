@@ -14160,7 +14160,7 @@
 		(uuid "416df0b5-8265-481e-9f06-96ac8dc4e83c")
 	)
 	(hierarchical_label "Ethernet_P0{10GbE}"
-		(shape input)
+		(shape bidirectional)
 		(at 165.1 86.36 180)
 		(effects
 			(font
@@ -14226,7 +14226,7 @@
 		(uuid "9220595a-f41f-40a4-925e-35e8aeae8f2e")
 	)
 	(hierarchical_label "Ethernet_P1{10GbE}"
-		(shape input)
+		(shape bidirectional)
 		(at 266.7 86.36 0)
 		(effects
 			(font
