@@ -450,6 +450,16 @@
 		)
 		(uuid "1bae3859-73ce-4a26-a2d3-da405b9397a9")
 	)
+	(wire
+		(pts
+			(xy 88.9 95.25) (xy 88.9 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e69aee6-f81f-40a4-843c-a9acb5635cea")
+	)
 	(bus
 		(pts
 			(xy 76.2 134.62) (xy 152.4 134.62)
@@ -832,6 +842,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 157.48) (xy 76.2 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdf02b6c-149f-4df8-987e-ee90d5b649cc")
+	)
+	(wire
+		(pts
 			(xy 203.2 66.04) (xy 213.36 66.04)
 		)
 		(stroke
@@ -869,6 +889,16 @@
 			(type default)
 		)
 		(uuid "dfd67567-ceb9-419b-9890-be631e48b1ca")
+	)
+	(wire
+		(pts
+			(xy 101.6 95.25) (xy 88.9 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0c1c567-1a0c-4df5-bf20-6f95d731713a")
 	)
 	(wire
 		(pts
@@ -1620,6 +1650,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "~{CPRSNT}" output
+			(at 101.6 95.25 180)
+			(uuid "4b98be3e-5b70-413e-bc3e-1e3074916e0c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
