@@ -2297,6 +2297,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "OCuLink connector"
+		(exclude_from_sim no)
+		(at 201.93 64.77 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "6940f6c5-7262-4b8e-94d3-81b381658a16")
+	)
 	(junction
 		(at 257.81 110.49)
 		(diameter 0)

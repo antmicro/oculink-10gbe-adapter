@@ -2981,7 +2981,7 @@
 						(type background)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
 					(name "RSVDY24_VSS"
@@ -2998,8 +2998,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -5.08 0)
 					(length 5.08)
 					(name "RSVDY22_VSS"
@@ -3016,8 +3018,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -7.62 0)
 					(length 5.08)
 					(name "RSVDW5_VSS"
@@ -3034,8 +3038,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -12.7 0)
 					(length 5.08)
 					(name "RSVDN9_VSS"
@@ -3052,8 +3058,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -15.24 0)
 					(length 5.08)
 					(name "RSVDW1_VSS"
@@ -3070,8 +3078,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -17.78 0)
 					(length 5.08)
 					(name "RSVDP22_VSS"
@@ -3088,8 +3098,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -20.32 0)
 					(length 5.08)
 					(name "RSVDY18_VSS"
@@ -3106,8 +3118,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -24.13 0)
 					(length 5.08)
 					(name "RSVDP8_VSS"
@@ -3124,6 +3138,8 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
 				(pin passive line
 					(at 0 -31.75 0)
@@ -4260,7 +4276,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -48.26 0)
 					(length 5.08)
 					(name "RSVDJ17_VSS"
@@ -4277,8 +4293,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -50.8 0)
 					(length 5.08)
 					(name "RSVD_J11_VSS"
@@ -4295,6 +4313,8 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
 				(pin input line
 					(at 0 -55.88 0)
@@ -4314,7 +4334,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -58.42 0)
 					(length 5.08)
 					(name "RSVDJ13_VSS"
@@ -4331,6 +4351,8 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
 				(pin input line
 					(at 0 -63.5 0)
@@ -4692,7 +4714,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 55.88 -45.72 180)
 					(length 5.08)
 					(name "RSVDH40_VSS"
@@ -4709,8 +4731,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 55.88 -48.26 180)
 					(length 5.08)
 					(name "RSVDK40_1P88V"
@@ -4727,8 +4751,10 @@
 							)
 						)
 					)
+					(alternate "1V88" power_in line)
+					(alternate "RSVD" passive line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 55.88 -50.8 180)
 					(length 5.08)
 					(name "RSVDK42_VSS"
@@ -4745,8 +4771,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 55.88 -53.34 180)
 					(length 5.08)
 					(name "RSVDP38_VSS"
@@ -4763,8 +4791,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 55.88 -55.88 180)
 					(length 5.08)
 					(name "RSVDN37_VSS"
@@ -4781,8 +4811,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 55.88 -58.42 180)
 					(length 5.08)
 					(name "RSVDL37_VSS"
@@ -4799,6 +4831,8 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
 				(pin passive line
 					(at 55.88 -63.5 180)
@@ -4993,7 +5027,7 @@
 						(type background)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
 					(name "RSVDE19_1P88V"
@@ -5010,8 +5044,10 @@
 							)
 						)
 					)
+					(alternate "1V88" power_in line)
+					(alternate "RSVD" passive line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -2.54 0)
 					(length 5.08)
 					(name "RSVDD8_1P88V"
@@ -5028,8 +5064,10 @@
 							)
 						)
 					)
+					(alternate "1V88" power_in line)
+					(alternate "RSVD" passive line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -5.08 0)
 					(length 5.08)
 					(name "RSVDJ19_VSS"
@@ -5046,8 +5084,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -7.62 0)
 					(length 5.08)
 					(name "RSVDJ21_VSS"
@@ -5064,8 +5104,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -10.16 0)
 					(length 5.08)
 					(name "RSVH18_VSS"
@@ -5082,8 +5124,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -12.7 0)
 					(length 5.08)
 					(name "RSVDH22_VSS"
@@ -5100,8 +5144,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -15.24 0)
 					(length 5.08)
 					(name "RSVDG19_VSS"
@@ -5118,8 +5164,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -17.78 0)
 					(length 5.08)
 					(name "RSVDG21_VSS"
@@ -5136,8 +5184,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -20.32 0)
 					(length 5.08)
 					(name "RSVDF18_VSS"
@@ -5154,8 +5204,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -22.86 0)
 					(length 5.08)
 					(name "RSVDF20_VSS"
@@ -5172,8 +5224,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -25.4 0)
 					(length 5.08)
 					(name "RSVDF22_VSS"
@@ -5190,8 +5244,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -27.94 0)
 					(length 5.08)
 					(name "RSVDE21_VSS"
@@ -5208,8 +5264,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -30.48 0)
 					(length 5.08)
 					(name "RSVDE23_VSS"
@@ -5226,8 +5284,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -33.02 0)
 					(length 5.08)
 					(name "RSVDE25_VSS"
@@ -5244,8 +5304,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -35.56 0)
 					(length 5.08)
 					(name "RSVDD22_VSS"
@@ -5262,8 +5324,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -38.1 0)
 					(length 5.08)
 					(name "RSVDG23_VSS"
@@ -5280,8 +5344,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -40.64 0)
 					(length 5.08)
 					(name "RSVDH24_VSS"
@@ -5298,6 +5364,8 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
 				(pin passive line
 					(at 0 -45.72 0)
@@ -5749,7 +5817,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 43.18 -45.72 180)
 					(length 5.08)
 					(name "RSVDL31_VSS"
@@ -5766,8 +5834,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 43.18 -50.8 180)
 					(length 5.08)
 					(name "RSVDD6_VSS"
@@ -5784,8 +5854,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 43.18 -53.34 180)
 					(length 5.08)
 					(name "RSVDF38_VSS"
@@ -5802,6 +5874,8 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
 				(pin passive line
 					(at 43.18 -55.88 180)

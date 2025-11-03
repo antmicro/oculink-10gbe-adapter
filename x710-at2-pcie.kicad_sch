@@ -3193,7 +3193,7 @@
 						(type background)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
 					(name "RSVDY24_VSS"
@@ -3210,8 +3210,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -5.08 0)
 					(length 5.08)
 					(name "RSVDY22_VSS"
@@ -3228,8 +3230,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -7.62 0)
 					(length 5.08)
 					(name "RSVDW5_VSS"
@@ -3246,8 +3250,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -12.7 0)
 					(length 5.08)
 					(name "RSVDN9_VSS"
@@ -3264,8 +3270,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -15.24 0)
 					(length 5.08)
 					(name "RSVDW1_VSS"
@@ -3282,8 +3290,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -17.78 0)
 					(length 5.08)
 					(name "RSVDP22_VSS"
@@ -3300,8 +3310,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -20.32 0)
 					(length 5.08)
 					(name "RSVDY18_VSS"
@@ -3318,8 +3330,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -24.13 0)
 					(length 5.08)
 					(name "RSVDP8_VSS"
@@ -3336,6 +3350,8 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
 				(pin passive line
 					(at 0 -31.75 0)
@@ -4472,7 +4488,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -48.26 0)
 					(length 5.08)
 					(name "RSVDJ17_VSS"
@@ -4489,8 +4505,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -50.8 0)
 					(length 5.08)
 					(name "RSVD_J11_VSS"
@@ -4507,6 +4525,8 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
 				(pin input line
 					(at 0 -55.88 0)
@@ -4526,7 +4546,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -58.42 0)
 					(length 5.08)
 					(name "RSVDJ13_VSS"
@@ -4543,6 +4563,8 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
 				(pin input line
 					(at 0 -63.5 0)
@@ -4904,7 +4926,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 55.88 -45.72 180)
 					(length 5.08)
 					(name "RSVDH40_VSS"
@@ -4921,8 +4943,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 55.88 -48.26 180)
 					(length 5.08)
 					(name "RSVDK40_1P88V"
@@ -4939,8 +4963,10 @@
 							)
 						)
 					)
+					(alternate "1V88" power_in line)
+					(alternate "RSVD" passive line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 55.88 -50.8 180)
 					(length 5.08)
 					(name "RSVDK42_VSS"
@@ -4957,8 +4983,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 55.88 -53.34 180)
 					(length 5.08)
 					(name "RSVDP38_VSS"
@@ -4975,8 +5003,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 55.88 -55.88 180)
 					(length 5.08)
 					(name "RSVDN37_VSS"
@@ -4993,8 +5023,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 55.88 -58.42 180)
 					(length 5.08)
 					(name "RSVDL37_VSS"
@@ -5011,6 +5043,8 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
 				(pin passive line
 					(at 55.88 -63.5 180)
@@ -5205,7 +5239,7 @@
 						(type background)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
 					(name "RSVDE19_1P88V"
@@ -5222,8 +5256,10 @@
 							)
 						)
 					)
+					(alternate "1V88" power_in line)
+					(alternate "RSVD" passive line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -2.54 0)
 					(length 5.08)
 					(name "RSVDD8_1P88V"
@@ -5240,8 +5276,10 @@
 							)
 						)
 					)
+					(alternate "1V88" power_in line)
+					(alternate "RSVD" passive line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -5.08 0)
 					(length 5.08)
 					(name "RSVDJ19_VSS"
@@ -5258,8 +5296,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -7.62 0)
 					(length 5.08)
 					(name "RSVDJ21_VSS"
@@ -5276,8 +5316,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -10.16 0)
 					(length 5.08)
 					(name "RSVH18_VSS"
@@ -5294,8 +5336,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -12.7 0)
 					(length 5.08)
 					(name "RSVDH22_VSS"
@@ -5312,8 +5356,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -15.24 0)
 					(length 5.08)
 					(name "RSVDG19_VSS"
@@ -5330,8 +5376,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -17.78 0)
 					(length 5.08)
 					(name "RSVDG21_VSS"
@@ -5348,8 +5396,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -20.32 0)
 					(length 5.08)
 					(name "RSVDF18_VSS"
@@ -5366,8 +5416,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -22.86 0)
 					(length 5.08)
 					(name "RSVDF20_VSS"
@@ -5384,8 +5436,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -25.4 0)
 					(length 5.08)
 					(name "RSVDF22_VSS"
@@ -5402,8 +5456,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -27.94 0)
 					(length 5.08)
 					(name "RSVDE21_VSS"
@@ -5420,8 +5476,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -30.48 0)
 					(length 5.08)
 					(name "RSVDE23_VSS"
@@ -5438,8 +5496,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -33.02 0)
 					(length 5.08)
 					(name "RSVDE25_VSS"
@@ -5456,8 +5516,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -35.56 0)
 					(length 5.08)
 					(name "RSVDD22_VSS"
@@ -5474,8 +5536,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -38.1 0)
 					(length 5.08)
 					(name "RSVDG23_VSS"
@@ -5492,8 +5556,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -40.64 0)
 					(length 5.08)
 					(name "RSVDH24_VSS"
@@ -5510,6 +5576,8 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
 				(pin passive line
 					(at 0 -45.72 0)
@@ -5961,7 +6029,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 43.18 -45.72 180)
 					(length 5.08)
 					(name "RSVDL31_VSS"
@@ -5978,8 +6046,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 43.18 -50.8 180)
 					(length 5.08)
 					(name "RSVDD6_VSS"
@@ -5996,8 +6066,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 43.18 -53.34 180)
 					(length 5.08)
 					(name "RSVDF38_VSS"
@@ -6014,6 +6086,8 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
 				(pin passive line
 					(at 43.18 -55.88 180)
@@ -11275,7 +11349,7 @@
 							)
 						)
 					)
-					(alternate "NC" passive line)
+					(alternate "NC" no_connect line)
 				)
 				(pin passive line
 					(at 31.75 -10.16 180)
@@ -11616,7 +11690,7 @@
 	(text_box "JTAG Debug Connector"
 		(exclude_from_sim no)
 		(at 254 129.54 0)
-		(size 71.12 29.21)
+		(size 73.66 29.21)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -11670,6 +11744,12 @@
 		(uuid "bf83a2b6-1629-454e-9190-1a32c7b03d1d")
 	)
 	(junction
+		(at 271.78 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e84f3bcd-47f9-4b64-a462-fa9433d778ef")
+	)
+	(junction
 		(at 271.78 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11698,6 +11778,10 @@
 	(no_connect
 		(at 198.12 219.71)
 		(uuid "5c924b11-9e07-45ab-bb63-8612cb24f268")
+	)
+	(no_connect
+		(at 274.32 139.7)
+		(uuid "6bddecfd-b795-4229-b6f9-f71a7e42f937")
 	)
 	(no_connect
 		(at 198.12 194.31)
@@ -12178,7 +12262,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 144.78) (xy 306.07 144.78)
+			(xy 325.12 144.78) (xy 306.07 144.78)
 		)
 		(stroke
 			(width 0)
@@ -12208,7 +12292,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 149.86) (xy 306.07 149.86)
+			(xy 325.12 149.86) (xy 306.07 149.86)
 		)
 		(stroke
 			(width 0)
@@ -12235,6 +12319,16 @@
 			(type default)
 		)
 		(uuid "4aae58ae-e123-473a-a7a9-e1e04e5ede13")
+	)
+	(wire
+		(pts
+			(xy 271.78 149.86) (xy 271.78 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bc7a0f8-4cb1-435e-ba5e-67ed75d0cc2d")
 	)
 	(wire
 		(pts
@@ -12298,6 +12392,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 144.78) (xy 271.78 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62b55141-e6c4-42a8-b275-77e4b71ed6fa")
+	)
+	(wire
+		(pts
 			(xy 173.99 118.11) (xy 198.12 118.11)
 		)
 		(stroke
@@ -12305,6 +12409,16 @@
 			(type default)
 		)
 		(uuid "64999757-481b-48dc-b6a1-fd274237a95d")
+	)
+	(wire
+		(pts
+			(xy 308.61 142.24) (xy 306.07 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66b96763-d7f3-4f41-b6a4-31f0db45895b")
 	)
 	(bus
 		(pts
@@ -12498,7 +12612,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 139.7) (xy 306.07 139.7)
+			(xy 325.12 139.7) (xy 306.07 139.7)
 		)
 		(stroke
 			(width 0)
@@ -12638,7 +12752,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 149.86) (xy 271.78 152.4)
+			(xy 271.78 144.78) (xy 271.78 149.86)
 		)
 		(stroke
 			(width 0)
@@ -12655,6 +12769,16 @@
 			(type default)
 		)
 		(uuid "c5111b8b-36f5-4c12-9763-4a89860c6360")
+	)
+	(wire
+		(pts
+			(xy 308.61 152.4) (xy 308.61 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca87b5df-2334-450e-a25b-16c8634e1297")
 	)
 	(wire
 		(pts
@@ -13047,7 +13171,7 @@
 		(uuid "93529256-69e4-40d4-a5c5-93c582c79425")
 	)
 	(label "PCIe_JTAG.JTDO"
-		(at 322.58 149.86 180)
+		(at 325.12 149.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13057,7 +13181,7 @@
 		(uuid "937ce271-db2f-493e-90ea-d0fababd2093")
 	)
 	(label "PCIe_JTAG.JTDI"
-		(at 322.58 144.78 180)
+		(at 325.12 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13107,7 +13231,7 @@
 		(uuid "a4560ee3-2580-419e-bbaa-7e9adc7037ae")
 	)
 	(label "PCIe_JTAG.~{JRST}"
-		(at 322.58 139.7 180)
+		(at 325.12 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15750,6 +15874,100 @@
 			(project "10-gbe-expansion"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/2e3e9f9b-8e60-4e62-87df-aa866913a2fb"
 					(reference "#PWR0285")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
+		(at 308.61 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8f743bc-6439-44c3-8b00-f437847806f1")
+		(property "Reference" "#PWR0296"
+			(at 317.5 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 308.61 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 317.5 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 317.5 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 308.61 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 317.5 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 317.5 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39d1f54a-ef26-4af0-878f-475d426f3c3a")
+		)
+		(instances
+			(project "10-gbe-expansion"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/2e3e9f9b-8e60-4e62-87df-aa866913a2fb"
+					(reference "#PWR0296")
 					(unit 1)
 				)
 			)

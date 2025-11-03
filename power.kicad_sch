@@ -7107,6 +7107,12 @@
 		(uuid "2d496602-cbfe-4855-a411-2c6168cc45d2")
 	)
 	(junction
+		(at 80.01 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3435aa92-e619-4600-865a-60c1989d50dc")
+	)
+	(junction
 		(at 269.24 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7407,6 +7413,12 @@
 		(uuid "d11ecce1-e672-4d5e-9d10-43da4200b6ad")
 	)
 	(junction
+		(at 80.01 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d208e67c-6db1-464f-94e4-1323d678d9c8")
+	)
+	(junction
 		(at 50.8 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7666,6 +7678,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 118.11) (xy 80.01 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0baab672-b14b-4036-9876-2ce304e28548")
+	)
+	(wire
+		(pts
 			(xy 227.33 101.6) (xy 237.49 101.6)
 		)
 		(stroke
@@ -7896,6 +7918,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 82.55) (xy 80.01 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d43ee67-6b96-493a-a61e-f002c6823a08")
+	)
+	(wire
+		(pts
 			(xy 128.27 85.09) (xy 130.81 85.09)
 		)
 		(stroke
@@ -7953,6 +7985,16 @@
 			(type default)
 		)
 		(uuid "1f31a269-6f8c-4288-94dc-9f9ef692acf6")
+	)
+	(wire
+		(pts
+			(xy 80.01 85.09) (xy 90.17 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21692126-afca-433b-a94d-60c8d01b9b71")
 	)
 	(wire
 		(pts
@@ -8366,7 +8408,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 85.09) (xy 90.17 85.09)
+			(xy 64.77 85.09) (xy 80.01 85.09)
 		)
 		(stroke
 			(width 0)
@@ -8894,6 +8936,16 @@
 		)
 		(uuid "6ad1a9f4-5c85-4779-9154-8f88b72217a3")
 	)
+	(wire
+		(pts
+			(xy 80.01 120.65) (xy 90.17 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d6b9eb6-1596-48e0-85a5-3fafd0e8ce80")
+	)
 	(polyline
 		(pts
 			(xy 167.64 284.48) (xy 167.64 12.7)
@@ -9066,7 +9118,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 120.65) (xy 90.17 120.65)
+			(xy 57.15 120.65) (xy 80.01 120.65)
 		)
 		(stroke
 			(width 0)
@@ -10770,7 +10822,7 @@
 		)
 		(uuid "25f908f5-5901-4adb-9561-cf703de727e1")
 	)
-	(label "DVDD_OUT"
+	(label "+DVDD_OUT"
 		(at 342.9 177.8 180)
 		(effects
 			(font
@@ -10910,7 +10962,7 @@
 		)
 		(uuid "518ad056-d619-42c1-834b-c3fadecaaac8")
 	)
-	(label "VCCD_OUT"
+	(label "+VCCD_OUT"
 		(at 342.9 63.5 180)
 		(effects
 			(font
@@ -10960,7 +11012,7 @@
 		)
 		(uuid "676907d9-2e4e-4d1d-987b-cc4c92a905d2")
 	)
-	(label "3V3_OUT"
+	(label "+3V3_OUT"
 		(at 342.9 25.4 180)
 		(effects
 			(font
@@ -10970,7 +11022,7 @@
 		)
 		(uuid "6c595881-c998-4c01-bdba-d6a11c813979")
 	)
-	(label "1V0_OUT"
+	(label "+1V0_OUT"
 		(at 342.9 139.7 180)
 		(effects
 			(font
@@ -11150,7 +11202,7 @@
 		)
 		(uuid "d4de040a-a998-4c3d-97f0-bd3f9d1d0e9f")
 	)
-	(label "1V88_OUT"
+	(label "+1V88_OUT"
 		(at 342.9 101.6 180)
 		(effects
 			(font
@@ -19551,6 +19603,71 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicropower:PWR_FLAG")
+		(at 80.01 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5bc0ad62-2d20-4da5-9efe-b70cf7a1faab")
+		(property "Reference" "#FLG02"
+			(at 80.01 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 80.01 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cec9101e-c440-4545-b8a8-f5fc945dcd5c")
+		)
+		(instances
+			(project "10-gbe-expansion"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/3d913a88-b6f3-4148-9b3d-882d5df37282"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroDCDCConverters:TPS566231P")
 		(at 287.02 177.8 0)
 		(unit 1)
@@ -22732,6 +22849,71 @@
 			(project "10-gbe-expansion"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/3d913a88-b6f3-4148-9b3d-882d5df37282"
 					(reference "C172")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:PWR_FLAG")
+		(at 80.01 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8dd7d8a8-9719-46ea-a2d0-e6489f322fe9")
+		(property "Reference" "#FLG01"
+			(at 80.01 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 80.01 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7b5ccf4-b7ce-4ea2-89dd-d6ea05afb6b3")
+		)
+		(instances
+			(project "10-gbe-expansion"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/3d913a88-b6f3-4148-9b3d-882d5df37282"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)

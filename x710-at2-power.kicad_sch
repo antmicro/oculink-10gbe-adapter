@@ -438,219 +438,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroCapacitors0402:C_47u_50V_X7R_0402"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 15.24 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "C_47u_50V_X7R_0402"
-				(at 15.24 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-				(at 15.24 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.murata.com/products/productdetail?partno=KRM55WR71H476MH13%23"
-				(at 15.24 -27.94 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMD Multilayer Ceramic Capacitor, 47µF, 50V, 0402, ±20%, X7R"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "KRM55WR71H476MH13L"
-				(at 15.24 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Val" "47u"
-				(at 15.24 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Voltage" "50V"
-				(at 15.24 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Dielectric" "X7R"
-				(at 15.24 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Murata"
-				(at 15.24 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 15.24 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 15.24 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "SMT, CAPACITOR, PASSIVE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_47u_50V_X7R_0402_0_1"
-				(polyline
-					(pts
-						(xy 2.032 -1.524) (xy 2.032 1.524)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 -1.524) (xy 3.048 1.524)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_47u_50V_X7R_0402_1_1"
-				(pin passive line
-					(at 0 0 0)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "antmicroCapacitors0603:C_10u_10V_X7R_0603"
 			(pin_numbers
 				(hide yes)
@@ -1038,6 +825,218 @@
 				)
 			)
 			(symbol "C_22u_16V_0603_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "antmicroCapacitors0603:C_47u_0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 20.32 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "C_47u_0603"
+				(at 20.32 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
+				(at 20.32 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM188R60J476ME15%23"
+				(at 20.32 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD Multilayer Ceramic Capacitor, 47 µF, 6.3 V, 0603 [1608 Metric], ± 20%, X5R, GRM Series"
+				(at 20.32 -33.02 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "GRM188R60J476ME15D"
+				(at 20.32 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Murata"
+				(at 20.32 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 20.32 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 20.32 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Val" "47u"
+				(at 20.32 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Voltage" ""
+				(at 20.32 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Dielectric" ""
+				(at 20.32 -30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "0603, SMT, CAPACITOR, PASSIVE, CERAMIC, MLCC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_47u_0603_0_1"
+				(polyline
+					(pts
+						(xy 2.032 -1.524) (xy 2.032 1.524)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 -1.524) (xy 3.048 1.524)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_47u_0603_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 2.032)
@@ -5447,7 +5446,7 @@
 						(type background)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
 					(name "RSVDY24_VSS"
@@ -5464,8 +5463,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -5.08 0)
 					(length 5.08)
 					(name "RSVDY22_VSS"
@@ -5482,8 +5483,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -7.62 0)
 					(length 5.08)
 					(name "RSVDW5_VSS"
@@ -5500,8 +5503,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -12.7 0)
 					(length 5.08)
 					(name "RSVDN9_VSS"
@@ -5518,8 +5523,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -15.24 0)
 					(length 5.08)
 					(name "RSVDW1_VSS"
@@ -5536,8 +5543,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -17.78 0)
 					(length 5.08)
 					(name "RSVDP22_VSS"
@@ -5554,8 +5563,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -20.32 0)
 					(length 5.08)
 					(name "RSVDY18_VSS"
@@ -5572,8 +5583,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -24.13 0)
 					(length 5.08)
 					(name "RSVDP8_VSS"
@@ -5590,6 +5603,8 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
 				(pin passive line
 					(at 0 -31.75 0)
@@ -6726,7 +6741,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -48.26 0)
 					(length 5.08)
 					(name "RSVDJ17_VSS"
@@ -6743,8 +6758,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -50.8 0)
 					(length 5.08)
 					(name "RSVD_J11_VSS"
@@ -6761,6 +6778,8 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
 				(pin input line
 					(at 0 -55.88 0)
@@ -6780,7 +6799,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -58.42 0)
 					(length 5.08)
 					(name "RSVDJ13_VSS"
@@ -6797,6 +6816,8 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
 				(pin input line
 					(at 0 -63.5 0)
@@ -7158,7 +7179,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 55.88 -45.72 180)
 					(length 5.08)
 					(name "RSVDH40_VSS"
@@ -7175,8 +7196,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 55.88 -48.26 180)
 					(length 5.08)
 					(name "RSVDK40_1P88V"
@@ -7193,8 +7216,10 @@
 							)
 						)
 					)
+					(alternate "1V88" power_in line)
+					(alternate "RSVD" passive line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 55.88 -50.8 180)
 					(length 5.08)
 					(name "RSVDK42_VSS"
@@ -7211,8 +7236,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 55.88 -53.34 180)
 					(length 5.08)
 					(name "RSVDP38_VSS"
@@ -7229,8 +7256,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 55.88 -55.88 180)
 					(length 5.08)
 					(name "RSVDN37_VSS"
@@ -7247,8 +7276,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 55.88 -58.42 180)
 					(length 5.08)
 					(name "RSVDL37_VSS"
@@ -7265,6 +7296,8 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
 				(pin passive line
 					(at 55.88 -63.5 180)
@@ -7459,7 +7492,7 @@
 						(type background)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
 					(name "RSVDE19_1P88V"
@@ -7476,8 +7509,10 @@
 							)
 						)
 					)
+					(alternate "1V88" power_in line)
+					(alternate "RSVD" passive line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -2.54 0)
 					(length 5.08)
 					(name "RSVDD8_1P88V"
@@ -7494,8 +7529,10 @@
 							)
 						)
 					)
+					(alternate "1V88" power_in line)
+					(alternate "RSVD" passive line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -5.08 0)
 					(length 5.08)
 					(name "RSVDJ19_VSS"
@@ -7512,8 +7549,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -7.62 0)
 					(length 5.08)
 					(name "RSVDJ21_VSS"
@@ -7530,8 +7569,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -10.16 0)
 					(length 5.08)
 					(name "RSVH18_VSS"
@@ -7548,8 +7589,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -12.7 0)
 					(length 5.08)
 					(name "RSVDH22_VSS"
@@ -7566,8 +7609,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -15.24 0)
 					(length 5.08)
 					(name "RSVDG19_VSS"
@@ -7584,8 +7629,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -17.78 0)
 					(length 5.08)
 					(name "RSVDG21_VSS"
@@ -7602,8 +7649,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -20.32 0)
 					(length 5.08)
 					(name "RSVDF18_VSS"
@@ -7620,8 +7669,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -22.86 0)
 					(length 5.08)
 					(name "RSVDF20_VSS"
@@ -7638,8 +7689,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -25.4 0)
 					(length 5.08)
 					(name "RSVDF22_VSS"
@@ -7656,8 +7709,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -27.94 0)
 					(length 5.08)
 					(name "RSVDE21_VSS"
@@ -7674,8 +7729,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -30.48 0)
 					(length 5.08)
 					(name "RSVDE23_VSS"
@@ -7692,8 +7749,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -33.02 0)
 					(length 5.08)
 					(name "RSVDE25_VSS"
@@ -7710,8 +7769,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -35.56 0)
 					(length 5.08)
 					(name "RSVDD22_VSS"
@@ -7728,8 +7789,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -38.1 0)
 					(length 5.08)
 					(name "RSVDG23_VSS"
@@ -7746,8 +7809,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -40.64 0)
 					(length 5.08)
 					(name "RSVDH24_VSS"
@@ -7764,6 +7829,8 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
 				(pin passive line
 					(at 0 -45.72 0)
@@ -8215,7 +8282,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 43.18 -45.72 180)
 					(length 5.08)
 					(name "RSVDL31_VSS"
@@ -8232,8 +8299,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 43.18 -50.8 180)
 					(length 5.08)
 					(name "RSVDD6_VSS"
@@ -8250,8 +8319,10 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 43.18 -53.34 180)
 					(length 5.08)
 					(name "RSVDF38_VSS"
@@ -8268,6 +8339,8 @@
 							)
 						)
 					)
+					(alternate "RSVD" passive line)
+					(alternate "VSS" power_in line)
 				)
 				(pin passive line
 					(at 43.18 -55.88 180)
@@ -13664,6 +13737,12 @@
 		(uuid "0fa1d5f8-b652-464d-be95-3f7c052a99e2")
 	)
 	(junction
+		(at 66.04 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11b17452-fdde-483c-9c26-0eb2a5309094")
+	)
+	(junction
 		(at 54.61 226.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13740,6 +13819,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2fb7b2cb-0a8b-4a08-b32a-88733fa7eb87")
+	)
+	(junction
+		(at 66.04 226.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3321e451-ceaa-44f3-88f6-8ac0420014a9")
 	)
 	(junction
 		(at 299.72 105.41)
@@ -13868,6 +13953,12 @@
 		(uuid "5eed732b-42df-422a-8ac7-48cecc22d306")
 	)
 	(junction
+		(at 66.04 199.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "622d059c-3a9b-4ac9-beb5-daf47276d526")
+	)
+	(junction
 		(at 41.91 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13884,6 +13975,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "674e6cc4-0209-4f68-b611-14e3e7228c6a")
+	)
+	(junction
+		(at 66.04 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "676156f1-e4e0-4dfb-9218-c3cee0f87f99")
+	)
+	(junction
+		(at 66.04 252.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a89a6b8-e914-43fe-9b72-ac7e39115e58")
 	)
 	(junction
 		(at 135.89 140.97)
@@ -13920,6 +14023,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71fb8367-4ef7-48e0-ab32-6eb79fde6e18")
+	)
+	(junction
+		(at 67.31 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72280851-7d87-4e2e-b424-e9e5d7564d76")
 	)
 	(junction
 		(at 39.37 199.39)
@@ -14226,6 +14335,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c6e719f9-1bb0-48f9-8f03-d80b98e70416")
+	)
+	(junction
+		(at 66.04 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbc299c2-d480-44ba-872a-ff6343d96115")
 	)
 	(junction
 		(at 106.68 199.39)
@@ -14829,6 +14944,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 91.44) (xy 67.31 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16458cb9-5685-457c-a03c-601a828ef1a1")
+	)
+	(wire
+		(pts
 			(xy 317.5 91.44) (xy 317.5 93.98)
 		)
 		(stroke
@@ -14849,7 +14974,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 119.38) (xy 80.01 119.38)
+			(xy 62.23 119.38) (xy 66.04 119.38)
 		)
 		(stroke
 			(width 0)
@@ -14959,6 +15084,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 198.12) (xy 66.04 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ff7443e-73c6-4e1d-a1aa-514e4396b219")
+	)
+	(wire
+		(pts
 			(xy 115.57 172.72) (xy 115.57 175.26)
 		)
 		(stroke
@@ -15049,7 +15184,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 199.39) (xy 54.61 199.39)
+			(xy 88.9 199.39) (xy 66.04 199.39)
 		)
 		(stroke
 			(width 0)
@@ -15249,6 +15384,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 119.38) (xy 80.01 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32137af1-200b-45b6-ba60-fb64c3504ecb")
+	)
+	(wire
+		(pts
 			(xy 115.57 52.07) (xy 115.57 54.61)
 		)
 		(stroke
@@ -15276,6 +15421,16 @@
 			(type default)
 		)
 		(uuid "32e0bfcc-86f2-4b53-beda-7afeeaa3e115")
+	)
+	(wire
+		(pts
+			(xy 66.04 171.45) (xy 66.04 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "331c1add-aada-4bd8-bc50-16d28895e06c")
 	)
 	(wire
 		(pts
@@ -15309,7 +15464,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 226.06) (xy 115.57 226.06)
+			(xy 54.61 226.06) (xy 66.04 226.06)
 		)
 		(stroke
 			(width 0)
@@ -15469,7 +15624,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 172.72) (xy 71.12 172.72)
+			(xy 62.23 172.72) (xy 66.04 172.72)
 		)
 		(stroke
 			(width 0)
@@ -16179,7 +16334,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 252.73) (xy 54.61 252.73)
+			(xy 135.89 252.73) (xy 66.04 252.73)
 		)
 		(stroke
 			(width 0)
@@ -16426,6 +16581,16 @@
 			(type default)
 		)
 		(uuid "7569b425-bc13-488c-8bb6-a7b9048c2640")
+	)
+	(wire
+		(pts
+			(xy 66.04 144.78) (xy 66.04 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "767629d9-ecea-4b3c-bdd3-a7df68007607")
 	)
 	(wire
 		(pts
@@ -17449,6 +17614,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 146.05) (xy 71.12 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac0bf745-f64a-4a1b-9ce5-bec0a7ddf888")
+	)
+	(wire
+		(pts
 			(xy 71.12 180.34) (xy 71.12 182.88)
 		)
 		(stroke
@@ -17516,6 +17691,16 @@
 			(type default)
 		)
 		(uuid "ae6e9b29-bdf6-46c8-a4ad-4c82bac31512")
+	)
+	(wire
+		(pts
+			(xy 66.04 172.72) (xy 71.12 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aea64296-9b7e-42c1-b543-c7b648ccb28b")
 	)
 	(wire
 		(pts
@@ -17679,6 +17864,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 226.06) (xy 115.57 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b629d604-3226-413c-a004-300703bebe5e")
+	)
+	(wire
+		(pts
 			(xy 278.13 118.11) (xy 283.21 118.11)
 		)
 		(stroke
@@ -17716,6 +17911,16 @@
 			(type default)
 		)
 		(uuid "b72c9763-f05c-445d-880e-67e778d93168")
+	)
+	(wire
+		(pts
+			(xy 66.04 118.11) (xy 66.04 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b733ead3-7e70-4c07-ab1a-cce3bed1532a")
 	)
 	(wire
 		(pts
@@ -18029,7 +18234,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 146.05) (xy 71.12 146.05)
+			(xy 62.23 146.05) (xy 66.04 146.05)
 		)
 		(stroke
 			(width 0)
@@ -18299,6 +18504,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 251.46) (xy 66.04 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1fa782c-62b7-4f8e-ad37-bd44eec9123c")
+	)
+	(wire
+		(pts
 			(xy 361.95 83.82) (xy 370.84 83.82)
 		)
 		(stroke
@@ -18336,6 +18551,16 @@
 			(type default)
 		)
 		(uuid "e2cf988b-b8c5-4b02-b5bc-37578c84ee3c")
+	)
+	(wire
+		(pts
+			(xy 66.04 199.39) (xy 54.61 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e40fb2c0-e7f2-41f2-9fa0-ad547c04151a")
 	)
 	(wire
 		(pts
@@ -18649,6 +18874,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 224.79) (xy 66.04 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f55a11de-6c4f-4da9-bdb6-7cec4ee73a78")
+	)
+	(wire
+		(pts
 			(xy 88.9 180.34) (xy 88.9 182.88)
 		)
 		(stroke
@@ -18766,6 +19001,16 @@
 			(type default)
 		)
 		(uuid "f9fc58b1-4b02-403c-8843-386f70f31379")
+	)
+	(wire
+		(pts
+			(xy 66.04 252.73) (xy 54.61 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa80d348-8b1e-4d5a-bf7f-9d3bf64893e8")
 	)
 	(wire
 		(pts
@@ -31495,6 +31740,73 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicropower:PWR_FLAG")
+		(at 67.31 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5df81b00-c2ce-469e-9390-79ec999d49cf")
+		(property "Reference" "#FLG03"
+			(at 67.31 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 67.31 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c47fe510-20c3-47a3-b35e-e0d92b882761")
+		)
+		(instances
+			(project ""
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/745fdd8b-25af-4553-a7ea-a0fa564ee0a7"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:GND")
 		(at 299.72 76.2 0)
 		(unit 1)
@@ -31771,6 +32083,73 @@
 			(project "10-gbe-expansion"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/745fdd8b-25af-4553-a7ea-a0fa564ee0a7"
 					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:PWR_FLAG")
+		(at 66.04 251.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6449efab-fed6-4622-aa2e-91da0b10a789")
+		(property "Reference" "#FLG018"
+			(at 66.04 249.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 66.04 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2c7bf7c-da86-4a82-a114-43bad0635fd5")
+		)
+		(instances
+			(project "10-gbe-expansion"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/745fdd8b-25af-4553-a7ea-a0fa564ee0a7"
+					(reference "#FLG018")
 					(unit 1)
 				)
 			)
@@ -34963,6 +35342,73 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicropower:PWR_FLAG")
+		(at 66.04 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "734eb101-d084-4be7-8206-8c683d0c4b20")
+		(property "Reference" "#FLG015"
+			(at 66.04 169.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 66.04 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "972462cd-d2fe-4488-b08e-82673027a3da")
+		)
+		(instances
+			(project "10-gbe-expansion"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/745fdd8b-25af-4553-a7ea-a0fa564ee0a7"
+					(reference "#FLG015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroCapacitors0402:C_1u_25V_0402")
 		(at 388.62 52.07 90)
 		(unit 1)
@@ -35389,6 +35835,73 @@
 			(project "10-gbe-expansion"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/745fdd8b-25af-4553-a7ea-a0fa564ee0a7"
 					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:PWR_FLAG")
+		(at 66.04 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77bdb3dd-2504-40e1-be1e-b4f99e8a0d29")
+		(property "Reference" "#FLG010"
+			(at 66.04 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 66.04 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56d40f39-3390-40fa-a18a-d65b13e572f6")
+		)
+		(instances
+			(project "10-gbe-expansion"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/745fdd8b-25af-4553-a7ea-a0fa564ee0a7"
+					(reference "#FLG010")
 					(unit 1)
 				)
 			)
@@ -37522,6 +38035,73 @@
 			(project "10-gbe-expansion"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/745fdd8b-25af-4553-a7ea-a0fa564ee0a7"
 					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:PWR_FLAG")
+		(at 66.04 224.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "870a76e4-8922-4913-bbbd-eb470d22d22b")
+		(property "Reference" "#FLG017"
+			(at 66.04 222.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 66.04 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4302ebe6-a415-4948-9bdb-4039e7d8886e")
+		)
+		(instances
+			(project "10-gbe-expansion"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/745fdd8b-25af-4553-a7ea-a0fa564ee0a7"
+					(reference "#FLG017")
 					(unit 1)
 				)
 			)
@@ -40861,6 +41441,73 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicropower:PWR_FLAG")
+		(at 66.04 198.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a43a20c8-01ed-405e-8402-6a0b203bb3c6")
+		(property "Reference" "#FLG016"
+			(at 66.04 196.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 66.04 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55b240ae-677d-43e6-a8a7-573d3a142925")
+		)
+		(instances
+			(project "10-gbe-expansion"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/745fdd8b-25af-4553-a7ea-a0fa564ee0a7"
+					(reference "#FLG016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:GND")
 		(at 115.57 54.61 0)
 		(unit 1)
@@ -41900,159 +42547,6 @@
 			(project "10-gbe-expansion"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/745fdd8b-25af-4553-a7ea-a0fa564ee0a7"
 					(reference "#PWR0117")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroCapacitors0402:C_47u_50V_X7R_0402")
-		(at 54.61 207.01 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ac4aa8f8-950f-4b5f-af37-44a597cbd9ea")
-		(property "Reference" "C134"
-			(at 57.15 203.1936 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "C_47u_50V_X7R_0402"
-			(at 77.47 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 80.01 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=KRM55WR71H476MH13%23"
-			(at 82.55 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 47µF, 50V, 0402, ±20%, X7R"
-			(at 54.61 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "KRM55WR71H476MH13L"
-			(at 85.09 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "47u"
-			(at 57.15 205.7336 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 64.77 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 67.31 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 69.85 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 72.39 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 74.93 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a842b6a6-6769-406c-ae43-84997b21023f")
-		)
-		(pin "2"
-			(uuid "23037b63-3853-4af0-9cf1-87542afc1ce4")
-		)
-		(instances
-			(project ""
-				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/745fdd8b-25af-4553-a7ea-a0fa564ee0a7"
-					(reference "C134")
 					(unit 1)
 				)
 			)
@@ -44495,6 +44989,73 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicropower:PWR_FLAG")
+		(at 66.04 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3291195-dc0e-45a4-ab64-cf38dce35568")
+		(property "Reference" "#FLG011"
+			(at 66.04 142.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 66.04 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e89ce95e-e31c-45b5-825c-91c651720dd6")
+		)
+		(instances
+			(project "10-gbe-expansion"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/745fdd8b-25af-4553-a7ea-a0fa564ee0a7"
+					(reference "#FLG011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:GND")
 		(at 397.51 76.2 0)
 		(unit 1)
@@ -46911,6 +47472,157 @@
 			(project "10-gbe-expansion"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/745fdd8b-25af-4553-a7ea-a0fa564ee0a7"
 					(reference "#PWR0100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroCapacitors0603:C_47u_0603")
+		(at 54.61 207.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7b81d7b-2bf1-44dc-b37b-879981f1a996")
+		(property "Reference" "C179"
+			(at 56.642 203.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_47u_0603"
+			(at 64.77 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
+			(at 67.31 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM188R60J476ME15%23"
+			(at 69.85 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 47 µF, 6.3 V, 0603 [1608 Metric], ± 20%, X5R, GRM Series"
+			(at 87.63 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM188R60J476ME15D"
+			(at 72.39 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 74.93 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 77.47 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 80.01 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "47u"
+			(at 56.642 205.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" ""
+			(at 82.55 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" ""
+			(at 85.09 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad64e5fd-85b7-4462-bbd2-23e526ff1c8a")
+		)
+		(pin "2"
+			(uuid "9d06a20c-71fc-4e4d-ad89-b93a08724177")
+		)
+		(instances
+			(project ""
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/745fdd8b-25af-4553-a7ea-a0fa564ee0a7"
+					(reference "C179")
 					(unit 1)
 				)
 			)
