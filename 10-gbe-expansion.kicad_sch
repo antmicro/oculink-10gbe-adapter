@@ -1582,7 +1582,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f5c940f7-d7b8-4fd4-8a49-efe64725e53a")
-		(property "Reference" "#PWR0284"
+		(property "Reference" "#PWR01"
 			(at 332.74 209.55 0)
 			(effects
 				(font
@@ -1661,7 +1661,7 @@
 		(instances
 			(project "10-gbe-expansion"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39"
-					(reference "#PWR0284")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
