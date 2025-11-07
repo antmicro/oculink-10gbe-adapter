@@ -13850,6 +13850,16 @@
 		)
 		(uuid "1cd5bba3-44e7-4e6c-9448-7c5a5872f110")
 	)
+	(label "MDIO0_I2C0.MDIO"
+		(at 82.55 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1fc47f44-2cfc-4d81-a2e5-96afa2422526")
+	)
 	(label "~{P1_INT_R}"
 		(at 190.5 203.2 180)
 		(effects
@@ -13890,16 +13900,6 @@
 		)
 		(uuid "350e90ec-1e6a-41c6-b708-6b91698dc95d")
 	)
-	(label "MDIO0_I2C0.MDIO"
-		(at 82.55 170.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3c0a5d53-ae15-4258-85ae-ef5e718ee93a")
-	)
 	(label "Ethernet_P0.D2+"
 		(at 190.5 60.96 180)
 		(effects
@@ -13929,16 +13929,6 @@
 			(justify right bottom)
 		)
 		(uuid "48f8f4cd-b35a-4286-9c75-3bbbd1ec8a0d")
-	)
-	(label "MDIO0_I2C0.MDC"
-		(at 82.55 167.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4bb77ec4-200a-4c10-b34f-7d16c4c712d4")
 	)
 	(label "Ethernet_P0.D3-"
 		(at 190.5 71.12 180)
@@ -14179,6 +14169,16 @@
 			(justify left bottom)
 		)
 		(uuid "e460f1ed-e351-4961-abd6-6ed640d09b51")
+	)
+	(label "MDIO0_I2C0.MDC"
+		(at 82.55 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ebcf5b33-7de5-4847-ba58-372953757bc0")
 	)
 	(label "MDIO0_SDA0"
 		(at 190.5 167.64 180)

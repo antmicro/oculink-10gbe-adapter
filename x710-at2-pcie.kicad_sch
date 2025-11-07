@@ -11833,15 +11833,6 @@
 		(uuid "029e933e-0046-4578-b6cd-ee0118a48d72")
 	)
 	(bus_entry
-		(at 293.37 97.79)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d8ceb71-c673-42d8-9f62-58789f0c5ef8")
-	)
-	(bus_entry
 		(at 140.97 146.05)
 		(size 2.54 -2.54)
 		(stroke
@@ -11878,15 +11869,6 @@
 		(uuid "54e1aca7-c018-45cb-a64e-d9910d7aa1d6")
 	)
 	(bus_entry
-		(at 293.37 95.25)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b96b210-08f4-4a41-969e-865c093933c9")
-	)
-	(bus_entry
 		(at 140.97 107.95)
 		(size 2.54 -2.54)
 		(stroke
@@ -11903,24 +11885,6 @@
 			(type default)
 		)
 		(uuid "93661188-ad7c-46c5-95b5-f2a7ebf13f29")
-	)
-	(bus_entry
-		(at 293.37 90.17)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9971198d-913c-4d22-bbc8-2f9a124ee2cd")
-	)
-	(bus_entry
-		(at 293.37 92.71)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d87b6ae-2be3-4af9-93a9-48565a51b784")
 	)
 	(bus_entry
 		(at 140.97 113.03)
@@ -11948,15 +11912,6 @@
 			(type default)
 		)
 		(uuid "afb310eb-90cb-45f6-8592-3200ef228351")
-	)
-	(bus_entry
-		(at 293.37 100.33)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b381a310-1425-47e3-a8af-d6193774df45")
 	)
 	(bus_entry
 		(at 140.97 135.89)
@@ -12102,16 +12057,6 @@
 	)
 	(bus
 		(pts
-			(xy 293.37 100.33) (xy 293.37 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ba88a9c-bcb9-49e5-8494-3760d3c6a7e6")
-	)
-	(bus
-		(pts
 			(xy 140.97 138.43) (xy 140.97 143.51)
 		)
 		(stroke
@@ -12159,16 +12104,6 @@
 			(type default)
 		)
 		(uuid "29cf2c27-73a6-43e1-8adc-06205e2a24e8")
-	)
-	(bus
-		(pts
-			(xy 295.91 105.41) (xy 298.45 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2af9502b-222c-463b-9483-963ec7e2f296")
 	)
 	(wire
 		(pts
@@ -12229,16 +12164,6 @@
 			(type default)
 		)
 		(uuid "3c75bb32-ae4a-4347-9341-9cc6f92ac710")
-	)
-	(bus
-		(pts
-			(xy 293.37 92.71) (xy 293.37 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4000af14-afce-4d3a-b67c-2834be474c37")
 	)
 	(bus
 		(pts
@@ -12460,16 +12385,6 @@
 		)
 		(uuid "6a877875-5d52-4498-b374-97cad5afc905")
 	)
-	(bus
-		(pts
-			(xy 295.91 105.41) (xy 293.37 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ae79806-3783-4c97-a2de-0ae210b9c4f1")
-	)
 	(wire
 		(pts
 			(xy 143.51 95.25) (xy 198.12 95.25)
@@ -12590,16 +12505,6 @@
 		)
 		(uuid "9155c7df-20a2-48ce-a086-0b7f696a1f22")
 	)
-	(bus
-		(pts
-			(xy 293.37 97.79) (xy 293.37 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94364e59-bbbb-46e6-ace9-2a72cbfdd41b")
-	)
 	(wire
 		(pts
 			(xy 254 74.93) (xy 254 77.47)
@@ -12719,26 +12624,6 @@
 			(type default)
 		)
 		(uuid "bcbd725c-0100-4502-98f3-9eaab01aecd0")
-	)
-	(bus
-		(pts
-			(xy 293.37 95.25) (xy 293.37 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "becab3f7-4dd4-411a-bf11-d130444dffc2")
-	)
-	(bus
-		(pts
-			(xy 293.37 90.17) (xy 293.37 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfd83373-3b78-48b0-acd5-bf552805b8b4")
 	)
 	(wire
 		(pts
@@ -12991,22 +12876,22 @@
 		(uuid "0b4a3af3-10e8-4aaa-a6c1-25819866f240")
 	)
 	(label "PCIe_JTAG.~{JRST}"
-		(at 275.59 87.63 0)
+		(at 290.83 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "12a6efb7-26fe-4ab4-a5d1-a008e5efaa7f")
 	)
 	(label "PCIe_JTAG.JTDI"
-		(at 275.59 95.25 0)
+		(at 290.83 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "1dcc9826-3c26-477a-a3df-eaf4cb7837cc")
 	)
@@ -13021,12 +12906,12 @@
 		(uuid "1f9833cb-8f3c-4d61-bfe1-637f5fcce56f")
 	)
 	(label "PCIe_JTAG.JTMS"
-		(at 275.59 92.71 0)
+		(at 290.83 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "1fb94121-5520-443d-a8de-e07f31e1c5a3")
 	)
@@ -13161,12 +13046,12 @@
 		(uuid "91cd90dc-b970-45c8-8ab2-893015d7a3cb")
 	)
 	(label "PCIe_JTAG.JTCK"
-		(at 275.59 90.17 0)
+		(at 290.83 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "93529256-69e4-40d4-a5c5-93c582c79425")
 	)
@@ -13251,12 +13136,12 @@
 		(uuid "add76b42-d191-4eba-8502-132d51104d75")
 	)
 	(label "PCIe_JTAG.JTDO"
-		(at 275.59 97.79 0)
+		(at 290.83 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "af17f7f7-c2fd-412e-bf2f-5aa1049801b0")
 	)
@@ -13359,17 +13244,6 @@
 			(justify right bottom)
 		)
 		(uuid "ee826bb6-378d-4683-83ac-94cef7de5282")
-	)
-	(hierarchical_label "PCIe_JTAG{JTAG}"
-		(shape input)
-		(at 298.45 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2a5c9c0f-0776-4ec4-8932-c35cd1f65573")
 	)
 	(hierarchical_label "REFCLK{CLK}"
 		(shape input)

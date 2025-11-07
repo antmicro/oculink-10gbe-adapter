@@ -2176,6 +2176,120 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "antmicropower:+3V3_AON"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3_AON"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_AON_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_AON_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "+3V3_AON"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "antmicropower:GND"
 			(power)
 			(pin_numbers
@@ -2310,6 +2424,12 @@
 		(uuid "6940f6c5-7262-4b8e-94d3-81b381658a16")
 	)
 	(junction
+		(at 194.31 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19737672-ce17-4686-b3c7-7aa8d7b10da5")
+	)
+	(junction
 		(at 257.81 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2362,14 +2482,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f996a552-2425-4d70-9d80-d5c09c821ffa")
-	)
-	(no_connect
-		(at 191.77 87.63)
-		(uuid "628232c1-f919-476d-8bbe-c4904f90b950")
-	)
-	(no_connect
-		(at 191.77 90.17)
-		(uuid "8884db32-19a9-44f2-adfd-e8a693d8aed8")
 	)
 	(no_connect
 		(at 261.62 214.63)
@@ -2568,6 +2680,16 @@
 			(type default)
 		)
 		(uuid "000c7733-0b96-4043-babf-13c96f90362a")
+	)
+	(wire
+		(pts
+			(xy 191.77 90.17) (xy 194.31 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "049dbfd9-a0d0-4870-8e8a-efc00f7d1dbd")
 	)
 	(wire
 		(pts
@@ -2841,6 +2963,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 87.63) (xy 194.31 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41d69cb1-1537-4789-8493-d981bffadee8")
+	)
+	(wire
+		(pts
 			(xy 245.11 113.03) (xy 266.7 113.03)
 		)
 		(stroke
@@ -2888,6 +3020,16 @@
 			(type default)
 		)
 		(uuid "569b0ea4-e1e9-47a8-b48b-63a949bb32b7")
+	)
+	(wire
+		(pts
+			(xy 194.31 87.63) (xy 194.31 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56e4d394-52cb-4e0b-91ad-83148669a4a6")
 	)
 	(wire
 		(pts
@@ -3008,6 +3150,16 @@
 			(type default)
 		)
 		(uuid "6f408c9e-634e-4f1d-9446-e0307ce90131")
+	)
+	(wire
+		(pts
+			(xy 194.31 90.17) (xy 194.31 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "700502ef-ba26-4810-9a9e-8881aca902ef")
 	)
 	(bus
 		(pts
@@ -6861,6 +7013,72 @@
 			(project "10-gbe-expansion"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/0cbe4665-19ed-43d5-9283-363c2bb680b6"
 					(reference "#PWR0327")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:+3V3_AON")
+		(at 194.31 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c49f43a8-c4ab-4532-bbcb-0b0e3ad3d0c0")
+		(property "Reference" "#PWR099"
+			(at 194.31 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_AUX"
+			(at 194.31 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 194.31 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ded3ab63-38fe-42c6-909d-b29335960f0b")
+		)
+		(instances
+			(project ""
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/0cbe4665-19ed-43d5-9283-363c2bb680b6"
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
