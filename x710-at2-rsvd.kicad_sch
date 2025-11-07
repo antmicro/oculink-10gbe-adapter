@@ -12,217 +12,6 @@
 		(comment 1 "www.antmicro.com")
 	)
 	(lib_symbols
-		(symbol "antmicroGenericPinHeaders:PinHeader_1x3_P2.54mm_Drill1.1mm"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 20.32 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "PinHeader_1x3_P2.54mm_Drill1.1mm"
-				(at 20.32 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:PinHeader_1x3_P2.54mm_Drill1.1mm"
-				(at 20.32 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://katalog.we-online.de/em/datasheet/6130xx11121.pdf"
-				(at 20.32 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "Pin Header, Vertical, Board-to-Board, 2.54 mm, 1 Rows, 3 Contacts, Through Hole Straight, WR-PHD"
-				(at 20.32 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "MPN" "61300311121"
-				(at 20.32 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Manufacturer" "Würth Elektronik"
-				(at 20.32 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 20.32 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 20.32 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "VERTICAL, THT, HEADER, CONNECTOR, MALE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PinHeader_1x3_P2.54mm_Drill1.1mm_1_1"
-				(rectangle
-					(start 2.54 2.54)
-					(end 5.08 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 4.191 -0.254)
-					(end 3.683 0.254)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 4.191 -2.794)
-					(end 3.683 -2.286)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 4.191 -5.334)
-					(end 3.683 -4.826)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "antmicroInterfaceControllers:EZX710AT2_S_LMR5"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -11070,30 +10859,55 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroShuntsJumpers:Jumper_1x2_P2.54mm"
+		(symbol "antmicroSlideSwitches:SW_DS04-254-1-01BK-SMT"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "JP"
-				(at 7.62 -2.54 0)
+			(property "Reference" "SW"
+				(at 26.67 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(thickness 0.15)
 					)
 					(justify left bottom)
 				)
 			)
-			(property "Value" "Jumper_1x2_P2.54mm"
-				(at 7.62 -5.08 0)
+			(property "Value" "SW_DS04-254-1-01BK-SMT"
+				(at 26.67 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(thickness 0.15)
 					)
 					(justify left bottom)
+					(hide yes)
 				)
 			)
-			(property "Footprint" "antmicro-footprints:Jumper_1x2_P2.54mm"
-				(at 7.62 -10.16 0)
+			(property "Footprint" "antmicro-footprints:SW_DS04-254-1-01BK-SMT"
+				(at 26.67 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.com/datasheet/2/670/ds04_254_smt-1777718.pdf"
+				(at 26.67 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Slide switch"
+				(at 26.67 -22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -11102,67 +10916,50 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.tme.eu/en/details/jumper-w/pin-headers/ninigi/"
-				(at 7.62 -7.62 0)
+			(property "MPN" "DS04-254-1-01BK-SMT"
+				(at 26.67 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(thickness 0.15)
 					)
 					(justify left bottom)
-					(hide yes)
 				)
 			)
-			(property "Description" "Jumper"
-				(at 7.62 -22.86 0)
+			(property "Manufacturer" "CUI Inc"
+				(at 26.67 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "MPN" "JUMPER-W"
-				(at 7.62 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Ninigi"
-				(at 7.62 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 7.62 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+						(thickness 0.15)
 					)
 					(justify left bottom)
 					(hide yes)
 				)
 			)
 			(property "Author" "Antmicro"
-				(at 7.62 -17.78 0)
+				(at 26.67 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(thickness 0.15)
 					)
 					(justify left bottom)
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "JUMPER"
+			(property "License" "Apache-2.0"
+				(at 26.67 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "HORIZONTAL, SMT, SWITCH, MECHANICAL, SLIDE"
 				(at 0 0 0)
 				(effects
 					(font
@@ -11171,16 +10968,121 @@
 					(hide yes)
 				)
 			)
-			(symbol "Jumper_1x2_P2.54mm_1_1"
+			(property "ki_fp_filters" "SW?DIP?x1*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_DS04-254-1-01BK-SMT_0_1"
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 8.89 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_DS04-254-1-01BK-SMT_1_1"
 				(rectangle
-					(start 0 0)
-					(end 2.54 -5.08)
+					(start 2.54 2.54)
+					(end 10.16 -2.54)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type background)
+					)
+				)
+				(circle
+					(center 4.318 0)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.826 0.127) (xy 8.7122 1.1684)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 8.382 0)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -11600,8 +11502,8 @@
 		)
 	)
 	(rectangle
-		(start 281.94 22.86)
-		(end 303.53 29.21)
+		(start 250.444 26.67)
+		(end 272.034 33.02)
 		(stroke
 			(width 0)
 			(type default)
@@ -11611,9 +11513,9 @@
 		)
 		(uuid 12da064c-44ac-465d-a146-18e13de651dd)
 	)
-	(text "Install jumper to\nenable debug mode"
+	(text "Close switch to\nenable debug mode"
 		(exclude_from_sim no)
-		(at 282.956 27.94 0)
+		(at 251.46 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11633,12 +11535,6 @@
 			)
 		)
 		(uuid "d835ef3a-3baa-41b2-83b2-5364c97ea081")
-	)
-	(junction
-		(at 276.86 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3e06a910-dc1f-4516-8783-76743f610b52")
 	)
 	(junction
 		(at 276.86 49.53)
@@ -11663,6 +11559,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e44d83c-a30a-4e73-8ce6-2bbee7ce4ce0")
+	)
+	(junction
+		(at 276.86 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9899e82d-58f8-41ba-9eef-9fd71810160f")
 	)
 	(junction
 		(at 269.24 39.37)
@@ -11879,10 +11781,6 @@
 		(uuid "bbe5bcc9-92d5-4442-a2c5-3f99ef7bb19e")
 	)
 	(no_connect
-		(at 273.05 30.48)
-		(uuid "c62ebedf-0a2a-45ee-ab60-51789f01e324")
-	)
-	(no_connect
 		(at 238.76 102.87)
 		(uuid "c845201e-5040-4cc4-a20f-0a63451204b7")
 	)
@@ -12012,13 +11910,13 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 35.56) (xy 276.86 35.56)
+			(xy 276.86 36.83) (xy 276.86 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1129245f-9873-4a4a-86fb-6d2b8da5764d")
+		(uuid "0fc0f8a9-41d5-405e-b651-700f1b7ebaa0")
 	)
 	(wire
 		(pts
@@ -12039,16 +11937,6 @@
 			(type default)
 		)
 		(uuid "14f9ee26-77da-49e6-81ac-d45596b353e1")
-	)
-	(wire
-		(pts
-			(xy 273.05 33.02) (xy 276.86 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16e2eae7-5787-4758-ab4b-5df2fd1762a6")
 	)
 	(wire
 		(pts
@@ -12079,16 +11967,6 @@
 			(type default)
 		)
 		(uuid "1979b731-d138-45a2-822b-a1e4a5e1c317")
-	)
-	(wire
-		(pts
-			(xy 276.86 35.56) (xy 276.86 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ef88e9e-da7b-4489-9187-3a62245c4bb1")
 	)
 	(wire
 		(pts
@@ -12682,7 +12560,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 27.94) (xy 276.86 33.02)
+			(xy 276.86 21.59) (xy 276.86 24.13)
 		)
 		(stroke
 			(width 0)
@@ -17406,106 +17284,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroShuntsJumpers:Jumper_1x2_P2.54mm")
-		(at 281.94 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e4f8083-e459-4eb2-ac90-5af5a78cbca5")
-		(property "Reference" "JP1"
-			(at 285.75 31.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Jumper_1x2_P2.54mm"
-			(at 285.75 34.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:Jumper_1x2_P2.54mm"
-			(at 281.94 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/en/details/jumper-w/pin-headers/ninigi/"
-			(at 281.94 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper"
-			(at 281.94 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "JUMPER-W"
-			(at 281.94 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Ninigi"
-			(at 281.94 37.465 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 281.94 41.275 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 281.94 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "OCuLink to 10GbE adapter"
-				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/5c16e05d-0fb9-4db6-bb95-cf7113880df7"
-					(reference "JP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicropower:GND")
 		(at 127 250.19 0)
 		(unit 1)
@@ -19499,130 +19277,6 @@
 			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/5c16e05d-0fb9-4db6-bb95-cf7113880df7"
 					(reference "#PWR0315")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroGenericPinHeaders:PinHeader_1x3_P2.54mm_Drill1.1mm")
-		(at 273.05 30.48 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "822d4f30-1c99-4d68-9bec-c865bbb10a77")
-		(property "Reference" "J8"
-			(at 266.7 31.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PinHeader_1x3_P2.54mm_Drill1.1mm"
-			(at 252.73 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:PinHeader_1x3_P2.54mm_Drill1.1mm"
-			(at 252.73 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://katalog.we-online.de/em/datasheet/6130xx11121.pdf"
-			(at 252.73 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pin Header, Vertical, Board-to-Board, 2.54 mm, 1 Rows, 3 Contacts, Through Hole Straight, WR-PHD"
-			(at 273.05 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "61300311121"
-			(at 266.7 34.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 252.73 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 252.73 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 252.73 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "5ce34a07-374e-4ca4-9777-6c0dc73cc06f")
-		)
-		(pin "2"
-			(uuid "4154fb86-29f0-43be-8d9c-ad87a5a97d0f")
-		)
-		(pin "1"
-			(uuid "81d403e7-b5bd-4993-9868-13a1a4167412")
-		)
-		(instances
-			(project "OCuLink to 10GbE adapter"
-				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/5c16e05d-0fb9-4db6-bb95-cf7113880df7"
-					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -23215,7 +22869,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:+3V3")
-		(at 276.86 27.94 0)
+		(at 276.86 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23223,7 +22877,7 @@
 		(dnp no)
 		(uuid "c4695b6d-dd18-4fcb-82a9-efcbaf8dc638")
 		(property "Reference" "#PWR0289"
-			(at 292.1 27.94 0)
+			(at 292.1 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23234,7 +22888,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 276.86 24.13 0)
+			(at 276.86 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23243,7 +22897,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 292.1 35.56 0)
+			(at 292.1 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23254,7 +22908,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 292.1 38.1 0)
+			(at 292.1 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23265,7 +22919,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 276.86 27.94 0)
+			(at 276.86 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23274,7 +22928,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 292.1 30.48 0)
+			(at 292.1 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23285,7 +22939,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 292.1 33.02 0)
+			(at 292.1 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23302,6 +22956,127 @@
 			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/5c16e05d-0fb9-4db6-bb95-cf7113880df7"
 					(reference "#PWR0289")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroSlideSwitches:SW_DS04-254-1-01BK-SMT")
+		(at 276.86 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c670dc86-1bc9-47bb-a4ed-65fed052ae2d")
+		(property "Reference" "SW1"
+			(at 280.67 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_DS04-254-1-01BK-SMT"
+			(at 280.67 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:SW_DS04-254-1-01BK-SMT"
+			(at 284.48 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/670/ds04_254_smt-1777718.pdf"
+			(at 287.02 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Slide switch"
+			(at 299.72 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DS04-254-1-01BK-SMT"
+			(at 280.67 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Manufacturer" "CUI Inc"
+			(at 292.1 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 294.64 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 297.18 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "11d3ddea-f554-40fb-8e6e-f51610ce689b")
+		)
+		(pin "1"
+			(uuid "f6387697-fee7-44b9-a4b4-bc010160cd00")
+		)
+		(instances
+			(project "oculink-to-10gbe-adapter"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/5c16e05d-0fb9-4db6-bb95-cf7113880df7"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
