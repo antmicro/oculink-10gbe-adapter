@@ -37,6 +37,7 @@
 						(thickness 0.15)
 					)
 					(justify left bottom)
+					(hide yes)
 				)
 			)
 			(property "Footprint" "antmicro-footprints:Heatsink_ATS-61500R-C2-R0"
@@ -79,7 +80,6 @@
 						(thickness 0.15)
 					)
 					(justify left bottom)
-					(hide yes)
 				)
 			)
 			(property "Manufacturer" "Advanced Thermal Solutions"
@@ -1487,6 +1487,7 @@
 					(thickness 0.15)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "antmicro-footprints:Heatsink_ATS-61500R-C2-R0"
@@ -1521,14 +1522,13 @@
 			)
 		)
 		(property "MPN" "ATS-61500R-C2-R0"
-			(at 346.71 229.87 0)
+			(at 335.28 220.6625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left bottom)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(property "Manufacturer" "Advanced Thermal Solutions"
