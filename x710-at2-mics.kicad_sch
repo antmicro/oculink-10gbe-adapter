@@ -5,7 +5,7 @@
 	(uuid "b0c1e626-0f6f-43bf-acbc-a28d76130ff1")
 	(paper "A3")
 	(title_block
-		(title "10GbE Expansion")
+		(title "OCuLink to 10GbE adapter")
 		(date "2025-11-07")
 		(rev "1.0.0")
 		(company "Antmicro Ltd")
@@ -18470,7 +18470,7 @@
 			(uuid "a0c6b95b-04d1-4cc9-b77c-8f7c1f8f2c43")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "R80")
 					(unit 1)
@@ -18717,7 +18717,7 @@
 			(uuid "b2efeb79-dbae-460e-bdb6-f0ce3a625016")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "#PWR0275")
 					(unit 1)
@@ -18857,7 +18857,7 @@
 			(uuid "94385e63-f7cb-4a86-a6d2-04120444ef8e")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "R48")
 					(unit 1)
@@ -18997,7 +18997,7 @@
 			(uuid "bece3c63-5d48-460a-befb-67d2dbb423eb")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "R113")
 					(unit 1)
@@ -19062,7 +19062,7 @@
 			(uuid "40c0daa7-7fa9-4911-85a2-abb84c2d2a41")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "#FLG020")
 					(unit 1)
@@ -19156,7 +19156,7 @@
 			(uuid "ceddad06-d7be-45e4-8000-c35356e82627")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "#PWR0260")
 					(unit 1)
@@ -19390,7 +19390,7 @@
 			(uuid "fb286855-9dad-4e4e-a85d-1be84e0bd67d")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "#PWR0286")
 					(unit 1)
@@ -19532,7 +19532,7 @@
 			(uuid "158e5e6d-7e0f-48e5-bc61-58c1eae06d81")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "R171")
 					(unit 1)
@@ -19777,7 +19777,7 @@
 			(uuid "9b31e3ca-4177-4ba4-a8f7-5768c5a1214c")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "#PWR0284")
 					(unit 1)
@@ -19872,7 +19872,7 @@
 			(uuid "bb98ef45-1b09-4930-a7cc-ba6ce6fea8b1")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "#PWR0110")
 					(unit 1)
@@ -19966,7 +19966,7 @@
 			(uuid "e05b01fc-ae41-405f-be29-badaf82d3059")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "#PWR0272")
 					(unit 1)
@@ -20106,7 +20106,7 @@
 			(uuid "b75405de-4bf2-4e5e-a1bb-7af5b9dbc8a9")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "R108")
 					(unit 1)
@@ -20200,7 +20200,7 @@
 			(uuid "90adc746-86a8-4a55-8d87-eb039587dd0d")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "#PWR096")
 					(unit 1)
@@ -20340,7 +20340,7 @@
 			(uuid "ef82f3fb-6115-443a-8f61-c4369cd58894")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "R47")
 					(unit 1)
@@ -20574,7 +20574,7 @@
 			(uuid "1473dd6a-2311-459e-b04a-582c96b2c00c")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "#PWR0265")
 					(unit 1)
@@ -20786,7 +20786,7 @@
 			(uuid "640f7d6d-2f6a-4eb0-9c38-ee0c63b63a39")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "#PWR0101")
 					(unit 1)
@@ -20880,7 +20880,7 @@
 			(uuid "5638991f-e2f3-4912-9d19-a4f9eedf1c29")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "#PWR0279")
 					(unit 1)
@@ -21020,7 +21020,7 @@
 			(uuid "441f008d-e1f1-435f-b674-3ded9e0db33f")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "R92")
 					(unit 1)
@@ -21160,7 +21160,7 @@
 			(uuid "b2007e17-2672-4c5b-83f3-2adcf014ffba")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "R117")
 					(unit 1)
@@ -21254,7 +21254,7 @@
 			(uuid "648f4b9d-30e6-4183-a14a-27bc87d8fc76")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "#PWR0288")
 					(unit 1)
@@ -21404,7 +21404,7 @@
 			(uuid "6793dbf1-e4a7-47d5-b6cf-2f231566850b")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "C72")
 					(unit 1)
@@ -21544,7 +21544,7 @@
 			(uuid "d698fcc9-e006-4d8d-9d8e-c9c542138145")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "R88")
 					(unit 1)
@@ -21778,7 +21778,7 @@
 			(uuid "2a6972d7-8118-4d29-9a55-f24da37a38c1")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "TP25")
 					(unit 1)
@@ -21930,7 +21930,7 @@
 			(uuid "17808140-0581-4a0c-bfb7-88ff3f593908")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "C76")
 					(unit 1)
@@ -22024,7 +22024,7 @@
 			(uuid "4d78a438-ae42-490c-bfa4-8c30cba5b543")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "#PWR0261")
 					(unit 1)
@@ -22141,7 +22141,7 @@
 			(uuid "f3ac4acf-81fc-4153-a710-683f6fcbd761")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "TP5")
 					(unit 1)
@@ -22281,7 +22281,7 @@
 			(uuid "f2dd0b6d-ae0f-49ac-a9aa-789fab5803be")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "R81")
 					(unit 1)
@@ -22421,7 +22421,7 @@
 			(uuid "58d36171-17d1-439e-a13d-561b7986a34b")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "R98")
 					(unit 1)
@@ -22561,7 +22561,7 @@
 			(uuid "1af4ee08-37d2-40b6-9c08-dbe336c02259")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "R96")
 					(unit 1)
@@ -22655,7 +22655,7 @@
 			(uuid "13b86f39-022f-46a6-8430-d85d69d34754")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "#PWR0276")
 					(unit 1)
@@ -22912,7 +22912,7 @@
 			(uuid "b35ffda0-5cc4-477f-b910-5eb29c8c0bb6")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "TP9")
 					(unit 1)
@@ -23049,7 +23049,7 @@
 			(uuid "1f6a739d-6a75-40b9-94c3-eedd50664a94")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "U8")
 					(unit 1)
@@ -23115,7 +23115,7 @@
 			(uuid "fce18fd5-39b2-46e1-b80e-a98e01982025")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "#PWR0107")
 					(unit 1)
@@ -23209,7 +23209,7 @@
 			(uuid "83dbb8a7-8b83-45e8-8d0e-faf33842424e")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "#PWR097")
 					(unit 1)
@@ -23304,7 +23304,7 @@
 			(uuid "c26bd56d-50e8-4ddb-bd1f-235808e1772b")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "#PWR0100")
 					(unit 1)
@@ -23538,7 +23538,7 @@
 			(uuid "6146e41d-d01a-4fa3-8487-9f9f23e8b6df")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "#PWR0278")
 					(unit 1)
@@ -23632,7 +23632,7 @@
 			(uuid "a36cb074-e275-4a5c-a9a6-d06b53c8dda5")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "#PWR0259")
 					(unit 1)
@@ -23772,7 +23772,7 @@
 			(uuid "222ece0b-3d93-437d-a316-c80459fb7ce1")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "R89")
 					(unit 1)
@@ -23867,7 +23867,7 @@
 			(uuid "01ac4f5b-9269-4454-985c-24a8c1ab565e")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "#PWR0102")
 					(unit 1)
@@ -24158,7 +24158,7 @@
 			(uuid "54eca123-c1f3-4adf-82e2-7a23957192f9")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "R118")
 					(unit 1)
@@ -24253,7 +24253,7 @@
 			(uuid "a3a60119-1938-4b80-97dd-1830224b2dbd")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "#PWR0111")
 					(unit 1)
@@ -24393,7 +24393,7 @@
 			(uuid "460919e2-c4d3-474f-bdb6-6be3d49c0d4e")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "R94")
 					(unit 1)
@@ -24545,7 +24545,7 @@
 			(uuid "9e441315-81d9-4fe2-a866-8054a28a7c3d")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "R127")
 					(unit 1)
@@ -24696,7 +24696,7 @@
 			(uuid "dbb15bb6-cd19-499c-b1b0-9ddf826e31ca")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "R95")
 					(unit 1)
@@ -24847,7 +24847,7 @@
 			(uuid "4aecfb7f-7e0f-4c20-82dd-c019ab4557de")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "R120")
 					(unit 1)
@@ -24942,7 +24942,7 @@
 			(uuid "9c357c01-ed1c-48f6-9197-3135381d2489")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "#PWR0103")
 					(unit 1)
@@ -25036,7 +25036,7 @@
 			(uuid "1b079aa5-dc05-458b-ba1d-dc8dbbf877cc")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "#PWR0273")
 					(unit 1)
@@ -25153,7 +25153,7 @@
 			(uuid "bebe4c4d-b602-4556-b768-3a08bd2f9bec")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "TP4")
 					(unit 1)
@@ -25304,7 +25304,7 @@
 			(uuid "333fb077-c4d1-421c-839e-59ad4dfb4a8d")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "R104")
 					(unit 1)
@@ -25455,7 +25455,7 @@
 			(uuid "f9cd195d-a17e-49be-a715-969f041e258f")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "R101")
 					(unit 1)
@@ -25549,7 +25549,7 @@
 			(uuid "7910ebab-0821-4496-9e0b-3c0d464e23e6")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "#PWR0258")
 					(unit 1)
@@ -25644,7 +25644,7 @@
 			(uuid "fd07248a-db2a-45d0-8571-688b0a294577")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "#PWR0105")
 					(unit 1)
@@ -25738,7 +25738,7 @@
 			(uuid "f79e9245-2772-4324-9894-6dc41a3008f4")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "#PWR0262")
 					(unit 1)
@@ -25889,7 +25889,7 @@
 			(uuid "f3c6236a-cecb-468f-a590-d86ab1a110a7")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "R105")
 					(unit 1)
@@ -26041,7 +26041,7 @@
 			(uuid "8a8961f8-dcd8-4428-b7f2-4f9eb0808f06")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "R125")
 					(unit 1)
@@ -26135,7 +26135,7 @@
 			(uuid "13f73b9a-3184-417c-85e6-7c89777cad63")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "#PWR0263")
 					(unit 1)
@@ -26285,7 +26285,7 @@
 			(uuid "4b0651b8-3cc3-47cf-8189-3f217a7f1480")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "C73")
 					(unit 1)
@@ -26425,7 +26425,7 @@
 			(uuid "35036ff6-8ebb-4c0a-853c-254ac64c0fb0")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "R7")
 					(unit 1)
@@ -26542,7 +26542,7 @@
 			(uuid "c9b14baf-6428-4061-96ef-61215b157fe8")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "TP3")
 					(unit 1)
@@ -26682,7 +26682,7 @@
 			(uuid "217cd6ba-ec67-4da2-87ba-50e5e94c2b8a")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "R107")
 					(unit 1)
@@ -26822,7 +26822,7 @@
 			(uuid "a5ac59ad-b0a3-4a8e-95a3-1f8da6856430")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "R99")
 					(unit 1)
@@ -26962,7 +26962,7 @@
 			(uuid "d5df604b-1b09-4625-a80a-7d59cc505925")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "R79")
 					(unit 1)
@@ -27056,7 +27056,7 @@
 			(uuid "0a21fb4b-f044-4693-9564-125e7ab6ffc5")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "#PWR0277")
 					(unit 1)
@@ -27333,7 +27333,7 @@
 			(uuid "44989276-0a52-4eb8-8752-e5d8fd915265")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "Y2")
 					(unit 1)
@@ -27427,7 +27427,7 @@
 			(uuid "423ebf64-730c-4e22-bd33-c08b8c14fa44")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "#PWR0270")
 					(unit 1)
@@ -27521,7 +27521,7 @@
 			(uuid "6d6d183f-7e9d-4dd5-b261-cae6491a039e")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "#PWR0282")
 					(unit 1)
@@ -27661,7 +27661,7 @@
 			(uuid "f97d7395-e88d-4a86-a946-0e770111727f")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "R87")
 					(unit 1)
@@ -27755,7 +27755,7 @@
 			(uuid "84746c51-690c-43ee-81ac-9e211251a35c")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "#PWR0283")
 					(unit 1)
@@ -27872,7 +27872,7 @@
 			(uuid "761040c3-3ee2-49d3-88af-41d44311a1e2")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "TP7")
 					(unit 1)
@@ -27989,7 +27989,7 @@
 			(uuid "35f704fe-64de-4c96-95e6-a4574885b15b")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "TP13")
 					(unit 1)
@@ -28129,7 +28129,7 @@
 			(uuid "b34f3397-754d-4ccb-9506-c153dd90c066")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "R78")
 					(unit 1)
@@ -28270,7 +28270,7 @@
 			(uuid "a3a97fe1-6635-42a7-ba5f-54d828e0294c")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "R111")
 					(unit 1)
@@ -28410,7 +28410,7 @@
 			(uuid "bb7cbac9-3d4d-49f7-aa07-247ef2f0a301")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "R82")
 					(unit 1)
@@ -28562,7 +28562,7 @@
 			(uuid "308b7e2d-a05c-4149-bf0f-f06e83a9cb3b")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "R124")
 					(unit 1)
@@ -28657,7 +28657,7 @@
 			(uuid "d4cf0c4b-22c3-4a98-9d24-2fa85dd07a52")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "#PWR0106")
 					(unit 1)
@@ -28774,7 +28774,7 @@
 			(uuid "9afae842-02df-4ba9-b81b-34f7bc648c6f")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "TP6")
 					(unit 1)
@@ -28911,7 +28911,7 @@
 			(uuid "805108f5-f51a-4980-878b-b1bd4e99fc12")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "U7")
 					(unit 1)
@@ -29005,7 +29005,7 @@
 			(uuid "3676abea-b5d3-4ef4-a0e7-131b61b5a2ca")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "#PWR0269")
 					(unit 1)
@@ -29145,7 +29145,7 @@
 			(uuid "a38eb355-d688-4d3e-9080-aa0b939b32c6")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "R86")
 					(unit 1)
@@ -29239,7 +29239,7 @@
 			(uuid "b51fd3e6-0b77-46dc-91ba-20de81511010")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "#PWR0280")
 					(unit 1)
@@ -29379,7 +29379,7 @@
 			(uuid "9fc0fa5f-8a6e-45cc-90b7-afd6e498522f")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "R84")
 					(unit 1)
@@ -29613,7 +29613,7 @@
 			(uuid "549ed902-69c5-4f6b-996d-921ec91ed2fc")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "#PWR0285")
 					(unit 1)
@@ -29764,7 +29764,7 @@
 			(uuid "e6c33771-1e06-4823-ac3c-79ee37ec8f7a")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "R172")
 					(unit 1)
@@ -29859,7 +29859,7 @@
 			(uuid "e0cf1ca4-bd91-4ad3-a8d5-6c6660e39583")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "#PWR098")
 					(unit 1)
@@ -29953,7 +29953,7 @@
 			(uuid "809002ea-157e-45a2-8f99-ca9a9f249df6")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "#PWR0281")
 					(unit 1)
@@ -30047,7 +30047,7 @@
 			(uuid "0f41112c-a206-4867-aafe-2ce90b13da27")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "#PWR0268")
 					(unit 1)
@@ -30199,7 +30199,7 @@
 			(uuid "6de76fcc-df64-43a7-9cb9-dae7abcd4bfd")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "R126")
 					(unit 1)
@@ -30352,7 +30352,7 @@
 			(uuid "0e87e31a-f577-42c0-a53c-8a974bc7afca")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "C75")
 					(unit 1)
@@ -30609,7 +30609,7 @@
 			(uuid "be94c957-18d2-41f4-a75b-2dfdbab66424")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "TP11")
 					(unit 1)
@@ -30704,7 +30704,7 @@
 			(uuid "75e68ee9-7a9c-41f5-96f0-2cbe6da6c7d1")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "#PWR0108")
 					(unit 1)
@@ -30844,7 +30844,7 @@
 			(uuid "dcedd2ed-2cd6-4ef1-bc4d-3ff505c51a08")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "R112")
 					(unit 1)
@@ -30995,7 +30995,7 @@
 			(uuid "e3bcd884-26d8-46d6-8bc8-9118605a7057")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "R173")
 					(unit 1)
@@ -31089,7 +31089,7 @@
 			(uuid "979b21b8-8ff3-43dd-8d70-9897a2d38e16")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "#PWR0267")
 					(unit 1)
@@ -31230,7 +31230,7 @@
 			(uuid "b6fa4807-7abb-41a7-80e6-2dd50774d970")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "R114")
 					(unit 1)
@@ -31371,7 +31371,7 @@
 			(uuid "ad0be63e-4fbd-4ac2-8f1b-ba320d62547b")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "R49")
 					(unit 1)
@@ -31523,7 +31523,7 @@
 			(uuid "40ee2c6d-354f-40dc-ab48-3da02f4d2f04")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "R123")
 					(unit 1)
@@ -31617,7 +31617,7 @@
 			(uuid "dbf3869f-6d6c-4be6-a47e-c115f2764043")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "#PWR095")
 					(unit 1)
@@ -33240,7 +33240,7 @@
 			(uuid "7c24da51-bbd1-4c9b-a9ba-8eed3f0e5e2c")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "U9")
 					(unit 4)
@@ -34863,7 +34863,7 @@
 			(uuid "7c24da51-bbd1-4c9b-a9ba-8eed3f0e5e2d")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "U9")
 					(unit 6)
@@ -34980,7 +34980,7 @@
 			(uuid "ddcddb85-e219-47c4-bc08-10f3550577c9")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "TP2")
 					(unit 1)
@@ -35132,7 +35132,7 @@
 			(uuid "f95f68af-5a4b-4965-9078-2cca432f4906")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "C74")
 					(unit 1)
@@ -35272,7 +35272,7 @@
 			(uuid "d8575465-f4fa-4d82-ba9f-df7f839794e8")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "R97")
 					(unit 1)
@@ -35412,7 +35412,7 @@
 			(uuid "e01f2243-0524-4e3a-9ef5-1c374c6efeed")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "R91")
 					(unit 1)
@@ -35552,7 +35552,7 @@
 			(uuid "db341ac0-8246-4e93-ad72-f8c2be00dcf4")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "R85")
 					(unit 1)
@@ -35692,7 +35692,7 @@
 			(uuid "da6fc274-1cf6-40c5-803c-7aede587d205")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "R106")
 					(unit 1)
@@ -35833,7 +35833,7 @@
 			(uuid "515257e2-ed20-443e-87a5-2bf2e887bc60")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "R50")
 					(unit 1)
@@ -36252,7 +36252,7 @@
 			(uuid "51ae2f8a-7c99-409a-b7e1-b17936fd2eda")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "R119")
 					(unit 1)
@@ -36347,7 +36347,7 @@
 			(uuid "a9ef79d5-fe7d-443e-aa30-c6957ffc8bd5")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "#PWR0104")
 					(unit 1)
@@ -36441,7 +36441,7 @@
 			(uuid "5a5558d2-25dd-4d8f-9524-7cb39b85861d")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "#PWR0287")
 					(unit 1)
@@ -36581,7 +36581,7 @@
 			(uuid "883f4cf7-7f97-4627-9e47-626e410e7ced")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "R115")
 					(unit 1)
@@ -36675,7 +36675,7 @@
 			(uuid "0dd782a7-a595-446e-a859-c5a21a10d6e2")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "#PWR0264")
 					(unit 1)
@@ -36910,7 +36910,7 @@
 			(uuid "87014f9b-c2e7-4570-94f6-a6da1550dd93")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "#PWR0109")
 					(unit 1)
@@ -37004,7 +37004,7 @@
 			(uuid "8b5da5ba-f110-4a42-b8de-209017dd61b7")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "#PWR0274")
 					(unit 1)
@@ -37121,7 +37121,7 @@
 			(uuid "a92ecdf1-db49-441b-a7d6-713a320236f6")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "TP8")
 					(unit 1)
@@ -37274,7 +37274,7 @@
 			(uuid "5c5a2a32-c80a-4fe1-9079-9a0ab97974e1")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "C77")
 					(unit 1)
@@ -37391,7 +37391,7 @@
 			(uuid "81b934a4-c66a-4069-ab9a-2d8f93b2c4cc")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "TP12")
 					(unit 1)
@@ -37625,7 +37625,7 @@
 			(uuid "02c84c21-04fe-4a99-b2af-9bc5ca2e8fdb")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "#PWR0271")
 					(unit 1)

@@ -5,7 +5,7 @@
 	(uuid "c8325161-0bb6-4491-9b14-5ac5c4fadac7")
 	(paper "A3")
 	(title_block
-		(title "10GbE Expansion")
+		(title "OCuLink to 10GbE adapter")
 		(date "2025-11-07")
 		(rev "1.0.0")
 		(company "Antmicro Ltd")
@@ -1614,7 +1614,7 @@
 			(uuid "da118835-f057-4cb0-8e3a-978ff99c061f")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/3d913a88-b6f3-4148-9b3d-882d5df37282/151969d2-a4e0-4623-bed4-6527ef713b4c"
 					(reference "C203")
 					(unit 1)
@@ -1768,7 +1768,7 @@
 			(uuid "2ccc0fab-aeff-44fe-b271-e97cc0b87350")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/3d913a88-b6f3-4148-9b3d-882d5df37282/151969d2-a4e0-4623-bed4-6527ef713b4c"
 					(reference "C202")
 					(unit 1)
@@ -1865,7 +1865,7 @@
 			(uuid "06cd329e-e23c-46ac-9eec-c805504718db")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/3d913a88-b6f3-4148-9b3d-882d5df37282/151969d2-a4e0-4623-bed4-6527ef713b4c"
 					(reference "#PWR0330")
 					(unit 1)
@@ -1962,7 +1962,7 @@
 			(uuid "189e595c-0158-4afe-ba96-b67c0d5db0d9")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/3d913a88-b6f3-4148-9b3d-882d5df37282/151969d2-a4e0-4623-bed4-6527ef713b4c"
 					(reference "#PWR0331")
 					(unit 1)
@@ -2095,7 +2095,7 @@
 			(uuid "97f5fa84-a19e-4dc1-824c-1024f60f6951")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/3d913a88-b6f3-4148-9b3d-882d5df37282/151969d2-a4e0-4623-bed4-6527ef713b4c"
 					(reference "U12")
 					(unit 1)
@@ -2225,7 +2225,7 @@
 			(uuid "c726b31d-c55f-420d-8d9d-31aebd651448")
 		)
 		(instances
-			(project "10-gbe-expansion"
+			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/3d913a88-b6f3-4148-9b3d-882d5df37282/151969d2-a4e0-4623-bed4-6527ef713b4c"
 					(reference "Q3")
 					(unit 1)
