@@ -1197,7 +1197,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Ideal diode"
+	(text "Ideal Diode"
 		(exclude_from_sim no)
 		(at 200.406 127.254 0)
 		(effects

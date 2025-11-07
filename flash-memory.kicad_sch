@@ -970,7 +970,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Flash memory"
+	(text "Flash Memory"
 		(exclude_from_sim no)
 		(at 213.36 111.76 0)
 		(effects

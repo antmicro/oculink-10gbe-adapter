@@ -2297,7 +2297,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "OCuLink connector"
+	(text "OCuLink Connector"
 		(exclude_from_sim no)
 		(at 201.93 64.77 0)
 		(effects
