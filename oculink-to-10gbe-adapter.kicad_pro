@@ -1286,6 +1286,9 @@
       "PLL_VDD": [
         "PWR"
       ],
+      "VCC": [
+        "PWR"
+      ],
       "VCCA": [
         "PWR"
       ],
@@ -1488,6 +1491,10 @@
     [
       "151969d2-a4e0-4623-bed4-6527ef713b4c",
       "Ideal diode 2"
+    ],
+    [
+      "cfdaa22c-cb6e-476e-82f5-94f72ae97682",
+      "Fan controller"
     ]
   ],
   "text_variables": {}

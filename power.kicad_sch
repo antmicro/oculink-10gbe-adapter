@@ -7484,10 +7484,22 @@
 		(uuid "1b20e0c2-8c05-45a4-a7f3-76bef4fb3c8e")
 	)
 	(junction
+		(at 217.17 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f11d8be-2853-4707-85e3-af1df9b442ce")
+	)
+	(junction
 		(at 332.74 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1f874031-5f45-4b9b-aa1b-8c5834c43301")
+	)
+	(junction
+		(at 138.43 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21371e47-758d-4e89-8f54-b55d52d75495")
 	)
 	(junction
 		(at 259.08 78.74)
@@ -7514,6 +7526,12 @@
 		(uuid "2d496602-cbfe-4855-a411-2c6168cc45d2")
 	)
 	(junction
+		(at 217.17 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34f3d198-20c5-4a6f-b95a-d5780274b63a")
+	)
+	(junction
 		(at 259.08 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7524,6 +7542,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b674d12-c6da-4a4c-adc6-e2c9788a8443")
+	)
+	(junction
+		(at 217.17 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b805f42-122d-4193-afdd-cc242a10017e")
 	)
 	(junction
 		(at 327.66 139.7)
@@ -7652,16 +7676,22 @@
 		(uuid "6e15f17d-1c36-424a-b47c-28ca54eba6fa")
 	)
 	(junction
-		(at 196.85 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "77fff6b6-803e-4e1b-8cec-a80fb736aac2")
-	)
-	(junction
 		(at 364.49 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78a33e22-72d9-484a-8b32-c58db7bc6242")
+	)
+	(junction
+		(at 217.17 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7993d4e2-0aa7-4a72-a17c-c9c3129fc7a0")
+	)
+	(junction
+		(at 196.85 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "816f9a19-528a-477a-81b3-293e1b31beb9")
 	)
 	(junction
 		(at 359.41 139.7)
@@ -7730,6 +7760,12 @@
 		(uuid "96b99495-e4f7-4cf9-af56-007815484c72")
 	)
 	(junction
+		(at 196.85 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9effa9e1-344d-4fd5-98cb-8c3b7da15475")
+	)
+	(junction
 		(at 374.65 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7790,10 +7826,10 @@
 		(uuid "bc952a91-da40-4e11-9c01-695947bfbd83")
 	)
 	(junction
-		(at 142.24 85.09)
+		(at 143.51 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bd74c2d5-9145-4c61-a429-fd6136616419")
+		(uuid "bd1375a8-bee5-4d0b-aa1f-1f074fee7367")
 	)
 	(junction
 		(at 256.54 142.24)
@@ -7884,6 +7920,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5c06f09-69c5-4c21-ad41-dd274be8639a")
+	)
+	(junction
+		(at 217.17 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d956dbc4-e946-4e85-a463-c3857469efe3")
 	)
 	(junction
 		(at 344.17 101.6)
@@ -8021,6 +8063,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 85.09) (xy 133.35 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00e3daf5-a262-445a-ba63-3919cbf6875d")
+	)
+	(wire
+		(pts
 			(xy 133.35 82.55) (xy 133.35 85.09)
 		)
 		(stroke
@@ -8038,16 +8090,6 @@
 			(type default)
 		)
 		(uuid "023c8854-dc0a-4b04-bba7-2b641b25b99d")
-	)
-	(wire
-		(pts
-			(xy 133.35 85.09) (xy 124.46 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "032d4acd-2b98-4b54-9926-ac73c0164027")
 	)
 	(wire
 		(pts
@@ -8128,6 +8170,16 @@
 			(type default)
 		)
 		(uuid "079b4b63-985d-4d37-af77-703741018a0c")
+	)
+	(wire
+		(pts
+			(xy 138.43 85.09) (xy 143.51 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07db7c66-7aee-45f2-bc6a-6b74eb3541c3")
 	)
 	(wire
 		(pts
@@ -8431,16 +8483,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 85.09) (xy 142.24 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19ee5e94-2b0c-4ea8-8fcb-b9396bb5b917")
-	)
-	(wire
-		(pts
 			(xy 237.49 119.38) (xy 237.49 114.3)
 		)
 		(stroke
@@ -8588,16 +8630,6 @@
 			(type default)
 		)
 		(uuid "24fc1003-5a02-4405-b2f8-af3d18dbda51")
-	)
-	(wire
-		(pts
-			(xy 121.92 120.65) (xy 142.24 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "250a0a81-e808-4173-8345-9a690329a59f")
 	)
 	(wire
 		(pts
@@ -8951,6 +8983,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 85.09) (xy 138.43 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "424e2cfe-4eb6-49ad-9be3-1722cbb3568c")
+	)
+	(wire
+		(pts
 			(xy 259.08 73.66) (xy 261.62 73.66)
 		)
 		(stroke
@@ -8988,6 +9030,16 @@
 			(type default)
 		)
 		(uuid "44ed51a7-63c7-41e3-bd37-519aa0af880c")
+	)
+	(wire
+		(pts
+			(xy 217.17 137.16) (xy 217.17 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4533ceb1-70cf-4e57-8e10-f95fe97e759f")
 	)
 	(wire
 		(pts
@@ -9128,6 +9180,16 @@
 			(type default)
 		)
 		(uuid "51fefeb1-32b9-4159-bf74-43d3e393b7ac")
+	)
+	(wire
+		(pts
+			(xy 196.85 31.75) (xy 196.85 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5251cd5a-0340-4808-9be7-55aab851ae34")
 	)
 	(polyline
 		(pts
@@ -9461,16 +9523,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 21.59) (xy 196.85 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69cdbae5-12ee-44e7-95a2-9bbf92698f08")
-	)
-	(wire
-		(pts
 			(xy 332.74 149.86) (xy 332.74 151.13)
 		)
 		(stroke
@@ -9591,13 +9643,23 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 33.02) (xy 196.85 35.56)
+			(xy 217.17 99.06) (xy 217.17 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "754e5bf2-4539-432a-b47a-93dd39e9504f")
+		(uuid "73459d02-9ee4-4abf-83d2-c9a6b8072b10")
+	)
+	(wire
+		(pts
+			(xy 217.17 139.7) (xy 227.33 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "755afad1-261b-478b-a2a5-a48865ef10f8")
 	)
 	(wire
 		(pts
@@ -9688,6 +9750,16 @@
 			(type default)
 		)
 		(uuid "7c1d0d0d-45ad-46ef-8750-ee83e200ef17")
+	)
+	(wire
+		(pts
+			(xy 196.85 22.86) (xy 196.85 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d6ed93e-4c5d-4f5c-8340-f34df03299d7")
 	)
 	(wire
 		(pts
@@ -9821,6 +9893,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 25.4) (xy 217.17 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "831a9e8d-de19-4934-80c5-8c28c18645ed")
+	)
+	(wire
+		(pts
 			(xy 320.04 101.6) (xy 327.66 101.6)
 		)
 		(stroke
@@ -9858,6 +9940,16 @@
 			(type default)
 		)
 		(uuid "85199a02-a169-44f2-b8e3-2959da6905bf")
+	)
+	(wire
+		(pts
+			(xy 196.85 26.67) (xy 196.85 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "856ec1c9-bd78-4668-9150-6b1e0cd348df")
 	)
 	(wire
 		(pts
@@ -9918,6 +10010,16 @@
 			(type default)
 		)
 		(uuid "8868896b-2608-43bc-8b02-fbad8e851ee9")
+	)
+	(wire
+		(pts
+			(xy 217.17 60.96) (xy 217.17 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89ec4640-036f-40bb-b69d-242afebbf04c")
 	)
 	(wire
 		(pts
@@ -10051,6 +10153,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 82.55) (xy 143.51 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "952c414a-cce9-455c-ae7b-6615aaebe24a")
+	)
+	(wire
+		(pts
 			(xy 294.64 35.56) (xy 327.66 35.56)
 		)
 		(stroke
@@ -10078,6 +10190,16 @@
 			(type default)
 		)
 		(uuid "96dd713d-aec7-44a7-a2ce-ee60cb291420")
+	)
+	(wire
+		(pts
+			(xy 121.92 120.65) (xy 143.51 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98e30be1-3646-45d9-bb66-3655fff2ea68")
 	)
 	(wire
 		(pts
@@ -10141,17 +10263,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 139.7) (xy 227.33 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ecdd4e7-3b1a-44c2-8beb-733cdd92065e")
-	)
-	(wire
-		(pts
-			(xy 196.85 40.64) (xy 196.85 43.18)
+			(xy 196.85 41.91) (xy 196.85 43.18)
 		)
 		(stroke
 			(width 0)
@@ -10381,7 +10493,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 83.82) (xy 142.24 85.09)
+			(xy 138.43 87.63) (xy 138.43 85.09)
 		)
 		(stroke
 			(width 0)
@@ -10631,6 +10743,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 34.29) (xy 196.85 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c193a3ca-6c53-4c63-90f5-e0dafa5e1959")
+	)
+	(wire
+		(pts
 			(xy 217.17 139.7) (xy 217.17 147.32)
 		)
 		(stroke
@@ -10741,16 +10863,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 30.48) (xy 196.85 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca94dd4b-f262-4cf5-b6a5-d5988e689234")
-	)
-	(wire
-		(pts
 			(xy 314.96 63.5) (xy 307.34 63.5)
 		)
 		(stroke
@@ -10781,7 +10893,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 33.02) (xy 207.01 33.02)
+			(xy 196.85 34.29) (xy 207.01 34.29)
 		)
 		(stroke
 			(width 0)
@@ -10881,6 +10993,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 175.26) (xy 217.17 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d60a0806-4df2-4c25-aefd-901d862837a2")
+	)
+	(wire
+		(pts
 			(xy 332.74 101.6) (xy 344.17 101.6)
 		)
 		(stroke
@@ -10908,16 +11030,6 @@
 			(type default)
 		)
 		(uuid "d71ec331-45ac-462b-8c36-4d052fe75c39")
-	)
-	(wire
-		(pts
-			(xy 196.85 21.59) (xy 196.85 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d83758c9-9286-4f1b-a9b7-e3565781cc5a")
 	)
 	(wire
 		(pts
@@ -11101,7 +11213,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 85.09) (xy 142.24 120.65)
+			(xy 143.51 85.09) (xy 143.51 120.65)
 		)
 		(stroke
 			(width 0)
@@ -11586,7 +11698,7 @@
 		(uuid "286bb28e-714f-469f-8f8f-09690b518ca5")
 	)
 	(label "3V3_EN"
-		(at 207.01 33.02 180)
+		(at 207.01 34.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11594,26 +11706,6 @@
 			(justify right bottom)
 		)
 		(uuid "2b628356-825d-489b-9614-14b25d1ce8ac")
-	)
-	(label "VCC"
-		(at 217.17 25.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2f6c9e3f-80c7-4865-bfcd-374c3202ab4b")
-	)
-	(label "VCC"
-		(at 217.17 177.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "317a6587-3451-424c-9100-8e3df0ce4c89")
 	)
 	(label "3V3_BST"
 		(at 294.64 30.48 0)
@@ -11654,16 +11746,6 @@
 			(justify left bottom)
 		)
 		(uuid "49eabdb6-2647-48a9-8fbf-f70683d3879b")
-	)
-	(label "VCC"
-		(at 218.44 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4aff66ab-331d-472d-bbfc-d92926e14726")
 	)
 	(label "1V88_EN"
 		(at 276.86 111.76 180)
@@ -11805,16 +11887,6 @@
 		)
 		(uuid "99c76d24-3bfd-4d41-b1fc-55625f2a6a40")
 	)
-	(label "VCC"
-		(at 217.17 139.7 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9a8d9105-2f40-4381-8471-ef70dfc5e9ad")
-	)
 	(label "ALL_RAILS_OK"
 		(at 265.43 238.76 0)
 		(effects
@@ -11834,16 +11906,6 @@
 			(justify left bottom)
 		)
 		(uuid "9cb03d6d-9e09-4992-8d38-113983f9a1ca")
-	)
-	(label "VCC"
-		(at 217.17 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9fcc2080-935d-43c6-a495-0d7e160665d5")
 	)
 	(label "VCCD_FB"
 		(at 294.64 73.66 0)
@@ -11874,16 +11936,6 @@
 			(justify right bottom)
 		)
 		(uuid "b72ef1fc-f4fb-4896-bc21-6f3d21edfb4a")
-	)
-	(label "VCC"
-		(at 139.7 85.09 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c23c5002-58c0-4a96-a2bc-9b0db4bad6c6")
 	)
 	(label "3V3_SW"
 		(at 294.64 25.4 0)
@@ -11954,16 +12006,6 @@
 			(justify left bottom)
 		)
 		(uuid "e63bf018-6458-47d8-855a-d85b1732e798")
-	)
-	(label "VCC"
-		(at 190.5 21.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f28841f1-fbc6-4674-96e2-65c14d9b4ee4")
 	)
 	(label "1V0_EN"
 		(at 276.86 149.86 180)
@@ -13584,6 +13626,72 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicropower:VCC")
+		(at 217.17 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1115f01f-e405-4147-ba60-d714a3cbfb97")
+		(property "Reference" "#PWR0355"
+			(at 217.17 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 217.17 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f6fb32c-d722-4d88-80e2-97571699332d")
+		)
+		(instances
+			(project "oculink-to-10gbe-adapter"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/3d913a88-b6f3-4148-9b3d-882d5df37282"
+					(reference "#PWR0355")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroResistors0402:R_63k4_0402")
 		(at 332.74 109.22 90)
 		(unit 1)
@@ -14240,7 +14348,7 @@
 	)
 	(symbol
 		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
-		(at 142.24 83.82 90)
+		(at 138.43 87.63 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -14248,7 +14356,7 @@
 		(dnp no)
 		(uuid "1925cb78-113b-4ac9-b039-0354da320646")
 		(property "Reference" "TP22"
-			(at 142.24 78.74 90)
+			(at 138.43 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14257,7 +14365,7 @@
 			)
 		)
 		(property "Value" "TP_0.75mm_SMD"
-			(at 146.05 73.66 0)
+			(at 134.62 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14268,7 +14376,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
-			(at 148.59 73.66 0)
+			(at 132.08 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14279,7 +14387,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 66.04 0)
+			(at 125.73 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14290,7 +14398,7 @@
 			)
 		)
 		(property "Description" "SMT test point"
-			(at 142.24 83.82 0)
+			(at 138.43 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14299,7 +14407,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 153.67 73.025 0)
+			(at 127 98.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14310,7 +14418,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 148.59 73.025 0)
+			(at 132.08 98.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14321,7 +14429,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 151.13 73.66 0)
+			(at 129.54 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14332,7 +14440,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 153.67 73.66 0)
+			(at 127 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15574,6 +15682,72 @@
 			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/3d913a88-b6f3-4148-9b3d-882d5df37282"
 					(reference "TP23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:VCC")
+		(at 143.51 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "258b5662-e75c-4879-b34d-bb1792aca121")
+		(property "Reference" "#PWR0352"
+			(at 143.51 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 143.51 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9bd1559-802e-4804-8119-9c4d5e08fdfd")
+		)
+		(instances
+			(project ""
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/3d913a88-b6f3-4148-9b3d-882d5df37282"
+					(reference "#PWR0352")
 					(unit 1)
 				)
 			)
@@ -19336,6 +19510,72 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicropower:VCC")
+		(at 217.17 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "42b0104e-658a-476b-b8b4-71dd0edd6e2f")
+		(property "Reference" "#PWR0357"
+			(at 217.17 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 217.17 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b50a34b-b07d-4bb7-a0d3-6330483d33eb")
+		)
+		(instances
+			(project "oculink-to-10gbe-adapter"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/3d913a88-b6f3-4148-9b3d-882d5df37282"
+					(reference "#PWR0357")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:GND")
 		(at 297.18 43.18 0)
 		(unit 1)
@@ -21567,7 +21807,7 @@
 	)
 	(symbol
 		(lib_id "antmicroResistors0402:R_100k_0402")
-		(at 196.85 40.64 270)
+		(at 196.85 41.91 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21576,7 +21816,7 @@
 		(dnp no)
 		(uuid "62e170cc-e2b4-481a-af4e-eb79fdf29e2c")
 		(property "Reference" "R5"
-			(at 195.58 36.83 90)
+			(at 195.58 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21586,7 +21826,7 @@
 			)
 		)
 		(property "Value" "R_100k_0402"
-			(at 184.15 20.32 0)
+			(at 184.15 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21597,7 +21837,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 181.61 20.32 0)
+			(at 181.61 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21608,7 +21848,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 179.07 20.32 0)
+			(at 179.07 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21619,7 +21859,7 @@
 			)
 		)
 		(property "Description" "SMD Chip Resistor, 100 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 166.37 20.32 0)
+			(at 166.37 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21629,7 +21869,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-1003GLF"
-			(at 176.53 20.32 0)
+			(at 176.53 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21640,7 +21880,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 173.99 20.32 0)
+			(at 173.99 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21651,7 +21891,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 171.45 20.32 0)
+			(at 171.45 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21662,7 +21902,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 168.91 20.32 0)
+			(at 168.91 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21673,7 +21913,7 @@
 			)
 		)
 		(property "Val" "100k"
-			(at 195.58 39.37 90)
+			(at 195.58 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21683,7 +21923,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 186.69 20.32 0)
+			(at 186.69 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25255,6 +25495,72 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicropower:VCC")
+		(at 196.85 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f623cc4-ca56-4aea-b738-92118e2d70fc")
+		(property "Reference" "#PWR0354"
+			(at 196.85 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 196.85 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "579c0bed-2d1e-422d-9bd7-5437d2520ed1")
+		)
+		(instances
+			(project "oculink-to-10gbe-adapter"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/3d913a88-b6f3-4148-9b3d-882d5df37282"
+					(reference "#PWR0354")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:GND")
 		(at 344.17 43.18 0)
 		(unit 1)
@@ -27875,6 +28181,72 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicropower:VCC")
+		(at 217.17 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b45e00b7-f4e2-4c90-b289-4e4f6f40f885")
+		(property "Reference" "#PWR0356"
+			(at 217.17 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 217.17 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96ee0700-93cf-4162-895d-01912dce3c30")
+		)
+		(instances
+			(project "oculink-to-10gbe-adapter"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/3d913a88-b6f3-4148-9b3d-882d5df37282"
+					(reference "#PWR0356")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
 		(at 359.41 100.33 90)
 		(unit 1)
@@ -29496,7 +29868,7 @@
 	)
 	(symbol
 		(lib_id "antmicroResistors0402:R_255k_0402")
-		(at 196.85 30.48 270)
+		(at 196.85 31.75 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -29505,7 +29877,7 @@
 		(dnp no)
 		(uuid "c9084d69-c4f8-4b54-9aff-d740c39a8074")
 		(property "Reference" "R2"
-			(at 195.58 26.67 90)
+			(at 195.58 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29515,7 +29887,7 @@
 			)
 		)
 		(property "Value" "R_255k_0402"
-			(at 184.15 10.16 0)
+			(at 184.15 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29526,7 +29898,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 181.61 10.16 0)
+			(at 181.61 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29537,7 +29909,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 179.07 10.16 0)
+			(at 179.07 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29548,7 +29920,7 @@
 			)
 		)
 		(property "Description" "SMD Chip Resistor, 255 kohm, ± 1%, 100 mW, 0402 [1005 Metric], Thick Film, Precision"
-			(at 166.37 10.16 0)
+			(at 166.37 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29558,7 +29930,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-2553GLF"
-			(at 176.53 10.16 0)
+			(at 176.53 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29569,7 +29941,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 173.99 10.16 0)
+			(at 173.99 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29580,7 +29952,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 171.45 10.16 0)
+			(at 171.45 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29591,7 +29963,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 168.91 10.16 0)
+			(at 168.91 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29602,7 +29974,7 @@
 			)
 		)
 		(property "Val" "255k"
-			(at 195.58 29.21 90)
+			(at 195.58 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29612,7 +29984,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 186.69 10.16 0)
+			(at 186.69 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35200,6 +35572,72 @@
 			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/3d913a88-b6f3-4148-9b3d-882d5df37282"
 					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:VCC")
+		(at 217.17 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff7400ff-4dfd-4eb5-af61-a4a0f16ab035")
+		(property "Reference" "#PWR0353"
+			(at 217.17 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 217.17 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f05bf8de-a638-4c81-bb05-5ee67b989789")
+		)
+		(instances
+			(project "oculink-to-10gbe-adapter"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/3d913a88-b6f3-4148-9b3d-882d5df37282"
+					(reference "#PWR0353")
 					(unit 1)
 				)
 			)
