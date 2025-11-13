@@ -226,12 +226,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroMemory:W25Q64JVZEIQ"
+		(symbol "antmicroMemory:AT25DF641A-SH"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 40.64 -2.54 0)
+				(at 33.02 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -240,19 +240,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "W25Q64JVZEIQ"
-				(at 40.64 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:WSON-8_6x8x0.5mm_P1.27mm"
-				(at 40.64 -10.16 0)
+			(property "Value" "AT25DF641A-SH"
+				(at 33.02 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -262,8 +251,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.mouser.com/datasheet/2/949/w25q64jv_revj_03272018_plus-1489671.pdf"
-				(at 40.64 -12.7 0)
+			(property "Footprint" "antmicro-footprints:SOIC-8_5.3x5.3x2mm_P1.27mm"
+				(at 33.02 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -273,18 +262,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "64M-bit Serial Flash Memory with uniform 4KB sectors and Dual/Quad SPI"
-				(at 40.64 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Winbond"
-				(at 40.64 -15.24 0)
+			(property "Datasheet" "https://eu.mouser.com/datasheet/3/1166/1/REN_DS-AT25DF641A-8693G-022022_unsecure_DST_20220220_1.pdf"
+				(at 33.02 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -294,18 +273,40 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "W25Q64JVZEIQ"
-				(at 40.64 -5.08 0)
+			(property "Description" "NOR Flash 64 Mbit, 3.0V (2.7V to 3.6V), -40C to 85C, SOIC-W 208mil (Tape & Reel), Single, Dual SPI NOR flash"
+				(at 33.02 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(thickness 0.15)
 					)
 					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "AT25DF641A-SH-T "
+				(at 33.02 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer" "Renesas"
+				(at 33.02 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
 				)
 			)
 			(property "Author" "Antmicro"
-				(at 40.64 -17.78 0)
+				(at 33.02 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -316,7 +317,7 @@
 				)
 			)
 			(property "License" "Apache-2.0"
-				(at 40.64 -20.32 0)
+				(at 33.02 -22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -326,7 +327,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "SMT, MEMORY, IC"
+			(property "ki_keywords" "FLASH, SPI, MEMORY"
 				(at 0 0 0)
 				(effects
 					(font
@@ -335,10 +336,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "W25Q64JVZEIQ_1_1"
+			(symbol "AT25DF641A-SH_1_1"
 				(rectangle
 					(start 2.54 2.54)
-					(end 17.78 -15.24)
+					(end 16.51 -15.24)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -350,7 +351,7 @@
 				(pin bidirectional line
 					(at 0 0 0)
 					(length 2.54)
-					(name "DI/IO0"
+					(name "SI"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -368,7 +369,7 @@
 				(pin bidirectional line
 					(at 0 -2.54 0)
 					(length 2.54)
-					(name "DO/IO1"
+					(name "SO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -386,7 +387,7 @@
 				(pin bidirectional line
 					(at 0 -5.08 0)
 					(length 2.54)
-					(name "~{WP}/IO2"
+					(name "~{WP}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -404,7 +405,7 @@
 				(pin bidirectional line
 					(at 0 -7.62 0)
 					(length 2.54)
-					(name "~{HOLD}/IO3"
+					(name "~{HOLD}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -455,29 +456,10 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 17.78 -10.16 180)
-					(length 2.54)
-					(hide yes)
-					(name "EP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
-					(at 20.32 0 180)
+					(at 19.05 0 180)
 					(length 2.54)
-					(name "V_{CC}"
+					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -493,9 +475,9 @@
 					)
 				)
 				(pin power_in line
-					(at 20.32 -12.7 180)
+					(at 19.05 -12.7 180)
 					(length 2.54)
-					(name "V_{SS}"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1495,7 +1477,7 @@
 		(uuid "1ba0a459-d709-4630-aa9f-f43c14fc34c8")
 	)
 	(junction
-		(at 226.06 156.21)
+		(at 224.79 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3cdb3c73-4856-4717-b4fa-4c326a5fdc8e")
@@ -1507,7 +1489,7 @@
 		(uuid "5c3b8ca8-e166-4da4-89ac-a70001fa125f")
 	)
 	(junction
-		(at 226.06 143.51)
+		(at 224.79 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aaf44bb4-e5a7-42af-ad01-366dbf950a90")
@@ -1644,7 +1626,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 158.75) (xy 226.06 156.21)
+			(xy 224.79 158.75) (xy 224.79 156.21)
 		)
 		(stroke
 			(width 0)
@@ -1684,7 +1666,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 143.51) (xy 226.06 147.32)
+			(xy 224.79 143.51) (xy 224.79 147.32)
 		)
 		(stroke
 			(width 0)
@@ -1724,7 +1706,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 143.51) (xy 223.52 143.51)
+			(xy 224.79 143.51) (xy 222.25 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1824,7 +1806,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 130.81) (xy 226.06 143.51)
+			(xy 224.79 130.81) (xy 224.79 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1854,7 +1836,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 156.21) (xy 223.52 156.21)
+			(xy 224.79 156.21) (xy 222.25 156.21)
 		)
 		(stroke
 			(width 0)
@@ -1864,7 +1846,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 152.4) (xy 226.06 156.21)
+			(xy 224.79 152.4) (xy 224.79 156.21)
 		)
 		(stroke
 			(width 0)
@@ -2192,7 +2174,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroMemory:W25Q64JVZEIQ")
+		(lib_id "antmicroMemory:AT25DF641A-SH")
 		(at 203.2 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2200,9 +2182,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "508bf04b-3d1d-4a5a-af00-e32ac1f8867c")
-		(property "Reference" "U6"
-			(at 213.36 135.89 0)
+		(uuid "62147c72-24e8-4948-916a-c49ba600f8e3")
+		(property "Reference" "U13"
+			(at 212.725 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2210,19 +2192,8 @@
 				)
 			)
 		)
-		(property "Value" "W25Q64JVZEIQ"
-			(at 243.84 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:WSON-8_6x8x0.5mm_P1.27mm"
-			(at 243.84 153.67 0)
+		(property "Value" "AT25DF641A-SH"
+			(at 236.22 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2232,8 +2203,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/949/w25q64jv_revj_03272018_plus-1489671.pdf"
-			(at 243.84 156.21 0)
+		(property "Footprint" "antmicro-footprints:SOIC-8_5.3x5.3x2mm_P1.27mm"
+			(at 236.22 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2243,18 +2214,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "64M-bit Serial Flash Memory with uniform 4KB sectors and Dual/Quad SPI"
-			(at 244.094 166.624 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Winbond"
-			(at 243.84 158.75 0)
+		(property "Datasheet" "https://eu.mouser.com/datasheet/3/1166/1/REN_DS-AT25DF641A-8693G-022022_unsecure_DST_20220220_1.pdf"
+			(at 236.22 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2264,17 +2225,39 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "W25Q64JVZEIQ"
-			(at 213.36 138.43 0)
+		(property "Description" "NOR Flash 64 Mbit, 3.0V (2.7V to 3.6V), -40C to 85C, SOIC-W 208mil (Tape & Reel), Single, Dual SPI NOR flash"
+			(at 236.22 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AT25DF641A-SH-T "
+			(at 212.725 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Renesas"
+			(at 236.22 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 243.84 161.29 0)
+			(at 236.22 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2285,7 +2268,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 243.84 163.83 0)
+			(at 236.22 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2295,37 +2278,34 @@
 				(hide yes)
 			)
 		)
-		(pin "8"
-			(uuid "914afe54-d270-4033-8c8d-c05801e2a21d")
-		)
-		(pin "9"
-			(uuid "d137557d-5311-4bae-b329-e63b95facbe2")
-		)
-		(pin "7"
-			(uuid "8e78f735-6e47-4ff3-b75b-7017edbbb061")
-		)
-		(pin "2"
-			(uuid "709f9ee8-e859-4629-91ac-435e30986e5e")
-		)
 		(pin "3"
-			(uuid "b73723a1-c5d9-4f81-9e05-d60795b9adc9")
+			(uuid "5f9b6d08-ae89-46eb-aae6-d1ab5c7b65a1")
 		)
 		(pin "5"
-			(uuid "f7f0907f-8a47-45a6-ba71-038d4bd4990a")
-		)
-		(pin "1"
-			(uuid "b4791fca-e2b2-42fc-b557-4fd52ba6679c")
+			(uuid "8a6a7236-0f22-4c69-b912-b067450f47c8")
 		)
 		(pin "4"
-			(uuid "2ba09829-8eb4-4bb1-ad3d-2468d49a0a3a")
+			(uuid "0611f448-ce00-46eb-a2a2-ac1be7aa8600")
+		)
+		(pin "7"
+			(uuid "f896b7ec-ddb8-447c-822a-7a9c97000b97")
 		)
 		(pin "6"
-			(uuid "50661546-0fa3-4416-ad90-d3bba735838b")
+			(uuid "0e5ea837-7604-4eb6-bba6-07488f26cc0a")
+		)
+		(pin "2"
+			(uuid "3afec007-fb86-40e6-ba94-368f6291f659")
+		)
+		(pin "1"
+			(uuid "ff91b08e-089e-4ec8-9947-2f49a532138a")
+		)
+		(pin "8"
+			(uuid "96da24b3-c370-427c-bb60-37f687b5bac9")
 		)
 		(instances
 			(project ""
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/cf61e8ef-a7e0-463f-9b69-1bf3871ad792"
-					(reference "U6")
+					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -2568,7 +2548,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:+3V3")
-		(at 226.06 130.81 0)
+		(at 224.79 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2576,7 +2556,7 @@
 		(dnp no)
 		(uuid "9074c5f2-bcd8-4390-89b7-134ab5e69916")
 		(property "Reference" "#PWR064"
-			(at 241.3 130.81 0)
+			(at 240.03 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2587,7 +2567,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 226.06 127 0)
+			(at 224.79 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2596,7 +2576,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 138.43 0)
+			(at 240.03 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2607,7 +2587,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 140.97 0)
+			(at 240.03 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2618,7 +2598,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 226.06 130.81 0)
+			(at 224.79 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2627,7 +2607,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 241.3 133.35 0)
+			(at 240.03 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2638,7 +2618,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 241.3 135.89 0)
+			(at 240.03 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2662,7 +2642,7 @@
 	)
 	(symbol
 		(lib_id "antmicroCapacitors0402:C_100n_16V_X7R_0402")
-		(at 226.06 152.4 90)
+		(at 224.79 152.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2671,7 +2651,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf1528b4-dd85-4002-a8f9-cc7bf712583f")
 		(property "Reference" "C47"
-			(at 228.6 148.5836 90)
+			(at 227.33 148.5836 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2681,7 +2661,7 @@
 			)
 		)
 		(property "Value" "C_100n_16V_X7R_0402"
-			(at 248.92 137.16 0)
+			(at 247.65 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2692,7 +2672,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 251.46 137.16 0)
+			(at 250.19 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2703,7 +2683,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C0402C104J4RAC7411.html"
-			(at 254 137.16 0)
+			(at 252.73 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2714,7 +2694,7 @@
 			)
 		)
 		(property "Description" "SMD Multilayer Ceramic Capacitor, 100nF, 50V, 0402, ±5%, X7R"
-			(at 226.06 152.4 0)
+			(at 224.79 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2723,7 +2703,7 @@
 			)
 		)
 		(property "MPN" "C0402C104J4RAC7411"
-			(at 256.54 137.16 0)
+			(at 255.27 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2734,7 +2714,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 228.6 151.1236 90)
+			(at 227.33 151.1236 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2744,7 +2724,7 @@
 			)
 		)
 		(property "Voltage" "16V"
-			(at 236.22 137.16 0)
+			(at 234.95 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2755,7 +2735,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 238.76 137.16 0)
+			(at 237.49 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2766,7 +2746,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 241.3 137.16 0)
+			(at 240.03 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2777,7 +2757,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 243.84 137.16 0)
+			(at 242.57 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2788,7 +2768,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 246.38 137.16 0)
+			(at 245.11 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3108,7 +3088,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 226.06 158.75 0)
+		(at 224.79 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3116,7 +3096,7 @@
 		(dnp no)
 		(uuid "f7d794d5-abff-475e-8b2c-91c714eea30f")
 		(property "Reference" "#PWR065"
-			(at 234.95 161.29 0)
+			(at 233.68 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3127,7 +3107,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 226.06 162.56 0)
+			(at 224.79 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3136,7 +3116,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 166.37 0)
+			(at 233.68 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3147,7 +3127,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 171.45 0)
+			(at 233.68 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3158,7 +3138,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 226.06 158.75 0)
+			(at 224.79 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3167,7 +3147,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 234.95 166.37 0)
+			(at 233.68 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3178,7 +3158,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 234.95 168.91 0)
+			(at 233.68 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
