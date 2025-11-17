@@ -437,7 +437,7 @@
       "extra_units": "error",
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
-      "four_way_junction": "ignore",
+      "four_way_junction": "warning",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
@@ -461,7 +461,7 @@
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
       "undefined_netclass": "error",
@@ -505,9 +505,24 @@
         "diff_pair_width": 0.16,
         "line_style": 0,
         "name": "100Ohm-diff_10GbE",
-        "pcb_color": "rgb(0, 255, 255)",
-        "priority": 2,
+        "pcb_color": "rgb(0, 194, 194)",
+        "priority": 3,
         "schematic_color": "rgb(0, 194, 194)",
+        "track_width": 0.15,
+        "via_diameter": 0.45,
+        "via_drill": 0.1,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.22,
+        "diff_pair_width": 0.16,
+        "line_style": 0,
+        "name": "100Ohm-diff_CLK",
+        "pcb_color": "rgb(0, 194, 0)",
+        "priority": 2,
+        "schematic_color": "rgb(0, 194, 0)",
         "track_width": 0.15,
         "via_diameter": 0.45,
         "via_drill": 0.1,
@@ -521,7 +536,7 @@
         "line_style": 0,
         "name": "85Ohm-diff_PCIe",
         "pcb_color": "rgb(194, 0, 194)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgb(194, 0, 194)",
         "track_width": 0.15,
         "via_diameter": 0.45,
@@ -533,7 +548,7 @@
         "clearance": 0.15,
         "line_style": 0,
         "name": "GND",
-        "pcb_color": "rgb(0, 0, 255)",
+        "pcb_color": "rgb(0, 0, 0)",
         "priority": 1,
         "schematic_color": "rgb(0, 0, 0)",
         "track_width": 0.15,
@@ -546,7 +561,7 @@
         "clearance": 0.15,
         "line_style": 0,
         "name": "PWR",
-        "pcb_color": "rgb(221, 133, 0)",
+        "pcb_color": "rgb(255, 0, 0)",
         "priority": 0,
         "schematic_color": "rgb(255, 0, 0)",
         "track_width": 0.15,
@@ -1042,6 +1057,24 @@
       ],
       "/X710-AT PCIe/PCIe_{x4}{PCIe}": [
         "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT2 10GbE/25MHZ_OSC.+": [
+        "100Ohm-diff_CLK"
+      ],
+      "/X710-AT2 10GbE/25MHZ_OSC.-": [
+        "100Ohm-diff_CLK"
+      ],
+      "/X710-AT2 10GbE/25MHZ_OSC_AC.+": [
+        "100Ohm-diff_CLK"
+      ],
+      "/X710-AT2 10GbE/25MHZ_OSC_AC.-": [
+        "100Ohm-diff_CLK"
+      ],
+      "/X710-AT2 10GbE/25MHZ_OSC_R.+": [
+        "100Ohm-diff_CLK"
+      ],
+      "/X710-AT2 10GbE/25MHZ_OSC_R.-": [
+        "100Ohm-diff_CLK"
       ],
       "/X710-AT2 10GbE/Ethernet_P0.10GbE": [
         "100Ohm-diff_10GbE"

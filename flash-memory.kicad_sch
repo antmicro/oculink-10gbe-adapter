@@ -226,6 +226,235 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "antmicroDiodesRectifiersSingle:RB521S30T1G"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 22.86 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "RB521S30T1G"
+				(at 22.86 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:SOD-523"
+				(at 22.86 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/rb521s30t1-d.pdf"
+				(at 22.86 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Small Signal Schottky Diode, Single, 30 V, 200 mA, 500 mV, 1 A, 125 °C"
+				(at 22.86 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "RB521S30T1G"
+				(at 22.86 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer" "ON Semiconductor"
+				(at 22.86 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 22.86 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 22.86 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SMT, SEMICONDUCTOR, DIODE, SCHOTTKY"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RB521S30T1G_0_1"
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 0) (xy 3.175 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RB521S30T1G_1_1"
+				(polyline
+					(pts
+						(xy 1.778 1.016) (xy 1.778 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 1.016) (xy 1.397 1.016) (xy 1.397 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -1.016) (xy 2.159 -1.016) (xy 2.159 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 1.016) (xy 3.302 -1.016) (xy 1.778 0) (xy 3.302 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 0.635)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 0.635)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "antmicroMemory:AT25DF641A-SH"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1457,6 +1686,99 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "antmicropower:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "pwr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "Flash Memory"
 		(exclude_from_sim no)
@@ -1471,10 +1793,10 @@
 		(uuid "29ccbb9e-6b27-4141-81a2-7695ac2855d7")
 	)
 	(junction
-		(at 193.04 133.35)
+		(at 196.85 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1ba0a459-d709-4630-aa9f-f43c14fc34c8")
+		(uuid "2ec3eb8c-7144-476c-ab48-9f4da8064eac")
 	)
 	(junction
 		(at 224.79 156.21)
@@ -1483,10 +1805,22 @@
 		(uuid "3cdb3c73-4856-4717-b4fa-4c326a5fdc8e")
 	)
 	(junction
+		(at 224.79 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d25ec83-811c-454c-a43e-c665b3749e5b")
+	)
+	(junction
 		(at 195.58 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c3b8ca8-e166-4da4-89ac-a70001fa125f")
+	)
+	(junction
+		(at 209.55 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80ad5a36-9a87-4d85-ad7b-e05846409bd2")
 	)
 	(junction
 		(at 224.79 143.51)
@@ -1546,6 +1880,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 130.81) (xy 209.55 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05e94a82-03f5-41e9-9517-e41627549a12")
+	)
+	(wire
+		(pts
 			(xy 173.99 153.67) (xy 203.2 153.67)
 		)
 		(stroke
@@ -1553,6 +1897,16 @@
 			(type default)
 		)
 		(uuid "0ac44cb3-0e7e-41c7-989a-cd46afce2f12")
+	)
+	(wire
+		(pts
+			(xy 209.55 133.35) (xy 224.79 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16d9dadc-565a-478d-be68-d9e1d763fd0c")
 	)
 	(bus
 		(pts
@@ -1573,6 +1927,16 @@
 			(type default)
 		)
 		(uuid "22bd8b85-32e5-4e0a-8c08-63bd5eb4e44e")
+	)
+	(wire
+		(pts
+			(xy 240.03 130.81) (xy 240.03 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23f7baae-4d62-4d29-9111-0a85b798763d")
 	)
 	(wire
 		(pts
@@ -1613,6 +1977,16 @@
 			(type default)
 		)
 		(uuid "4e2185db-3d74-4957-a0af-788ed1e45458")
+	)
+	(wire
+		(pts
+			(xy 196.85 133.35) (xy 209.55 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "507a5c49-d2af-4a03-bf86-f34a2bb75832")
 	)
 	(wire
 		(pts
@@ -1746,6 +2120,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 133.35) (xy 224.79 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a473bd13-371a-41b7-9608-b8022b423812")
+	)
+	(wire
+		(pts
 			(xy 246.38 193.04) (xy 229.87 193.04)
 		)
 		(stroke
@@ -1774,16 +2158,6 @@
 		)
 		(uuid "ae0583e6-7c36-4b00-a96c-38edede6284d")
 	)
-	(wire
-		(pts
-			(xy 193.04 130.81) (xy 193.04 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b601aee9-b84c-44ea-92f8-c75ff67d903c")
-	)
 	(bus
 		(pts
 			(xy 171.45 158.75) (xy 171.45 161.29)
@@ -1806,13 +2180,23 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 130.81) (xy 224.79 143.51)
+			(xy 182.88 182.88) (xy 198.12 182.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bf698015-22f2-43f8-a2a0-21dff942875b")
+		(uuid "c4f6d01b-cee0-479f-abfe-c7600e7e924b")
+	)
+	(wire
+		(pts
+			(xy 240.03 133.35) (xy 232.41 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9fab1ce-66cc-4b0d-a656-f87f065329d3")
 	)
 	(wire
 		(pts
@@ -1856,6 +2240,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 133.35) (xy 224.79 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6d7b943-bebf-44ed-9d29-b24eeb34d250")
+	)
+	(wire
+		(pts
 			(xy 232.41 185.42) (xy 229.87 185.42)
 		)
 		(stroke
@@ -1873,6 +2267,16 @@
 			(type default)
 		)
 		(uuid "ff502de9-5a16-47be-a6b3-4511dcfa6ab2")
+	)
+	(label "+3V3_FLASH"
+		(at 182.88 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c95fc53-0d8f-4c1b-a3cf-9c901466dd0f")
 	)
 	(label "FLASH.CLK"
 		(at 175.26 153.67 0)
@@ -1923,6 +2327,16 @@
 			(justify left bottom)
 		)
 		(uuid "a9faf00b-04a4-4767-bf3f-22381dfa5c65")
+	)
+	(label "+3V3_FLASH"
+		(at 223.52 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b03a955c-001a-4fc0-b2c2-6eb2dad53be5")
 	)
 	(label "FLASH.MOSI"
 		(at 246.38 187.96 180)
@@ -1986,94 +2400,66 @@
 		(uuid "cb36e674-ee47-4903-bb6a-1b422ffa3df9")
 	)
 	(symbol
-		(lib_id "antmicropower:+3V3")
-		(at 193.04 130.81 0)
+		(lib_id "antmicropower:PWR_FLAG")
+		(at 209.55 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "26713cb8-5b42-471c-948e-aa96912dfe17")
-		(property "Reference" "#PWR063"
-			(at 208.28 130.81 0)
+		(uuid "250f06f4-68b5-4181-bcfa-f42bb44b8864")
+		(property "Reference" "#FLG022"
+			(at 209.55 128.905 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 193.04 127 0)
+		(property "Value" "PWR_FLAG"
+			(at 209.55 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 138.43 0)
+			(at 209.55 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 140.97 0)
+			(at 209.55 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 193.04 130.81 0)
+			(at 209.55 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 208.28 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 208.28 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 				(justify left bottom)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "81d909d0-c38b-4f07-bc74-74f338ffc6ab")
+			(uuid "5df6855a-4280-42db-9495-0a21e1e5cd70")
 		)
 		(instances
-			(project "OCuLink to 10GbE adapter"
+			(project ""
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/cf61e8ef-a7e0-463f-9b69-1bf3871ad792"
-					(reference "#PWR063")
+					(reference "#FLG022")
 					(unit 1)
 				)
 			)
@@ -2168,6 +2554,126 @@
 			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/cf61e8ef-a7e0-463f-9b69-1bf3871ad792"
 					(reference "#PWR0338")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroDiodesRectifiersSingle:RB521S30T1G")
+		(at 227.33 133.35 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40506019-1da6-4ad1-b30a-a42a45c954e4")
+		(property "Reference" "D12"
+			(at 229.87 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "RB521S30T1G"
+			(at 250.19 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:SOD-523"
+			(at 250.19 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/rb521s30t1-d.pdf"
+			(at 250.19 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Small Signal Schottky Diode, Single, 30 V, 200 mA, 500 mV, 1 A, 125 °C"
+			(at 250.19 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RB521S30T1G"
+			(at 229.87 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "ON Semiconductor"
+			(at 250.19 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 250.19 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 250.19 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9fd9d5b-5a0d-454f-88ef-d19ae16337a5")
+		)
+		(pin "2"
+			(uuid "4bf4a9ac-b0d6-4f3e-81c2-889f2a049496")
+		)
+		(instances
+			(project "oculink-to-10gbe-adapter"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/cf61e8ef-a7e0-463f-9b69-1bf3871ad792"
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -2548,7 +3054,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:+3V3")
-		(at 224.79 130.81 0)
+		(at 240.03 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2556,7 +3062,7 @@
 		(dnp no)
 		(uuid "9074c5f2-bcd8-4390-89b7-134ab5e69916")
 		(property "Reference" "#PWR064"
-			(at 240.03 130.81 0)
+			(at 255.27 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2567,7 +3073,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 224.79 127 0)
+			(at 240.03 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2576,7 +3082,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 138.43 0)
+			(at 255.27 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2587,7 +3093,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 140.97 0)
+			(at 255.27 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2598,7 +3104,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 224.79 130.81 0)
+			(at 240.03 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2607,7 +3113,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 240.03 133.35 0)
+			(at 255.27 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2618,7 +3124,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 240.03 135.89 0)
+			(at 255.27 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2632,7 +3138,7 @@
 			(uuid "3c452f8f-cbaa-4105-b8c6-32280ad1147f")
 		)
 		(instances
-			(project "OCuLink to 10GbE adapter"
+			(project "oculink-to-10gbe-adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/cf61e8ef-a7e0-463f-9b69-1bf3871ad792"
 					(reference "#PWR064")
 					(unit 1)

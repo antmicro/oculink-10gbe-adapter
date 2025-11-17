@@ -455,10 +455,6 @@
 		(color 0 0 0 0)
 		(uuid "b8145b04-4053-42b6-8f13-2cb7ea53fda1")
 	)
-	(no_connect
-		(at 152.4 175.26)
-		(uuid "e16e8144-0319-4fcc-bdb3-c2d21ff78fa3")
-	)
 	(wire
 		(pts
 			(xy 279.4 109.22) (xy 304.8 109.22)
@@ -1541,16 +1537,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "PCIe_JTAG{JTAG}" input
-			(at 152.4 175.26 180)
-			(uuid "f23e8455-1dd0-4fa8-ad8a-442c7fb60cd6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "~{PE_RST}" input
