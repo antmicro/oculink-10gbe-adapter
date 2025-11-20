@@ -2231,7 +2231,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroFixedInductors:L_4u7_0.4A_0805"
+		(symbol "antmicroFixedInductors:L_4u7_1.55A_Bourns-SRP2512A"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2251,7 +2251,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "L_4u7_0.4A_0805"
+			(property "Value" "L_4u7_1.55A_Bourns-SRP2512A"
 				(at 15.24 -5.08 0)
 				(effects
 					(font
@@ -2262,7 +2262,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "antmicro-footprints:L_0805_2012Metric"
+			(property "Footprint" "antmicro-footprints:L_Bourns-SRP2512A"
 				(at 15.24 -7.62 0)
 				(effects
 					(font
@@ -2273,7 +2273,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_decoupling_mlz2012_en.pdf"
+			(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/srp2512a.pdf"
 				(at 15.24 -10.16 0)
 				(effects
 					(font
@@ -2284,7 +2284,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "4.7 µH Shielded Multilayer Inductor 400 mA 340mOhm 0805 (2012 Metric)"
+			(property "Description" "4.7 µH Shielded Drum Core, Wirewound Inductor 1.55 A 235mOhm Max 1008 (2520 Metric)"
 				(at 15.24 -30.48 0)
 				(effects
 					(font
@@ -2294,7 +2294,7 @@
 					(hide yes)
 				)
 			)
-			(property "Val" "4u7/0.4A"
+			(property "Val" "4u7/1.55A"
 				(at 15.24 -2.54 0)
 				(effects
 					(font
@@ -2304,7 +2304,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Manufacturer" "TDK"
+			(property "Manufacturer" "Bourns"
 				(at 15.24 -12.7 0)
 				(effects
 					(font
@@ -2315,7 +2315,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "MLZ2012M4R7HT000"
+			(property "MPN" "SRP2512A-4R7M"
 				(at 15.24 -15.24 0)
 				(effects
 					(font
@@ -2326,17 +2326,7 @@
 					(hide yes)
 				)
 			)
-			(property "ISat" "0.3 A"
-				(at 15.24 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "IMax" "0.4 A"
+			(property "ISat" "1.9 A"
 				(at 15.24 -17.78 0)
 				(effects
 					(font
@@ -2346,7 +2336,17 @@
 					(hide yes)
 				)
 			)
-			(property "Size" "2.0x1.2"
+			(property "IMax" "1.55 A"
+				(at 15.24 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Size" "2.5x2.0"
 				(at 15.24 -22.86 0)
 				(effects
 					(font
@@ -2378,7 +2378,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "SMT, INDUCTOR, PASSIVE"
+			(property "ki_keywords" "INDUCTOR, PASSIVE"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2387,7 +2387,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "L_4u7_0.4A_0805_0_1"
+			(symbol "L_4u7_1.55A_Bourns-SRP2512A_0_1"
 				(arc
 					(start 0.508 0)
 					(mid 1.016 0.5058)
@@ -2437,7 +2437,7 @@
 					)
 				)
 			)
-			(symbol "L_4u7_0.4A_0805_1_1"
+			(symbol "L_4u7_1.55A_Bourns-SRP2512A_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 0.508)
@@ -37393,6 +37393,166 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroFixedInductors:L_4u7_1.55A_Bourns-SRP2512A")
+		(at 44.45 226.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83dae04a-1f90-4da2-aefc-c4df72edabaf")
+		(property "Reference" "L11"
+			(at 46.99 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "L_4u7_1.55A_Bourns-SRP2512A"
+			(at 59.69 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:L_Bourns-SRP2512A"
+			(at 59.69 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/srp2512a.pdf"
+			(at 59.69 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.7 µH Shielded Drum Core, Wirewound Inductor 1.55 A 235mOhm Max 1008 (2520 Metric)"
+			(at 59.69 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "4u7/1.55A"
+			(at 46.99 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 59.69 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SRP2512A-4R7M"
+			(at 59.69 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ISat" "1.9 A"
+			(at 59.69 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "IMax" "1.55 A"
+			(at 59.69 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Size" "2.5x2.0"
+			(at 59.69 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 59.69 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 59.69 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "28b3e5eb-0e04-4667-9b8c-84ceff4de015")
+		)
+		(pin "1"
+			(uuid "a835a18f-b266-4af1-b8ba-72077216722b")
+		)
+		(instances
+			(project "oculink-to-10gbe-adapter"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/745fdd8b-25af-4553-a7ea-a0fa564ee0a7"
+					(reference "L11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:GND")
 		(at 361.95 76.2 0)
 		(unit 1)
@@ -43492,6 +43652,166 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroFixedInductors:L_4u7_1.55A_Bourns-SRP2512A")
+		(at 44.45 199.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b746214e-9256-4d03-b2b3-c83567654ab6")
+		(property "Reference" "L9"
+			(at 46.99 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "L_4u7_1.55A_Bourns-SRP2512A"
+			(at 59.69 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:L_Bourns-SRP2512A"
+			(at 59.69 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/srp2512a.pdf"
+			(at 59.69 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.7 µH Shielded Drum Core, Wirewound Inductor 1.55 A 235mOhm Max 1008 (2520 Metric)"
+			(at 59.69 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "4u7/1.55A"
+			(at 46.99 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 59.69 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SRP2512A-4R7M"
+			(at 59.69 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ISat" "1.9 A"
+			(at 59.69 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "IMax" "1.55 A"
+			(at 59.69 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Size" "2.5x2.0"
+			(at 59.69 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 59.69 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 59.69 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eeaeb5d5-a263-42b0-8817-3f85585ca469")
+		)
+		(pin "1"
+			(uuid "b4ab13c9-002f-4839-84e2-45a95cf950b8")
+		)
+		(instances
+			(project "oculink-to-10gbe-adapter"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/745fdd8b-25af-4553-a7ea-a0fa564ee0a7"
+					(reference "L9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroCapacitors0603:C_10u_10V_X7R_0603")
 		(at 299.72 130.81 90)
 		(unit 1)
@@ -46270,165 +46590,6 @@
 			(project ""
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/745fdd8b-25af-4553-a7ea-a0fa564ee0a7"
 					(reference "C130")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroFixedInductors:L_4u7_0.4A_0805")
-		(at 44.45 199.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ce8c5d3c-d88b-41bf-9265-559c25228e86")
-		(property "Reference" "L9"
-			(at 46.99 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "L_4u7_0.4A_0805"
-			(at 59.69 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:L_0805_2012Metric"
-			(at 59.69 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_decoupling_mlz2012_en.pdf"
-			(at 59.69 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "4.7 µH Shielded Multilayer Inductor 400 mA 340mOhm 0805 (2012 Metric)"
-			(at 44.45 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Val" "4u7/0.4A"
-			(at 46.99 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "TDK"
-			(at 59.69 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "MLZ2012M4R7HT000"
-			(at 59.69 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ISat" "0.3 A"
-			(at 59.69 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "IMax" "0.4 A"
-			(at 59.69 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Size" "2.0x1.2"
-			(at 59.69 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 59.69 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 59.69 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c95fbfe4-2595-461f-96fe-f4ddb9cb6e77")
-		)
-		(pin "2"
-			(uuid "2bf28b6a-5e97-4e0a-aba1-2b89975de615")
-		)
-		(instances
-			(project ""
-				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/745fdd8b-25af-4553-a7ea-a0fa564ee0a7"
-					(reference "L9")
 					(unit 1)
 				)
 			)
@@ -50157,165 +50318,6 @@
 			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/745fdd8b-25af-4553-a7ea-a0fa564ee0a7"
 					(reference "C168")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroFixedInductors:L_4u7_0.4A_0805")
-		(at 44.45 226.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f5bb6fee-cf00-473e-8ac0-f61869cdf747")
-		(property "Reference" "L10"
-			(at 46.99 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "L_4u7_0.4A_0805"
-			(at 59.69 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:L_0805_2012Metric"
-			(at 59.69 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_decoupling_mlz2012_en.pdf"
-			(at 59.69 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "4.7 µH Shielded Multilayer Inductor 400 mA 340mOhm 0805 (2012 Metric)"
-			(at 44.45 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Val" "4u7/0.4A"
-			(at 46.99 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "TDK"
-			(at 59.69 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "MLZ2012M4R7HT000"
-			(at 59.69 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ISat" "0.3 A"
-			(at 59.69 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "IMax" "0.4 A"
-			(at 59.69 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Size" "2.0x1.2"
-			(at 59.69 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 59.69 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 59.69 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e9a6d93f-8f0c-45a6-beca-83ddb1082a6c")
-		)
-		(pin "2"
-			(uuid "f6935432-ce1d-4ddd-9e9d-e9f5d3dfb5b6")
-		)
-		(instances
-			(project "OCuLink to 10GbE adapter"
-				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/745fdd8b-25af-4553-a7ea-a0fa564ee0a7"
-					(reference "L10")
 					(unit 1)
 				)
 			)
