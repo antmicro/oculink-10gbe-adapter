@@ -12594,6 +12594,16 @@
 		)
 		(uuid "fe1cc7fd-f6f8-42db-bf9c-c6bbff3d8585")
 	)
+	(label "DEBUG_EN"
+		(at 261.62 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "02df27d3-a1ab-42f7-b960-43fd53995fa6")
+	)
 	(label "RSVDN9_VSS"
 		(at 193.04 62.23 180)
 		(effects
