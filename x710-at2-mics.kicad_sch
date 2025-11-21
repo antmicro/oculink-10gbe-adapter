@@ -14278,6 +14278,12 @@
 		(uuid "1da26637-fd97-4d4b-88d3-a50b483ad8e3")
 	)
 	(junction
+		(at 242.57 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e6e6940-ea10-41e9-806b-b1ea26efae09")
+	)
+	(junction
 		(at 274.32 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14320,16 +14326,34 @@
 		(uuid "38af0ecc-90e4-46ae-a760-0107a80623a3")
 	)
 	(junction
+		(at 242.57 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3bad1cb7-162e-43ab-8ec3-f5e647a471d0")
+	)
+	(junction
 		(at 53.34 229.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3e8d7db8-be9f-46c1-b602-27b150d91845")
 	)
 	(junction
+		(at 242.57 210.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41504aba-6d08-4198-b078-c47abbd26576")
+	)
+	(junction
 		(at 128.27 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "41b6ac6b-8912-48e7-9f05-f4875371fcc1")
+	)
+	(junction
+		(at 242.57 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41be175a-971e-497e-afa6-e238d9f7410d")
 	)
 	(junction
 		(at 146.05 96.52)
@@ -14769,16 +14793,6 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 243.84) (xy 276.86 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01e9171e-4623-455b-be67-33e4dbb05475")
-	)
-	(wire
-		(pts
 			(xy 124.46 119.38) (xy 124.46 124.46)
 		)
 		(stroke
@@ -14829,16 +14843,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 208.28) (xy 123.19 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07354940-0810-46a2-88c4-0747968ba0d9")
-	)
-	(wire
-		(pts
 			(xy 274.32 129.54) (xy 274.32 132.08)
 		)
 		(stroke
@@ -14886,16 +14890,6 @@
 			(type default)
 		)
 		(uuid "09b4a1c9-fbad-4634-8d03-bef4f3c570fa")
-	)
-	(wire
-		(pts
-			(xy 267.97 243.84) (xy 267.97 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a5d5102-b622-40ea-af4f-a63332ecca26")
 	)
 	(wire
 		(pts
@@ -14959,17 +14953,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 210.82) (xy 267.97 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12451dc8-017b-4def-a0a9-eae0d2661a63")
-	)
-	(wire
-		(pts
-			(xy 238.76 205.74) (xy 259.08 205.74)
+			(xy 238.76 205.74) (xy 242.57 205.74)
 		)
 		(stroke
 			(width 0)
@@ -14986,16 +14970,6 @@
 			(type default)
 		)
 		(uuid "12803bce-9dad-48c0-8832-20ae17971f75")
-	)
-	(wire
-		(pts
-			(xy 238.76 215.9) (xy 294.64 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14d591e0-8d21-4a70-be90-f577f7a0f679")
 	)
 	(wire
 		(pts
@@ -15056,6 +15030,16 @@
 			(type default)
 		)
 		(uuid "19ab4c97-3a54-49ed-a32e-191e36d05925")
+	)
+	(wire
+		(pts
+			(xy 242.57 213.36) (xy 242.57 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ad64e04-cd72-4110-9828-8489ea35459b")
 	)
 	(wire
 		(pts
@@ -15139,7 +15123,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 218.44) (xy 140.97 238.76)
+			(xy 140.97 218.44) (xy 140.97 246.38)
 		)
 		(stroke
 			(width 0)
@@ -15156,6 +15140,16 @@
 			(type default)
 		)
 		(uuid "2278785f-e238-4a8c-9b00-1c98d77e9913")
+	)
+	(wire
+		(pts
+			(xy 242.57 215.9) (xy 242.57 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "231e5f22-ed54-44c7-946a-a89533946bd7")
 	)
 	(wire
 		(pts
@@ -15337,16 +15331,6 @@
 		)
 		(uuid "3347371f-275e-4bd6-9735-6df77fa50060")
 	)
-	(wire
-		(pts
-			(xy 294.64 215.9) (xy 294.64 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35157594-bbd8-4ac8-8706-a1aac0032e49")
-	)
 	(bus
 		(pts
 			(xy 307.34 129.54) (xy 304.8 127)
@@ -15469,16 +15453,6 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 205.74) (xy 259.08 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41172612-eb09-41bf-a6bb-59136e70d031")
-	)
-	(wire
-		(pts
 			(xy 67.31 168.91) (xy 67.31 171.45)
 		)
 		(stroke
@@ -15546,6 +15520,16 @@
 			(type default)
 		)
 		(uuid "4767aeab-a230-4ae8-a7e3-e1ca6044b10e")
+	)
+	(wire
+		(pts
+			(xy 238.76 210.82) (xy 242.57 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4787983b-3e93-4da9-b7b2-15985d6dde6a")
 	)
 	(wire
 		(pts
@@ -15639,16 +15623,6 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 243.84) (xy 285.75 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f8e499a-f7b2-4206-9275-615f011be0e9")
-	)
-	(wire
-		(pts
 			(xy 165.1 99.06) (xy 187.96 99.06)
 		)
 		(stroke
@@ -15656,16 +15630,6 @@
 			(type default)
 		)
 		(uuid "504cea37-1dc1-4493-a414-07da79128b87")
-	)
-	(wire
-		(pts
-			(xy 285.75 218.44) (xy 285.75 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "512a6223-9246-4d27-9374-9f074a7da2d9")
 	)
 	(wire
 		(pts
@@ -15799,16 +15763,6 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 213.36) (xy 276.86 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62a29c06-5a99-46ac-b6cc-32c8215c1277")
-	)
-	(wire
-		(pts
 			(xy 287.02 104.14) (xy 302.26 104.14)
 		)
 		(stroke
@@ -15926,16 +15880,6 @@
 			(type default)
 		)
 		(uuid "6bbe18cb-0969-4f41-9033-6c6fa073a3c9")
-	)
-	(wire
-		(pts
-			(xy 123.19 243.84) (xy 123.19 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c39c081-5c3a-494e-bf46-b30e5ffbeef2")
 	)
 	(wire
 		(pts
@@ -16329,16 +16273,6 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 210.82) (xy 267.97 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91015170-639a-4178-9beb-d4e875b90afd")
-	)
-	(wire
-		(pts
 			(xy 69.85 232.41) (xy 63.5 232.41)
 		)
 		(stroke
@@ -16399,7 +16333,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 243.84) (xy 259.08 246.38)
+			(xy 242.57 205.74) (xy 242.57 210.82)
 		)
 		(stroke
 			(width 0)
@@ -16429,13 +16363,13 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 218.44) (xy 285.75 218.44)
+			(xy 242.57 218.44) (xy 242.57 246.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a28bd367-b9e0-4d58-9888-b2226e0d4823")
+		(uuid "a262dc09-2b60-4c8e-a792-1880ac78a635")
 	)
 	(wire
 		(pts
@@ -16629,7 +16563,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 238.76) (xy 158.75 236.22)
+			(xy 158.75 236.22) (xy 158.75 246.38)
 		)
 		(stroke
 			(width 0)
@@ -16799,6 +16733,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 208.28) (xy 123.19 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf19d099-282a-4f5b-be2a-6ac372afe3a8")
+	)
+	(wire
+		(pts
 			(xy 146.05 129.54) (xy 146.05 132.08)
 		)
 		(stroke
@@ -16836,6 +16780,16 @@
 			(type default)
 		)
 		(uuid "c287bf1a-634d-4e85-898f-aded51021f98")
+	)
+	(wire
+		(pts
+			(xy 238.76 218.44) (xy 242.57 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2e62b33-82ef-4b69-ae17-734c07fd71a0")
 	)
 	(wire
 		(pts
@@ -16979,6 +16933,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 215.9) (xy 242.57 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf8a8686-86ca-4c16-9827-e32c8c8bdd51")
+	)
+	(wire
+		(pts
 			(xy 170.18 66.04) (xy 170.18 91.44)
 		)
 		(stroke
@@ -17016,16 +16980,6 @@
 			(type default)
 		)
 		(uuid "d145c3d5-2d38-41db-a647-6ea7264b6e90")
-	)
-	(wire
-		(pts
-			(xy 276.86 213.36) (xy 276.86 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1855374-fe2c-4af2-ab6d-703f70a71626")
 	)
 	(wire
 		(pts
@@ -17076,16 +17030,6 @@
 			(type default)
 		)
 		(uuid "d3bd7279-63c5-4eb7-8be2-10fdd8e6f38a")
-	)
-	(wire
-		(pts
-			(xy 158.75 243.84) (xy 158.75 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3c86dab-eddf-47ef-8111-e877cb4490d3")
 	)
 	(wire
 		(pts
@@ -17439,26 +17383,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 243.84) (xy 140.97 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea2c772d-f533-485f-b7d9-2c9542f015a6")
-	)
-	(wire
-		(pts
-			(xy 294.64 243.84) (xy 294.64 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea53e423-d48f-4f7f-b7c1-3e558312d825")
-	)
-	(wire
-		(pts
 			(xy 127 104.14) (xy 127 119.38)
 		)
 		(stroke
@@ -17526,6 +17450,16 @@
 			(type default)
 		)
 		(uuid "ef7fadad-7cc3-4076-a20d-0bf1e8c4221e")
+	)
+	(wire
+		(pts
+			(xy 242.57 210.82) (xy 242.57 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efb375d2-8945-4630-9931-c8efe695c86d")
 	)
 	(wire
 		(pts
@@ -17639,6 +17573,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 213.36) (xy 242.57 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f84b16bd-7574-4d5e-ac04-37fb14c1ad7a")
+	)
+	(wire
+		(pts
 			(xy 148.59 172.72) (xy 148.59 175.26)
 		)
 		(stroke
@@ -17717,16 +17661,6 @@
 		)
 		(uuid "069c97c6-c03a-4e60-a8f9-a3e7682fdc8b")
 	)
-	(label "RSVDL37_VSS"
-		(at 241.3 218.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0cf625ed-7bdd-4a6f-8ac3-2efa77dd24e5")
-	)
 	(label "PHY_TDO"
 		(at 180.34 233.68 180)
 		(effects
@@ -17747,26 +17681,6 @@
 		)
 		(uuid "13bd0fb9-c679-4a9e-b0fc-4575aaae1729")
 	)
-	(label "RSVDJ13_VSS"
-		(at 180.34 218.44 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "152f7575-46ad-4b3a-b779-d4b7a46506fb")
-	)
-	(label "RSVDK40_1P88V"
-		(at 241.3 208.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1586e579-fb06-46c7-9637-7635efc97d0d")
-	)
 	(label "NCSI.TXD_0"
 		(at 93.98 63.5 0)
 		(effects
@@ -17786,16 +17700,6 @@
 			(justify right bottom)
 		)
 		(uuid "1c52114a-cfae-4551-986e-aaee0062b123")
-	)
-	(label "RSVDK42_VSS"
-		(at 241.3 210.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1d54520a-1d1c-4598-85e6-61e8f6b7921a")
 	)
 	(label "RSVD_J11_VSS"
 		(at 180.34 210.82 180)
@@ -17907,26 +17811,6 @@
 		)
 		(uuid "4d7d1b2d-b28a-4c99-8722-507382aad2c3")
 	)
-	(label "RSVDH40_VSS"
-		(at 241.3 205.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "506c4859-e96f-42cc-bd89-a8a5312ecedf")
-	)
-	(label "RSVDJ17_VSS"
-		(at 180.34 208.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "52bd1b7a-f673-4e5c-af73-df2eff76ac8c")
-	)
 	(label "PHY_TDI"
 		(at 180.34 231.14 180)
 		(effects
@@ -17987,16 +17871,6 @@
 		)
 		(uuid "8c37b0dc-4f06-496e-9e25-ccefa8ac4441")
 	)
-	(label "RSVDP38_VSS"
-		(at 241.3 213.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8dbb9a73-e2d9-419b-af31-54daa9c8af32")
-	)
 	(label "FLASH.MISO"
 		(at 290.83 121.92 0)
 		(effects
@@ -18006,6 +17880,16 @@
 			(justify left bottom)
 		)
 		(uuid "9d391e16-cd4b-4548-b1a0-8b93bea10741")
+	)
+	(label "RSVDK40_1P88V"
+		(at 245.11 208.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0d6767b-6d7d-40fb-8608-21d706b288a1")
 	)
 	(label "POR_BYPASS"
 		(at 185.42 119.38 180)
@@ -18036,16 +17920,6 @@
 			(justify left bottom)
 		)
 		(uuid "ad64dbe9-4b55-46f5-9f9a-29d8c0e26634")
-	)
-	(label "RSVDN37_VSS"
-		(at 241.3 215.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b1c4cb08-ab63-428a-ac9c-779bfcf87251")
 	)
 	(label "FLASH.~{CE}"
 		(at 290.83 114.3 0)
@@ -18146,16 +18020,6 @@
 			(justify left bottom)
 		)
 		(uuid "dd24c210-21e8-47de-99af-89e4335e065d")
-	)
-	(label "RSVDD14"
-		(at 180.34 236.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e02ef373-e233-4190-814f-73ab4a1cfda2")
 	)
 	(label "NCSI.ARB_OUT"
 		(at 93.98 53.34 0)
@@ -19303,100 +19167,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicropower:GND")
-		(at 276.86 246.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0fa62afc-7997-42e9-9f2f-928a9eab952d")
-		(property "Reference" "#PWR0286"
-			(at 285.75 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 276.86 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 285.75 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 285.75 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 276.86 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 285.75 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 285.75 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fb286855-9dad-4e4e-a85d-1be84e0bd67d")
-		)
-		(instances
-			(project "OCuLink to 10GbE adapter"
-				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
-					(reference "#PWR0286")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicroResistors0402:R_2k_0402")
 		(at 53.34 220.98 270)
 		(mirror x)
@@ -19539,159 +19309,8 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_0R_0402")
-		(at 158.75 243.84 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1377690c-a972-4f03-94d5-b2509e74d50c")
-		(property "Reference" "R122"
-			(at 160.274 240.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_0R_0402"
-			(at 171.45 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 173.99 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
-			(at 176.53 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 158.75 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ERJ2GE0R00X"
-			(at 179.07 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Panasonic"
-			(at 181.61 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 184.15 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 186.69 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "0R"
-			(at 160.274 242.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Tolerance" "~"
-			(at 168.91 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Current" "1A"
-			(at 189.23 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ae2ec573-389b-4baf-9383-7be2b63a2f0a")
-		)
-		(pin "2"
-			(uuid "302aa5eb-c808-4b17-ab6d-a0d0a5a439e8")
-		)
-		(instances
-			(project ""
-				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
-					(reference "R122")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicropower:GND")
-		(at 259.08 246.38 0)
+		(at 242.57 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19699,7 +19318,7 @@
 		(dnp no)
 		(uuid "1410395e-e1be-4ddf-826c-18231fded29c")
 		(property "Reference" "#PWR0284"
-			(at 267.97 248.92 0)
+			(at 251.46 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19710,7 +19329,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 259.08 250.19 0)
+			(at 242.57 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19719,7 +19338,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 267.97 254 0)
+			(at 251.46 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19730,7 +19349,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 259.08 0)
+			(at 251.46 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19741,7 +19360,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 259.08 246.38 0)
+			(at 242.57 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19750,7 +19369,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 267.97 254 0)
+			(at 251.46 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19761,7 +19380,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 267.97 256.54 0)
+			(at 251.46 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21161,100 +20780,6 @@
 			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "R117")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicropower:GND")
-		(at 294.64 246.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "34bf45e4-7842-4721-b540-78d75d6f16aa")
-		(property "Reference" "#PWR0288"
-			(at 303.53 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 294.64 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 303.53 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 303.53 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 294.64 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 303.53 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 303.53 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "648f4b9d-30e6-4183-a14a-27bc87d8fc76")
-		)
-		(instances
-			(project "OCuLink to 10GbE adapter"
-				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
-					(reference "#PWR0288")
 					(unit 1)
 				)
 			)
@@ -24014,157 +23539,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_0R_0402")
-		(at 123.19 243.84 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6c3c41ec-1109-4e88-b767-7e32ba5dddef")
-		(property "Reference" "R118"
-			(at 124.714 240.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_0R_0402"
-			(at 135.89 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 138.43 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
-			(at 140.97 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 123.19 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ERJ2GE0R00X"
-			(at 143.51 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Panasonic"
-			(at 146.05 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 148.59 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 151.13 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "0R"
-			(at 124.714 242.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Tolerance" "~"
-			(at 133.35 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Current" "1A"
-			(at 153.67 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "88f409a2-78cd-4efe-9566-d421000940da")
-		)
-		(pin "2"
-			(uuid "54eca123-c1f3-4adf-82e2-7a23957192f9")
-		)
-		(instances
-			(project "OCuLink to 10GbE adapter"
-				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
-					(reference "R118")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicropower:GND")
 		(at 67.31 195.58 0)
 		(mirror y)
@@ -24401,158 +23775,6 @@
 	)
 	(symbol
 		(lib_id "antmicroResistors0402:R_0R_0402")
-		(at 294.64 243.84 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6e112e14-05c3-49ab-9cf7-53acf012667d")
-		(property "Reference" "R127"
-			(at 293.116 240.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_0R_0402"
-			(at 281.94 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 279.4 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
-			(at 276.86 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 294.64 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ERJ2GE0R00X"
-			(at 274.32 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Panasonic"
-			(at 271.78 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 269.24 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 266.7 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "0R"
-			(at 293.116 242.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Tolerance" "~"
-			(at 284.48 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Current" "1A"
-			(at 264.16 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "beafc3e3-7f18-494f-b5d6-467110396366")
-		)
-		(pin "2"
-			(uuid "9e441315-81d9-4fe2-a866-8054a28a7c3d")
-		)
-		(instances
-			(project "OCuLink to 10GbE adapter"
-				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
-					(reference "R127")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 281.94 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24697,157 +23919,6 @@
 			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "R95")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroResistors0402:R_0R_0402")
-		(at 140.97 243.84 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6f95a387-b136-41f4-be54-1a8416b1ed5a")
-		(property "Reference" "R120"
-			(at 142.494 240.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_0R_0402"
-			(at 153.67 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 156.21 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
-			(at 158.75 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 140.97 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ERJ2GE0R00X"
-			(at 161.29 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Panasonic"
-			(at 163.83 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 166.37 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 168.91 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "0R"
-			(at 142.494 242.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Tolerance" "~"
-			(at 151.13 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Current" "1A"
-			(at 171.45 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "00b7b561-a75e-43e7-afda-1843da164a5e")
-		)
-		(pin "2"
-			(uuid "4aecfb7f-7e0f-4c20-82dd-c019ab4557de")
-		)
-		(instances
-			(project "OCuLink to 10GbE adapter"
-				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
-					(reference "R120")
 					(unit 1)
 				)
 			)
@@ -25890,158 +24961,6 @@
 			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "R105")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroResistors0402:R_0R_0402")
-		(at 276.86 243.84 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8134ee65-2b4b-4cfa-8530-4536207441ab")
-		(property "Reference" "R125"
-			(at 275.336 240.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_0R_0402"
-			(at 264.16 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 261.62 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
-			(at 259.08 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 276.86 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ERJ2GE0R00X"
-			(at 256.54 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Panasonic"
-			(at 254 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 251.46 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 248.92 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "0R"
-			(at 275.336 242.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Tolerance" "~"
-			(at 266.7 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Current" "1A"
-			(at 246.38 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "035b80f5-4dd6-40b0-95e9-248fdc8c05ba")
-		)
-		(pin "2"
-			(uuid "8a8961f8-dcd8-4428-b7f2-4f9eb0808f06")
-		)
-		(instances
-			(project "OCuLink to 10GbE adapter"
-				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
-					(reference "R125")
 					(unit 1)
 				)
 			)
@@ -28417,158 +27336,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_0R_0402")
-		(at 267.97 243.84 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a9144df4-a052-44b0-b3ed-ebba42e99b70")
-		(property "Reference" "R124"
-			(at 266.446 240.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_0R_0402"
-			(at 255.27 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 252.73 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
-			(at 250.19 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 267.97 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ERJ2GE0R00X"
-			(at 247.65 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Panasonic"
-			(at 245.11 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 242.57 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 240.03 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "0R"
-			(at 266.446 242.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Tolerance" "~"
-			(at 257.81 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Current" "1A"
-			(at 237.49 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b58e3935-9775-460b-a6ae-8279239bda99")
-		)
-		(pin "2"
-			(uuid "308b7e2d-a05c-4149-bf0f-f06e83a9cb3b")
-		)
-		(instances
-			(project "OCuLink to 10GbE adapter"
-				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
-					(reference "R124")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicropower:+1V8")
 		(at 97.79 168.91 0)
 		(mirror y)
@@ -29526,100 +28293,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicropower:GND")
-		(at 267.97 246.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c3010d0e-7543-440a-9b3e-5854960d253c")
-		(property "Reference" "#PWR0285"
-			(at 276.86 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 267.97 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 276.86 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 276.86 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 267.97 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 276.86 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 276.86 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "549ed902-69c5-4f6b-996d-921ec91ed2fc")
-		)
-		(instances
-			(project "OCuLink to 10GbE adapter"
-				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
-					(reference "#PWR0285")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 44.45 101.6 90)
 		(unit 1)
@@ -30048,158 +28721,6 @@
 			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "#PWR0268")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroResistors0402:R_0R_0402")
-		(at 285.75 243.84 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c959d6bf-c011-435c-96c6-2bac65e65bd1")
-		(property "Reference" "R126"
-			(at 284.226 240.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_0R_0402"
-			(at 273.05 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 270.51 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
-			(at 267.97 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 285.75 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ERJ2GE0R00X"
-			(at 265.43 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Panasonic"
-			(at 262.89 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 260.35 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 257.81 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "0R"
-			(at 284.226 242.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Tolerance" "~"
-			(at 275.59 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Current" "1A"
-			(at 255.27 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b1ab9203-4332-45d9-83f5-c937a273bdf0")
-		)
-		(pin "2"
-			(uuid "6de76fcc-df64-43a7-9cb9-dae7abcd4bfd")
-		)
-		(instances
-			(project "OCuLink to 10GbE adapter"
-				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
-					(reference "R126")
 					(unit 1)
 				)
 			)
@@ -31372,158 +29893,6 @@
 			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "R49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroResistors0402:R_0R_0402")
-		(at 259.08 243.84 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "da93a05b-57dd-4490-9c80-0e17653d6858")
-		(property "Reference" "R123"
-			(at 257.556 240.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_0R_0402"
-			(at 246.38 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 243.84 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
-			(at 241.3 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 259.08 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ERJ2GE0R00X"
-			(at 238.76 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Panasonic"
-			(at 236.22 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 233.68 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 231.14 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "0R"
-			(at 257.556 242.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Tolerance" "~"
-			(at 248.92 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Current" "1A"
-			(at 228.6 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bae7b5fc-1b20-4ced-9562-4c40af630208")
-		)
-		(pin "2"
-			(uuid "40ee2c6d-354f-40dc-ab48-3da02f4d2f04")
-		)
-		(instances
-			(project "OCuLink to 10GbE adapter"
-				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
-					(reference "R123")
 					(unit 1)
 				)
 			)
@@ -36346,100 +34715,6 @@
 			(project "oculink-to-10gbe-adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
 					(reference "C211")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicropower:GND")
-		(at 285.75 246.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eeba3b77-810a-4b58-85be-555ecb2ae9aa")
-		(property "Reference" "#PWR0287"
-			(at 294.64 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 285.75 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 294.64 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 294.64 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 285.75 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 294.64 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 294.64 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5a5558d2-25dd-4d8f-9524-7cb39b85861d")
-		)
-		(instances
-			(project "OCuLink to 10GbE adapter"
-				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/d0402c84-6d4c-4559-b85a-0c9b588a21c5"
-					(reference "#PWR0287")
 					(unit 1)
 				)
 			)
