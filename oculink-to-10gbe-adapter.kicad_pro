@@ -548,7 +548,7 @@
         "clearance": 0.15,
         "line_style": 0,
         "name": "GND",
-        "pcb_color": "rgb(0, 0, 0)",
+        "pcb_color": "rgb(72, 72, 72)",
         "priority": 1,
         "schematic_color": "rgb(0, 0, 0)",
         "track_width": 0.15,
