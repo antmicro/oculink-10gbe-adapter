@@ -3442,15 +3442,15 @@
 	(symbol
 		(lib_id "antmicroTestPoints:Tag-Connect_TC2050-IDC-NL_2x5_P1.27mm")
 		(at 198.12 182.88 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "db2b7fba-6223-44b0-a402-b3ea30ba5cc1")
 		(property "Reference" "J10"
-			(at 213.995 175.26 0)
+			(at 182.245 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3459,7 +3459,7 @@
 			)
 		)
 		(property "Value" "Tag-Connect_TC2050-IDC-NL_2x5_P1.27mm"
-			(at 237.49 186.69 0)
+			(at 158.75 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3470,7 +3470,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:Tag-Connect_TC2050-IDC-NL_2x5_P1.27mm"
-			(at 237.49 189.23 0)
+			(at 158.75 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3481,7 +3481,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2050-IDC-NL_Datasheet_8.pdf"
-			(at 237.49 191.77 0)
+			(at 158.75 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3492,7 +3492,7 @@
 			)
 		)
 		(property "Description" "Tag Connect 2x5 1.27mm terminal"
-			(at 237.49 204.47 0)
+			(at 158.75 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3502,7 +3502,7 @@
 			)
 		)
 		(property "MPN" "TC2050-IDC-NL"
-			(at 213.995 177.8 0)
+			(at 182.245 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3511,7 +3511,7 @@
 			)
 		)
 		(property "Manufacturer" "Tag Connect"
-			(at 237.49 196.85 0)
+			(at 158.75 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3522,7 +3522,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 237.49 199.39 0)
+			(at 158.75 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3533,7 +3533,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 237.49 201.93 0)
+			(at 158.75 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
