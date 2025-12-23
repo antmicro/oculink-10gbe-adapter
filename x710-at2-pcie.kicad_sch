@@ -12904,8 +12904,10 @@
 		(uuid "60ca257b-b1d9-4188-bb31-ecd46f6c04f9")
 	)
 	(text_box "NOTE: Place this resistor close to the controller;\nthe trace length should be less than 25.4 mm."
+		(exclude_from_sim no)
 		(at 231.14 223.52 0)
 		(size 50.8 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type solid)
@@ -12921,8 +12923,10 @@
 		(uuid "2c23484d-ddd7-47e6-8b5c-1f70b7bfd0ae")
 	)
 	(text_box "JTAG Debug Connector"
+		(exclude_from_sim no)
 		(at 254 129.54 0)
 		(size 73.66 29.21)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type solid)
@@ -18270,7 +18274,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a2db999e-ef1d-40ba-be7d-2827ea082172")
 		(property "Reference" "J7"

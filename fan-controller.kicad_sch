@@ -3856,8 +3856,10 @@
 		(uuid "fc6c86ac-2558-41fa-9515-6551c8fdec8f")
 	)
 	(text_box "Select this resistance equal\nto the resistance of the \nthermistor at the\ndesired value of TSTART.\n\nTSTART ≈ 38°C"
+		(exclude_from_sim no)
 		(at 123.19 123.19 0)
 		(size 39.37 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type solid)
@@ -3874,8 +3876,10 @@
 		(uuid "00c92115-fa7f-45f5-a17f-5a19a4ae8267")
 	)
 	(text_box "D_{MIN} = 2 * R_{L}/(R_{L}+R_{H}) [%]\n\nD_{MIN} = 2 * 1k/(1k+10k) = 18%"
+		(exclude_from_sim no)
 		(at 137.16 165.1 0)
 		(size 45.72 17.78)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type solid)
@@ -3892,8 +3896,10 @@
 		(uuid "14d86f9b-d54f-4033-bcc8-3737fc0c208d")
 	)
 	(text_box "Reference"
+		(exclude_from_sim no)
 		(at 161.29 213.36 0)
 		(size 99.06 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type solid)
@@ -3910,8 +3916,10 @@
 		(uuid "468ddbe3-3f26-4d7a-bb02-5334cfc61f87")
 	)
 	(text_box "f_{PWM} = 10.5455E^{-6}/C [Hz]\n\nf_{PWM} = 22kHz"
+		(exclude_from_sim no)
 		(at 233.68 140.97 0)
 		(size 39.37 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type solid)
@@ -3928,8 +3936,10 @@
 		(uuid "690bab85-f247-448b-9f22-3608cf5a492f")
 	)
 	(text_box "Designed temperature curve"
+		(exclude_from_sim no)
 		(at 191.77 246.38 0)
 		(size 39.37 27.94)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type solid)

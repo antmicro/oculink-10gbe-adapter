@@ -7554,8 +7554,10 @@
 		(uuid "ecef2287-d419-4012-9aed-b742790d3b52")
 	)
 	(text_box "0.87-0.96V\nMax ripple: 20mV_{p-p}"
+		(exclude_from_sim no)
 		(at 161.036 59.182 0)
 		(size 22.86 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type solid)
@@ -7571,8 +7573,10 @@
 		(uuid "676a044f-b219-4272-af95-e3e7e14cf4f4")
 	)
 	(text_box "0.95-1.05V\nMax ripple: 10mV_{p-p}"
+		(exclude_from_sim no)
 		(at 161.036 135.382 0)
 		(size 22.86 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type solid)
@@ -7588,8 +7592,10 @@
 		(uuid "a7e9af9d-f0a5-4fbb-8131-dab2e7ea7c52")
 	)
 	(text_box "1.8236-1.9364V\nMax ripple: 50mV_{p-p}"
+		(exclude_from_sim no)
 		(at 161.036 97.282 0)
 		(size 22.86 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type solid)
@@ -7605,8 +7611,10 @@
 		(uuid "ae1b4550-2493-4a6b-92e8-2233aab208ea")
 	)
 	(text_box "0.95-1.05V\nMax ripple: 30mV_{p-p}"
+		(exclude_from_sim no)
 		(at 161.036 173.482 0)
 		(size 22.86 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type solid)
@@ -7622,8 +7630,10 @@
 		(uuid "be82fa78-9b3c-46ac-89a9-6c936de4c249")
 	)
 	(text_box "3.14-3.47V\nMax ripple: 70mV_{p-p}"
+		(exclude_from_sim no)
 		(at 161.036 21.082 0)
 		(size 22.86 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type solid)

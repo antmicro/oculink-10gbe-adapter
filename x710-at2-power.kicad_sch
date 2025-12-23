@@ -13568,15 +13568,17 @@
 		(uuid "b7977a73-6aac-4127-81cb-c1a47a4ad58f")
 	)
 	(text_box "XGB_AVDDH Decoupling"
+		(exclude_from_sim no)
 		(at 16.51 83.82 0)
 		(size 106.68 25.4)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type solid)
 		)
 		(fill
 			(type color)
-			(color 255 255 194 0.2000)
+			(color 255 255 194 0.2)
 		)
 		(effects
 			(font
@@ -13587,15 +13589,17 @@
 		(uuid "0a2222bc-9346-40e2-912d-daaaa37be691")
 	)
 	(text_box "P0_AVDDL Decoupling"
+		(exclude_from_sim no)
 		(at 16.51 137.16 0)
 		(size 106.68 25.4)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type solid)
 		)
 		(fill
 			(type color)
-			(color 255 255 194 0.2000)
+			(color 255 255 194 0.2)
 		)
 		(effects
 			(font
@@ -13606,15 +13610,17 @@
 		(uuid "0a67cc50-d07c-4c88-884f-2ae11bd12f0b")
 	)
 	(text_box "XFI_VDD Decoupling"
+		(exclude_from_sim no)
 		(at 16.51 190.5 0)
 		(size 106.68 25.4)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type solid)
 		)
 		(fill
 			(type color)
-			(color 255 255 194 0.2000)
+			(color 255 255 194 0.2)
 		)
 		(effects
 			(font
@@ -13625,15 +13631,17 @@
 		(uuid "201f16a6-6284-411b-b200-34808255d843")
 	)
 	(text_box "AVDDH Decoupling"
+		(exclude_from_sim no)
 		(at 16.51 110.49 0)
 		(size 106.68 25.4)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type solid)
 		)
 		(fill
 			(type color)
-			(color 255 255 194 0.2000)
+			(color 255 255 194 0.2)
 		)
 		(effects
 			(font
@@ -13644,15 +13652,17 @@
 		(uuid "274ac452-bc18-4299-ad11-ecb5fe0091da")
 	)
 	(text_box "XFI_PVDD Decoupling"
+		(exclude_from_sim no)
 		(at 16.51 217.17 0)
 		(size 106.68 25.4)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type solid)
 		)
 		(fill
 			(type color)
-			(color 255 255 194 0.2000)
+			(color 255 255 194 0.2)
 		)
 		(effects
 			(font
@@ -13663,15 +13673,17 @@
 		(uuid "356f02cf-80a1-4f98-9726-f6ea6a31e1ed")
 	)
 	(text_box "VCCD Decoupling"
+		(exclude_from_sim no)
 		(at 295.91 62.23 0)
 		(size 109.22 38.1)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type solid)
 		)
 		(fill
 			(type color)
-			(color 255 255 194 0.2000)
+			(color 255 255 194 0.2)
 		)
 		(effects
 			(font
@@ -13682,15 +13694,17 @@
 		(uuid "37b59685-6c39-4db3-848c-dff45b179c57")
 	)
 	(text_box "DVDD Decoupling"
+		(exclude_from_sim no)
 		(at 16.51 40.64 0)
 		(size 106.68 20.32)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type solid)
 		)
 		(fill
 			(type color)
-			(color 255 255 194 0.2000)
+			(color 255 255 194 0.2)
 		)
 		(effects
 			(font
@@ -13701,15 +13715,17 @@
 		(uuid "3dbd0e78-f981-405b-9a85-752e4ec66b29")
 	)
 	(text_box "+3V3 Decoupling"
+		(exclude_from_sim no)
 		(at 295.91 101.6 0)
 		(size 109.22 38.1)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type solid)
 		)
 		(fill
 			(type color)
-			(color 255 255 194 0.2000)
+			(color 255 255 194 0.2)
 		)
 		(effects
 			(font
@@ -13720,8 +13736,10 @@
 		(uuid "53e9d53e-3060-4b61-b884-4aa4973798b6")
 	)
 	(text_box "Place close\nto T2 pin"
+		(exclude_from_sim no)
 		(at 302.26 113.03 0)
 		(size 7.62 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type solid)
@@ -13737,15 +13755,17 @@
 		(uuid "6bdda1d3-3a13-4b01-878c-f60da7e4f06b")
 	)
 	(text_box "P1_AVDDL Decoupling"
+		(exclude_from_sim no)
 		(at 16.51 163.83 0)
 		(size 106.68 25.4)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type solid)
 		)
 		(fill
 			(type color)
-			(color 255 255 194 0.2000)
+			(color 255 255 194 0.2)
 		)
 		(effects
 			(font
@@ -13756,15 +13776,17 @@
 		(uuid "82e4ff99-b73c-47ed-ad77-b550b9a7573b")
 	)
 	(text_box "+1V8 Decoupling (VDDIO1, VDDIO2)"
+		(exclude_from_sim no)
 		(at 16.51 62.23 0)
 		(size 106.68 20.32)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type solid)
 		)
 		(fill
 			(type color)
-			(color 255 255 194 0.2000)
+			(color 255 255 194 0.2)
 		)
 		(effects
 			(font
@@ -13775,15 +13797,17 @@
 		(uuid "9e77c2cf-43f6-41cc-ac5c-80ab8952a4ae")
 	)
 	(text_box "VCCA Decoupling"
+		(exclude_from_sim no)
 		(at 295.91 40.64 0)
 		(size 109.22 20.32)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type solid)
 		)
 		(fill
 			(type color)
-			(color 255 255 194 0.2000)
+			(color 255 255 194 0.2)
 		)
 		(effects
 			(font
@@ -13794,15 +13818,17 @@
 		(uuid "c0d70d93-22c7-4a11-814c-714bbfc0218e")
 	)
 	(text_box "PLL_VDD Decoupling"
+		(exclude_from_sim no)
 		(at 16.51 243.84 0)
 		(size 106.68 25.4)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type solid)
 		)
 		(fill
 			(type color)
-			(color 255 255 194 0.2000)
+			(color 255 255 194 0.2)
 		)
 		(effects
 			(font
