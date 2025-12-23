@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "OCuLink to 10GbE adapter")
-		(date "2025-11-07")
+		(date "2025-12-23")
 		(rev "1.0.0")
 		(company "Antmicro Ltd")
 		(comment 1 "www.antmicro.com")
@@ -2056,6 +2056,464 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "antmicroTVSDiodes:PESD5Z5_0F"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 15.24 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "PESD5Z5_0F"
+				(at 15.24 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:SOD-523"
+				(at 15.24 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5Z5_0.pdf"
+				(at 15.24 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unidirectional TVS, 30 kV,  SOD-523, 5 V, 89 pF"
+				(at 15.24 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Nexperia"
+				(at 15.24 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "PESD5Z5.0F"
+				(at 15.24 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 15.24 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 15.24 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "DIODE, SEMICONDUCTOR, TVS, ESD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PESD5Z5_0F_0_1"
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 0) (xy 3.175 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PESD5Z5_0F_1_1"
+				(polyline
+					(pts
+						(xy 1.778 1.016) (xy 1.397 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 1.016) (xy 1.778 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.159 -1.016) (xy 1.778 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 1.016) (xy 3.302 -1.016) (xy 1.778 0) (xy 3.302 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 0.635)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 0.635)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "antmicroTVSDiodes:SZSMF4L14AT3G"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 15.24 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "SZSMF4L14AT3G"
+				(at 15.24 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:SOD-123FL"
+				(at 15.24 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.com/datasheet/2/240/media-3320461.pdf"
+				(at 15.24 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "ESD, TVS Diode, 14V, UNI, 400W, SOD-123FL"
+				(at 15.24 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "SZSMF4L12AT3G"
+				(at 15.24 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 15.24 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 15.24 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Littelfuse"
+				(at 15.24 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SMT, DIODE, SEMICONDUCTOR, ESD, TVS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SZSMF4L14AT3G_0_1"
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 0) (xy 3.175 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SZSMF4L14AT3G_1_1"
+				(polyline
+					(pts
+						(xy 1.778 1.016) (xy 1.397 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 1.016) (xy 1.778 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.159 -1.016) (xy 1.778 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 1.016) (xy 3.302 -1.016) (xy 1.778 0) (xy 3.302 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 0.635)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 0.635)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "antmicroTemperatureSensorsAnalogandDigitalOutput:MAX31740ATA+T"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2684,6 +3142,148 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "antmicroTestPoints:TP_1mm_SMD"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 15.24 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "TP_1mm_SMD"
+				(at 15.24 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:TP_SMD_1mm"
+				(at 15.24 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 17.78 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Test point 1mm SMD"
+				(at 15.24 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 15.24 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 15.24 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "TESTPOINT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TP_1mm_SMD_1_1"
+				(circle
+					(center 3.175 0)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "antmicroWire2BoardConnectors:Molex_KK_1x4_0470531000"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3234,6 +3834,16 @@
 		)
 		(uuid "c086be64-fbdd-473d-8266-4197e7c3fb55")
 	)
+	(text "ICT Testpoints\nplace on bottom"
+		(exclude_from_sim no)
+		(at 76.2 189.738 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c6b89d05-bb68-4612-87bd-71ebc616ef5c")
+	)
 	(text "18%"
 		(exclude_from_sim no)
 		(at 198.882 266.954 0)
@@ -3471,6 +4081,16 @@
 	)
 	(wire
 		(pts
+			(xy 313.69 132.08) (xy 317.5 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17743f50-1649-4e92-8c59-3dd1c2e8392d")
+	)
+	(wire
+		(pts
 			(xy 172.72 139.7) (xy 172.72 137.16)
 		)
 		(stroke
@@ -3668,6 +4288,16 @@
 			(type default)
 		)
 		(uuid "51baa575-666c-4d88-9ea7-e915caef19aa")
+	)
+	(wire
+		(pts
+			(xy 326.39 132.08) (xy 322.58 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56f1aca6-2fa0-4407-85ca-b73875792c7b")
 	)
 	(wire
 		(pts
@@ -3901,6 +4531,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 195.58) (xy 78.74 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bf5243f-840f-4ef1-b5dd-9d8ed6ed59c3")
+	)
+	(wire
+		(pts
 			(xy 185.42 144.78) (xy 185.42 173.99)
 		)
 		(stroke
@@ -3938,6 +4578,16 @@
 			(type default)
 		)
 		(uuid "a6eb6560-4652-4349-9c52-e407b4dc0c28")
+	)
+	(wire
+		(pts
+			(xy 322.58 132.08) (xy 322.58 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8b55fca-6445-4eed-bf4f-63a73a54e864")
 	)
 	(wire
 		(pts
@@ -4011,6 +4661,16 @@
 	)
 	(wire
 		(pts
+			(xy 317.5 132.08) (xy 317.5 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c764e967-4a5b-44f0-a336-0d4a840581cf")
+	)
+	(wire
+		(pts
 			(xy 83.82 149.86) (xy 83.82 151.13)
 		)
 		(stroke
@@ -4059,6 +4719,16 @@
 		)
 		(uuid "d8183f8b-45cf-4c66-9b11-d956797cfc9a")
 	)
+	(wire
+		(pts
+			(xy 322.58 138.43) (xy 322.58 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dab86ce9-86d4-40ae-ba9e-c53075da0ee3")
+	)
 	(polyline
 		(pts
 			(xy 199.39 254) (xy 199.39 270.51)
@@ -4068,6 +4738,16 @@
 			(type default)
 		)
 		(uuid "dad05151-7bd6-4c93-9e5a-cf2ace64b568")
+	)
+	(wire
+		(pts
+			(xy 317.5 138.43) (xy 317.5 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dea27a32-0a2b-4546-ac79-d727782090c0")
 	)
 	(wire
 		(pts
@@ -5537,6 +6217,16 @@
 			"K6c0Aw7r5eAAAAAASUVORK5CYII="
 		)
 	)
+	(label "+5V"
+		(at 71.12 195.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "041f2d75-664f-4f83-a94e-17840f1a6050")
+	)
 	(label "TACH"
 		(at 269.24 134.62 0)
 		(effects
@@ -5586,6 +6276,16 @@
 			(justify left bottom)
 		)
 		(uuid "5b5f9f57-2a80-4d64-9cfd-129e1f81f4fa")
+	)
+	(label "V_{FAN}"
+		(at 273.05 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "66cde3af-7a08-4d8c-a547-2543c6b43eda")
 	)
 	(label "+5V"
 		(at 95.25 140.97 180)
@@ -5637,6 +6337,16 @@
 		)
 		(uuid "b90c3cfc-28c1-4129-bdcc-8b32022ee542")
 	)
+	(label "V_{FAN}"
+		(at 326.39 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d1988bb9-5d92-4312-bde8-79853f0cab7f")
+	)
 	(label "FREQ"
 		(at 218.44 137.16 0)
 		(effects
@@ -5646,6 +6356,16 @@
 			(justify left bottom)
 		)
 		(uuid "e4e761f6-d888-4a90-99f6-55d9d00fdb9c")
+	)
+	(label "PWM"
+		(at 313.69 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ee724426-3996-45d7-9c77-eb9d8eb81526")
 	)
 	(label "SLOPE"
 		(at 218.44 139.7 0)
@@ -5746,6 +6466,242 @@
 			(project "oculink-to-10gbe-adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/cfdaa22c-cb6e-476e-82f5-94f72ae97682"
 					(reference "#PWR0348")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroTestPoints:TP_1mm_SMD")
+		(at 78.74 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ac6c647-8780-4abb-8766-7fe0b8bd3a69")
+		(property "Reference" "TP36"
+			(at 83.82 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_1mm_SMD"
+			(at 93.98 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:TP_SMD_1mm"
+			(at 93.98 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test point 1mm SMD"
+			(at 93.98 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 78.74 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 78.74 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 93.98 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 93.98 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb190853-28ad-4c93-ac71-8a4eff329674")
+		)
+		(instances
+			(project "oculink-to-10gbe-adapter"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/cfdaa22c-cb6e-476e-82f5-94f72ae97682"
+					(reference "TP36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroTVSDiodes:SZSMF4L14AT3G")
+		(at 322.58 133.35 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1dcead25-f5b6-4932-80fc-d2c65a7dbfc2")
+		(property "Reference" "D14"
+			(at 325.12 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SZSMF4L14AT3G"
+			(at 332.74 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:SOD-123FL"
+			(at 335.28 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/240/media-3320461.pdf"
+			(at 337.82 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD, TVS Diode, 14V, UNI, 400W, SOD-123FL"
+			(at 322.58 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SZSMF4L12AT3G"
+			(at 325.12 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 340.36 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 342.9 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Littelfuse"
+			(at 345.44 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9f2b5b6-7daf-463b-b83c-1ca9cab15da2")
+		)
+		(pin "2"
+			(uuid "16e2044b-f776-4a34-8fcb-c0912066abf6")
+		)
+		(instances
+			(project "oculink-to-10gbe-adapter"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/cfdaa22c-cb6e-476e-82f5-94f72ae97682"
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -6604,6 +7560,221 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroTVSDiodes:PESD5Z5_0F")
+		(at 317.5 133.35 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "452ac56f-d630-4d65-aae6-34bbb0ff753a")
+		(property "Reference" "D13"
+			(at 314.96 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PESD5Z5_0F"
+			(at 330.2 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:SOD-523"
+			(at 322.58 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5Z5_0.pdf"
+			(at 325.12 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unidirectional TVS, 30 kV,  SOD-523, 5 V, 89 pF"
+			(at 337.82 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 327.66 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PESD5Z5.0F"
+			(at 314.96 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 332.74 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 335.28 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "79236289-e835-4379-b0b9-2f08fe225bb7")
+		)
+		(pin "1"
+			(uuid "18defdb2-8c4f-4c0b-8252-00aaa9759503")
+		)
+		(instances
+			(project "oculink-to-10gbe-adapter"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/cfdaa22c-cb6e-476e-82f5-94f72ae97682"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
+		(at 322.58 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ca95ef6-cfc1-4126-bfd5-d1bc37b4e405")
+		(property "Reference" "#PWR0303"
+			(at 331.47 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 322.58 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 331.47 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 331.47 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 322.58 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 331.47 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 331.47 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "233fe0d4-cf38-4904-b87c-a673ad4daf88")
+		)
+		(instances
+			(project "oculink-to-10gbe-adapter"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/cfdaa22c-cb6e-476e-82f5-94f72ae97682"
+					(reference "#PWR0303")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:GND")
 		(at 279.4 149.86 0)
 		(unit 1)
@@ -7057,6 +8228,100 @@
 			(project "oculink-to-10gbe-adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/cfdaa22c-cb6e-476e-82f5-94f72ae97682"
 					(reference "#PWR0361")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
+		(at 317.5 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "745f41ba-a6b2-4eb9-bf8b-7cd9d81fa661")
+		(property "Reference" "#PWR0302"
+			(at 326.39 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 317.5 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 326.39 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 326.39 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 317.5 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 326.39 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 326.39 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b05c46e3-f559-47a6-85e1-21b7624b0f06")
+		)
+		(instances
+			(project "oculink-to-10gbe-adapter"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/cfdaa22c-cb6e-476e-82f5-94f72ae97682"
+					(reference "#PWR0302")
 					(unit 1)
 				)
 			)

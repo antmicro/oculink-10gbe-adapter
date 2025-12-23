@@ -1209,6 +1209,24 @@
       "/X710-AT2 10GbE/Ethernet_P1{10GbE}": [
         "100Ohm-diff_10GbE"
       ],
+      "/X710-AT2 PCIe/CLK+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT2 PCIe/CLK-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT2 PCIe/GEN_CLK+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT2 PCIe/GEN_CLK-": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT2 PCIe/GEN_F_CLK+": [
+        "85Ohm-diff_PCIe"
+      ],
+      "/X710-AT2 PCIe/GEN_F_CLK-": [
+        "85Ohm-diff_PCIe"
+      ],
       "/X710-AT2 PCIe/PCIE_{REF}.CK+": [
         "85Ohm-diff_PCIe"
       ],

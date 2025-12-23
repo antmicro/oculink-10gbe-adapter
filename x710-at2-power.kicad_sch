@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "OCuLink to 10GbE adapter")
-		(date "2025-11-07")
+		(date "2025-12-23")
 		(rev "1.0.0")
 		(company "Antmicro Ltd")
 		(comment 1 "www.antmicro.com")
@@ -12555,6 +12555,148 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "antmicroTestPoints:TP_1mm_SMD"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 15.24 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "TP_1mm_SMD"
+				(at 15.24 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:TP_SMD_1mm"
+				(at 15.24 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 17.78 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Test point 1mm SMD"
+				(at 15.24 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 15.24 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 15.24 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "TESTPOINT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TP_1mm_SMD_1_1"
+				(circle
+					(center 3.175 0)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "antmicropower:+1V0"
 			(power)
 			(pin_names
@@ -13402,6 +13544,16 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text "ICT Testpoints\nplace on bottom"
+		(exclude_from_sim no)
+		(at 236.22 173.228 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7ae141fe-62bb-4e43-ad21-203e5db2b8c5")
 	)
 	(text "X710-AT2 Power"
 		(exclude_from_sim no)
@@ -17449,6 +17601,16 @@
 			(type default)
 		)
 		(uuid "a0d10b4a-d208-4dce-9e0e-32abb28dd588")
+	)
+	(wire
+		(pts
+			(xy 234.95 179.07) (xy 238.76 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1c6d06a-aebc-4f55-81c1-ef04c3c92963")
 	)
 	(wire
 		(pts
@@ -27384,6 +27546,121 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroTestPoints:TP_1mm_SMD")
+		(at 238.76 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e7f9db5-90e9-4fdd-8ed7-cded454b1cfb")
+		(property "Reference" "TP35"
+			(at 243.84 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_1mm_SMD"
+			(at 254 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:TP_SMD_1mm"
+			(at 254 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test point 1mm SMD"
+			(at 254 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 238.76 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 238.76 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 254 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 254 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b9df8d0-088a-4158-b1b8-c4ff0538caf0")
+		)
+		(instances
+			(project "oculink-to-10gbe-adapter"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/745fdd8b-25af-4553-a7ea-a0fa564ee0a7"
+					(reference "TP35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroCapacitors0603:C_22u_16V_0603")
 		(at 44.45 52.07 90)
 		(unit 1)
@@ -33408,6 +33685,73 @@
 			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/745fdd8b-25af-4553-a7ea-a0fa564ee0a7"
 					(reference "#PWR0196")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:VCC")
+		(at 234.95 179.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bee5d6c-67c1-49e3-a5be-412f127a1b57")
+		(property "Reference" "#PWR0310"
+			(at 238.76 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCCA"
+			(at 231.14 179.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 234.95 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3b38278-9860-4b07-a90e-fbe10ab846a6")
+		)
+		(instances
+			(project "oculink-to-10gbe-adapter"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/745fdd8b-25af-4553-a7ea-a0fa564ee0a7"
+					(reference "#PWR0310")
 					(unit 1)
 				)
 			)
