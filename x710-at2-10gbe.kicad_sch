@@ -13384,10 +13384,8 @@
 		(uuid "4aedc341-15e8-4671-b454-1e69f5931a28")
 	)
 	(text_box "NOTE: Place these 2 resistors close to the controller."
-		(exclude_from_sim no)
 		(at 234.95 128.27 0)
 		(size 54.61 5.08)
-		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type solid)
