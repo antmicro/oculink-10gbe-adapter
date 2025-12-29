@@ -7649,6 +7649,12 @@
 		(uuid "e4b5d3b5-d609-41ad-9fa7-308bb23363ea")
 	)
 	(junction
+		(at 351.79 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00642c3e-19b8-485f-afda-f0af5512fb77")
+	)
+	(junction
 		(at 391.16 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7665,6 +7671,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "08b6154c-e946-4449-9d8c-412be2697658")
+	)
+	(junction
+		(at 351.79 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "108ba3f8-1768-48c8-8dff-a436cbb33e8b")
 	)
 	(junction
 		(at 307.34 25.4)
@@ -7907,6 +7919,12 @@
 		(uuid "6e15f17d-1c36-424a-b47c-28ca54eba6fa")
 	)
 	(junction
+		(at 351.79 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76cf161b-f4dc-4b95-a44b-78c910fb80a3")
+	)
+	(junction
 		(at 364.49 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7923,6 +7941,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "816f9a19-528a-477a-81b3-293e1b31beb9")
+	)
+	(junction
+		(at 351.79 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81f9e19e-2bbd-4147-ad99-5fdde2c92305")
 	)
 	(junction
 		(at 359.41 139.7)
@@ -8237,6 +8261,12 @@
 		(uuid "fa8c0071-e15b-45d4-9cd4-096ec5130906")
 	)
 	(junction
+		(at 351.79 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fabf1b47-2f42-4dfb-b3a8-6d34270471b9")
+	)
+	(junction
 		(at 374.65 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8438,6 +8468,16 @@
 	)
 	(wire
 		(pts
+			(xy 351.79 138.43) (xy 351.79 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0990a1e7-56be-4ae0-80e6-f5b2b2354446")
+	)
+	(wire
+		(pts
 			(xy 237.49 139.7) (xy 276.86 139.7)
 		)
 		(stroke
@@ -8578,7 +8618,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 63.5) (xy 354.33 63.5)
+			(xy 344.17 63.5) (xy 351.79 63.5)
 		)
 		(stroke
 			(width 0)
@@ -9488,6 +9528,26 @@
 	)
 	(wire
 		(pts
+			(xy 351.79 24.13) (xy 351.79 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56f3e985-17a5-45d5-8355-5c3b4c6bf389")
+	)
+	(wire
+		(pts
+			(xy 351.79 25.4) (xy 354.33 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "577fa288-1668-4cc1-b644-940587cf2878")
+	)
+	(wire
+		(pts
 			(xy 53.34 160.02) (xy 53.34 162.56)
 		)
 		(stroke
@@ -9768,6 +9828,16 @@
 	)
 	(wire
 		(pts
+			(xy 351.79 101.6) (xy 354.33 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6939c805-262e-4c54-8ee8-d77349f7af81")
+	)
+	(wire
+		(pts
 			(xy 359.41 25.4) (xy 364.49 25.4)
 		)
 		(stroke
@@ -9915,6 +9985,16 @@
 			(type default)
 		)
 		(uuid "7298e03a-3354-4f10-90ac-c808760ce0aa")
+	)
+	(wire
+		(pts
+			(xy 351.79 63.5) (xy 354.33 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72b573bd-b61a-4b7a-b508-5c3eaffa3395")
 	)
 	(wire
 		(pts
@@ -10138,6 +10218,16 @@
 	)
 	(wire
 		(pts
+			(xy 351.79 62.23) (xy 351.79 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "820e10e3-edb8-4265-a51d-ce8bbfb951d2")
+	)
+	(wire
+		(pts
 			(xy 247.65 185.42) (xy 247.65 180.34)
 		)
 		(stroke
@@ -10338,7 +10428,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 139.7) (xy 354.33 139.7)
+			(xy 344.17 139.7) (xy 351.79 139.7)
 		)
 		(stroke
 			(width 0)
@@ -10518,6 +10608,16 @@
 	)
 	(wire
 		(pts
+			(xy 351.79 176.53) (xy 351.79 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aeba8a0-d995-448f-90bb-63e5feeca04a")
+	)
+	(wire
+		(pts
 			(xy 83.82 85.09) (xy 83.82 87.63)
 		)
 		(stroke
@@ -10525,6 +10625,16 @@
 			(type default)
 		)
 		(uuid "9b11fd55-af08-4cd8-8f24-6a296a056a8b")
+	)
+	(wire
+		(pts
+			(xy 351.79 177.8) (xy 354.33 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c4ece7f-e766-4b6f-b933-0c2b270251dc")
 	)
 	(wire
 		(pts
@@ -10838,7 +10948,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 25.4) (xy 354.33 25.4)
+			(xy 344.17 25.4) (xy 351.79 25.4)
 		)
 		(stroke
 			(width 0)
@@ -11095,6 +11205,16 @@
 			(type default)
 		)
 		(uuid "c5100441-efac-42eb-aaf5-2987ee91222d")
+	)
+	(wire
+		(pts
+			(xy 351.79 100.33) (xy 351.79 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c516317c-9d0d-48d2-8643-f0b59083efa5")
 	)
 	(wire
 		(pts
@@ -11478,6 +11598,16 @@
 	)
 	(wire
 		(pts
+			(xy 351.79 139.7) (xy 354.33 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2dba354-6879-4a14-b88e-54883ef59095")
+	)
+	(wire
+		(pts
 			(xy 288.29 227.33) (xy 288.29 229.87)
 		)
 		(stroke
@@ -11508,7 +11638,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 101.6) (xy 354.33 101.6)
+			(xy 344.17 101.6) (xy 351.79 101.6)
 		)
 		(stroke
 			(width 0)
@@ -11788,7 +11918,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 177.8) (xy 354.33 177.8)
+			(xy 344.17 177.8) (xy 351.79 177.8)
 		)
 		(stroke
 			(width 0)
@@ -16735,6 +16865,122 @@
 			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/3d913a88-b6f3-4148-9b3d-882d5df37282"
 					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
+		(at 351.79 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "2796b3f9-a57f-4410-90cd-1c92885136a3")
+		(property "Reference" "TP39"
+			(at 351.79 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TP_0.75mm_SMD"
+			(at 355.6 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
+			(at 358.14 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 364.49 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMT test point"
+			(at 351.79 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 363.22 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 358.14 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 360.68 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 363.22 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2304c81b-ed0b-434e-99e8-14537ff60d2c")
+		)
+		(instances
+			(project "oculink-to-10gbe-adapter"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/3d913a88-b6f3-4148-9b3d-882d5df37282"
+					(reference "TP39")
 					(unit 1)
 				)
 			)
@@ -25457,6 +25703,238 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
+		(at 351.79 24.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "80f6f94f-255d-4463-b27e-7632327a24ec")
+		(property "Reference" "TP37"
+			(at 351.79 19.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TP_0.75mm_SMD"
+			(at 355.6 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
+			(at 358.14 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 364.49 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMT test point"
+			(at 351.79 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 363.22 13.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 358.14 13.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 360.68 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 363.22 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e29bc44-7270-4543-a248-01421e7a1c49")
+		)
+		(instances
+			(project "oculink-to-10gbe-adapter"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/3d913a88-b6f3-4148-9b3d-882d5df37282"
+					(reference "TP37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
+		(at 351.79 176.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "810546c8-2af2-4f5b-9fff-e7ff4d79c86b")
+		(property "Reference" "TP41"
+			(at 351.79 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TP_0.75mm_SMD"
+			(at 355.6 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
+			(at 358.14 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 364.49 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMT test point"
+			(at 351.79 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 363.22 165.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 358.14 165.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 360.68 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 363.22 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5047ed8-b627-442c-9155-6c3b24651238")
+		)
+		(instances
+			(project "oculink-to-10gbe-adapter"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/3d913a88-b6f3-4148-9b3d-882d5df37282"
+					(reference "TP41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroResistors0402:R_10k_0402")
 		(at 238.76 219.71 90)
 		(unit 1)
@@ -26572,6 +27050,122 @@
 			(project "oculink-to-10gbe-adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/3d913a88-b6f3-4148-9b3d-882d5df37282"
 					(reference "#PWR0354")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
+		(at 351.79 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "90be22a9-bf2d-40d3-ad58-6f76ea7f4cb4")
+		(property "Reference" "TP38"
+			(at 351.79 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TP_0.75mm_SMD"
+			(at 355.6 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
+			(at 358.14 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 364.49 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMT test point"
+			(at 351.79 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 363.22 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 358.14 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 360.68 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 363.22 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c98d51b4-2561-4fc5-9f8e-01b4e98aaf67")
+		)
+		(instances
+			(project "oculink-to-10gbe-adapter"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/3d913a88-b6f3-4148-9b3d-882d5df37282"
+					(reference "TP38")
 					(unit 1)
 				)
 			)
@@ -30398,6 +30992,122 @@
 			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/3d913a88-b6f3-4148-9b3d-882d5df37282"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
+		(at 351.79 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "be5b4f40-0fc3-4ac9-b7e6-ea10252a2e27")
+		(property "Reference" "TP40"
+			(at 351.79 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TP_0.75mm_SMD"
+			(at 355.6 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
+			(at 358.14 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 364.49 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMT test point"
+			(at 351.79 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 363.22 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 358.14 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 360.68 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 363.22 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a98548d5-4ff7-4712-b857-cdc064bb2874")
+		)
+		(instances
+			(project "oculink-to-10gbe-adapter"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/3d913a88-b6f3-4148-9b3d-882d5df37282"
+					(reference "TP40")
 					(unit 1)
 				)
 			)
