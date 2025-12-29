@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "OCuLink to 10GbE adapter")
-		(date "2025-12-23")
+		(date "2025-12-29")
 		(rev "1.0.0")
 		(company "Antmicro Ltd")
 		(comment 1 "www.antmicro.com")
@@ -2800,7 +2800,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroTemperatureSensorsAnalogandDigitalOutput:RT_NTC_10k_0603"
+		(symbol "antmicroTemperatureSensorsAnalogandDigitalOutput:RT_NTC_10k_0402"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2820,7 +2820,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "RT_NTC_10k_0603"
+			(property "Value" "RT_NTC_10k_0402"
 				(at 20.32 -10.16 0)
 				(effects
 					(font
@@ -2831,7 +2831,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "antmicro-footprints:R_0603_1608Metric"
+			(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
 				(at 20.32 -15.24 0)
 				(effects
 					(font
@@ -2853,7 +2853,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "10k NTC in 0603 package with 5V max voltage"
+			(property "Description" "10k NTC in 0402 package with 5V max voltage"
 				(at 20.32 -30.48 0)
 				(effects
 					(font
@@ -2931,7 +2931,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "RT_NTC_10k_0603_0_1"
+			(symbol "RT_NTC_10k_0402_0_1"
 				(rectangle
 					(start 0.635 0.889)
 					(end 4.445 -0.889)
@@ -2944,7 +2944,7 @@
 					)
 				)
 			)
-			(symbol "RT_NTC_10k_0603_1_1"
+			(symbol "RT_NTC_10k_0402_1_1"
 				(polyline
 					(pts
 						(xy 4.318 1.524) (xy 1.27 -1.524) (xy 0.508 -1.524)
@@ -7775,6 +7775,143 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroTemperatureSensorsAnalogandDigitalOutput:RT_NTC_10k_0402")
+		(at 153.67 139.7 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f04f518-0889-4736-8b93-d07b7ccba9ce")
+		(property "Reference" "RT1"
+			(at 156.21 140.9065 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RT_NTC_10k_0402"
+			(at 143.51 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 138.43 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/281/r44e-522712.pdf"
+			(at 135.89 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "10k NTC in 0402 package with 5V max voltage"
+			(at 123.19 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NCP15XH103F03RC"
+			(at 130.81 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 133.35 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 125.73 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 128.27 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "10k"
+			(at 156.21 143.4464 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage" "5V"
+			(at 140.97 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57637629-8aab-4370-84e0-5782735d2e00")
+		)
+		(pin "2"
+			(uuid "304a0333-839a-4376-b49c-71c4d7871e6b")
+		)
+		(instances
+			(project ""
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/cfdaa22c-cb6e-476e-82f5-94f72ae97682"
+					(reference "RT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:GND")
 		(at 279.4 149.86 0)
 		(unit 1)
@@ -8568,143 +8705,6 @@
 			(project ""
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/cfdaa22c-cb6e-476e-82f5-94f72ae97682"
 					(reference "C209")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroTemperatureSensorsAnalogandDigitalOutput:RT_NTC_10k_0603")
-		(at 153.67 139.7 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8680efae-feb1-4687-a73a-56bd9f63ba88")
-		(property "Reference" "RT1"
-			(at 156.21 140.9065 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RT_NTC_10k_0603"
-			(at 143.51 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_0603_1608Metric"
-			(at 138.43 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/2/281/r44e-522712.pdf"
-			(at 135.89 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "10k NTC in 0603 package with 5V max voltage"
-			(at 123.19 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "NCP15XH103F03RC"
-			(at 130.81 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 133.35 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 125.73 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 128.27 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "10k"
-			(at 156.21 143.4464 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "5V"
-			(at 140.97 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7556b723-06dc-4d43-9b37-bf7bb6e84d49")
-		)
-		(pin "2"
-			(uuid "27be7c91-1208-4d5d-b2b8-35176ee25afc")
-		)
-		(instances
-			(project "oculink-to-10gbe-adapter"
-				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/cfdaa22c-cb6e-476e-82f5-94f72ae97682"
-					(reference "RT1")
 					(unit 1)
 				)
 			)
