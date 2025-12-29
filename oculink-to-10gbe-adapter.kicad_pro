@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.15
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -88,7 +88,7 @@
           ""
         ],
         [
-          "hole_clearance|104750000|55200001|14a1cd17-bb0d-415f-a707-2fa8f3420d87|10f7147c-e1cc-4c75-a35e-f6f806277916",
+          "hole_clearance|104750000|55200001|c3d3b5b5-7a0a-4bb8-be8b-16f321516773|10f7147c-e1cc-4c75-a35e-f6f806277916",
           ""
         ],
         [
@@ -108,7 +108,7 @@
           ""
         ],
         [
-          "hole_clearance|94750000|55200001|8e910be2-32ae-4079-922d-9a50140fe891|9afe7acb-e308-4a19-9e7c-c8ea3495b02f",
+          "hole_clearance|94750000|55200001|cdfc7bdc-782f-4ece-aee5-34f1bf380e31|9afe7acb-e308-4a19-9e7c-c8ea3495b02f",
           ""
         ],
         [
