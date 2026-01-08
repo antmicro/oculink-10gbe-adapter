@@ -1678,9 +1678,9 @@
 		(at 336.55 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "dec4c406-103c-4659-9b0b-3e1cf86ba4e2")
 		(property "Reference" "H1"
@@ -2615,9 +2615,9 @@
 		(at 304.8 165.1)
 		(size 25.4 12.7)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
