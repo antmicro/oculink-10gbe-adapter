@@ -8168,6 +8168,12 @@
 		(uuid "5bc26cfc-658f-491d-a312-bd64c876c7ae")
 	)
 	(junction
+		(at 203.2 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c0e87d0-1337-4de4-830e-7ca8cffea929")
+	)
+	(junction
 		(at 227.33 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8286,6 +8292,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9697507a-785d-4fab-bb81-2c740b0f2ac4")
+	)
+	(junction
+		(at 177.8 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96b65b12-c67c-48d0-9e92-90c933a2399d")
 	)
 	(junction
 		(at 256.54 180.34)
@@ -8569,6 +8581,18 @@
 		(color 0 0 0 0)
 		(uuid "fae0f642-7d01-4f1a-bed9-e87d08d2b3be")
 	)
+	(junction
+		(at 254 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc87c428-50a4-429b-a0df-d9b6982a43c8")
+	)
+	(junction
+		(at 228.6 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe6f4b5a-c466-4a6d-b52d-b191c23b71f5")
+	)
 	(no_connect
 		(at 50.8 138.43)
 		(uuid "2f2b5eb4-f501-4b76-b9fc-134317f9e56b")
@@ -8712,6 +8736,16 @@
 			(type default)
 		)
 		(uuid "079b4b63-985d-4d37-af77-703741018a0c")
+	)
+	(wire
+		(pts
+			(xy 177.8 215.9) (xy 203.2 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07d49bc9-9de5-4962-a6b6-4437841a0232")
 	)
 	(wire
 		(pts
@@ -9385,6 +9419,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 215.9) (xy 254 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32a77f61-e54e-4545-89b1-402cb8a6953e")
+	)
+	(wire
+		(pts
 			(xy 320.04 25.4) (xy 327.66 25.4)
 		)
 		(stroke
@@ -9482,6 +9526,16 @@
 			(type default)
 		)
 		(uuid "387bf49f-015a-4ce7-b18a-37b15a9900d3")
+	)
+	(wire
+		(pts
+			(xy 254 215.9) (xy 279.4 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38b031d1-3b38-4a9c-aff7-73f30b4cf777")
 	)
 	(wire
 		(pts
@@ -11342,6 +11396,16 @@
 			(type default)
 		)
 		(uuid "b35b02a2-b19a-4a62-99f9-49ed05131d9d")
+	)
+	(wire
+		(pts
+			(xy 203.2 215.9) (xy 228.6 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3ea2deb-f4d6-470a-8923-98d30a4f7850")
 	)
 	(wire
 		(pts
@@ -16895,101 +16959,6 @@
 			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/3d913a88-b6f3-4148-9b3d-882d5df37282"
 					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicropower:+3V3")
-		(at 254 215.9 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "223f1b9b-ebe3-4a24-8fae-3abb3fcff2c6")
-		(property "Reference" "#PWR0347"
-			(at 238.76 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 254 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 238.76 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 238.76 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 254 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 238.76 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 238.76 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3d07e16d-7f26-45a9-9603-b3dd5d3f45d6")
-		)
-		(instances
-			(project "oculink-to-10gbe-adapter"
-				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/3d913a88-b6f3-4148-9b3d-882d5df37282"
-					(reference "#PWR0347")
 					(unit 1)
 				)
 			)
@@ -29596,101 +29565,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicropower:+3V3")
-		(at 228.6 215.9 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "91f331bd-f874-43a1-9988-5ad25a89ab15")
-		(property "Reference" "#PWR0318"
-			(at 213.36 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 228.6 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 213.36 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 228.6 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 213.36 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 213.36 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6b0cfd79-1420-4d4e-8eb0-8a2e2a9dc53d")
-		)
-		(instances
-			(project "oculink-to-10gbe-adapter"
-				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/3d913a88-b6f3-4148-9b3d-882d5df37282"
-					(reference "#PWR0318")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicroTestPoints:TP_1mm_SMD")
 		(at 391.16 223.52 0)
 		(unit 1)
@@ -37698,101 +37572,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicropower:+3V3")
-		(at 279.4 215.9 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "da7117ea-8e70-410e-bbad-9111706920b1")
-		(property "Reference" "#PWR0351"
-			(at 264.16 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 279.4 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 264.16 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 279.4 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 264.16 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 264.16 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "142fae79-b4c3-4a26-8e3d-74a99babfbad")
-		)
-		(instances
-			(project "oculink-to-10gbe-adapter"
-				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/3d913a88-b6f3-4148-9b3d-882d5df37282"
-					(reference "#PWR0351")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicropower:GND")
 		(at 332.74 43.18 0)
 		(unit 1)
@@ -41363,101 +41142,6 @@
 			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/3d913a88-b6f3-4148-9b3d-882d5df37282"
 					(reference "#PWR0332")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicropower:+3V3")
-		(at 203.2 215.9 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fffbe849-489b-4dfd-8d63-5cef997e6958")
-		(property "Reference" "#PWR0314"
-			(at 187.96 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 203.2 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 203.2 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 187.96 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 187.96 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3d695ab1-b82d-43d4-a584-86574ad051e5")
-		)
-		(instances
-			(project "oculink-to-10gbe-adapter"
-				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/3d913a88-b6f3-4148-9b3d-882d5df37282"
-					(reference "#PWR0314")
 					(unit 1)
 				)
 			)
