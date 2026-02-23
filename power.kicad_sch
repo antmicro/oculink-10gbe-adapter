@@ -5528,15 +5528,6 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?23* SC?59*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(symbol "DTC014T_SOT-416_0_1"
 				(polyline
 					(pts

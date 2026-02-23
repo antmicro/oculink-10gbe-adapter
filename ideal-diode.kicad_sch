@@ -673,7 +673,7 @@
 				(offset 0)
 			)
 			(exclude_from_sim no)
-			(in_bom no)
+			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
 				(at 15.24 -5.08 0)
@@ -981,7 +981,7 @@
 						(type background)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 0 0 0)
 					(length 2.54)
 					(name "G"
