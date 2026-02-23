@@ -3148,6 +3148,195 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "antmicroResistors0402:R_1k_0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 20.32 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "R_1k_0402"
+				(at 20.32 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+				(at 20.32 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+				(at 20.32 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD Chip Resistor, 1 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+				(at 20.32 -30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CR0402-FX-1001GLF"
+				(at 20.32 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Bourns"
+				(at 20.32 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 20.32 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 20.32 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Val" "1k"
+				(at 20.32 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Tolerance" "1%"
+				(at 20.32 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_1k_0402_0_1"
+				(rectangle
+					(start 0.635 0.889)
+					(end 4.445 -0.889)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1k_0402_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "antmicroResistors0402:R_20k_0402"
 			(pin_numbers
 				(hide yes)
@@ -13505,146 +13694,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_10k_0402")
-		(at 203.2 231.14 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "01856280-477f-406f-a24d-3c0c898bf71a")
-		(property "Reference" "R145"
-			(at 204.47 227.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_10k_0402"
-			(at 215.9 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 218.44 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 220.98 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 203.2 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402-FX-1002GLF"
-			(at 223.52 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 226.06 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 228.6 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 231.14 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "10k"
-			(at 204.47 229.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 213.36 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a84be4d0-a3d2-4a91-95a6-c8d048a9015f")
-		)
-		(pin "1"
-			(uuid "cce32b83-baaa-410f-a6ae-74887ec1ab1f")
-		)
-		(instances
-			(project "oculink-to-10gbe-adapter"
-				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/3d913a88-b6f3-4148-9b3d-882d5df37282"
-					(reference "R145")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicroCapacitors0402:C_1u_25V_0402")
 		(at 247.65 152.4 270)
 		(mirror x)
@@ -15413,6 +15462,147 @@
 			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/3d913a88-b6f3-4148-9b3d-882d5df37282"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroResistors0402:R_1k_0402")
+		(at 203.2 231.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17613072-8e12-47f0-a021-037e05a08a9c")
+		(property "Reference" "R145"
+			(at 204.47 227.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_1k_0402"
+			(at 215.9 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 218.44 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 220.98 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, 1 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 233.68 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0402-FX-1001GLF"
+			(at 223.52 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 226.06 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 228.6 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 231.14 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "1k"
+			(at 204.47 229.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 213.36 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01dca320-c209-4e72-a8eb-7179d0ad691c")
+		)
+		(pin "2"
+			(uuid "5e8ed6b5-849c-4e1d-b98e-35823c19f063")
+		)
+		(instances
+			(project "oculink-to-10gbe-adapter"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/3d913a88-b6f3-4148-9b3d-882d5df37282"
+					(reference "R145")
 					(unit 1)
 				)
 			)
@@ -17241,146 +17431,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_10k_0402")
-		(at 91.44 147.32 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "268008d5-dcff-4533-8a1f-f11c70d0fd9c")
-		(property "Reference" "R20"
-			(at 92.71 143.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_10k_0402"
-			(at 104.14 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 106.68 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 109.22 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 91.44 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402-FX-1002GLF"
-			(at 111.76 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 114.3 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 116.84 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 119.38 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "10k"
-			(at 92.71 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 101.6 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5d93a218-7a23-45b6-933d-b3194fb8731c")
-		)
-		(pin "1"
-			(uuid "48c0a7e1-ed4d-4671-8fc7-e9d1f531cbf2")
-		)
-		(instances
-			(project "OCuLink to 10GbE adapter"
-				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/3d913a88-b6f3-4148-9b3d-882d5df37282"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicroCapacitors0402:C_100n_0402")
 		(at 237.49 114.3 270)
 		(mirror x)
@@ -18431,6 +18481,147 @@
 			(project ""
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/3d913a88-b6f3-4148-9b3d-882d5df37282"
 					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroResistors0402:R_1k_0402")
+		(at 304.8 220.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "29d6efea-7884-45d6-b5a0-c1ec06b8a5d0")
+		(property "Reference" "R170"
+			(at 306.07 217.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_1k_0402"
+			(at 317.5 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 320.04 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 322.58 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, 1 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 335.28 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0402-FX-1001GLF"
+			(at 325.12 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 327.66 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 330.2 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 332.74 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "1k"
+			(at 306.07 219.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 314.96 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd85e71b-1de0-447a-ace6-8d598fcb0133")
+		)
+		(pin "2"
+			(uuid "555cafff-6f1e-4f45-a59e-50202562947d")
+		)
+		(instances
+			(project "oculink-to-10gbe-adapter"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/3d913a88-b6f3-4148-9b3d-882d5df37282"
+					(reference "R170")
 					(unit 1)
 				)
 			)
@@ -20328,6 +20519,147 @@
 			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/3d913a88-b6f3-4148-9b3d-882d5df37282"
 					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroResistors0402:R_1k_0402")
+		(at 177.8 231.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ba9aa91-0f96-43b0-8267-e0b74ee3761c")
+		(property "Reference" "R144"
+			(at 179.07 227.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_1k_0402"
+			(at 190.5 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 193.04 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 195.58 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, 1 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 208.28 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0402-FX-1001GLF"
+			(at 198.12 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 200.66 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 203.2 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 205.74 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "1k"
+			(at 179.07 229.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 187.96 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "971e2400-b8d4-4df5-ac0c-0cb52226cf01")
+		)
+		(pin "2"
+			(uuid "3e830496-8644-47fc-8fe2-5e96e7102040")
+		)
+		(instances
+			(project "oculink-to-10gbe-adapter"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/3d913a88-b6f3-4148-9b3d-882d5df37282"
+					(reference "R144")
 					(unit 1)
 				)
 			)
@@ -23760,146 +24092,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_10k_0402")
-		(at 254 231.14 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "579c2ff8-24c0-445a-98e5-0ea4fddbf3e3")
-		(property "Reference" "R147"
-			(at 255.27 227.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_10k_0402"
-			(at 266.7 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 269.24 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 271.78 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 254 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402-FX-1002GLF"
-			(at 274.32 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 276.86 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 279.4 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 281.94 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "10k"
-			(at 255.27 229.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 264.16 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a39beed4-b219-4452-9ea1-ac94330119ea")
-		)
-		(pin "1"
-			(uuid "60bc002d-68d1-4384-a266-4e82300bb784")
-		)
-		(instances
-			(project "oculink-to-10gbe-adapter"
-				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/3d913a88-b6f3-4148-9b3d-882d5df37282"
-					(reference "R147")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicropower:GND")
 		(at 332.74 195.58 0)
 		(unit 1)
@@ -24878,6 +25070,147 @@
 			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/3d913a88-b6f3-4148-9b3d-882d5df37282"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroResistors0402:R_1k_0402")
+		(at 279.4 231.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "659ffc0f-0bf3-415e-a092-68310a940d45")
+		(property "Reference" "R148"
+			(at 280.67 227.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_1k_0402"
+			(at 292.1 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 294.64 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 297.18 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, 1 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 309.88 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0402-FX-1001GLF"
+			(at 299.72 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 302.26 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 304.8 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 307.34 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "1k"
+			(at 280.67 229.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 289.56 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fddf3742-c064-416f-95a1-7dc71da876f4")
+		)
+		(pin "2"
+			(uuid "f647f182-81a3-4764-b359-f852dc8590ff")
+		)
+		(instances
+			(project "oculink-to-10gbe-adapter"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/3d913a88-b6f3-4148-9b3d-882d5df37282"
+					(reference "R148")
 					(unit 1)
 				)
 			)
@@ -25915,146 +26248,6 @@
 			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/3d913a88-b6f3-4148-9b3d-882d5df37282"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroResistors0402:R_10k_0402")
-		(at 228.6 231.14 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "70cef74f-689f-4922-ae33-c819dd680816")
-		(property "Reference" "R146"
-			(at 229.87 227.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_10k_0402"
-			(at 241.3 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 243.84 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 246.38 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 228.6 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402-FX-1002GLF"
-			(at 248.92 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 251.46 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 254 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 256.54 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "10k"
-			(at 229.87 229.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 238.76 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e3667f23-8e47-4789-adba-92a8b6a2de82")
-		)
-		(pin "1"
-			(uuid "05648903-6701-4312-a57f-668b05a5093c")
-		)
-		(instances
-			(project "oculink-to-10gbe-adapter"
-				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/3d913a88-b6f3-4148-9b3d-882d5df37282"
-					(reference "R146")
 					(unit 1)
 				)
 			)
@@ -27831,16 +28024,16 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_10k_0402")
-		(at 304.8 220.98 90)
+		(lib_id "antmicroResistors0402:R_1k_0402")
+		(at 228.6 231.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "821c10a0-db86-48a5-9301-0bfb9b24ceee")
-		(property "Reference" "R170"
-			(at 306.07 217.17 90)
+		(uuid "82361af7-54bd-42bd-967e-fd8036383c01")
+		(property "Reference" "R146"
+			(at 229.87 227.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27849,8 +28042,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_10k_0402"
-			(at 317.5 200.66 0)
+		(property "Value" "R_1k_0402"
+			(at 241.3 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27861,7 +28054,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 320.04 200.66 0)
+			(at 243.84 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27872,7 +28065,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 322.58 200.66 0)
+			(at 246.38 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27882,17 +28075,18 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 304.8 220.98 0)
+		(property "Description" "SMD Chip Resistor, 1 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 259.08 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "MPN" "CR0402-FX-1002GLF"
-			(at 325.12 200.66 0)
+		(property "MPN" "CR0402-FX-1001GLF"
+			(at 248.92 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27903,7 +28097,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 327.66 200.66 0)
+			(at 251.46 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27914,7 +28108,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 330.2 200.66 0)
+			(at 254 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27925,7 +28119,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 332.74 200.66 0)
+			(at 256.54 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27935,8 +28129,8 @@
 				(hide yes)
 			)
 		)
-		(property "Val" "10k"
-			(at 306.07 219.71 90)
+		(property "Val" "1k"
+			(at 229.87 229.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27946,7 +28140,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 314.96 200.66 0)
+			(at 238.76 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27955,16 +28149,16 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "0821b4a9-4ea5-4a3e-93b5-43b0c6568c73")
-		)
 		(pin "1"
-			(uuid "df1b39c8-77ed-4d67-94e7-3fe2ff555176")
+			(uuid "1d3f57cd-1b4d-4d7e-9ae3-321c0d85e3b3")
+		)
+		(pin "2"
+			(uuid "8c44fe76-e112-4474-a3ff-ba7953fcefa5")
 		)
 		(instances
-			(project "OCuLink to 10GbE adapter"
+			(project "oculink-to-10gbe-adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/3d913a88-b6f3-4148-9b3d-882d5df37282"
-					(reference "R170")
+					(reference "R146")
 					(unit 1)
 				)
 			)
@@ -28059,146 +28253,6 @@
 			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/3d913a88-b6f3-4148-9b3d-882d5df37282"
 					(reference "#PWR0336")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroResistors0402:R_10k_0402")
-		(at 279.4 231.14 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "838634ac-b50c-4a3c-b021-33dcd4aca26e")
-		(property "Reference" "R148"
-			(at 280.67 227.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_10k_0402"
-			(at 292.1 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 294.64 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 297.18 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 279.4 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402-FX-1002GLF"
-			(at 299.72 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 302.26 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 304.8 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 307.34 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "10k"
-			(at 280.67 229.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 289.56 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6ff37937-6a12-4a40-9a05-30e94d00958c")
-		)
-		(pin "1"
-			(uuid "a842ae58-df63-4b3c-94ac-6b9fcc4d627d")
-		)
-		(instances
-			(project "oculink-to-10gbe-adapter"
-				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/3d913a88-b6f3-4148-9b3d-882d5df37282"
-					(reference "R148")
 					(unit 1)
 				)
 			)
@@ -29419,146 +29473,6 @@
 			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/3d913a88-b6f3-4148-9b3d-882d5df37282"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroResistors0402:R_10k_0402")
-		(at 177.8 231.14 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "91ae1bbb-4e60-4b19-8315-cb4ba23a00cb")
-		(property "Reference" "R144"
-			(at 179.07 227.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_10k_0402"
-			(at 190.5 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 193.04 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 195.58 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 177.8 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402-FX-1002GLF"
-			(at 198.12 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 200.66 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 203.2 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 205.74 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "10k"
-			(at 179.07 229.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 187.96 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f6ef19e5-a24b-438e-bddc-06b40c25e6d4")
-		)
-		(pin "1"
-			(uuid "0cce609f-4cfc-4c8f-87ed-c346e7a5e981")
-		)
-		(instances
-			(project "oculink-to-10gbe-adapter"
-				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/3d913a88-b6f3-4148-9b3d-882d5df37282"
-					(reference "R144")
 					(unit 1)
 				)
 			)
@@ -30972,6 +30886,147 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroResistors0402:R_1k_0402")
+		(at 254 231.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a43cc727-3482-4ed0-b397-bf124afbb41a")
+		(property "Reference" "R147"
+			(at 255.27 227.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_1k_0402"
+			(at 266.7 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 269.24 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 271.78 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, 1 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 284.48 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0402-FX-1001GLF"
+			(at 274.32 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 276.86 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 279.4 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 281.94 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "1k"
+			(at 255.27 229.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 264.16 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab8a445c-1355-4852-9a32-dde6c8a611cf")
+		)
+		(pin "2"
+			(uuid "b96406bf-d3d2-4e64-a6a7-b7ddce9e83b4")
+		)
+		(instances
+			(project "oculink-to-10gbe-adapter"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/3d913a88-b6f3-4148-9b3d-882d5df37282"
+					(reference "R147")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroCapacitors0402:C_100n_0402")
 		(at 307.34 144.78 270)
 		(mirror x)
@@ -31118,6 +31173,147 @@
 			(project "OCuLink to 10GbE adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/3d913a88-b6f3-4148-9b3d-882d5df37282"
 					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroResistors0402:R_1k_0402")
+		(at 91.44 147.32 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a672aa00-6cbd-4956-a776-bc6fb88a1e7e")
+		(property "Reference" "R20"
+			(at 92.71 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_1k_0402"
+			(at 104.14 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 106.68 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 109.22 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, 1 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 121.92 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0402-FX-1001GLF"
+			(at 111.76 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 114.3 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 116.84 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 119.38 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "1k"
+			(at 92.71 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 101.6 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f239c3db-9279-41be-9b6b-a975da1ef3af")
+		)
+		(pin "2"
+			(uuid "24840ba8-4b09-4cdf-9ac6-3fb40c195bd7")
+		)
+		(instances
+			(project "oculink-to-10gbe-adapter"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/3d913a88-b6f3-4148-9b3d-882d5df37282"
+					(reference "R20")
 					(unit 1)
 				)
 			)

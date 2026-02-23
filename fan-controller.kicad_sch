@@ -224,7 +224,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroCapacitors0402:C_1u_0402"
+		(symbol "antmicroCapacitors0402:C_1u_25V_0402"
 			(pin_numbers
 				(hide yes)
 			)
@@ -244,7 +244,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "C_1u_0402"
+			(property "Value" "C_1u_25V_0402"
 				(at 20.32 -10.16 0)
 				(effects
 					(font
@@ -266,7 +266,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X6S1A105K050BC"
+			(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61E105KE11%23"
 				(at 20.32 -15.24 0)
 				(effects
 					(font
@@ -277,7 +277,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SMD Multilayer Ceramic Capacitor, 1 µF, 10 V, 0402 [1005 Metric], ± 10%, X6S, C"
+			(property "Description" "SMD Multilayer Ceramic Capacitor, 1 µF, 25 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 				(at 20.32 -33.02 0)
 				(effects
 					(font
@@ -287,7 +287,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "C1005X6S1A105K050BC"
+			(property "MPN" "GRM155R61E105KE11J"
 				(at 20.32 -17.78 0)
 				(effects
 					(font
@@ -298,7 +298,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "TDK"
+			(property "Manufacturer" "Murata"
 				(at 20.32 -20.32 0)
 				(effects
 					(font
@@ -341,7 +341,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Voltage" ""
+			(property "Voltage" "25V"
 				(at 20.32 -27.94 0)
 				(effects
 					(font
@@ -351,7 +351,7 @@
 					(hide yes)
 				)
 			)
-			(property "Dielectric" ""
+			(property "Dielectric" "X5R"
 				(at 20.32 -30.48 0)
 				(effects
 					(font
@@ -361,7 +361,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE, CERAMIC, MLCC"
+			(property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE, CERAMIC"
 				(at 0 0 0)
 				(effects
 					(font
@@ -370,7 +370,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_1u_0402_0_1"
+			(symbol "C_1u_25V_0402_0_1"
 				(polyline
 					(pts
 						(xy 2.032 -1.524) (xy 2.032 1.524)
@@ -396,7 +396,7 @@
 					)
 				)
 			)
-			(symbol "C_1u_0402_1_1"
+			(symbol "C_1u_25V_0402_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 2.032)
@@ -823,220 +823,6 @@
 				)
 			)
 			(symbol "C_10u_10V_X7R_0603_1_1"
-				(pin passive line
-					(at 0 0 0)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "antmicroCapacitors0603:C_1u_16V_X7R_0603"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 15.24 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "C_1u_16V_X7R_0603"
-				(at 15.24 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
-				(at 15.24 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C0603C105K4RAC7411.html"
-				(at 15.24 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMD Multilayer Ceramic Capacitor, 1µF, 16V, 0603, ±10%, X7R"
-				(at 15.24 -33.02 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "MPN" "C0603C105K4RAC7411"
-				(at 15.24 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Val" "1u"
-				(at 15.24 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Voltage" "16V"
-				(at 15.24 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Dielectric" "X7R"
-				(at 15.24 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "KEMET"
-				(at 15.24 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 15.24 -27.94 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 15.24 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "SMT, CAPACITOR, PASSIVE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_1u_16V_X7R_0603_0_1"
-				(polyline
-					(pts
-						(xy 2.032 -1.524) (xy 2.032 1.524)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 -1.524) (xy 3.048 1.524)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1u_16V_X7R_0603_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 2.032)
@@ -6587,6 +6373,158 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroCapacitors0402:C_1u_25V_0402")
+		(at 54.61 149.86 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0dd62f6f-2332-45f2-9009-797bb86b1780")
+		(property "Reference" "C212"
+			(at 52.578 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_1u_25V_0402"
+			(at 44.45 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+			(at 41.91 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61E105KE11%23"
+			(at 39.37 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 1 µF, 25 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
+			(at 21.59 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R61E105KE11J"
+			(at 36.83 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 34.29 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 31.75 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 29.21 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "1u"
+			(at 52.578 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 26.67 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 24.13 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c942b299-0050-4c95-bd06-401b1be60a72")
+		)
+		(pin "2"
+			(uuid "074c1df0-9a21-4673-8943-6db078dde8fa")
+		)
+		(instances
+			(project "oculink-to-10gbe-adapter"
+				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/cfdaa22c-cb6e-476e-82f5-94f72ae97682"
+					(reference "C212")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroTVSDiodes:SZSMF4L14AT3G")
 		(at 322.58 133.35 90)
 		(mirror x)
@@ -8559,7 +8497,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0402:C_1u_0402")
+		(lib_id "antmicroCapacitors0402:C_1u_25V_0402")
 		(at 172.72 144.78 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8578,7 +8516,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_1u_0402"
+		(property "Value" "C_1u_25V_0402"
 			(at 182.88 124.46 0)
 			(effects
 				(font
@@ -8600,7 +8538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X6S1A105K050BC"
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61E105KE11%23"
 			(at 187.96 124.46 0)
 			(effects
 				(font
@@ -8611,7 +8549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 1 µF, 10 V, 0402 [1005 Metric], ± 10%, X6S, C"
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 1 µF, 25 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 205.74 124.46 0)
 			(effects
 				(font
@@ -8621,7 +8559,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C1005X6S1A105K050BC"
+		(property "MPN" "GRM155R61E105KE11J"
 			(at 190.5 124.46 0)
 			(effects
 				(font
@@ -8632,7 +8570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TDK"
+		(property "Manufacturer" "Murata"
 			(at 193.04 124.46 0)
 			(effects
 				(font
@@ -8675,7 +8613,7 @@
 				(justify right)
 			)
 		)
-		(property "Voltage" ""
+		(property "Voltage" "25V"
 			(at 200.66 124.46 0)
 			(effects
 				(font
@@ -8685,7 +8623,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
+		(property "Dielectric" "X5R"
 			(at 203.2 124.46 0)
 			(effects
 				(font
@@ -10658,159 +10596,6 @@
 			(project "oculink-to-10gbe-adapter"
 				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/cfdaa22c-cb6e-476e-82f5-94f72ae97682"
 					(reference "R177")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroCapacitors0603:C_1u_16V_X7R_0603")
-		(at 54.61 149.86 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ff5a7bb6-0542-48fc-a2c0-38938877a512")
-		(property "Reference" "C212"
-			(at 52.07 146.0436 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C_1u_16V_X7R_0603"
-			(at 64.77 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
-			(at 67.31 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C0603C105K4RAC7411.html"
-			(at 69.85 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 1µF, 16V, 0603, ±10%, X7R"
-			(at 87.63 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0603C105K4RAC7411"
-			(at 72.39 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "1u"
-			(at 52.07 148.5836 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "16V"
-			(at 74.93 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 77.47 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KEMET"
-			(at 80.01 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 82.55 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 85.09 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bd3680e9-8fa2-4e61-b62f-03a06cdd8cd9")
-		)
-		(pin "2"
-			(uuid "953db3da-8f53-478e-b8b3-724231961063")
-		)
-		(instances
-			(project ""
-				(path "/04bda987-e5eb-48b4-9e90-d8211dc11b39/cfdaa22c-cb6e-476e-82f5-94f72ae97682"
-					(reference "C212")
 					(unit 1)
 				)
 			)
