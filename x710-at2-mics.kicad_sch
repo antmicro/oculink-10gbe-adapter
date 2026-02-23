@@ -28146,9 +28146,9 @@
 		(at 44.45 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c48778ac-aa01-49dc-a01d-3c92c5990ac3")
 		(property "Reference" "R172"
 			(at 45.72 97.79 90)
@@ -29225,9 +29225,9 @@
 		(at 33.02 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "d1fe034a-f853-45bf-9fe4-6c658a9578b7")
 		(property "Reference" "R173"
 			(at 34.29 97.79 90)
