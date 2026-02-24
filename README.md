@@ -1,6 +1,6 @@
 # OCuLink to 10GbE adapter
 
-Copyright (c) 2025 [Antmicro](https://www.antmicro.com)
+Copyright (c) 2025-2026 [Antmicro](https://www.antmicro.com)
 
 ![](img/oculink-to-10gbe-adapter-render.png)
 
